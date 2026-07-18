@@ -1,0 +1,59 @@
+/* Custom overrides and animations */
+
+.country {
+  transition: all 0.5s ease;
+  fill: #FBF9F5;
+  stroke: #1A3A5F;
+  stroke-width: 0.5px;
+  opacity: 1;
+}
+
+.country.highlighted {
+  fill: #6D213C;
+  stroke-width: 1px;
+}
+
+/* Boat animations */
+.boat-float {
+  animation: boatFloat 4s ease-in-out infinite;
+}
+
+@keyframes boatFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.boat-bob {
+  animation: boatBob 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes boatBob {
+  0%, 100% { transform: translateY(0) rotate(-5deg); }
+  50% { transform: translateY(-5px) rotate(5deg); }
+}
+
+.wave-boat-anim {
+  animation: waveBoat 4s ease-in-out infinite;
+}
+
+@keyframes waveBoat {
+  0%, 100% { transform: translateY(0) rotate(-15deg); }
+  50% { transform: translateY(-10px) rotate(-5deg); }
+}
+
+.modal-active {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+.tab-active {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  transform: translateY(0) !important;
+}
+
+.tab-btn-active {
+  color: white !important;
+  border-color: white !important;
+}
