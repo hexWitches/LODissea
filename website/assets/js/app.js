@@ -87,12 +87,22 @@ function setupMapAnimations() {
     start: "top 20%",
     once: true,
     onEnter: () => {
-      // Phase 1: Boat falls on map
+      // Remove map boat since we skip it
       const mapBoatContainer = document.getElementById('map-boat-container');
-      
-      gsap.fromTo(mapBoatContainer, 
-        { y: -400, x: nlCoords[0] - 16, opacity: 0, scale: 0.5 },
-        { y: nlCoords[1] - 40, x: nlCoords[0] - 16, opacity: 1, scale: 1, duration: 1.5, ease: "power2.out" }
+      if (mapBoatContainer) mapBoatContainer.style.display = 'none';
+
+      // Phase 1: Boat falls directly to the left progress bar
+      const leftBoatContainer = document.getElementById('left-boat-container');
+      gsap.fromTo(leftBoatContainer, 
+        { top: '-20%', left: '40px', opacity: 0 },
+        { top: '50%', left: '40px', opacity: 1, duration: 1.5, ease: "power2.out" }
+      );
+
+      // Line grows down
+      const leftLine = document.getElementById('left-line');
+      gsap.fromTo(leftLine, 
+        { top: '0%', height: '0%' },
+        { height: '50%', duration: 1.5, delay: 0.5, ease: "power1.inOut" }
       );
 
       // Phase 2: Highlight countries sequentially
@@ -103,37 +113,17 @@ function setupMapAnimations() {
             if (countryPath) countryPath.classList.add('highlighted');
           }, i * 500);
         });
-      }, 1500);
+      }, 500);
 
-      // Phase 3: Move boat to left and show next button
+      // Phase 3: Show next button
       setTimeout(() => {
-        mapBoatContainer.style.display = 'none';
-        
-        const leftBoatContainer = document.getElementById('left-boat-container');
-        gsap.to(leftBoatContainer, {
-          left: '40px',
-          opacity: 1,
-          duration: 1,
-          ease: "power2.inOut"
-        });
-
-        const leftLine = document.getElementById('left-line');
-        gsap.to(leftLine, {
-          height: '50%',
-          duration: 1,
-          delay: 1,
-          ease: "power1.inOut"
-        });
-
         const nextBtn = document.getElementById('next-btn');
         gsap.to(nextBtn, {
           opacity: 1,
           y: 0,
-          duration: 1,
-          delay: 1
+          duration: 1
         });
-
-      }, 1500 + HIGHLIGHTED_COUNTRIES.length * 500 + 500);
+      }, 1000 + HIGHLIGHTED_COUNTRIES.length * 500);
     }
   });
 }
