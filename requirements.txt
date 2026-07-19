@@ -1,0 +1,7 @@
+SPARQLWrapper
+rdflib
+eurostat 
+plotly 
+seaborn 
+python-dotenv 
+deep-translator
