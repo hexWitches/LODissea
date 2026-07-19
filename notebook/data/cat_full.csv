@@ -1,0 +1,491 @@
+provider,country,count,provider_category,classification_source
+National Library of France,france,2999310,library/archive,provider_name
+Media Library of Architecture and Heritage,france,510877,library/archive,provider_name
+Natural History Museum in Paris,france,502160,natural history/science institution,provider_name
+Ministry of Culture,france,173279,government/administrative body,provider_name
+Historical Monuments: Regional Conservation,france,128192,government/administrative body,confirmed_fix
+"Ministry of Culture and Communication, Regional Archaeology Service",france,110142,government/administrative body,confirmed_fix
+National Audiovisual Institute France,france,54491,audiovisual/film archive,provider_name
+Interuniversity Health Library,france,47992,library/archive,provider_name
+Palais Galliera - Musée de la Mode de la Ville de Paris,france,44495,art/history museum,provider_name
+Mobilier National Collections,france,24284,art/history museum,manual_override
+Center for Research in Ethnomusicology,france,21446,audiovisual/film archive,provider_name
+National and University Library of Strasbourg,france,21320,library/archive,provider_name
+House Culture Yiddish,france,14330,library/archive,manual_override
+Museum of Decorative Arts,france,12967,art/history museum,provider_name
+Philharmonie de Paris,france,12091,audiovisual/film archive,provider_name
+National Archives of France,france,11709,library/archive,provider_name
+Rhône-Alpes Laboratory for Historical Research,france,10046,academic/research institution,provider_name
+Library of the Alliance Israélite Universelle,france,6229,library/archive,provider_name
+The Paris Observatory Library,france,3085,library/archive,provider_name
+Departmental Units of Architecture and Heritage,france,2587,government/administrative body,manual_override
+PETRAE - AUSONIUS,france,2571,academic/research institution,manual_override
+House for the Social Sciences and Humanities of Dijon,france,2116,academic/research institution,manual_override
+Occitan Media Library,france,1962,library/archive,provider_name
+National Archeology Museum,france,1333,art/history museum,provider_name
+National Conservatory of Arts and Crafts,france,1274,academic/research institution,confirmed_fix
+Centre for Research on Sound Space and urban environment,france,910,academic/research institution,provider_name
+Models and Simulations for Architecture and Heritage,france,880,academic/research institution,wikidata_description
+Bibracte EPCC,france,539,other,manual_override
+Babord-Num,france,487,library/archive,manual_override
+"Virtual Humanist Libraries, Tours University",france,384,library/archive,provider_name
+Media library at Centre National de la Danse,france,266,library/archive,provider_name
+Archaeological Society of Bordeaux,france,260,art/history museum,provider_name
+Clermont Library,france,231,library/archive,provider_name
+Virtual library on the first socialisms,france,177,library/archive,provider_name
+Conservatory of the Gironde Estuary,france,159,government/administrative body,confirmed_fix
+Pôle de la Mémoire Locale,france,119,other,manual_override
+TheFactStories,france,85,other,manual_override
+Institute of Computer Science - Foundation for Research and Technology Hellas,france,30,academic/research institution,provider_name
+Cinémémoire - Amateur Film Library of Marseille,france,26,library/archive,provider_name
+Ministry of Reconstruction and Urban Planning,france,21,government/administrative body,provider_name
+National Customs Museum,france,16,art/history museum,provider_name
+In Video Veritas,france,7,other,manual_override
+Louvre,france,4,art/history museum,wikidata_description
+Orsay Museum,france,3,art/history museum,provider_name
+Centre Pompidou - National museum for modern art - Industrial Design Centre,france,1,art/history museum,provider_name
+Heritage Malta,france,1,library/archive,wikidata_sparql_fallback
+Museum of Fine Arts in Lyon,france,1,art/history museum,provider_name
+National Centre for Prehistory,france,1,academic/research institution,manual_override
+National Monuments Center,france,1,government/administrative body,manual_override
+Palace of Versailles and Trianon,france,1,art/history museum,provider_name
+Bavarian State Library,germany,2176001,library/archive,provider_name
+Deutsche Fotothek,germany,1314229,library/archive,wikidata_description
+State Archives of Baden-Württemberg,germany,827603,library/archive,provider_name
+German Documentation Center for Art History - Marburg Picture Index,germany,320532,library/archive,manual_override
+German National Library,germany,304053,library/archive,provider_name
+Berlin-Dahlem Botanical Garden and Botanical Museum,germany,252957,natural history/science institution,provider_name
+Library of the Friedrich Ebert Foundation,germany,201518,library/archive,provider_name
+Museum of City History Leipzig,germany,182494,art/history museum,provider_name
+Berlin State Library,germany,169601,library/archive,provider_name
+Museum of Architecture at Berlin Institute of Technology,germany,161890,art/history museum,provider_name
+Archives of Social Democracy,germany,133032,library/archive,provider_name
+State and University Library Hamburg Carl von Ossietzky,germany,131101,library/archive,provider_name
+Heidelberg University Library,germany,130773,library/archive,provider_name
+Teßmann Library,germany,115179,library/archive,provider_name
+German Archaeological Institute,germany,104659,academic/research institution,confirmed_fix
+"Ethnological Museum, Staatliche Museen zu Berlin",germany,104638,art/history museum,provider_name
+Toy Museum of the City of Nuremberg,germany,80306,art/history museum,provider_name
+Berlin-Brandenburg Economic Archive,germany,72335,library/archive,provider_name
+DFF – German Film Institute & Film Museum,germany,71678,audiovisual/film archive,provider_name
+Karlsruhe Municipal Archives,germany,71356,library/archive,provider_name
+Herzog Anton Ulrich Museum,germany,70499,art/history museum,provider_name
+Epigraphic Database Heidelberg,germany,69053,art/history museum,provider_name
+University & State Library Fulda,germany,69052,library/archive,provider_name
+Herzog August Library,germany,65635,library/archive,provider_name
+Brandenburg Main State Archive,germany,63700,library/archive,provider_name
+International Maritime Museum,germany,61862,art/history museum,provider_name
+Deutsche Welle,germany,55861,media/broadcast organization,wikidata_description
+GESIS - Leibniz Institute for the Social Sciences. Library Cologne,germany,54945,library/archive,provider_name
+Architecture Museum at Technical University of Munich,germany,50914,art/history museum,provider_name
+Herbarium Göttingen (GOET),germany,40425,natural history/science institution,provider_name
+The Photographic Archive of the Zentralinstitut für Kunstgeschichte,germany,38240,library/archive,provider_name
+Frankfurt University Library,germany,36544,library/archive,provider_name
+"Dresden State Art Collections. Museum of Prints, Drawings and Photographs",germany,33959,art/history museum,provider_name
+"Kunstbibliothek, Staatliche Museen zu Berlin",germany,33713,library/archive,provider_name
+Leibniz Institute for Regional Geography,germany,27945,academic/research institution,wikidata_description
+"Bibliotheca Hertziana, Max Planck Institute for Art History Rome. Photographic Collection",germany,26187,art/history museum,provider_name
+University Library Freiburg,germany,26072,library/archive,provider_name
+Media library of Art and Visual History of Humboldt University of Berlin,germany,25661,library/archive,provider_name
+Germanisches National Museum,germany,24800,art/history museum,provider_name
+Badisches Landesmuseum Karlsruhe,germany,23093,art/history museum,wikidata_description
+Sorbian Cultural Archive,germany,22995,library/archive,provider_name
+State Association of Fine Arts Saxony eV,germany,22822,art/history museum,manual_override
+Bauhaus University Weimar. University Library,germany,21294,library/archive,provider_name
+Dresden State Art Collections. Numismatic Collection,germany,20413,art/history museum,provider_name
+Bildarchiv Volkskundliche Kommision für Westfalen,germany,19792,library/archive,manual_override
+State Office for Heritage Management and Archaeology Saxony-Anhalt - State Museum for Prehistory,germany,19055,art/history museum,provider_name
+"Museum for Pre- and Early History, Staatliche Museen zu Berlin",germany,18830,art/history museum,provider_name
+LWL - Museum for Art and Culture - Westphalian State Museum of Art & Cultural History,germany,18499,art/history museum,provider_name
+"Kupferstichkabinett, Staatliche Museen zu Berlin",germany,17959,art/history museum,provider_name
+Prussian Palaces and Gardens Foundation Berlin-Brandenburg,germany,17895,art/history museum,manual_override
+Federal Waterways Engineering and Research Institute,germany,17892,academic/research institution,provider_name
+"Natural History Museum, Berlin",germany,16336,natural history/science institution,provider_name
+Field Museum of Natural History,germany,15902,natural history/science institution,manual_override
+Heinrich-Barth-Institut e.V.,germany,15320,academic/research institution,manual_override
+Kassel University Library,germany,14409,library/archive,provider_name
+Leipzig University Library,germany,14351,library/archive,provider_name
+Kalliope,germany,14295,library/archive,wikidata_description
+Saxon State and University Library Dresden,germany,14079,library/archive,provider_name
+"Museum of European Cultures, Staatliche Museen zu Berlin",germany,13647,art/history museum,provider_name
+Art collections of the Veste Coburg,germany,13470,art/history museum,provider_name
+"Institute of Art History and Archaeology of Europe, Martin Luther University Halle Wittenberg",germany,12862,art/history museum,provider_name
+Berlin-Brandenburg Academy of Sciences and Humanities,germany,12231,academic/research institution,provider_name
+Kunstpalast,germany,12226,art/history museum,manual_override
+Montanhistorisches Dokumentationszentrum,germany,11804,library/archive,wikidata_sparql_fallback
+Dresden State Art Collections. Porcelain collection,germany,11325,art/history museum,provider_name
+"University of Graz, Institute of Plant Sciences - Herbarium GZU",germany,11219,natural history/science institution,provider_name
+Hirschfelde Power Station Foundation,germany,11139,other,manual_override
+Museum of Islamic Art,germany,11090,art/history museum,provider_name
+Goethe University Frankfurt,germany,10298,academic/research institution,provider_name
+Dresden State Art Collections. Sculpture collection,germany,10109,art/history museum,provider_name
+German National Library of Medicine,germany,9829,library/archive,provider_name
+Gotha Research Library,germany,9721,library/archive,provider_name
+"BBAW, Corpus Nummorum",germany,9691,academic/research institution,manual_override
+"Collection of Classical Antiquities, Berlin State Museums",germany,9598,art/history museum,manual_override
+Technoseum,germany,9361,natural history/science institution,confirmed_fix
+Museum of Things,germany,9340,art/history museum,provider_name
+German Exile Archive,germany,9246,library/archive,provider_name
+Baden State Library,germany,9134,library/archive,provider_name
+Leibniz Institute for the German Language - Library,germany,8504,library/archive,provider_name
+Schöneweide Industrial Museum,germany,8390,art/history museum,provider_name
+Art Collection of the University Göttingen,germany,8292,art/history museum,provider_name
+FHXB Friedrichshain-Kreuzberg Museum,germany,8289,art/history museum,provider_name
+Deutsche Kinemathek - Museum für Film und Fernsehen,germany,8078,audiovisual/film archive,manual_override
+"Eberhard Karls Universität Tübingen, UB - Universitätsarchiv",germany,7550,library/archive,wikidata_sparql_fallback
+Stiftung Domäne Dahlem - Estate and Museum,germany,7008,art/history museum,provider_name
+"Museum of Arts and Crafts, Hamburg",germany,6692,art/history museum,provider_name
+Kiel University Library,germany,6589,library/archive,provider_name
+University and State Library Darmstadt,germany,6522,library/archive,provider_name
+TIB - Leibniz Information Centre for Science and Technology and University Library,germany,6405,library/archive,provider_name
+"Deutsches Museum, Archiv",germany,6070,library/archive,provider_name
+Bielefeld University Library,germany,6023,library/archive,provider_name
+Westphalian Folk Song and Sound Archive,germany,5734,library/archive,provider_name
+Zoological Research Museum Koenig,germany,5602,natural history/science institution,confirmed_fix
+Münchner Stadtmuseum,germany,5259,art/history museum,wikidata_description
+Theatermuseum der Landeshauptstadt Düsseldorf,germany,5210,art/history museum,manual_override
+Mecklenburg-Vorpommern state library,germany,5063,library/archive,provider_name
+Allied Museum,germany,5045,art/history museum,provider_name
+Gleimhaus - Museum of the German Enlightenment,germany,5019,art/history museum,provider_name
+"Central Archive, Berlin State Museums",germany,5013,library/archive,provider_name
+Dresden State Art Collections. Museum of Decorative Arts,germany,4968,art/history museum,provider_name
+Cinecittà - Luce,italy,442536,audiovisual/film archive,provider_name
+Historical Archive of the Presidency of the Republic,italy,212160,library/archive,provider_name
+National Central Library of Rome,italy,200231,library/archive,provider_name
+Internet Culturale,italy,109101,library/archive,manual_override
+"Department of Life Sciences, University of Trieste",italy,101323,academic/research institution,provider_name
+Epigraphic Database Roma,italy,86827,academic/research institution,confirmed_fix
+Cineteca di Bologna,italy,73157,audiovisual/film archive,wikidata_description
+Central Institute for the Union Catalogue of Italian Libraries,italy,66672,library/archive,manual_override
+Central Museum of the Risorgimento in Rome,italy,53211,art/history museum,provider_name
+Luigi Micheletti Foundation,italy,51704,library/archive,wikidata_description
+Experimental Cinematography Center,italy,40538,audiovisual/film archive,manual_override
+Epigraphic Dabatase Bari,italy,40283,academic/research institution,confirmed_fix
+European Library of Information and Culture,italy,35475,library/archive,provider_name
+Marciana National Library,italy,29597,library/archive,provider_name
+Turin Gallery for Modern and Contemporary Art,italy,29395,art/history museum,provider_name
+Braidense National Library,italy,21526,library/archive,manual_override
+Library of the S. Pietro a Majella Conservatory,italy,20154,audiovisual/film archive,provider_name
+Rossimoda Shoe Museum,italy,13489,art/history museum,provider_name
+Provincial Library Magna Capitana,italy,13065,library/archive,provider_name
+Estense University Library,italy,12372,library/archive,provider_name
+Missoni,italy,12080,other,manual_override
+Photographic Archive of the Civic Museums of Turin,italy,11404,library/archive,provider_name
+"New Manuscript Library, Veneto Region",italy,11042,library/archive,provider_name
+Pitti Immagine,italy,10694,other,manual_override
+Galileo Museum,italy,9219,art/history museum,provider_name
+The Central National Library of Florence,italy,7790,library/archive,provider_name
+Digital Library Trentino,italy,7292,library/archive,provider_name
+University Library of Genova,italy,7063,library/archive,provider_name
+Opera Institute of the Italian Vocabulary,italy,6370,academic/research institution,manual_override
+Museo della Carta di Pescia,italy,5288,art/history museum,provider_name
+Marucelliana Library,italy,5225,library/archive,provider_name
+University Library Of Pisa,italy,5170,library/archive,provider_name
+University of Padua,italy,4168,academic/research institution,provider_name
+Madama Palace,italy,3825,art/history museum,provider_name
+University of Pisa,italy,3821,academic/research institution,provider_name
+University of Padua - Botanical Garden Library,italy,3612,library/archive,provider_name
+Modern and Contemporary History Library,italy,3543,library/archive,provider_name
+Prato Textile Museum,italy,3535,art/history museum,provider_name
+Casanatense Library,italy,3448,library/archive,provider_name
+Querini Stampalia Foundation,italy,3266,art/history museum,manual_override
+Palatine Library,italy,3216,library/archive,provider_name
+State Archives of Campobasso,italy,2930,library/archive,provider_name
+Promoter Digital Gallery,italy,2553,art/history museum,provider_name
+Pitti Palace - Museum of Costume and Fashion,italy,2499,art/history museum,provider_name
+Alessandrina University Library,italy,2129,library/archive,provider_name
+Museum of Oriental Art,italy,2041,art/history museum,provider_name
+Brixiana,italy,1886,library/archive,confirmed_fix
+Superintendence for Cultural Heritage of the Autonomous Province of Trento,italy,1863,government/administrative body,provider_name
+The Institute of Heritage Sciences,italy,1811,natural history/science institution,manual_override
+Biblioteca Sportiva Nazionale,italy,1487,library/archive,provider_name
+State Library of the National Monument of Montecassino,italy,1363,library/archive,provider_name
+Library of the Cherubini Conservatory of Music,italy,1328,audiovisual/film archive,provider_name
+Library De Gemmis,italy,1238,library/archive,provider_name
+University of Bologna,italy,1190,academic/research institution,provider_name
+GoTellGo Cultural Association,italy,1180,other,manual_override
+Turin National University Library,italy,1127,library/archive,provider_name
+Polytecnic University of Milan - Computer Vision & Reverse Engineering Lab,italy,1041,academic/research institution,provider_name
+Byterfly,italy,1017,library/archive,manual_override
+Library of Archeology and History Of Art,italy,966,library/archive,provider_name
+Library of Archeology and History of Art,italy,924,library/archive,provider_name
+National Library of Potenza,italy,860,library/archive,provider_name
+Salvatore Ferragamo Museum,italy,858,art/history museum,provider_name
+Luigi Sturzo Institute,italy,829,library/archive,wikidata_sparql_fallback
+"Veneto Region, The Music Fund of St. Mary of Consolation in Venice",italy,759,audiovisual/film archive,provider_name
+National Library of the Girolamini Oratory,italy,754,library/archive,provider_name
+Pasquale Albino Library,italy,723,library/archive,provider_name
+Institute of Musical Studies Luigi Boccherini,italy,703,audiovisual/film archive,provider_name
+Municipality of Macerata,italy,678,government/administrative body,provider_name
+Provincial Library of Brindisi,italy,655,library/archive,provider_name
+National Library of Cosenza,italy,587,library/archive,provider_name
+Provincial Library Nicola Bernardini,italy,570,library/archive,provider_name
+State Library of Lucca,italy,536,library/archive,provider_name
+Alinari Foundation for Photography,italy,498,art/history museum,provider_name
+Rossini Foundation,italy,469,academic/research institution,manual_override
+Augusta Municipal Library,italy,449,library/archive,provider_name
+Public Library Pietro Acclavio,italy,436,library/archive,provider_name
+"Cultural Hub of the Museums, Libraries and Archives - Bassano del Grappa",italy,402,library/archive,provider_name
+Angelo Mai Civic Library and Municipal Historical Archives,italy,401,library/archive,provider_name
+University Library of Pavia,italy,359,library/archive,provider_name
+National Library of Attilio Hortis,italy,359,library/archive,provider_name
+Library Charitas of San Francesco di Paola,italy,328,library/archive,provider_name
+AMS Historica Bologna,italy,302,academic/research institution,manual_override
+Franca Rame - Dario Fo Archive,italy,278,library/archive,provider_name
+Municipal Library Giovanni Bovio,italy,251,library/archive,provider_name
+Luigi Einaudi Foundation Library,italy,240,library/archive,provider_name
+The Regional Archives Koper,italy,227,library/archive,provider_name
+National Museum of Cinema,italy,210,audiovisual/film archive,manual_override
+Museum of Agricultural Sciences,italy,208,art/history museum,provider_name
+Roman Philharmonic Academy,italy,204,audiovisual/film archive,provider_name
+Vatican Library,italy,199,library/archive,provider_name
+Institute of Information Science and Technologies 'Alessandro Faedo',italy,198,academic/research institution,manual_override
+Luigi Chiarini Library,italy,188,library/archive,provider_name
+Archive of the Donizetti Museum,italy,186,library/archive,provider_name
+Library of the Institute for the History of Resistance and Contemporary Society,italy,182,library/archive,provider_name
+National Library of Bari,italy,173,library/archive,provider_name
+International Museum and Library of Music,italy,162,audiovisual/film archive,provider_name
+Library of Astronomical Observatory of Capodimonte,italy,157,library/archive,provider_name
+CISA -Interdipartimental Center for Archaeology,italy,148,academic/research institution,confirmed_fix
+Alfonso Rendano Municipal Theater Library,italy,139,library/archive,provider_name
+State Library of Cremona,italy,131,library/archive,provider_name
+Naturalis Biodiversity Center,netherlands,4601504,natural history/science institution,wikidata_description
+"KB, National Library of the Netherlands",netherlands,987234,library/archive,provider_name
+Cultural Heritage Agency of the Netherlands,netherlands,526228,government/administrative body,confirmed_fix
+Rijksmuseum,netherlands,341407,art/history museum,wikidata_description
+National Archives of the Netherlands,netherlands,283470,library/archive,provider_name
+Internet Archive,netherlands,176784,library/archive,provider_name
+International Institute of Social History,netherlands,165349,academic/research institution,wikidata_description
+The Utrecht Archives,netherlands,159981,library/archive,provider_name
+National Museum of Antiquities,netherlands,141529,art/history museum,provider_name
+Historical Information Center of Brabant,netherlands,118373,library/archive,manual_override
+Netherlands Institute for Sound & Vision,netherlands,98888,audiovisual/film archive,provider_name
+Association De Hollandsche Molen,netherlands,94187,other,manual_override
+Museon-Omniversum,netherlands,93077,natural history/science institution,confirmed_fix
+Municipal Archives of Zaanstad,netherlands,85508,library/archive,provider_name
+Gooi en Vechtstreek Archive,netherlands,79443,library/archive,provider_name
+Netherlands Institute for Military History,netherlands,68648,government/administrative body,wikidata_description
+Historic Center Limburg,netherlands,62704,library/archive,manual_override
+IMSLP/Petrucci Music Library,netherlands,61552,audiovisual/film archive,provider_name
+City Archives Breda,netherlands,60870,library/archive,provider_name
+St. Catherine's Convent Museum,netherlands,60795,art/history museum,provider_name
+Museum Rotterdam,netherlands,60777,art/history museum,provider_name
+Paul Van Riel,netherlands,55165,other,confirmed_fix
+Batavialand,netherlands,53928,art/history museum,wikidata_description
+Historic Center Leeuwarden,netherlands,53417,library/archive,manual_override
+"Municipal Archive, Schiedam",netherlands,52926,library/archive,provider_name
+Municipal Archives of Weert,netherlands,52654,library/archive,provider_name
+KNAW-DANS,netherlands,48118,academic/research institution,manual_override
+Regional Archive Nijmegen,netherlands,47924,library/archive,provider_name
+City Archives' s-Hertogenbosch,netherlands,45614,library/archive,provider_name
+CODA Museum,netherlands,44628,art/history museum,provider_name
+CARARE,netherlands,40920,academic/research institution,manual_override
+Municipal Archives of Ede en Scherpenzeel,netherlands,39824,library/archive,provider_name
+Zutphen Regional Archive,netherlands,31206,library/archive,provider_name
+Regional Archive Langstraat Heusden Altena,netherlands,27321,library/archive,provider_name
+Rijksmuseum Boerhaave,netherlands,27257,art/history museum,wikidata_description
+Municipal Archives of Tholen,netherlands,27160,library/archive,provider_name
+Municipal Archives of Barneveld,netherlands,27145,library/archive,provider_name
+Zuiderzee Museum,netherlands,20552,art/history museum,provider_name
+The Language Archive,netherlands,18392,library/archive,provider_name
+National Museum of World Cultures Foundation,netherlands,17547,art/history museum,provider_name
+Heritage Rijssen-Holten,netherlands,17221,art/history museum,manual_override
+Digital Library for Dutch Literature,netherlands,17043,library/archive,provider_name
+The province of North Holland,netherlands,13273,government/administrative body,provider_name
+International Military Tribunal at Nuremberg,netherlands,9629,other,manual_override
+Leiden University Libraries,netherlands,9087,library/archive,provider_name
+Amsterdam Museum,netherlands,8046,art/history museum,provider_name
+Loevestein Castle,netherlands,7692,art/history museum,provider_name
+City Museum Zutphen,netherlands,6850,art/history museum,provider_name
+Textile Research Centre Leiden,netherlands,6737,academic/research institution,provider_name
+Regional Archives Tilburg,netherlands,6569,library/archive,provider_name
+Geldersch Landschap & Kasteelen,netherlands,5699,other,manual_override
+VU University Amsterdam Library,netherlands,5008,library/archive,provider_name
+Fries Museum,netherlands,4736,art/history museum,provider_name
+Valkhof Museum,netherlands,3553,art/history museum,provider_name
+"The Dutch Olympic Committee, Dutch Sports Federation",netherlands,2738,other,manual_override
+National Organ Museum,netherlands,2707,art/history museum,provider_name
+EYE Film Museum,netherlands,1595,audiovisual/film archive,manual_override
+IHLIA LGBTI Heritage,netherlands,1558,library/archive,wikidata_description
+Castle Huis Bergh,netherlands,1552,art/history museum,provider_name
+Textile Museum,netherlands,1513,art/history museum,provider_name
+Heritage Leiden,netherlands,1314,library/archive,wikidata_description
+Anne Frank House,netherlands,1170,art/history museum,wikidata_description
+Arnhem museum,netherlands,1134,art/history museum,provider_name
+De Looierij,netherlands,1004,art/history museum,wikidata_description
+Leo Smit foundation,netherlands,863,academic/research institution,manual_override
+Mauritshuis,netherlands,832,art/history museum,wikidata_description
+Museum Krona,netherlands,768,art/history museum,provider_name
+Airborne Museum 'Hartenstein',netherlands,738,art/history museum,provider_name
+Freedom Museum,netherlands,547,art/history museum,provider_name
+Historische Kring Huessen,netherlands,465,art/history museum,wikidata_sparql_fallback
+Deelen Airbase Museum,netherlands,399,art/history museum,provider_name
+Museum Klok & Peel,netherlands,369,art/history museum,provider_name
+Groningen Historic Churches Foundation,netherlands,315,other,manual_override
+Archive and Documentation Center for RK Friesland,netherlands,246,library/archive,provider_name
+Museum Het Pakhuis,netherlands,236,art/history museum,provider_name
+Historische Kring Midden-Betuwe,netherlands,218,art/history museum,manual_override
+Kijk & Luistermuseum,netherlands,198,art/history museum,wikidata_description
+Tilburg University,netherlands,195,academic/research institution,provider_name
+Streekmuseum de Roode Tooren,netherlands,159,art/history museum,wikidata_description
+Huis van Hilde,netherlands,139,art/history museum,wikidata_sparql_fallback
+Water board of Schieland and the Krimpenerwaard,netherlands,137,government/administrative body,manual_override
+Zaans Museum,netherlands,119,art/history museum,provider_name
+Historical Image Archive for Migrants,netherlands,112,library/archive,provider_name
+Museum Nijkerk,netherlands,108,art/history museum,provider_name
+Rauws Wicker Chair Collection,netherlands,44,other,manual_override
+Museumpark Orientalis,netherlands,40,art/history museum,wikidata_sparql_fallback
+Museum Tweestromenland,netherlands,31,art/history museum,provider_name
+Provinciaal Depot Bodemvondsten,netherlands,29,other,manual_override
+Museum De Scheper,netherlands,26,art/history museum,provider_name
+Elisabeth Weeshuis Museum,netherlands,24,art/history museum,provider_name
+European Fashion Heritage Association,netherlands,12,other,manual_override
+Stichting tot Behoud van den Doornenburg,netherlands,11,other,manual_override
+Centraal Museum Utrecht,netherlands,11,art/history museum,provider_name
+Heemkundekring Bergh,netherlands,6,other,manual_override
+Historische Vereniging Voorst,netherlands,4,government/administrative body,wikidata_description
+Kunstmuseum Den Haag,netherlands,2,art/history museum,wikidata_description
+Bonnefantenmuseum Maastricht,netherlands,1,art/history museum,manual_override
+City Museum Harderwijk,netherlands,1,art/history museum,provider_name
+City Museum Prinsenhof,netherlands,1,art/history museum,provider_name
+Museum Boijmans Van Beuningen,netherlands,1,art/history museum,provider_name
+Institute for Tropical Scientific Research,portugal,65666,natural history/science institution,provider_name
+National Library of Portugal,portugal,35785,library/archive,provider_name
+Portuguese Army Library,portugal,13120,library/archive,provider_name
+Azores Regional Directorate for Culture,portugal,5913,government/administrative body,manual_override
+University of Porto,portugal,5111,academic/research institution,provider_name
+Calouste Gulbenkian Foundation,portugal,3415,art/history museum,manual_override
+MUDE – Museu do Design,portugal,1927,art/history museum,provider_name
+Assembly of the Republic - Library,portugal,1663,library/archive,provider_name
+Fernando Pessoa's House,portugal,1210,art/history museum,manual_override
+University of Coimbra,portugal,1155,academic/research institution,provider_name
+Lisbon's Film & Theatre School,portugal,774,academic/research institution,manual_override
+Madeira Archives and Library,portugal,685,library/archive,provider_name
+Cinemateca Portuguesa - Museu do cinema,portugal,654,audiovisual/film archive,provider_name
+Radio and Television of Portugal,portugal,504,media/broadcast organization,provider_name
+Madeira Arts Library,portugal,470,library/archive,provider_name
+Lisbon Newspaper Library,portugal,468,library/archive,provider_name
+April 25th Documentation Center of Coimbra University,portugal,337,academic/research institution,provider_name
+The Commission for Citizenship and Gender Equality,portugal,311,government/administrative body,manual_override
+Division of Archives and Library of the Ministry of Foreign Affairs,portugal,158,library/archive,provider_name
+Portuguese Court of Auditors,portugal,119,government/administrative body,provider_name
+PÉDEXUMBO - Associação para a Promoção da Música e Dança,portugal,91,other,manual_override
+Library of the National Republican Guard,portugal,70,library/archive,provider_name
+Douro Museum,portugal,51,art/history museum,provider_name
+The Romanesque Rout,portugal,50,other,manual_override
+Municipal Public Library of Porto,portugal,47,library/archive,provider_name
+Open University - Portugal,portugal,35,academic/research institution,provider_name
+Seminar on the History of Ideas,portugal,34,other,manual_override
+Assembleia da República - Arquivo Histórico Parlamentar,portugal,15,library/archive,provider_name
+Supreme Court of Justice,portugal,6,government/administrative body,provider_name
+National Museum of Ancient Art,portugal,2,art/history museum,provider_name
+"National Archives Torre do Tombo, Lisbon",portugal,2,library/archive,provider_name
+Montalegre Municipal Library,portugal,2,library/archive,provider_name
+"Ajuda Library, Lisbon",portugal,1,library/archive,provider_name
+Chiado Museum - National Museum of Contemporary Art,portugal,1,art/history museum,provider_name
+"Church of S. Roque, Lisbon",portugal,1,other,manual_override
+"Municipal Library Anselmo Braamcamp Freire, Santarém",portugal,1,library/archive,provider_name
+Museums and Monuments of Portugal,portugal,1,art/history museum,manual_override
+National Coach Museum,portugal,1,art/history museum,provider_name
+"National Museum of Grao Vasco, Viseu",portugal,1,art/history museum,provider_name
+Sarmento's House,portugal,1,other,manual_override
+Virtual Library of Historical Press,spain,1735320,library/archive,provider_name
+National Library of Spain,spain,664410,library/archive,provider_name
+Galiciana: Digital Library of Galicia,spain,336061,library/archive,provider_name
+Digital Memory of Catalonia,spain,286512,library/archive,manual_override
+Galiciana. Arquivo Dixital de Galicia,spain,234326,library/archive,provider_name
+Archive of Old Catalan Magazines,spain,229974,library/archive,provider_name
+Ajuntament de Girona,spain,208078,government/administrative body,provider_name
+Digital Library of Andalusia,spain,145620,library/archive,provider_name
+Maresía: Prensa digitalizada y Patrimonio documental,spain,141919,library/archive,manual_override
+Canary Islands Historical Photography Archive,spain,121890,library/archive,provider_name
+Complutense University of Madrid,spain,121238,academic/research institution,provider_name
+Digital Library of Castilla y León,spain,119704,library/archive,provider_name
+Library of the University of Las Palmas,spain,115458,library/archive,provider_name
+Cityhall of Murcia. Municipal Archive,spain,104650,library/archive,provider_name
+Centro de Estudios de Castilla - La Mancha,spain,94223,academic/research institution,manual_override
+TV3 Catalan Television,spain,89148,media/broadcast organization,provider_name
+Documentary Repository of the University of Salamanca,spain,86467,library/archive,provider_name
+Royal Botanic Garden of Madrid,spain,74638,natural history/science institution,provider_name
+Foundation Virtual Library Miguel de Cervantes,spain,70971,library/archive,provider_name
+Digital Library of Madrid,spain,69472,library/archive,provider_name
+The Government of Catalonia,spain,66231,government/administrative body,provider_name
+National Archaeological Museum,spain,62006,art/history museum,provider_name
+Cartographic and Geological Institute of Catalonia,spain,60774,government/administrative body,wikidata_sparql_fallback
+Polytechnic University of Valencia,spain,55663,academic/research institution,provider_name
+Spanish National Research Council,spain,54947,academic/research institution,provider_name
+Image and Sound Archive of Menorca,spain,52640,library/archive,provider_name
+Regira. Cooperative Repository of Diputació de Girona,spain,51534,library/archive,provider_name
+Postal Cabinet Museum of Barcelona (Marull’s Collection),spain,49300,art/history museum,provider_name
+Biblioteca Diputación de Almería,spain,47192,library/archive,provider_name
+Tomás Navarro Tomás Library,spain,38509,library/archive,provider_name
+Museum of Costume. Ethnological Heritage Research Centre,spain,35754,art/history museum,provider_name
+Patrimonio Digital de Castilla-La Mancha,spain,32589,library/archive,manual_override
+Toledo Municipal Archives,spain,32360,library/archive,provider_name
+Virtual Library of Bibliographical Heritage,spain,31208,library/archive,provider_name
+Autonomous University of Barcelona,spain,29038,academic/research institution,provider_name
+Andalusian Performing Arts Research and Resource Center,spain,28062,academic/research institution,provider_name
+Library of the Bar Association of Madrid,spain,27660,library/archive,provider_name
+Library of Asturias,spain,25427,library/archive,provider_name
+Repositorio Institucional del Banco de España,spain,23655,library/archive,provider_name
+Digital Library Real Academia de la Historia,spain,23616,library/archive,provider_name
+Virtual Library of La Rioja,spain,22978,library/archive,provider_name
+Image Archive of Castilla La Mancha,spain,21534,library/archive,provider_name
+Sorolla Museum,spain,20263,art/history museum,provider_name
+Polytechnic University of Catalonia,spain,19927,academic/research institution,provider_name
+Valencian Digital Library,spain,19090,library/archive,provider_name
+UdG Digital Repository,spain,18684,library/archive,provider_name
+Natural Science Museum of Barcelona,spain,18502,natural history/science institution,provider_name
+National Museum of Decorative Arts,spain,18154,art/history museum,provider_name
+Research deposit of the University of Seville,spain,18068,academic/research institution,provider_name
+Jaume I University Repository,spain,17455,library/archive,provider_name
+Museum of America,spain,17003,art/history museum,provider_name
+Ignacio Larramendi Foundation,spain,16095,academic/research institution,manual_override
+Institutional Climatological and Meteorological Archive,spain,15742,library/archive,provider_name
+Virtual Library of Aragon,spain,15675,library/archive,provider_name
+Museo del Prado digital library,spain,15377,library/archive,provider_name
+Biblioteca Virtual de la Real Academia Nacional de Farmacia,spain,14747,library/archive,provider_name
+The Digital Network of Museum Collections in Spain,spain,14716,art/history museum,provider_name
+University of Lleida,spain,14556,academic/research institution,provider_name
+Archive of the Crown of Aragon,spain,13893,library/archive,provider_name
+Navarra Digital Library,spain,13479,library/archive,provider_name
+City Archive of Arganda del Rey,spain,13459,library/archive,provider_name
+National Museum of Roman Art,spain,13278,art/history museum,provider_name
+Museum of Popular Arts and Customs of Seville,spain,11553,art/history museum,provider_name
+Lázaro Galdiano Museum,spain,10848,art/history museum,provider_name
+Library Ciconia,spain,10822,library/archive,provider_name
+National Museum of Romanticism,spain,10091,art/history museum,provider_name
+Virtual Law Library of Aragon,spain,9967,library/archive,provider_name
+Eusko Jaurlaritza - Gobierno Vasco,spain,8389,government/administrative body,provider_name
+Collective Catalog of the Library Network of the State Archives,spain,8156,library/archive,provider_name
+Jaén Museum,spain,8028,art/history museum,provider_name
+National Museum of Anthropology,spain,7962,art/history museum,provider_name
+Archivo de la Diputación Provincial de Cáceres,spain,7784,library/archive,provider_name
+Cerralbo Museum,spain,7434,art/history museum,provider_name
+National Museum of Underwater Archaeology,spain,7087,art/history museum,provider_name
+Dadun: Digital Academic Repository of the University of Navarra,spain,6942,library/archive,provider_name
+Trencadís. The Municipal Library Network of the Diputació de Barcelona,spain,6441,library/archive,provider_name
+Sancho el Sabio Foundation,spain,6426,library/archive,wikidata_sparql_fallback
+Frederic Marès Museum,spain,6159,art/history museum,provider_name
+University Institute for Research in Iberian Archeology,spain,5692,academic/research institution,confirmed_fix
+Repository of the Catholic University of Valencia San Vicente Mártir,spain,5578,library/archive,provider_name
+National Theatre Museum,spain,5463,art/history museum,provider_name
+University of Barcelona. Digital Heritage Library,spain,5356,library/archive,provider_name
+"Minerva, Institutional Repository of the University of Santiago de Compostela",spain,5144,library/archive,provider_name
+Archivo de la Diputación de Castellón,spain,4892,library/archive,provider_name
+"Bitoteko, Hispanic Esperanto Federation Library",spain,4482,library/archive,provider_name
+Museo Etnológico de Ribadavia,spain,4344,art/history museum,provider_name
+Diocesan Seminary of Vitoria-Gasteiz,spain,4221,government/administrative body,manual_override
+Dialnet,spain,4086,library/archive,wikidata_sparql_fallback
+Museum of the Asturian People,spain,3813,art/history museum,provider_name
+González Martí National Museum of Ceramics and Sumptuary Arts,spain,3748,art/history museum,provider_name
+National Museum and Research Center of Altamira,spain,3662,art/history museum,provider_name
+Museum of Teruel,spain,3656,art/history museum,provider_name
+Museum of Navarra,spain,3378,art/history museum,provider_name
+University of Oviedo,spain,3268,academic/research institution,provider_name
+Document Repository of the University of Valladolid,spain,3199,library/archive,provider_name
+Casa de los Tiros Museum,spain,3185,art/history museum,provider_name
+Archivo de la Diputación Provincial de Badajoz,spain,3171,library/archive,provider_name
+Repository of Teaching and Research Objects of the University of Cádiz,spain,3127,library/archive,provider_name
+Capuchin Central Library of Spain,spain,3124,library/archive,provider_name
+Institutional Repository of the University of Malaga,spain,3079,library/archive,provider_name
