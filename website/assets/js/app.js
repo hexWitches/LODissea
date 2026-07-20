@@ -5,8 +5,8 @@ lucide.createIcons();
 document.getElementById('hero-boat').classList.add('boat-bob');
 document.getElementById('wave-boat').classList.add('wave-boat-anim');
 document.querySelector('#map-boat-container div').classList.add('boat-bob');
-document.querySelector('#left-boat').classList.add('boat-bob');
-document.querySelector('#scroll-boat-inner').classList.add('boat-bob');
+// Use global boat instead
+document.querySelector('#global-boat > div').classList.add('boat-bob');
 
 // --- GSAP Hero Animations ---
 gsap.to('#hero-content', {
@@ -44,6 +44,30 @@ window.switchTab = (tabName) => {
   document.getElementById(`tab-btn-${tabName}`).classList.add('tab-btn-active');
 };
 
+// --- Navigation Scroll Logic ---
+document.addEventListener('DOMContentLoaded', () => {
+  const startJourneyBtn = document.getElementById('start-journey-btn');
+  if (startJourneyBtn) {
+    startJourneyBtn.addEventListener('click', () => {
+      document.getElementById('introduction').scrollIntoView({ behavior: 'smooth' });
+    });
+  }
+
+  const introNextBtn = document.getElementById('intro-next-btn');
+  if (introNextBtn) {
+    introNextBtn.addEventListener('click', () => {
+      document.getElementById('journey').scrollIntoView({ behavior: 'smooth' });
+    });
+  }
+
+  const nextBtn = document.getElementById('next-btn');
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      document.getElementById('analysis').scrollIntoView({ behavior: 'smooth' });
+    });
+  }
+});
+
 // --- Map Logic ---
 const HIGHLIGHTED_COUNTRIES = ['Netherlands', 'Germany', 'Spain', 'Portugal', 'France', 'Italy'];
 const KEEP_COUNTRIES = [
@@ -67,11 +91,11 @@ fetch('https://unpkg.com/world-atlas@2.0.2/countries-50m.json')
   .then(topology => {
     const geo = topojson.feature(topology, topology.objects.countries);
     const svg = d3.select('#map-countries');
-    
+
     geo.features.forEach((d) => {
       const name = d.properties?.name;
       if (!KEEP_COUNTRIES.includes(name)) return;
-      
+
       svg.append("path")
         .attr("d", pathGenerator(d))
         .attr("class", "country")
@@ -91,18 +115,19 @@ function setupMapAnimations() {
       const mapBoatContainer = document.getElementById('map-boat-container');
       if (mapBoatContainer) mapBoatContainer.style.display = 'none';
 
-      // Phase 1: Boat falls directly to the left progress bar
-      const leftBoatContainer = document.getElementById('left-boat-container');
-      gsap.fromTo(leftBoatContainer, 
-        { top: '-20%', left: '40px', opacity: 0 },
-        { top: '50%', left: '40px', opacity: 1, duration: 1.5, ease: "power2.out" }
+      // Show global progress container
+      gsap.to('#global-progress', { opacity: 1, duration: 0.5 });
+
+      // Phase 1: Boat falls to the top of the screen (as starting point for scroll)
+      gsap.fromTo('#global-boat',
+        { top: '-10%' },
+        { top: '10%', duration: 1.5, ease: "power2.out" }
       );
 
-      // Line grows down
-      const leftLine = document.getElementById('left-line');
-      gsap.fromTo(leftLine, 
-        { top: '0%', height: '0%' },
-        { height: '50%', duration: 1.5, delay: 0.5, ease: "power1.inOut" }
+      // Line grows down to bottom
+      gsap.fromTo('#global-line',
+        { height: '0%' },
+        { height: '100%', duration: 1.5, delay: 0.5, ease: "power1.inOut" }
       );
 
       // Phase 2: Highlight countries sequentially
@@ -174,13 +199,59 @@ new Chart(ctx, {
 });
 
 // --- Analysis Scroll Animations ---
-gsap.to('#scroll-boat', {
-  scrollTrigger: {
-    trigger: '#analysis',
-    start: "top top",
-    end: "bottom bottom",
-    scrub: true
-  },
-  y: "80vh",
-  ease: "none"
-});
+const sections = document.querySelectorAll('.analysis-section');
+const totalSections = sections.length;
+const globalProgress = document.getElementById('global-progress');
+
+// Create stops dynamically based on number of sections
+if (sections.length > 0) {
+  sections.forEach((sec, index) => {
+    const topPos = 10 + (80 / (totalSections - 1)) * index;
+
+    // Create the visual stop (custom marker)
+    const stopEl = document.createElement('div');
+    stopEl.className = 'scroll-stop';
+    stopEl.style.top = `${topPos}%`;
+    stopEl.innerHTML = '<img src="assets/img/custom-stop.svg" style="width:14px;height:14px;" alt="Stop" />';
+    globalProgress.appendChild(stopEl);
+
+    // Animate between stops
+    if (index > 0) {
+      const prevTop = 10 + (80 / (totalSections - 1)) * (index - 1);
+
+      // Animate Boat
+      gsap.fromTo('#global-boat',
+        { top: `${prevTop}%` },
+        {
+          top: `${topPos}%`,
+          scrollTrigger: {
+            trigger: sec,
+            start: "top bottom", // Starts when section top hits viewport bottom
+            end: "top top",      // Ends when section top hits viewport top
+            scrub: true
+          },
+          ease: "none"
+        }
+      );
+
+      // Animate Active Line
+      gsap.fromTo('#global-line-active',
+        { height: `${prevTop - 10}%` },
+        {
+          height: `${topPos - 10}%`,
+          scrollTrigger: {
+            trigger: sec,
+            start: "top bottom",
+            end: "top top",
+            scrub: true
+          },
+          ease: "none"
+        }
+      );
+    }
+  });
+
+  // Re-initialize icons for the newly added anchors
+  lucide.createIcons();
+}
+

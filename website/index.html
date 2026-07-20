@@ -75,15 +75,53 @@
         </svg>
       </div>
 
-      <button onclick="document.getElementById('journey').scrollIntoView({ behavior: 'smooth' })"
-        class="start-journey-btn">
+      <button class="start-journey-btn" id="start-journey-btn">
         Start the Journey
       </button>
     </div>
   </section>
 
+  <!-- Global Progress Bar (starts hidden) -->
+  <div id="global-progress">
+    <div id="global-line-bg"></div>
+    <div id="global-line-active"></div>
+    <div id="global-boat">
+      <div class="boat-bob">
+        <i data-lucide="sailboat" class="icon-blue" width="32" height="32" stroke-width="2"></i>
+      </div>
+    </div>
+  </div>
+
+  <section id="introduction">
+    <div class="journey-text-wrapper">
+      <h2 class="journey-title">The Journey Begins</h2>
+      <p class="journey-subtitle">
+        Starting in the Netherlands, exploring <br class="hide-mobile" />the vast archives of cultural artifacts.
+      </p>
+    </div>
+
+    <div class="intro-placeholder-col">
+      <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Europeana</h3>
+      <p>CH come tesoro da salvaguardare QUINDI digitalizziamo. Tra le varie iniziative Europeana. Qualcosa su
+        Europeana, cos'è cosa fa qualche NUMERO??? Non solo testo ma anche immagini, figure, boh. ANCHE
+        ABSTRACT</p>
+    </div>
+
+    <button class="intro-next-btn" id="intro-next-btn">
+      <span class="next-btn-text">Next</span>
+      <i data-lucide="arrow-down" width="20" height="20"></i>
+    </button>
+  </section>
+
   <!-- Map Journey Section -->
   <section id="journey">
+    <div class="journey-text-wrapper">
+      <h2 class="journey-title">Mapping<br /><span>the Data</span></h2>
+      <p class="journey-subtitle">
+        Visualizing the spread of artifacts across Europe.
+      </p>
+    </div>
+
     <div class="map-svg-wrapper">
       <svg id="map-svg" viewBox="0 0 800 600">
         <g class="countries" id="map-countries"></g>
@@ -97,40 +135,21 @@
       </svg>
     </div>
 
-    <!-- Absolute boat that moves to the left of the screen -->
-    <div id="left-boat-container">
-      <div id="left-boat">
-        <i data-lucide="sailboat" class="icon-blue" width="32" height="32" stroke-width="2"></i>
-      </div>
-    </div>
-    <div id="left-line"></div>
-
-    <button id="next-btn" onclick="document.getElementById('analysis').scrollIntoView({ behavior: 'smooth' })">
+    <button id="next-btn">
       <span class="next-btn-text">Next</span>
       <i data-lucide="arrow-down" width="20" height="20"></i>
     </button>
 
-    <div class="journey-text-wrapper">
-      <h2 class="journey-title">The Journey Begins</h2>
-      <p class="journey-subtitle">
-        Starting in the Netherlands, exploring <br class="hide-mobile" />the vast archives of cultural artifacts.
-      </p>
+    <div class="intro-placeholder-col">
+      <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Map Context</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat
+        molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
     </div>
   </section>
 
-  <!-- Analysis Section -->
-  <section id="analysis">
-    <div class="analysis-sticky-wrapper">
-
-      <!-- Fixed Progress Bar left side -->
-      <div class="progress-bar-container">
-        <div class="progress-bar-line"></div>
-        <div id="scroll-boat">
-          <div id="scroll-boat-inner">
-            <i data-lucide="sailboat" class="icon-blue" width="32" height="32" stroke-width="2"></i>
-          </div>
-        </div>
-      </div>
+  <!-- Analysis Section 1 -->
+  <section id="analysis" class="analysis-section">
+    <div class="analysis-wrapper">
 
       <div class="analysis-content-wrapper">
         <div class="analysis-grid">
@@ -139,11 +158,12 @@
               Tracing <br /> <span>the artifacts</span>
             </h2>
             <p class="analysis-subtitle">
-              Analyzing the volume of digital heritage across centuries.
+              QUANTO????
             </p>
             <p class="analysis-desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex
               ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
               fugiat nulla pariatur.
             </p>
@@ -151,6 +171,109 @@
 
           <div class="analysis-chart-col">
             <canvas id="analysisChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bridging Text Placeholder -->
+  <div class="bridge-section">
+    <div class="bridge-content">
+      <img src="assets/img/custom-stop.svg" class="bridge-icon" alt="Decorative Icon" />
+      <p>This is a bridging text. It serves as a narrative transition between the different stages of our journey
+        through the data. You can copy and reuse this block between any sections.</p>
+    </div>
+  </div>
+
+  <!-- Analysis Section 2 (Placeholder) -->
+  <section id="analysis-2" class="analysis-section">
+    <div class="analysis-wrapper">
+      <div class="analysis-content-wrapper">
+        <div class="analysis-grid">
+          <div class="analysis-text-col">
+            <h2 class="analysis-title">Deeper <br /> <span>insights</span></h2>
+            <p class="analysis-subtitle">
+              CHI?????
+            </p>
+            <p class="analysis-desc">Another section to test the scroll progress functionality.</p>
+          </div>
+          <div class="analysis-chart-col placeholder-chart-col">
+            <span class="placeholder-chart-text">Placeholder Chart</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Analysis Section 3 (Placeholder) -->
+  <section id="analysis-3" class="analysis-section">
+    <div class="analysis-wrapper">
+      <div class="analysis-content-wrapper">
+        <div class="analysis-grid">
+          <div class="analysis-text-col">
+            <h2 class="analysis-title">Deeper <br /> <span>insights</span></h2>
+            <p class="analysis-subtitle">
+              COSA?????
+            </p>
+            <p class="analysis-desc">Another section to test the scroll progress functionality.</p>
+          </div>
+          <div class="analysis-chart-col placeholder-chart-col">
+            <span class="placeholder-chart-text">Placeholder Chart</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Analysis Section 4 (Placeholder) -->
+  <section id="analysis-4" class="analysis-section">
+    <div class="analysis-wrapper">
+      <div class="analysis-content-wrapper">
+        <div class="analysis-grid">
+          <div class="analysis-text-col">
+            <h2 class="analysis-title">Final <br /> <span>findings</span></h2>
+            <p class="analysis-subtitle">
+              COME?????
+            </p>
+            <p class="analysis-desc">Final section to conclude the scroll.</p>
+          </div>
+          <div class="analysis-chart-col placeholder-chart-col">
+            <span class="placeholder-chart-text">Placeholder Chart</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conclusion Section -->
+  <section id="conclusion" class="conclusion-section">
+    <div class="sea-transition-top">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="sea-wave-svg-top">
+        <path d="M0,60 C150,110 350,10 500,60 C650,110 850,10 1000,60 C1150,110 1350,10 1500,60 L1500,120 L0,120 Z">
+        </path>
+      </svg>
+    </div>
+
+    <div class="conclusion-wrapper">
+      <div class="conclusion-grid">
+        <div class="conclusion-text-col">
+          <h2 class="conclusion-title">Emerging <br /> <span>from the depths</span></h2>
+          <p class="conclusion-subtitle">Reflecting on the journey</p>
+          <p class="conclusion-desc">
+            As we re-emerge from the sea of data, we bring with us new insights into the vast cultural heritage of
+            Europe. The patterns and connections discovered beneath the surface reveal a rich, interconnected history.
+          </p>
+        </div>
+
+        <div class="conclusion-stats-col">
+          <div class="stat-box">
+            <h4>Total Artifacts</h4>
+            <span class="stat-number">12,450+</span>
+          </div>
+          <div class="stat-box">
+            <h4>Centuries Spanned</h4>
+            <span class="stat-number">15th - 20th</span>
           </div>
         </div>
       </div>
@@ -180,9 +303,39 @@
 
       <div id="tab-content-team" class="tab-content">
         <h3 class="tab-subtitle">The Team</h3>
-        <div class="tab-text">
-          A multidisciplinary group of researchers, designers, and developers passionate about digital cultural heritage
-          and semantic web technologies.
+        <div class="team-cards-container">
+          <!-- Team Member 1 -->
+          <div class="team-card">
+            <div class="team-photo"><img src="assets/img/gambero_placeholder.jpeg" alt="Miriana"></div>
+            <h4 class="team-name">Miriana Pinto</h4>
+            <p class="team-role">Role Description</p>
+            <p class="team-desc">Short description of the team member.</p>
+            <a href=https://github.com/mir-pin" class="team-github" target="_blank">
+              <i data-lucide="github" width="16" height="16"></i> GitHub
+            </a>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="team-card">
+            <div class="team-photo"><img src="assets/img/stella_placeholder.jpeg" alt="Sara"></div>
+            <h4 class="team-name">Sara Roggiani</h4>
+            <p class="team-role">Role Description</p>
+            <p class="team-desc">Short description of the team member.</p>
+            <a href="https://github.com/sararoggi" class="team-github" target="_blank">
+              <i data-lucide="github" width="16" height="16"></i> GitHub
+            </a>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div class="team-card">
+            <div class="team-photo"><img src="assets/img/sardina_placeholder.jpeg" alt="Martina"></div>
+            <h4 class="team-name">Martina Uccheddu</h4>
+            <p class="team-role">Role Description</p>
+            <p class="team-desc">Short description of the team member.</p>
+            <a href="https://github.com/martinaucch" class="team-github" target="_blank">
+              <i data-lucide="github" width="16" height="16"></i> GitHub
+            </a>
+          </div>
         </div>
       </div>
 
@@ -191,6 +344,8 @@
         <p class="tab-text-credit">
           Data sourced from Europeana. All cultural artifacts remain the property of their respective institutions.
           This project uses Linked Open Data (LOD) principles to connect and display these resources.
+          Some icons designed by <a href="https://www.magnific.com" target="_blank"
+            rel="noopener noreferrer">Magnific</a>.
         </p>
       </div>
 
