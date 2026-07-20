@@ -108,8 +108,11 @@ button {
 }
 
 #hero-boat {
-  margin-bottom: 2rem;
+  margin-top: -4rem;
+  margin-bottom: -1rem;
   color: var(--primary-color);
+  position: relative;
+  z-index: 0;
 }
 
 .hero-title {
