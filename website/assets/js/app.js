@@ -115,21 +115,6 @@ function setupMapAnimations() {
       const mapBoatContainer = document.getElementById('map-boat-container');
       if (mapBoatContainer) mapBoatContainer.style.display = 'none';
 
-      // Show global progress container
-      gsap.to('#global-progress', { opacity: 1, duration: 0.5 });
-
-      // Phase 1: Boat falls to the top of the screen (as starting point for scroll)
-      gsap.fromTo('#global-boat',
-        { top: '-10%' },
-        { top: '10%', duration: 1.5, ease: "power2.out" }
-      );
-
-      // Line grows down to bottom
-      gsap.fromTo('#global-line',
-        { height: '0%' },
-        { height: '100%', duration: 1.5, delay: 0.5, ease: "power1.inOut" }
-      );
-
       // Phase 2: Highlight countries sequentially
       setTimeout(() => {
         HIGHLIGHTED_COUNTRIES.forEach((name, i) => {
@@ -199,20 +184,34 @@ new Chart(ctx, {
 });
 
 // --- Analysis Scroll Animations ---
-const sections = document.querySelectorAll('.analysis-section');
-const totalSections = sections.length;
+const progressSections = document.querySelectorAll('.analysis-section, #conclusion');
+const totalSections = progressSections.length;
 const globalProgress = document.getElementById('global-progress');
 
+// Progress bar visibility toggle
+ScrollTrigger.create({
+  trigger: '#analysis',
+  start: "top 60%", 
+  onEnter: () => gsap.to(globalProgress, { opacity: 1, duration: 0.5 }),
+  onLeaveBack: () => gsap.to(globalProgress, { opacity: 0, duration: 0.5 })
+});
+
 // Create stops dynamically based on number of sections
-if (sections.length > 0) {
-  sections.forEach((sec, index) => {
+if (totalSections > 0) {
+  progressSections.forEach((sec, index) => {
     const topPos = 10 + (80 / (totalSections - 1)) * index;
 
     // Create the visual stop (custom marker)
     const stopEl = document.createElement('div');
     stopEl.className = 'scroll-stop';
     stopEl.style.top = `${topPos}%`;
-    stopEl.innerHTML = '<img src="assets/img/custom-stop.svg" style="width:14px;height:14px;" alt="Stop" />';
+    
+    if (sec.id === 'conclusion') {
+      stopEl.innerHTML = '<i data-lucide="gem" width="24" height="24" stroke-width="3"></i>';
+    } else {
+      stopEl.innerHTML = '<i data-lucide="x" width="24" height="24" stroke-width="3"></i>';
+    }
+    
     globalProgress.appendChild(stopEl);
 
     // Animate between stops
@@ -227,7 +226,7 @@ if (sections.length > 0) {
           scrollTrigger: {
             trigger: sec,
             start: "top bottom", // Starts when section top hits viewport bottom
-            end: "top top",      // Ends when section top hits viewport top
+            end: "top 20%",      // Ends when section top reaches 20% down from viewport top
             scrub: true
           },
           ease: "none"
@@ -242,7 +241,7 @@ if (sections.length > 0) {
           scrollTrigger: {
             trigger: sec,
             start: "top bottom",
-            end: "top top",
+            end: "top 20%",
             scrub: true
           },
           ease: "none"
