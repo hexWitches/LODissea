@@ -1,0 +1,1439 @@
+{
+  "Q7406653": {
+    "instance_of": [
+      "specialized museum",
+      "museum of modern art",
+      "didactic museum",
+      "industry museum",
+      "archives",
+      "museum",
+      "specialized museum",
+      "museum of modern art",
+      "didactic museum",
+      "industry museum",
+      "archives",
+      "museum",
+      "specialized museum",
+      "museum of modern art",
+      "didactic museum",
+      "industry museum",
+      "archives",
+      "museum"
+    ],
+    "field_of_work": [
+      "modern art",
+      "modern art",
+      "modern art",
+      "modern art",
+      "modern art",
+      "modern art",
+      "fashion",
+      "fashion",
+      "fashion",
+      "fashion",
+      "fashion",
+      "fashion",
+      "museology",
+      "museology",
+      "museology",
+      "museology",
+      "museology",
+      "museology"
+    ]
+  },
+  "Q655507": {
+    "instance_of": [
+      "collection",
+      "photo library",
+      "archives",
+      "collection",
+      "photo library",
+      "archives",
+      "collection",
+      "photo library",
+      "archives"
+    ],
+    "field_of_work": [
+      "archives",
+      "archives",
+      "archives",
+      "publication",
+      "publication",
+      "publication",
+      "long-term preservation",
+      "long-term preservation",
+      "long-term preservation"
+    ]
+  },
+  "Q3330623": {
+    "instance_of": [
+      "museum of a public entity",
+      "library of an Italian territorial body",
+      "specialized museum",
+      "music museum",
+      "music library",
+      "archives"
+    ],
+    "field_of_work": [
+      "Arts and recreation",
+      "Arts and recreation",
+      "Arts and recreation",
+      "Arts and recreation",
+      "Arts and recreation",
+      "Arts and recreation"
+    ]
+  },
+  "Q3785211": {
+    "instance_of": [
+      "government agency",
+      "archives"
+    ],
+    "field_of_work": [
+      "historic preservation",
+      "historic preservation"
+    ]
+  },
+  "Q113515616": {
+    "instance_of": [
+      "special library"
+    ],
+    "field_of_work": [
+      "Arts and recreation"
+    ]
+  },
+  "Q131262": {
+    "instance_of": [
+      "open-access publisher",
+      "public university"
+    ],
+    "field_of_work": []
+  },
+  "Q163255": {
+    "instance_of": [
+      "botanical museum",
+      "herbarium",
+      "botanical garden"
+    ],
+    "field_of_work": []
+  },
+  "Q170109": {
+    "instance_of": [
+      "United Nations Depository Library",
+      "universal library",
+      "state library of Germany"
+    ],
+    "field_of_work": []
+  },
+  "Q182542": {
+    "instance_of": [
+      "national archives",
+      "national library"
+    ],
+    "field_of_work": []
+  },
+  "Q193510": {
+    "instance_of": [
+      "university"
+    ],
+    "field_of_work": []
+  },
+  "Q193563": {
+    "instance_of": [
+      "catalog",
+      "publishing house",
+      "organization",
+      "national library"
+    ],
+    "field_of_work": []
+  },
+  "Q213678": {
+    "instance_of": [
+      "Departments of the Roman Curia",
+      "office of the Roman Curia",
+      "national library"
+    ],
+    "field_of_work": []
+  },
+  "Q256507": {
+    "instance_of": [
+      "United Nations Depository Library",
+      "universal library",
+      "reference library",
+      "research library",
+      "state library of Germany"
+    ],
+    "field_of_work": []
+  },
+  "Q477503": {
+    "instance_of": [
+      "museum of decorative arts"
+    ],
+    "field_of_work": []
+  },
+  "Q524289": {
+    "instance_of": [
+      "higher education institution",
+      "school"
+    ],
+    "field_of_work": []
+  },
+  "Q645663": {
+    "instance_of": [
+      "open-access publisher",
+      "public university",
+      "archives"
+    ],
+    "field_of_work": []
+  },
+  "Q880794": {
+    "instance_of": [
+      "open-access publisher",
+      "scientific collection",
+      "academic library",
+      "building"
+    ],
+    "field_of_work": []
+  },
+  "Q1056108": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q1092493": {
+    "instance_of": [
+      "educational institution",
+      "cinematheque",
+      "movie theater"
+    ],
+    "field_of_work": []
+  },
+  "Q1347047": {
+    "instance_of": [
+      "ministry of culture",
+      "ministry of Italy"
+    ],
+    "field_of_work": []
+  },
+  "Q2097304": {
+    "instance_of": [
+      "business"
+    ],
+    "field_of_work": []
+  },
+  "Q2327183": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q3315310": {
+    "instance_of": [
+      "ministry"
+    ],
+    "field_of_work": []
+  },
+  "Q3378907": {
+    "instance_of": [
+      "cultural center"
+    ],
+    "field_of_work": []
+  },
+  "Q3639582": {
+    "instance_of": [
+      "archives",
+      "public library"
+    ],
+    "field_of_work": []
+  },
+  "Q3800495": {
+    "instance_of": [
+      "web portal"
+    ],
+    "field_of_work": []
+  },
+  "Q3803707": {
+    "instance_of": [
+      "publishing house",
+      "government agency"
+    ],
+    "field_of_work": []
+  },
+  "Q3867983": {
+    "instance_of": [
+      "specialized museum",
+      "didactic museum",
+      "private museum",
+      "archives",
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q6382871": {
+    "instance_of": [
+      "state public library",
+      "national library"
+    ],
+    "field_of_work": []
+  },
+  "Q6700142": {
+    "instance_of": [
+      "archives",
+      "foundation"
+    ],
+    "field_of_work": []
+  },
+  "Q22138571": {
+    "instance_of": [
+      "state public library",
+      "public library"
+    ],
+    "field_of_work": []
+  },
+  "Q24937404": {
+    "instance_of": [
+      "conservation library",
+      "state public library",
+      "archives"
+    ],
+    "field_of_work": []
+  },
+  "Q25168251": {
+    "instance_of": [
+      "archives",
+      "foundation"
+    ],
+    "field_of_work": []
+  },
+  "Q45031456": {
+    "instance_of": [
+      "State Archive"
+    ],
+    "field_of_work": []
+  },
+  "Q54913959": {
+    "instance_of": [
+      "public library"
+    ],
+    "field_of_work": []
+  },
+  "Q55374929": {
+    "instance_of": [
+      "paper museum",
+      "history museum",
+      "technology museum",
+      "industry museum",
+      "private museum",
+      "specialized museum"
+    ],
+    "field_of_work": []
+  },
+  "Q55678136": {
+    "instance_of": [
+      "pinacotheca"
+    ],
+    "field_of_work": []
+  },
+  "Q75266481": {
+    "instance_of": [
+      "academic department",
+      "archives"
+    ],
+    "field_of_work": []
+  },
+  "Q81662663": {
+    "instance_of": [
+      "library branch",
+      "public library"
+    ],
+    "field_of_work": []
+  },
+  "Q109806463": {
+    "instance_of": [
+      "organization",
+      "municipality"
+    ],
+    "field_of_work": []
+  },
+  "Q116757990": {
+    "instance_of": [
+      "archives"
+    ],
+    "field_of_work": []
+  },
+  "Q117024700": {
+    "instance_of": [
+      "oil tanker"
+    ],
+    "field_of_work": []
+  },
+  "Q121266141": {
+    "instance_of": [
+      "aggregator"
+    ],
+    "field_of_work": []
+  },
+  "Q124541686": {
+    "instance_of": [
+      "specialized database",
+      "online database"
+    ],
+    "field_of_work": []
+  },
+  "Q125267404": {
+    "instance_of": [
+      "Unité Propre de Recherche"
+    ],
+    "field_of_work": []
+  },
+  "Q16144": {
+    "instance_of": [
+      "province of Italy"
+    ],
+    "field_of_work": []
+  },
+  "Q19675": {
+    "instance_of": [
+      "archaeological museum",
+      "art museum"
+    ],
+    "field_of_work": []
+  },
+  "Q19874": {
+    "instance_of": [
+      "specialized museum",
+      "film museum",
+      "cinematheque",
+      "private museum"
+    ],
+    "field_of_work": []
+  },
+  "Q23402": {
+    "instance_of": [
+      "national museum",
+      "art museum"
+    ],
+    "field_of_work": []
+  },
+  "Q27302": {
+    "instance_of": [
+      "archival library",
+      "bibliographic database",
+      "national library"
+    ],
+    "field_of_work": []
+  },
+  "Q1813740": {
+    "instance_of": [
+      "educational institution",
+      "nonprofit organization",
+      "research institute"
+    ],
+    "field_of_work": [
+      "country studies",
+      "country studies",
+      "country studies"
+    ]
+  },
+  "Q1024362": {
+    "instance_of": [
+      "Public Research Organization"
+    ],
+    "field_of_work": [
+      "research"
+    ]
+  },
+  "Q531772": {
+    "instance_of": [
+      "cultural foundation"
+    ],
+    "field_of_work": [
+      "cultural heritage"
+    ]
+  },
+  "Q153770": {
+    "instance_of": [
+      "public television station",
+      "broadcaster",
+      "mass media"
+    ],
+    "field_of_work": []
+  },
+  "Q219694": {
+    "instance_of": [
+      "public university"
+    ],
+    "field_of_work": []
+  },
+  "Q219989": {
+    "instance_of": [
+      "Wikimedia information list",
+      "national academy",
+      "academy of sciences"
+    ],
+    "field_of_work": []
+  },
+  "Q233098": {
+    "instance_of": [
+      "natural history museum",
+      "university museum",
+      "research institute"
+    ],
+    "field_of_work": []
+  },
+  "Q316329": {
+    "instance_of": [
+      "military museum"
+    ],
+    "field_of_work": []
+  },
+  "Q323270": {
+    "instance_of": [
+      "state library of Germany",
+      "academic library"
+    ],
+    "field_of_work": []
+  },
+  "Q452685": {
+    "instance_of": [
+      "puppetry museum",
+      "city museum",
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q637248": {
+    "instance_of": [
+      "Museum of the Italian Ministry of Culture",
+      "Istituto museale ad autonomia speciale",
+      "Italian national museum",
+      "archaeological museum",
+      "heritage site"
+    ],
+    "field_of_work": []
+  },
+  "Q663820": {
+    "instance_of": [
+      "business",
+      "heritage library",
+      "research library",
+      "library building"
+    ],
+    "field_of_work": []
+  },
+  "Q678082": {
+    "instance_of": [
+      "art museum"
+    ],
+    "field_of_work": []
+  },
+  "Q695302": {
+    "instance_of": [
+      "federal agency of Germany",
+      "research institute"
+    ],
+    "field_of_work": []
+  },
+  "Q750403": {
+    "instance_of": [
+      "main library",
+      "public library",
+      "national library"
+    ],
+    "field_of_work": []
+  },
+  "Q799084": {
+    "instance_of": [
+      "regional library",
+      "art collection",
+      "library"
+    ],
+    "field_of_work": []
+  },
+  "Q799168": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q821048": {
+    "instance_of": [
+      "regional economic archive",
+      "nonprofit organization"
+    ],
+    "field_of_work": []
+  },
+  "Q872896": {
+    "instance_of": [
+      "academic library"
+    ],
+    "field_of_work": []
+  },
+  "Q882079": {
+    "instance_of": [
+      "technology museum",
+      "automobile museum",
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q937608": {
+    "instance_of": [
+      "maritime museum"
+    ],
+    "field_of_work": []
+  },
+  "Q1005545": {
+    "instance_of": [
+      "federal public research facility in Germany",
+      "higher federal authority"
+    ],
+    "field_of_work": []
+  },
+  "Q1122595": {
+    "instance_of": [
+      "museum building",
+      "publishing house",
+      "natural history museum",
+      "nonprofit organization"
+    ],
+    "field_of_work": []
+  },
+  "Q1204536": {
+    "instance_of": [
+      "central specialist library",
+      "research institute",
+      "national library",
+      "library"
+    ],
+    "field_of_work": []
+  },
+  "Q1347027": {
+    "instance_of": [
+      "online database",
+      "specialized database"
+    ],
+    "field_of_work": []
+  },
+  "Q1592523": {
+    "instance_of": [
+      "historic house museum",
+      "art museum",
+      "Museo del Prado",
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q1722480": {
+    "instance_of": [
+      "union catalog",
+      "organization"
+    ],
+    "field_of_work": []
+  },
+  "Q1770764": {
+    "instance_of": [
+      "academic library"
+    ],
+    "field_of_work": []
+  },
+  "Q1792563": {
+    "instance_of": [
+      "destroyed building or structure"
+    ],
+    "field_of_work": []
+  },
+  "Q1792610": {
+    "instance_of": [
+      "art collection"
+    ],
+    "field_of_work": []
+  },
+  "Q1802138": {
+    "instance_of": [
+      "regional library"
+    ],
+    "field_of_work": []
+  },
+  "Q1954632": {
+    "instance_of": [
+      "archaeological museum",
+      "art museum"
+    ],
+    "field_of_work": []
+  },
+  "Q2003976": {
+    "instance_of": [
+      "open-access publisher",
+      "public university"
+    ],
+    "field_of_work": []
+  },
+  "Q2496275": {
+    "instance_of": [
+      "university archive"
+    ],
+    "field_of_work": []
+  },
+  "Q2496307": {
+    "instance_of": [
+      "academic library"
+    ],
+    "field_of_work": []
+  },
+  "Q2496308": {
+    "instance_of": [
+      "academic library",
+      "library"
+    ],
+    "field_of_work": []
+  },
+  "Q2496316": {
+    "instance_of": [
+      "academic library"
+    ],
+    "field_of_work": []
+  },
+  "Q2560329": {
+    "instance_of": [
+      "design museum",
+      "archives",
+      "nonprofit organization",
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q6445022": {
+    "instance_of": [
+      "art library",
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q22704014": {
+    "instance_of": [
+      "academic publisher",
+      "government agency"
+    ],
+    "field_of_work": []
+  },
+  "Q23038399": {
+    "instance_of": [
+      "archives"
+    ],
+    "field_of_work": []
+  },
+  "Q28657247": {
+    "instance_of": [
+      "collection",
+      "archives"
+    ],
+    "field_of_work": []
+  },
+  "Q28737484": {
+    "instance_of": [
+      "museum archive"
+    ],
+    "field_of_work": []
+  },
+  "Q28738121": {
+    "instance_of": [
+      "research library",
+      "library"
+    ],
+    "field_of_work": []
+  },
+  "Q28738456": {
+    "instance_of": [
+      "museum library",
+      "library"
+    ],
+    "field_of_work": []
+  },
+  "Q41328625": {
+    "instance_of": [
+      "ayuntamiento"
+    ],
+    "field_of_work": []
+  },
+  "Q48983356": {
+    "instance_of": [
+      "digital library"
+    ],
+    "field_of_work": []
+  },
+  "Q56855672": {
+    "instance_of": [
+      "archives"
+    ],
+    "field_of_work": []
+  },
+  "Q43452": {
+    "instance_of": [
+      "open-access publisher",
+      "public university",
+      "organization"
+    ],
+    "field_of_work": []
+  },
+  "Q50662": {
+    "instance_of": [
+      "comprehensive university",
+      "public university",
+      "local Internet registry"
+    ],
+    "field_of_work": []
+  },
+  "Q1417841": {
+    "instance_of": [
+      "LGBT archive"
+    ],
+    "field_of_work": [
+      "LGBTQ history"
+    ]
+  },
+  "Q7708470": {
+    "instance_of": [
+      "algemeen nut beogende instelling",
+      "research institute",
+      "museum",
+      "algemeen nut beogende instelling",
+      "research institute",
+      "museum"
+    ],
+    "field_of_work": [
+      "textile",
+      "textile",
+      "textile",
+      "costume",
+      "costume",
+      "costume"
+    ]
+  },
+  "Q25183395": {
+    "instance_of": [
+      "type of museum"
+    ],
+    "field_of_work": [
+      "textile"
+    ]
+  },
+  "Q1667757": {
+    "instance_of": [
+      "archives",
+      "archives",
+      "research institute",
+      "research institute",
+      "archives",
+      "research institute"
+    ],
+    "field_of_work": [
+      "social history",
+      "history of communism",
+      "social history",
+      "history of communism",
+      "history of anarchism",
+      "history of anarchism"
+    ]
+  },
+  "Q461": {
+    "instance_of": [
+      "web archive",
+      "nonprofit organization",
+      "digital library",
+      "website",
+      "web archive",
+      "nonprofit organization",
+      "digital library",
+      "website"
+    ],
+    "field_of_work": [
+      "web archiving",
+      "web archiving",
+      "web archiving",
+      "web archiving",
+      "digital preservation",
+      "digital preservation",
+      "digital preservation",
+      "digital preservation"
+    ]
+  },
+  "Q2051299": {
+    "instance_of": [
+      "organization",
+      "organization",
+      "organization"
+    ],
+    "field_of_work": [
+      "architectural heritage monument",
+      "architecture preservation",
+      "château"
+    ]
+  },
+  "Q165366": {
+    "instance_of": [
+      "historic house museum",
+      "war memorial"
+    ],
+    "field_of_work": []
+  },
+  "Q190804": {
+    "instance_of": [
+      "history museum",
+      "production company",
+      "national museum",
+      "data set",
+      "art museum"
+    ],
+    "field_of_work": []
+  },
+  "Q386570": {
+    "instance_of": [
+      "art museum",
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q464354": {
+    "instance_of": [
+      "nonprofit organization",
+      "art museum"
+    ],
+    "field_of_work": []
+  },
+  "Q524249": {
+    "instance_of": [
+      "archaeological museum",
+      "museum building",
+      "national museum",
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q638395": {
+    "instance_of": [
+      "university library"
+    ],
+    "field_of_work": []
+  },
+  "Q641676": {
+    "instance_of": [
+      "academic publisher",
+      "natural history museum",
+      "national museum",
+      "government agency",
+      "organization",
+      "research institute"
+    ],
+    "field_of_work": []
+  },
+  "Q759169": {
+    "instance_of": [
+      "science museum"
+    ],
+    "field_of_work": []
+  },
+  "Q848313": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q976019": {
+    "instance_of": [
+      "monument",
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q1127079": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q1136338": {
+    "instance_of": [
+      "national museum",
+      "art museum"
+    ],
+    "field_of_work": []
+  },
+  "Q1235594": {
+    "instance_of": [
+      "open-access publisher",
+      "educational organization",
+      "public university"
+    ],
+    "field_of_work": []
+  },
+  "Q1640731": {
+    "instance_of": [
+      "open-access publisher",
+      "polytechnic",
+      "university"
+    ],
+    "field_of_work": []
+  },
+  "Q1820897": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q1857081": {
+    "instance_of": [
+      "national archives"
+    ],
+    "field_of_work": []
+  },
+  "Q1860378": {
+    "instance_of": [
+      "national museum"
+    ],
+    "field_of_work": []
+  },
+  "Q1893708": {
+    "instance_of": [
+      "archives",
+      "research institute"
+    ],
+    "field_of_work": []
+  },
+  "Q1954331": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q1954426": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q2130225": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q2177577": {
+    "instance_of": [
+      "château",
+      "castle"
+    ],
+    "field_of_work": []
+  },
+  "Q2303432": {
+    "instance_of": [
+      "collection",
+      "open-access publisher",
+      "public university",
+      "organization",
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q2451336": {
+    "instance_of": [
+      "digital library"
+    ],
+    "field_of_work": []
+  },
+  "Q3025975": {
+    "instance_of": [
+      "open-access repository",
+      "bibliographic database",
+      "digital library"
+    ],
+    "field_of_work": []
+  },
+  "Q3330685": {
+    "instance_of": [
+      "national museum",
+      "art museum"
+    ],
+    "field_of_work": []
+  },
+  "Q3410548": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q4400690": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q5727926": {
+    "instance_of": [
+      "digital library"
+    ],
+    "field_of_work": []
+  },
+  "Q6974445": {
+    "instance_of": [
+      "replica of a cave",
+      "national museum"
+    ],
+    "field_of_work": []
+  },
+  "Q8963091": {
+    "instance_of": [
+      "documentation centre",
+      "open-access publisher",
+      "special library",
+      "archives",
+      "foundation"
+    ],
+    "field_of_work": []
+  },
+  "Q9046889": {
+    "instance_of": [
+      "open-access publisher",
+      "natural history museum",
+      "science museum"
+    ],
+    "field_of_work": []
+  },
+  "Q15874971": {
+    "instance_of": [
+      "archives"
+    ],
+    "field_of_work": []
+  },
+  "Q17605261": {
+    "instance_of": [
+      "château"
+    ],
+    "field_of_work": []
+  },
+  "Q18542292": {
+    "instance_of": [
+      "theatre museum"
+    ],
+    "field_of_work": []
+  },
+  "Q18600731": {
+    "instance_of": [
+      "art collection",
+      "organization"
+    ],
+    "field_of_work": []
+  },
+  "Q24943800": {
+    "instance_of": [
+      "cultural foundation"
+    ],
+    "field_of_work": []
+  },
+  "Q28151370": {
+    "instance_of": [
+      "musical instrument museum",
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q29221805": {
+    "instance_of": [
+      "human"
+    ],
+    "field_of_work": []
+  },
+  "Q99346823": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q107207056": {
+    "instance_of": [
+      "family name"
+    ],
+    "field_of_work": []
+  },
+  "Q110985372": {
+    "instance_of": [
+      "cultural association",
+      "network organization",
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q120098072": {
+    "instance_of": [
+      "literary work"
+    ],
+    "field_of_work": []
+  },
+  "Q123146233": {
+    "instance_of": [
+      "museum building"
+    ],
+    "field_of_work": []
+  },
+  "Q3052794": {
+    "instance_of": [
+      "educational organization",
+      "foundation",
+      "organization",
+      "educational organization",
+      "foundation",
+      "organization",
+      "educational organization",
+      "foundation",
+      "organization",
+      "educational organization",
+      "foundation",
+      "organization"
+    ],
+    "field_of_work": [
+      "science",
+      "science",
+      "science",
+      "education",
+      "education",
+      "education",
+      "art patronage",
+      "art patronage",
+      "art patronage",
+      "philanthropy",
+      "philanthropy",
+      "philanthropy"
+    ]
+  },
+  "Q55754311": {
+    "instance_of": [
+      "organization",
+      "organization"
+    ],
+    "field_of_work": [
+      "fashion",
+      "heritage"
+    ]
+  },
+  "Q679527": {
+    "instance_of": [
+      "art museum"
+    ],
+    "field_of_work": [
+      "design"
+    ]
+  },
+  "Q98962037": {
+    "instance_of": [
+      "history museum",
+      "history museum"
+    ],
+    "field_of_work": [
+      "cultural heritage",
+      "Elisabeth Orphanage"
+    ]
+  },
+  "Q212459": {
+    "instance_of": [
+      "national museum",
+      "cultural heritage",
+      "art museum"
+    ],
+    "field_of_work": []
+  },
+  "Q221092": {
+    "instance_of": [
+      "national museum",
+      "art museum"
+    ],
+    "field_of_work": []
+  },
+  "Q245966": {
+    "instance_of": [
+      "public library",
+      "national library"
+    ],
+    "field_of_work": []
+  },
+  "Q260913": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q368643": {
+    "instance_of": [
+      "open-access publisher",
+      "public university",
+      "institution",
+      "organization"
+    ],
+    "field_of_work": []
+  },
+  "Q408081": {
+    "instance_of": [
+      "military museum"
+    ],
+    "field_of_work": []
+  },
+  "Q595668": {
+    "instance_of": [
+      "Catholic university"
+    ],
+    "field_of_work": []
+  },
+  "Q630086": {
+    "instance_of": [
+      "municipal library",
+      "cultural heritage",
+      "public library"
+    ],
+    "field_of_work": []
+  },
+  "Q876935": {
+    "instance_of": [
+      "supreme court"
+    ],
+    "field_of_work": []
+  },
+  "Q1422903": {
+    "instance_of": [
+      "public research university",
+      "open-access publisher",
+      "academic archive",
+      "organization"
+    ],
+    "field_of_work": []
+  },
+  "Q1499958": {
+    "instance_of": [
+      "art museum"
+    ],
+    "field_of_work": []
+  },
+  "Q1514270": {
+    "instance_of": [
+      "open-air museum",
+      "nonprofit organization"
+    ],
+    "field_of_work": []
+  },
+  "Q1659559": {
+    "instance_of": [
+      "transport museum"
+    ],
+    "field_of_work": []
+  },
+  "Q1869397": {
+    "instance_of": [
+      "voluntary association",
+      "building",
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q2112422": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q3383883": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q13743314": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q18462527": {
+    "instance_of": [
+      "periodical library"
+    ],
+    "field_of_work": []
+  },
+  "Q18654836": {
+    "instance_of": [
+      "archaeology",
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q27949674": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q47472417": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q56459575": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q56459673": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q73280622": {
+    "instance_of": [
+      "municipal library"
+    ],
+    "field_of_work": []
+  },
+  "Q92885879": {
+    "instance_of": [
+      "museum network",
+      "historical society"
+    ],
+    "field_of_work": []
+  },
+  "Q98893866": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q98893873": {
+    "instance_of": [
+      "museum"
+    ],
+    "field_of_work": []
+  },
+  "Q98894806": {
+    "instance_of": [
+      "historical society"
+    ],
+    "field_of_work": []
+  },
+  "Q98895215": {
+    "instance_of": [
+      "historical society"
+    ],
+    "field_of_work": []
+  },
+  "Q98907725": {
+    "instance_of": [
+      "historical society"
+    ],
+    "field_of_work": []
+  },
+  "Q109675487": {
+    "instance_of": [
+      "organization"
+    ],
+    "field_of_work": []
+  }
+}

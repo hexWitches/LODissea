@@ -1,0 +1,3432 @@
+{
+  "Cinecittà - Luce": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Historical Archive of the Presidency of the Republic": {
+    "qid": "Q116757990",
+    "description": "collection consisting essentially of the documentation received and produced by the President of the Republic of Portugal and by the respective bodies and support services",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "National Central Library of Rome": {
+    "qid": "Q6382871",
+    "description": "public national library in Rome, Italy",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Internet Culturale": {
+    "qid": "Q3800495",
+    "description": "Istituto Centrale per il Catalogo Unico web portal",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Department of Life Sciences, University of Trieste": {
+    "qid": "Q75266481",
+    "description": "university department of the University of Trieste",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Epigraphic Database Roma": {
+    "qid": "Q124541686",
+    "description": null,
+    "desc_lang": null,
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Cineteca di Bologna": {
+    "qid": "Q1092493",
+    "description": "Film archive in Bologna, Italy",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Central Institute for the Union Catalogue of Italian Libraries": {
+    "qid": "Q3803707",
+    "description": "Italian government agency",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Central Museum of the Risorgimento in Rome": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Luigi Micheletti Foundation": {
+    "qid": "Q25168251",
+    "description": "library",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Experimental Cinematography Center": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Epigraphic Dabatase Bari": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "European Library of Information and Culture": {
+    "qid": "Q3639582",
+    "description": "library in Milan",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Marciana National Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Turin Gallery for Modern and Contemporary Art": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Braidense National Library": {
+    "qid": "Q55678136",
+    "description": "museum in Italy",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Library of the S. Pietro a Majella Conservatory": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Rossimoda Shoe Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Provincial Library Magna Capitana": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Estense University Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Missoni": {
+    "qid": "Q117024700",
+    "description": "crude oil tanker built in 2005",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Photographic Archive of the Civic Museums of Turin": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "New Manuscript Library, Veneto Region": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Pitti Immagine": {
+    "qid": "Q2097304",
+    "description": "trade fair in Italy",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Galileo Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "The Central National Library of Florence": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Digital Library Trentino": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "University Library of Genova": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Opera Institute of the Italian Vocabulary": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Museo della Carta di Pescia": {
+    "qid": "Q55374929",
+    "description": "museum in Pescia, Italy",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Marucelliana Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "University Library Of Pisa": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "University of Padua": {
+    "qid": "Q193510",
+    "description": "university in Italy",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Madama Palace": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "University of Pisa": {
+    "qid": "Q645663",
+    "description": "Italian public research university located in Pisa",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "University of Padua - Botanical Garden Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Modern and Contemporary History Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Prato Textile Museum": {
+    "qid": "Q3867983",
+    "description": "museum in Prato, Italy",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Casanatense Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Querini Stampalia Foundation": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Palatine Library": {
+    "qid": "Q54913959",
+    "description": "public library in Blackpool, England",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "State Archives of Campobasso": {
+    "qid": "Q45031456",
+    "description": "state archive in Italy",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Promoter Digital Gallery": {
+    "qid": "Q121266141",
+    "description": null,
+    "desc_lang": null,
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Pitti Palace - Museum of Costume and Fashion": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Alessandrina University Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Museum of Oriental Art": {
+    "qid": "Q1056108",
+    "description": "art museum in Moscow, Russia",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Brixiana": {
+    "qid": "Q16144",
+    "description": "province of Italy",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Superintendence for Cultural Heritage of the Autonomous Province of Trento": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "The Institute of Heritage Sciences": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Biblioteca Sportiva Nazionale": {
+    "qid": "Q113515616",
+    "description": "special library in Italy",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "State Library of the National Monument of Montecassino": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Library of the Cherubini Conservatory of Music": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Library De Gemmis": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "University of Bologna": {
+    "qid": "Q131262",
+    "description": "university in Bologna, Italy",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "GoTellGo Cultural Association": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Turin National University Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Polytecnic University of Milan - Computer Vision & Reverse Engineering Lab": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Byterfly": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Library of Archeology and History Of Art": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Library of Archeology and History of Art": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "National Library of Potenza": {
+    "qid": "Q22138571",
+    "description": "Italian State public library",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Salvatore Ferragamo Museum": {
+    "qid": "Q7406653",
+    "description": "Fashion Museum in Italy",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Luigi Sturzo Institute": {
+    "qid": "Q6700142",
+    "description": "Italian foundation",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Veneto Region, The Music Fund of St. Mary of Consolation in Venice": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "National Library of the Girolamini Oratory": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Pasquale Albino Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Institute of Musical Studies Luigi Boccherini": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Municipality of Macerata": {
+    "qid": "Q109806463",
+    "description": "administrative body which administers the city of Macerata, Italy",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Provincial Library of Brindisi": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "National Library of Cosenza": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Provincial Library Nicola Bernardini": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "State Library of Lucca": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Alinari Foundation for Photography": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Rossini Foundation": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Augusta Municipal Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Public Library Pietro Acclavio": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Cultural Hub of the Museums, Libraries and Archives - Bassano del Grappa": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Angelo Mai Civic Library and Municipal Historical Archives": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "University Library of Pavia": {
+    "qid": "Q24937404",
+    "description": "library in Pavia, Italy",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "National Library of Attilio Hortis": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Library Charitas of San Francesco di Paola": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "AMS Historica Bologna": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Franca Rame - Dario Fo Archive": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Municipal Library Giovanni Bovio": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Luigi Einaudi Foundation Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "The Regional Archives Koper": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "National Museum of Cinema": {
+    "qid": "Q19874",
+    "description": "Italian motion picture museum",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Museum of Agricultural Sciences": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Roman Philharmonic Academy": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Vatican Library": {
+    "qid": "Q213678",
+    "description": "library of the Holy See",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Institute of Information Science and Technologies 'Alessandro Faedo'": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Luigi Chiarini Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Archive of the Donizetti Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Library of the Institute for the History of Resistance and Contemporary Society": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "National Library of Bari": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "International Museum and Library of Music": {
+    "qid": "Q3330623",
+    "description": "music library and museum in Bologna, Italy",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Library of Astronomical Observatory of Capodimonte": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "CISA -Interdipartimental Center for Archaeology": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "Alfonso Rendano Municipal Theater Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "State Library of Cremona": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "it"
+  },
+  "National Library of France": {
+    "qid": "Q193563",
+    "description": "national library of France in Paris",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Media Library of Architecture and Heritage": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Natural History Museum in Paris": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Ministry of Culture": {
+    "qid": "Q1347047",
+    "description": "Italian government ministry for culture",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Historical Monuments: Regional Conservation": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Ministry of Culture and Communication, Regional Archaeology Service": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "National Audiovisual Institute France": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Interuniversity Health Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Palais Galliera - Musée de la Mode de la Ville de Paris": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Mobilier National Collections": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Center for Research in Ethnomusicology": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "National and University Library of Strasbourg": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "House Culture Yiddish": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Museum of Decorative Arts": {
+    "qid": "Q477503",
+    "description": "museum of Decorative Arts in Berlin",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Philharmonie de Paris": {
+    "qid": "Q3378907",
+    "description": "concert hall in Paris, France",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "National Archives of France": {
+    "qid": "Q182542",
+    "description": "national archives of France",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Rhône-Alpes Laboratory for Historical Research": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Library of the Alliance Israélite Universelle": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "The Paris Observatory Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Departmental Units of Architecture and Heritage": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "PETRAE - AUSONIUS": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "House for the Social Sciences and Humanities of Dijon": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Occitan Media Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "National Archeology Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "National Conservatory of Arts and Crafts": {
+    "qid": "Q524289",
+    "description": "French engineering school founded in 1794",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Centre for Research on Sound Space and urban environment": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Models and Simulations for Architecture and Heritage": {
+    "qid": "Q125267404",
+    "description": "Research Unit of the CNRS Humanities and Social Sciences, created in 2024. Its activities intersect two emerging fields, heritage sciences and data sciences, and focus on the design and development of ‘highly digital’ methods for heritage assets.",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Bibracte EPCC": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Babord-Num": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Virtual Humanist Libraries, Tours University": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Media library at Centre National de la Danse": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Archaeological Society of Bordeaux": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Clermont Library": {
+    "qid": "Q81662663",
+    "description": "public library in Clermont, Queensland, Australia",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Virtual library on the first socialisms": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Conservatory of the Gironde Estuary": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Pôle de la Mémoire Locale": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "TheFactStories": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Institute of Computer Science - Foundation for Research and Technology Hellas": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Cinémémoire - Amateur Film Library of Marseille": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Ministry of Reconstruction and Urban Planning": {
+    "qid": "Q3315310",
+    "description": null,
+    "desc_lang": null,
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "National Customs Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "In Video Veritas": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Louvre": {
+    "qid": "Q19675",
+    "description": "art and archeology museum in Paris, France",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Orsay Museum": {
+    "qid": "Q23402",
+    "description": "art museum in Paris, France",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Centre Pompidou - National museum for modern art - Industrial Design Centre": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Heritage Malta": {
+    "qid": "Q3785211",
+    "description": "the Maltese national agency for museums, conservation practice and cultural heritage",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Museum of Fine Arts in Lyon": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "National Centre for Prehistory": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "National Monuments Center": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Palace of Versailles and Trianon": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Bavarian State Library": {
+    "qid": "Q256507",
+    "description": "state library of the Free State of Bavaria",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Deutsche Fotothek": {
+    "qid": "Q655507",
+    "description": "universal archive for art and cultural history of the Saxon State and University Library, Dresden, Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "State Archives of Baden-Württemberg": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "German Documentation Center for Art History - Marburg Picture Index": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "German National Library": {
+    "qid": "Q27302",
+    "description": "central archival library and national bibliographic centre for the Federal Republic of Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Berlin-Dahlem Botanical Garden and Botanical Museum": {
+    "qid": "Q163255",
+    "description": "Botanical garden and museum located in Berlin",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Library of the Friedrich Ebert Foundation": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Museum of City History Leipzig": {
+    "qid": "Q2327183",
+    "description": "museum in Leipzig, Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Berlin State Library": {
+    "qid": "Q170109",
+    "description": "state library and heritage institution in Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Museum of Architecture at Berlin Institute of Technology": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Archives of Social Democracy": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "State and University Library Hamburg Carl von Ossietzky": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Heidelberg University Library": {
+    "qid": "Q880794",
+    "description": "central scientific library providing literature and information for the whole University of Heidelberg, Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Teßmann Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "German Archaeological Institute": {
+    "qid": "Q695302",
+    "description": "archaeological research institute",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Ethnological Museum, Staatliche Museen zu Berlin": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Toy Museum of the City of Nuremberg": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Berlin-Brandenburg Economic Archive": {
+    "qid": "Q821048",
+    "description": "German archives, Berlin-Brandenburg",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "DFF – German Film Institute & Film Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Karlsruhe Municipal Archives": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Herzog Anton Ulrich Museum": {
+    "qid": "Q678082",
+    "description": "art museum in Braunschweig, Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Epigraphic Database Heidelberg": {
+    "qid": "Q1347027",
+    "description": "online database containing texts of Latin and bilingual (i.e. Latin-Greek) inscriptions of the Roman Empire.",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "University & State Library Fulda": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Herzog August Library": {
+    "qid": "Q663820",
+    "description": "library in Wolfenbüttel, Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Brandenburg Main State Archive": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "International Maritime Museum": {
+    "qid": "Q937608",
+    "description": "museum",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Deutsche Welle": {
+    "qid": "Q153770",
+    "description": "international German public radio and television channel",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "GESIS - Leibniz Institute for the Social Sciences. Library Cologne": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Architecture Museum at Technical University of Munich": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Herbarium Göttingen (GOET)": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "The Photographic Archive of the Zentralinstitut für Kunstgeschichte": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Frankfurt University Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Dresden State Art Collections. Museum of Prints, Drawings and Photographs": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Kunstbibliothek, Staatliche Museen zu Berlin": {
+    "qid": "Q6445022",
+    "description": "art library in Berlin",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Leibniz Institute for Regional Geography": {
+    "qid": "Q1813740",
+    "description": "Geography between basic research and knowledge transfer",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Bibliotheca Hertziana, Max Planck Institute for Art History Rome. Photographic Collection": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "University Library Freiburg": {
+    "qid": "Q2496308",
+    "description": "library in the University of Freiburg, Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Media library of Art and Visual History of Humboldt University of Berlin": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Germanisches National Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Badisches Landesmuseum Karlsruhe": {
+    "qid": "Q799168",
+    "description": "museum in Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Sorbian Cultural Archive": {
+    "qid": "Q56855672",
+    "description": "Central archive of the Sorbs",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "State Association of Fine Arts Saxony eV": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Bauhaus University Weimar. University Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Dresden State Art Collections. Numismatic Collection": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Bildarchiv Volkskundliche Kommision für Westfalen": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "State Office for Heritage Management and Archaeology Saxony-Anhalt - State Museum for Prehistory": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Museum for Pre- and Early History, Staatliche Museen zu Berlin": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "LWL - Museum for Art and Culture - Westphalian State Museum of Art & Cultural History": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Kupferstichkabinett, Staatliche Museen zu Berlin": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Prussian Palaces and Gardens Foundation Berlin-Brandenburg": {
+    "qid": "Q531772",
+    "description": "German foundation in Berlin-Brandenburg",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Federal Waterways Engineering and Research Institute": {
+    "qid": "Q1005545",
+    "description": "facility in Karlsruhe, Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Natural History Museum, Berlin": {
+    "qid": "Q233098",
+    "description": "natural history museum in Berlin, Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Field Museum of Natural History": {
+    "qid": "Q1122595",
+    "description": "natural history museum in Chicago, Illinois, United States",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Heinrich-Barth-Institut e.V.": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Kassel University Library": {
+    "qid": "Q2496316",
+    "description": "heritage institution",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Leipzig University Library": {
+    "qid": "Q872896",
+    "description": "university library",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Kalliope": {
+    "qid": "Q1722480",
+    "description": "library catalog run by the German State Library",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Saxon State and University Library Dresden": {
+    "qid": "Q323270",
+    "description": "combined state and university library in Dresden, Saxony, Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Museum of European Cultures, Staatliche Museen zu Berlin": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Art collections of the Veste Coburg": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Institute of Art History and Archaeology of Europe, Martin Luther University Halle Wittenberg": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Berlin-Brandenburg Academy of Sciences and Humanities": {
+    "qid": "Q219989",
+    "description": "official academic society for the natural sciences and humanities for the German states of Berlin and Brandenburg.",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Kunstpalast": {
+    "qid": "Q1792563",
+    "description": "demolished building in Düsseldorf, Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Montanhistorisches Dokumentationszentrum": {
+    "qid": "Q23038399",
+    "description": null,
+    "desc_lang": null,
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Dresden State Art Collections. Porcelain collection": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "University of Graz, Institute of Plant Sciences - Herbarium GZU": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Hirschfelde Power Station Foundation": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Museum of Islamic Art": {
+    "qid": "Q1954632",
+    "description": "museum in Berlin, Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Goethe University Frankfurt": {
+    "qid": "Q50662",
+    "description": "university in Frankfurt, Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Dresden State Art Collections. Sculpture collection": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "German National Library of Medicine": {
+    "qid": "Q1204536",
+    "description": "national library in Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Gotha Research Library": {
+    "qid": "Q28738121",
+    "description": "library in Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "BBAW, Corpus Nummorum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Collection of Classical Antiquities, Berlin State Museums": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Technoseum": {
+    "qid": "Q882079",
+    "description": "museum in Mannheim",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Museum of Things": {
+    "qid": "Q2560329",
+    "description": "museum in Germany, Berlin-Mitte",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "German Exile Archive": {
+    "qid": "Q28657247",
+    "description": "Collection at the German National Library",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Baden State Library": {
+    "qid": "Q799084",
+    "description": "library in Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Leibniz Institute for the German Language - Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Schöneweide Industrial Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Art Collection of the University Göttingen": {
+    "qid": "Q1792610",
+    "description": "municipal collection in Göttingen, Lower Saxony, Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "FHXB Friedrichshain-Kreuzberg Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Deutsche Kinemathek - Museum für Film und Fernsehen": {
+    "qid": "Q28738456",
+    "description": "library in Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Eberhard Karls Universität Tübingen, UB - Universitätsarchiv": {
+    "qid": "Q2496275",
+    "description": null,
+    "desc_lang": null,
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Stiftung Domäne Dahlem - Estate and Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Museum of Arts and Crafts, Hamburg": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Kiel University Library": {
+    "qid": "Q2496307",
+    "description": "library in Kiel, Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "University and State Library Darmstadt": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "TIB - Leibniz Information Centre for Science and Technology and University Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Deutsches Museum, Archiv": {
+    "qid": "Q28737484",
+    "description": "archive for the history of natural science and technology in Munich, Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Bielefeld University Library": {
+    "qid": "Q1770764",
+    "description": "academic library in Bielefeld, Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Westphalian Folk Song and Sound Archive": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Zoological Research Museum Koenig": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Münchner Stadtmuseum": {
+    "qid": "Q452685",
+    "description": "museum",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Theatermuseum der Landeshauptstadt Düsseldorf": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Mecklenburg-Vorpommern state library": {
+    "qid": "Q1802138",
+    "description": "library in Germany",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Allied Museum": {
+    "qid": "Q316329",
+    "description": "museum in Berlin",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Gleimhaus - Museum of the German Enlightenment": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Central Archive, Berlin State Museums": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Dresden State Art Collections. Museum of Decorative Arts": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "de"
+  },
+  "Virtual Library of Historical Press": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "National Library of Spain": {
+    "qid": "Q750403",
+    "description": "library in Spain",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Galiciana: Digital Library of Galicia": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Digital Memory of Catalonia": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Galiciana. Arquivo Dixital de Galicia": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Archive of Old Catalan Magazines": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Ajuntament de Girona": {
+    "qid": "Q41328625",
+    "description": "local government body",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Digital Library of Andalusia": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Maresía: Prensa digitalizada y Patrimonio documental": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Canary Islands Historical Photography Archive": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Complutense University of Madrid": {
+    "qid": "Q219694",
+    "description": "public university in Madrid, Spain",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Digital Library of Castilla y León": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Library of the University of Las Palmas": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Cityhall of Murcia. Municipal Archive": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Centro de Estudios de Castilla - La Mancha": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "TV3 Catalan Television": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Documentary Repository of the University of Salamanca": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Royal Botanic Garden of Madrid": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Foundation Virtual Library Miguel de Cervantes": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Digital Library of Madrid": {
+    "qid": "Q48983356",
+    "description": null,
+    "desc_lang": null,
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "The Government of Catalonia": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "National Archaeological Museum": {
+    "qid": "Q637248",
+    "description": "Italian archeological museum known for Roman materials",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Cartographic and Geological Institute of Catalonia": {
+    "qid": "Q22704014",
+    "description": null,
+    "desc_lang": null,
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Polytechnic University of Valencia": {
+    "qid": "Q2003976",
+    "description": "university in Spain",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Spanish National Research Council": {
+    "qid": "Q1024362",
+    "description": "National research council in Spain",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Image and Sound Archive of Menorca": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Regira. Cooperative Repository of Diputació de Girona": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Postal Cabinet Museum of Barcelona (Marull’s Collection)": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Biblioteca Diputación de Almería": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Tomás Navarro Tomás Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Museum of Costume. Ethnological Heritage Research Centre": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Patrimonio Digital de Castilla-La Mancha": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Toledo Municipal Archives": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Virtual Library of Bibliographical Heritage": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Autonomous University of Barcelona": {
+    "qid": "Q43452",
+    "description": "public university in Barcelona, Catalonia, Spain",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Andalusian Performing Arts Research and Resource Center": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Library of the Bar Association of Madrid": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Library of Asturias": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Repositorio Institucional del Banco de España": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Digital Library Real Academia de la Historia": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Virtual Library of La Rioja": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Image Archive of Castilla La Mancha": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Sorolla Museum": {
+    "qid": "Q1592523",
+    "description": "museum in Madrid",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Polytechnic University of Catalonia": {
+    "qid": "Q1640731",
+    "description": "public university in Barcelona, Spain",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Valencian Digital Library": {
+    "qid": "Q5727926",
+    "description": "digital library project by the Valenciana Library Nicolau Primitiu (Generalitat Valenciana)",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "UdG Digital Repository": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Natural Science Museum of Barcelona": {
+    "qid": "Q9046889",
+    "description": "natural history museum in Barcelona, Spain",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "National Museum of Decorative Arts": {
+    "qid": "Q1136338",
+    "description": "museum in Buenos Aires, Argentina",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Research deposit of the University of Seville": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Jaume I University Repository": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Museum of America": {
+    "qid": "Q464354",
+    "description": "folk art museum in New York City, NY",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Ignacio Larramendi Foundation": {
+    "qid": "Q24943800",
+    "description": "Spanish foundation",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Institutional Climatological and Meteorological Archive": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Virtual Library of Aragon": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Museo del Prado digital library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Biblioteca Virtual de la Real Academia Nacional de Farmacia": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "The Digital Network of Museum Collections in Spain": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "University of Lleida": {
+    "qid": "Q1235594",
+    "description": "public university in Lleida, Catalonia",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Archive of the Crown of Aragon": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Navarra Digital Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "City Archive of Arganda del Rey": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "National Museum of Roman Art": {
+    "qid": "Q3330685",
+    "description": "museum in Mérida, Spain",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Museum of Popular Arts and Customs of Seville": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Lázaro Galdiano Museum": {
+    "qid": "Q386570",
+    "description": "art museum in Madrid, Spain",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Library Ciconia": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "National Museum of Romanticism": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Virtual Law Library of Aragon": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Eusko Jaurlaritza - Gobierno Vasco": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Collective Catalog of the Library Network of the State Archives": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Jaén Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "National Museum of Anthropology": {
+    "qid": "Q524249",
+    "description": "national museum of Mexico",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Archivo de la Diputación Provincial de Cáceres": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Cerralbo Museum": {
+    "qid": "Q976019",
+    "description": "museum in Madrid",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "National Museum of Underwater Archaeology": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Dadun: Digital Academic Repository of the University of Navarra": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Trencadís. The Municipal Library Network of the Diputació de Barcelona": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Sancho el Sabio Foundation": {
+    "qid": "Q8963091",
+    "description": "Basque Culture Documentation Center",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Frederic Marès Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "University Institute for Research in Iberian Archeology": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Repository of the Catholic University of Valencia San Vicente Mártir": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "National Theatre Museum": {
+    "qid": "Q18542292",
+    "description": "museum in Bucharest, Romania",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "University of Barcelona. Digital Heritage Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Minerva, Institutional Repository of the University of Santiago de Compostela": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Archivo de la Diputación de Castellón": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Bitoteko, Hispanic Esperanto Federation Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Museo Etnológico de Ribadavia": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Diocesan Seminary of Vitoria-Gasteiz": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Dialnet": {
+    "qid": "Q3025975",
+    "description": "online bibliographic database created by Universidad de La Rioja, Spain",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Museum of the Asturian People": {
+    "qid": "Q3410548",
+    "description": "museum in Spain",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "González Martí National Museum of Ceramics and Sumptuary Arts": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "National Museum and Research Center of Altamira": {
+    "qid": "Q6974445",
+    "description": "Paleolithic museum in Spain",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Museum of Teruel": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Museum of Navarra": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "University of Oviedo": {
+    "qid": "Q2303432",
+    "description": "public university in Asturias, Spain",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Document Repository of the University of Valladolid": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Casa de los Tiros Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Archivo de la Diputación Provincial de Badajoz": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Repository of Teaching and Research Objects of the University of Cádiz": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Capuchin Central Library of Spain": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Institutional Repository of the University of Malaga": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "es"
+  },
+  "Naturalis Biodiversity Center": {
+    "qid": "Q641676",
+    "description": "natural history museum and research center in the Leiden, The Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "KB, National Library of the Netherlands": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Cultural Heritage Agency of the Netherlands": {
+    "qid": "Q18600731",
+    "description": "State art collection maintained by the Netherlands Cultural Heritage Agency",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Rijksmuseum": {
+    "qid": "Q190804",
+    "description": "museum in Amsterdam, Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "National Archives of the Netherlands": {
+    "qid": "Q1857081",
+    "description": "National Archives of the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Internet Archive": {
+    "qid": "Q461",
+    "description": "U.S. non-profit organization, one of the world's predominant digital archives",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "International Institute of Social History": {
+    "qid": "Q1667757",
+    "description": "historical research institute in Amsterdam",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "The Utrecht Archives": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "National Museum of Antiquities": {
+    "qid": "Q1860378",
+    "description": "national archaeological museum of the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Historical Information Center of Brabant": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Netherlands Institute for Sound & Vision": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Association De Hollandsche Molen": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Museon-Omniversum": {
+    "qid": "Q1954331",
+    "description": "museum in The Hague, Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Municipal Archives of Zaanstad": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Gooi en Vechtstreek Archive": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Netherlands Institute for Military History": {
+    "qid": "Q1893708",
+    "description": "Military History Institute of the Netherlands Ministry of Defence",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Historic Center Limburg": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "IMSLP/Petrucci Music Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "City Archives Breda": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "St. Catherine's Convent Museum": {
+    "qid": "Q1954426",
+    "description": "museum for religious art in Utrecht, the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Museum Rotterdam": {
+    "qid": "Q2130225",
+    "description": "museum in Rotterdam, Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Paul Van Riel": {
+    "qid": "Q29221805",
+    "description": "Dutch photographer",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Batavialand": {
+    "qid": "Q110985372",
+    "description": "Dutch museum in Lelystad, Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Historic Center Leeuwarden": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Municipal Archive, Schiedam": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Municipal Archives of Weert": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "KNAW-DANS": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Regional Archive Nijmegen": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "City Archives' s-Hertogenbosch": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "CODA Museum": {
+    "qid": "Q99346823",
+    "description": "museum in Apeldoorn, Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "CARARE": {
+    "qid": "Q107207056",
+    "description": "family name",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Municipal Archives of Ede en Scherpenzeel": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Zutphen Regional Archive": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Regional Archive Langstraat Heusden Altena": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Rijksmuseum Boerhaave": {
+    "qid": "Q759169",
+    "description": "museum in Leiden, Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Municipal Archives of Tholen": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Municipal Archives of Barneveld": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Zuiderzee Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "The Language Archive": {
+    "qid": "Q120098072",
+    "description": "2010 play written by Julia Cho",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "National Museum of World Cultures Foundation": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Heritage Rijssen-Holten": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Digital Library for Dutch Literature": {
+    "qid": "Q2451336",
+    "description": "digital library about the Dutch language and literature",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "The province of North Holland": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "International Military Tribunal at Nuremberg": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Leiden University Libraries": {
+    "qid": "Q638395",
+    "description": "library based in Leiden, the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Amsterdam Museum": {
+    "qid": "Q1820897",
+    "description": "municipal museum in Amsterdam, Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Loevestein Castle": {
+    "qid": "Q2177577",
+    "description": "Dutch medieval castle in Zaltbommel",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "City Museum Zutphen": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Textile Research Centre Leiden": {
+    "qid": "Q7708470",
+    "description": "independent research institute working in the field of textiles and dress",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Regional Archives Tilburg": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Geldersch Landschap & Kasteelen": {
+    "qid": "Q2051299",
+    "description": "organization from the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "VU University Amsterdam Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Fries Museum": {
+    "qid": "Q848313",
+    "description": "museum in Leeuwarden, Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Valkhof Museum": {
+    "qid": "Q1127079",
+    "description": "archeological and art museum in Nijmegen, Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "The Dutch Olympic Committee, Dutch Sports Federation": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "National Organ Museum": {
+    "qid": "Q28151370",
+    "description": "museum in Gelderland about organs",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "EYE Film Museum": {
+    "qid": "Q123146233",
+    "description": "museum building in Amsterdam, the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "IHLIA LGBTI Heritage": {
+    "qid": "Q1417841",
+    "description": "archive",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Castle Huis Bergh": {
+    "qid": "Q17605261",
+    "description": "castle in s-Heerenberg, the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Textile Museum": {
+    "qid": "Q25183395",
+    "description": "museum specializing in textile arts",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Heritage Leiden": {
+    "qid": "Q15874971",
+    "description": "regional archive for Leiden and surroundings",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Anne Frank House": {
+    "qid": "Q165366",
+    "description": "museum in Amsterdam, Netherlands, dedicated to Jewish wartime diarist Anne Frank",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Arnhem museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "De Looierij": {
+    "qid": "Q4400690",
+    "description": "museum in Dongen, the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Leo Smit foundation": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Mauritshuis": {
+    "qid": "Q221092",
+    "description": "art museum in The Hague, Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Museum Krona": {
+    "qid": "Q2112422",
+    "description": "museum in Uden, the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Airborne Museum 'Hartenstein'": {
+    "qid": "Q408081",
+    "description": "museum in Oosterbeek, the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Freedom Museum": {
+    "qid": "Q1869397",
+    "description": "museum in Groesbeek, The Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Historische Kring Huessen": {
+    "qid": "Q92885879",
+    "description": null,
+    "desc_lang": null,
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Deelen Airbase Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Museum Klok & Peel": {
+    "qid": "Q27949674",
+    "description": "museum in Asten, the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Groningen Historic Churches Foundation": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Archive and Documentation Center for RK Friesland": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Museum Het Pakhuis": {
+    "qid": "Q56459673",
+    "description": "museum in Ermelo, the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Historische Kring Midden-Betuwe": {
+    "qid": "Q98894806",
+    "description": null,
+    "desc_lang": null,
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Kijk & Luistermuseum": {
+    "qid": "Q13743314",
+    "description": "museum in Bennekom, the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Tilburg University": {
+    "qid": "Q595668",
+    "description": "public university in The Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Streekmuseum de Roode Tooren": {
+    "qid": "Q98893873",
+    "description": "museum in Doesburg, Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Huis van Hilde": {
+    "qid": "Q18654836",
+    "description": null,
+    "desc_lang": null,
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Water board of Schieland and the Krimpenerwaard": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Zaans Museum": {
+    "qid": "Q3383883",
+    "description": "museum in Zaandam, the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Historical Image Archive for Migrants": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Museum Nijkerk": {
+    "qid": "Q47472417",
+    "description": "museum in Nijkerk, the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Rauws Wicker Chair Collection": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Museumpark Orientalis": {
+    "qid": "Q1514270",
+    "description": "religion theme park in the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Museum Tweestromenland": {
+    "qid": "Q98893866",
+    "description": "museum in Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Provinciaal Depot Bodemvondsten": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Museum De Scheper": {
+    "qid": "Q56459575",
+    "description": "museum in Eibergen, the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Elisabeth Weeshuis Museum": {
+    "qid": "Q98962037",
+    "description": "museum in Culemborg, Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "European Fashion Heritage Association": {
+    "qid": "Q55754311",
+    "description": "fashion heritage organization",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Stichting tot Behoud van den Doornenburg": {
+    "qid": "Q109675487",
+    "description": null,
+    "desc_lang": null,
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Centraal Museum Utrecht": {
+    "qid": "Q260913",
+    "description": "museum in Utrecht, Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Heemkundekring Bergh": {
+    "qid": "Q98907725",
+    "description": null,
+    "desc_lang": null,
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Historische Vereniging Voorst": {
+    "qid": "Q98895215",
+    "description": "Historical society in municipality Voorst",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Kunstmuseum Den Haag": {
+    "qid": "Q1499958",
+    "description": "art museum in The Hague, Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Bonnefantenmuseum Maastricht": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "City Museum Harderwijk": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "City Museum Prinsenhof": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
+  },
+  "Museum Boijmans Van Beuningen": {
+    "qid": "Q679527",
+    "description": "art museum in Rotterdam, Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Institute for Tropical Scientific Research": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "National Library of Portugal": {
+    "qid": "Q245966",
+    "description": "Portuguese national library, fulfilling the function of legal deposit and copyright",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Portuguese Army Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Azores Regional Directorate for Culture": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "University of Porto": {
+    "qid": "Q1422903",
+    "description": "public research university in Porto, Portugal",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Calouste Gulbenkian Foundation": {
+    "qid": "Q3052794",
+    "description": "Portuguese foundation dedicated to the promotion of the arts, philanthropy, science, and education",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "MUDE – Museu do Design": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Assembly of the Republic - Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Fernando Pessoa's House": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "University of Coimbra": {
+    "qid": "Q368643",
+    "description": "public university in Coimbra, Portugal",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Lisbon's Film & Theatre School": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Madeira Archives and Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Cinemateca Portuguesa - Museu do cinema": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Radio and Television of Portugal": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Madeira Arts Library": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Lisbon Newspaper Library": {
+    "qid": "Q18462527",
+    "description": "newspaper library in Lisbon",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "April 25th Documentation Center of Coimbra University": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "The Commission for Citizenship and Gender Equality": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Division of Archives and Library of the Ministry of Foreign Affairs": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Portuguese Court of Auditors": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "PÉDEXUMBO - Associação para a Promoção da Música e Dança": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Library of the National Republican Guard": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Douro Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "The Romanesque Rout": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Municipal Public Library of Porto": {
+    "qid": "Q630086",
+    "description": "library in Porto, Portugal",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Open University - Portugal": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Seminar on the History of Ideas": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Assembleia da República - Arquivo Histórico Parlamentar": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Supreme Court of Justice": {
+    "qid": "Q876935",
+    "description": "highest jurisdiction in Austria",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "National Museum of Ancient Art": {
+    "qid": "Q212459",
+    "description": "museum in Lisboa, Portugal",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "National Archives Torre do Tombo, Lisbon": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Montalegre Municipal Library": {
+    "qid": "Q73280622",
+    "description": "municipal library in Portugal",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Ajuda Library, Lisbon": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Chiado Museum - National Museum of Contemporary Art": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Church of S. Roque, Lisbon": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Municipal Library Anselmo Braamcamp Freire, Santarém": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Museums and Monuments of Portugal": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "National Coach Museum": {
+    "qid": "Q1659559",
+    "description": "museum in Lisbon, Lisbon District, Portugal",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "National Museum of Grao Vasco, Viseu": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Sarmento's House": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  }
+}
