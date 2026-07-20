@@ -1054,3 +1054,69 @@ button {
     font-size: 18px;
   }
 }
+
+/* ==========================================================================
+   10. Team Meta Stats
+   ========================================================================== */
+.team-meta-container {
+  margin-top: 4rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.team-meta-title {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #7A98B8;
+  margin-bottom: 2rem;
+}
+
+.team-meta-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.team-meta-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  padding: 1rem;
+  min-width: 140px;
+  transition: transform 0.3s ease;
+}
+
+.team-meta-item:hover {
+  transform: translateY(-5px);
+}
+
+.meta-icon {
+  color: var(--sea-color);
+  margin-bottom: 0.75rem;
+}
+
+.meta-label {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+.meta-count {
+  font-family: var(--font-serif);
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
