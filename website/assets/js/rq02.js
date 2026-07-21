@@ -17,14 +17,15 @@ const COUNTRY_COLORS_RQ2 = {
 };
 
 const CATEGORY_COLORS_RQ2 = {
-  "audiovisual/film archive":            "#C2528C",
-  "art/history museum":                  "#5C6BC0",
-  "natural history/science institution": "#2A9D8F",
-  "library/archive":                     "#6FA8DC",
-  "academic/research institution":       "#7E6B8F",
-  "media/broadcast organization":        "#D4A24C",
-  "government/administrative body":      "#8C4A4A",
-  "other":                               "#B9B9B9",
+  "audiovisual/film archive":            "#4D9E97",
+  "art/history museum":                  "#6D7EBA",
+  "natural history/science institution": "#B074BD",
+  "library/archive":                     "#64A3D1",
+  "academic/research institution":       "#D6934A",
+  "media/broadcast organization":        "#D16E6E",
+  "government/administrative body":      "#C27297",
+  "other":                               "#A19E9A",
+  "unresolved":                          "#75726F",
 };
 
 const PROVIDERS_DATA = {
@@ -111,14 +112,6 @@ const CATEGORY_BY_COUNTRY = [
   { country: "Spain",       "library/archive": 78.3, "natural history/science institution": 1.4,  "government/administrative body": 5.3,  "art/history museum": 5.0,  "audiovisual/film archive": 0.0,  "academic/research institution": 7.0, "media/broadcast organization": 1.4, "other": 0.0 },
 ];
 
-const SUNBURST_DATA = {
-  france:      { total: 4724898, categories: { "library/archive": 3618226, "natural history/science institution": 500756, "government/administrative body": 415711, "audiovisual/film archive": 89764, "art/history museum": 85060, "academic/research institution": 18901 }},
-  germany:     { total: 8701240, categories: { "library/archive": 6613343, "art/history museum": 1192070, "natural history/science institution": 347905, "academic/research institution": 200143, "audiovisual/film archive": 78311, "media/broadcast organization": 52199 }},
-  italy:       { total: 1832376, categories: { "library/archive": 846737, "audiovisual/film archive": 579174, "academic/research institution": 245716, "art/history museum": 130112, "government/administrative body": 1834, "natural history/science institution": 1834 }},
-  netherlands: { total: 9204845, categories: { "natural history/science institution": 4694471, "library/archive": 2477003, "government/administrative body": 607719, "art/history museum": 828748, "audiovisual/film archive": 165687, "academic/research institution": 257893 }},
-  portugal:    { total: 139858,  categories: { "natural history/science institution": 65726, "library/archive": 52447, "government/administrative body": 6296, "academic/research institution": 7413, "art/history museum": 6574, "audiovisual/film archive": 700, "media/broadcast organization": 559 }},
-  spain:       { total: 6581724, categories: { "library/archive": 5153610, "academic/research institution": 460720, "government/administrative body": 348832, "art/history museum": 329257, "natural history/science institution": 92115, "media/broadcast organization": 92115, "other": 105075 }},
-};
 
 const CATEGORIES_ORDER = [
   "library/archive",
@@ -168,21 +161,31 @@ function initRsq01Chart(country) {
     rawData.forEach(d => totalCount += d.count);
   }
 
-  const chartData = rawData.map(d => ({
-    provider:     d.provider.length > 36 ? d.provider.slice(0, 34) + "\u2026" : d.provider,
-    fullProvider: d.provider,
-    count:        d.count,
-    percentage:   totalCount > 0 ? (d.count / totalCount * 100).toFixed(1) + "%" : "0%",
-    // Pre-format: amCharts bullet sprites don't support {field.formatNumber()} syntax
-    countLabel:   d.count >= 1_000_000
-                    ? (d.count / 1_000_000).toFixed(1).replace(/\.0$/, "") + "M"
-                    : d.count >= 1_000
-                      ? (d.count / 1_000).toFixed(0) + "K"
-                      : d.count.toString(),
-    category:     d.category,
-    country:      d.country,
-    catColor:     CATEGORY_COLORS_RQ2[d.category] || "#AACAE0",
-  })).reverse();
+  const chartData = rawData.map(d => {
+    const isoCodes = {
+      france: "FR", germany: "DE", italy: "IT",
+      netherlands: "NL", portugal: "PT", spain: "ES"
+    };
+    const suffix = country === "all" ? ` (${isoCodes[d.country]})` : "";
+    const maxLength = 36 - suffix.length;
+    const providerStr = d.provider.length > maxLength ? d.provider.slice(0, maxLength - 1) + "\u2026" : d.provider;
+
+    return {
+      provider:     providerStr + suffix,
+      fullProvider: d.provider + suffix,
+      count:        d.count,
+      percentage:   totalCount > 0 ? (d.count / totalCount * 100).toFixed(1) + "%" : "0%",
+      // Pre-format: amCharts bullet sprites don't support {field.formatNumber()} syntax
+      countLabel:   d.count >= 1_000_000
+                      ? (d.count / 1_000_000).toFixed(1).replace(/\.0$/, "") + "M"
+                      : d.count >= 1_000
+                        ? (d.count / 1_000).toFixed(0) + "K"
+                        : d.count.toString(),
+      category:     d.category,
+      country:      d.country,
+      catColor:     CATEGORY_COLORS_RQ2[d.category] || "#AACAE0",
+    };
+  }).reverse();
 
   const root = am5.Root.new("rsq01-chart");
   rsq01Root = root;
@@ -248,23 +251,45 @@ function initRsq01Chart(country) {
     })
   );
 
+  const defaultBarColor = country === "all" ? "#1A3A5F" : "#AACAE0";
+
   series.columns.template.setAll({
     height: am5.percent(65),
     cornerRadiusBR: 4, cornerRadiusTR: 4,
     tooltipText: "[bold]{fullProvider}[/]\n{percentage} contribution ({countLabel} items)",
     tooltipY: am5.percent(50),
+    fill: am5.color(defaultBarColor),
+    stroke: am5.color(defaultBarColor)
   });
 
-  // Update shared tooltip colors to match the hovered bar's category
+  if (country !== "all") {
+    series.columns.template.adapters.add("fill", (fill, col) => {
+      const d = col.dataItem?.dataContext;
+      return d && COUNTRY_COLORS_RQ2[d.country] ? am5.color(COUNTRY_COLORS_RQ2[d.country]) : fill;
+    });
+
+    series.columns.template.adapters.add("stroke", (stroke, col) => {
+      const d = col.dataItem?.dataContext;
+      return d && COUNTRY_COLORS_RQ2[d.country] ? am5.color(COUNTRY_COLORS_RQ2[d.country]) : stroke;
+    });
+  }
+
+  // Update shared tooltip colors to match the hovered bar
   series.columns.template.events.on("pointerover", (ev) => {
     const d = ev.target.dataItem?.dataContext;
     if (!d) return;
-    seriesTip.get("background").set("fill", am5.color(d.catColor));
-    seriesTip.label.set("fill", am5.color(LIGHT_BG_CATS.has(d.category) ? "#1A1A1A" : "#FBF9F5"));
-  });
+    
+    let bgColor = defaultBarColor;
+    let isLightColor = false;
 
-  series.columns.template.adapters.add("fill",   (fill,   col) => { const d = col.dataItem?.dataContext; return d ? am5.color(d.catColor) : fill; });
-  series.columns.template.adapters.add("stroke", (stroke, col) => { const d = col.dataItem?.dataContext; return d ? am5.color(d.catColor) : stroke; });
+    if (country !== "all") {
+      bgColor = COUNTRY_COLORS_RQ2[d.country] || "#AACAE0";
+      isLightColor = (d.country === "germany" || d.country === "portugal");
+    }
+
+    seriesTip.get("background").set("fill", am5.color(bgColor));
+    seriesTip.label.set("fill", am5.color(isLightColor ? "#1A1A1A" : "#FBF9F5"));
+  });
 
 
   // Bullet label — populateText:true is the key flag that makes {field} bindings work
@@ -289,18 +314,21 @@ function initRsq01Chart(country) {
 
 function filterRsq01(country) {
   document.querySelectorAll(".rsq01-filter-btn").forEach(btn => {
-    const isActive = btn.dataset.country === country;
+    const btnCountry = btn.dataset.country;
+    const isActive = btnCountry === country;
     btn.classList.toggle("rsq01-active", isActive);
-    // Reset inline styles on every button first
+    
+    // Reset inline styles
     btn.style.backgroundColor = "";
     btn.style.borderColor = "";
     btn.style.color = "";
-    // For active country buttons (not "all"), paint with that country's color
-    if (isActive && country !== "all") {
-      const col = COUNTRY_COLORS_RQ2[country];
+    
+    // Add colored background to active country buttons
+    if (btnCountry !== "all" && isActive) {
+      const col = COUNTRY_COLORS_RQ2[btnCountry];
       if (col) {
-        btn.style.backgroundColor = col;
         btn.style.borderColor = col;
+        btn.style.backgroundColor = col;
         btn.style.color = "#FBF9F5";
       }
     }
@@ -415,112 +443,6 @@ function initRsq03BarChart() {
 // ---------------------------------------------------------------------------
 // 4. RSQ03 — SUNBURST CHART
 // ---------------------------------------------------------------------------
-
-let rsq03SunRoot = null;
-
-function initRsq03Sunburst() {
-  if (rsq03SunRoot) { rsq03SunRoot.dispose(); rsq03SunRoot = null; }
-
-  const container = document.getElementById("rsq03-sunburst-chart");
-  if (!container) return;
-
-  const root = am5.Root.new("rsq03-sunburst-chart");
-  rsq03SunRoot = root;
-  root.setThemes([am5themes_Animated.new(root)]);
-
-  // Absolute layout for root to center the wrapper
-  root.container.set("layout", null);
-
-  const wrapper = root.container.children.push(am5.Container.new(root, {
-    x: am5.p50,
-    centerX: am5.p50,
-    y: am5.p50,
-    centerY: am5.p50,
-    width: am5.percent(100),
-    maxWidth: 700,
-    height: am5.percent(95),
-    layout: root.horizontalLayout
-  }));
-
-  // ---- Data ----------------------------------------------------------------
-  const sunData = [{
-    name: "Europeana",
-    children: Object.entries(SUNBURST_DATA).map(([country, data]) => ({
-      name: rq2Capitalize(country),
-      fill: COUNTRY_COLORS_RQ2[country] || "#AACAE0",
-      children: Object.entries(data.categories).map(([cat, count]) => ({
-        name: cat,
-        value: count,
-        fill: CATEGORY_COLORS_RQ2[cat] || "#B9B9B9",
-      })),
-    })),
-  }];
-
-  const chartContainer = wrapper.children.push(am5.Container.new(root, { width: am5.percent(60), height: am5.percent(100) }));
-  const legendContainer = wrapper.children.push(am5.Container.new(root, { width: am5.percent(40), height: am5.percent(100), paddingLeft: 12 }));
-
-  const legend = legendContainer.children.push(am5.Legend.new(root, { nameField: "name", fillField: "fill", strokeField: "fill", y: am5.p50, centerY: am5.p50 }));
-  legend.labels.template.setAll({ fontSize: 10, fontFamily: "'Inter', sans-serif", fill: am5.color("#1A1A1A") });
-  legend.markers.template.setAll({ width: 12, height: 12 });
-  legend.markerRectangles.template.setAll({ cornerRadiusTL: 2, cornerRadiusTR: 2, cornerRadiusBL: 2, cornerRadiusBR: 2 });
-  legend.data.setAll(CATEGORIES_ORDER.map(cat => ({
-    name: cat,
-    fill: am5.color(CATEGORY_COLORS_RQ2[cat] || "#B9B9B9"),
-    stroke: am5.color(CATEGORY_COLORS_RQ2[cat] || "#B9B9B9"),
-  })));
-
-  const series = chartContainer.children.push(
-    am5hierarchy.Sunburst.new(root, {
-      topDepth: 1,
-      downDepth: 2,
-      initialDepth: 2,
-      innerRadius: am5.percent(20),
-      valueField: "value",
-      categoryField: "name",
-      childDataField: "children",
-      fillField: "fill",
-    })
-  );
-
-  series.labels.template.setAll({ fontSize: 10, fontFamily: "'Inter', sans-serif", fill: am5.color("#FBF9F5"), fontWeight: "600", oversizedBehavior: "hide", textType: "radial" });
-  series.slices.template.setAll({ stroke: am5.color("#FBF9F5"), strokeWidth: 1.5, strokeOpacity: 0.5, tooltipText: "[bold]{category}[/]\n{value.formatNumber('#,###')} items" });
-
-  series.on("selectedDataItem", (dataItem) => {
-    if (!dataItem) return;
-    const isRoot = dataItem.dataContext.name === "Europeana";
-    series.set("topDepth", isRoot ? 1 : 0);
-  });
-
-  series.data.setAll(sunData);
-  series.set("selectedDataItem", series.dataItems[0]);
-  series.appear(1000, 100);
-}
-
-// ---------------------------------------------------------------------------
-// 5. RSQ03 TAB SWITCHING
-// ---------------------------------------------------------------------------
-
-function switchRsq03Tab(tab) {
-  const barPanel = document.getElementById("rsq03-bar-panel");
-  const sunPanel = document.getElementById("rsq03-sun-panel");
-  const barBtn   = document.getElementById("rsq03-tab-bar");
-  const sunBtn   = document.getElementById("rsq03-tab-sun");
-
-  if (tab === "bar") {
-    barPanel.style.display = "block";
-    sunPanel.style.display = "none";
-    barBtn.classList.add("rsq03-tab-active");
-    sunBtn.classList.remove("rsq03-tab-active");
-    if (!rsq03BarRoot) initRsq03BarChart();
-    else if (rsq03BarRoot && !rsq03BarRoot._disposed) { /* already rendered */ }
-  } else {
-    barPanel.style.display = "none";
-    sunPanel.style.display = "block";
-    sunBtn.classList.add("rsq03-tab-active");
-    barBtn.classList.remove("rsq03-tab-active");
-    if (!rsq03SunRoot) initRsq03Sunburst();
-  }
-}
 
 // ---------------------------------------------------------------------------
 // 6. INTERSECTION OBSERVER — lazy init

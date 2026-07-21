@@ -1102,10 +1102,6 @@ button {
   overflow: hidden;
 }
 
-.rq2-sunburst-container {
-  height: 560px;
-}
-
 /* ---- RSQ01 Country filter buttons ---- */
 .rsq01-filters {
   display: flex;
@@ -1121,7 +1117,7 @@ button {
   letter-spacing: 0.12em;
   color: var(--primary-color);
   background: rgba(26, 58, 95, 0.07);
-  border: 1px solid rgba(26, 58, 95, 0.15);
+  border: 2px solid rgba(26, 58, 95, 0.15);
   border-radius: 9999px;
   padding: 0.35rem 0.9rem;
   cursor: pointer;
@@ -1139,37 +1135,6 @@ button {
   border-color: var(--primary-color);
 }
 
-/* ---- RSQ03 Tab buttons ---- */
-.rsq03-tabs {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.rsq03-tab-btn {
-  font-family: var(--font-sans);
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--primary-color);
-  background: rgba(26, 58, 95, 0.07);
-  border: 1px solid rgba(26, 58, 95, 0.15);
-  border-radius: 9999px;
-  padding: 0.35rem 1.1rem;
-  cursor: pointer;
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
-}
-
-.rsq03-tab-btn:hover {
-  background: rgba(26, 58, 95, 0.15);
-  border-color: var(--primary-color);
-}
-
-.rsq03-tab-btn.rsq03-tab-active {
-  background: var(--primary-color);
-  color: var(--bg-color);
-  border-color: var(--primary-color);
-}
 
 /* =========================================
    SCROLLBAR STYLING
