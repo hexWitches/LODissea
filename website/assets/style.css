@@ -334,43 +334,52 @@ button {
   left: 55px;
   top: 10%;
   bottom: 10%;
-  width: 2px;
-  background-color: var(--primary-color);
-  opacity: 0.2;
+  width: 3px;
+  background-image: linear-gradient(to bottom, var(--primary-color) 50%, transparent 50%);
+  background-size: 3px 12px;
+  background-repeat: repeat-y;
+  opacity: 0.6; /* Made darker */
 }
 
 #global-line-active {
   position: absolute;
   left: 55px;
   top: 10%;
-  width: 2px;
-  background-color: var(--primary-color);
+  width: 3px;
+  background-image: linear-gradient(to bottom, var(--primary-color) 50%, transparent 50%);
+  background-size: 3px 12px;
+  background-repeat: repeat-y;
   height: 0%;
 }
 
 #global-boat {
   position: absolute;
-  left: 40px;
+  left: 66px; /* Moved to the right side of the line */
   top: 10%;
   z-index: 10;
-  margin-top: -16px;
+  margin-top: -20px; /* Center boat vertically */
 }
 
 .scroll-stop {
   position: absolute;
-  left: 56px;
+  left: 56.5px;
   transform: translate(-50%, -50%);
   width: 24px;
   height: 24px;
-  background-color: var(--bg-color);
-  border: 2px solid var(--primary-color);
-  border-radius: 50%;
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--primary-color);
   z-index: 5;
+  transition: color 0.3s ease;
+  pointer-events: auto;
 }
+
+.scroll-stop.completed {
+  color: var(--accent-color);
+}
+
 
 .scroll-stop svg {
   width: 12px;
@@ -381,7 +390,7 @@ button {
   position: absolute;
   bottom: 3rem;
   left: 50%;
-  transform: translateX(-50%) translateY(20px);
+  transform: translateX(-50%);
   color: var(--text-dark);
   display: flex;
   flex-direction: column;
@@ -389,7 +398,7 @@ button {
   gap: 0.5rem;
   transition: color 0.3s;
   z-index: 50;
-  opacity: 0;
+  opacity: 1;
 }
 
 #next-btn:hover {
@@ -538,6 +547,170 @@ button {
   height: 400px;
   width: 100%;
 }
+
+/* ==========================================================================
+   5a. Analysis Section #RsQ01 — RQ01 Water Chart
+   ========================================================================== */
+
+/* Column that holds the amCharts chart */
+.rsq01-chart-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 440px;
+}
+
+@media (max-width: 767px) {
+  .rsq01-chart-col {
+    margin-top: 1.5rem;
+  }
+}
+
+/* amCharts root div — must have explicit dimensions */
+#rsq01-chart-div,
+#rsq03-chart-div {
+  flex: 1;
+  width: 100%;
+  min-height: 0;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  box-shadow:
+    0 4px 24px rgba(10, 60, 100, 0.10),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  overflow: hidden;
+}
+
+/* Small chart title above the chart */
+.chart-title {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  opacity: 0.75;
+  margin: 0;
+  padding-left: 2px;
+}
+
+/* Variant of .analysis-subtitle styled as a research-question badge */
+.analysis-subtitle.rq-label {
+  line-height: 1.8;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+}
+
+/* ==========================================================================
+   5b. Analysis Section #RsQ02 — Wide 2/3 + 1/3 layout
+   ========================================================================== */
+
+/* Override grid to 2fr + 1fr columns */
+@media (min-width: 768px) {
+  .analysis-grid--wide {
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem;
+  }
+}
+
+/* 2/3 column: flex column so text sits above chart */
+.analysis-main-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* 1/3 side column: centred vertically */
+.analysis-side-col {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  border-left: 2px solid rgba(26, 32, 48, 0.12);
+}
+
+/* Make the chart taller in the wide layout */
+.rsq01b-chart-col {
+  height: 500px;
+}
+
+/* Side panel typography */
+.pt-bias-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pt-bias-tag {
+  display: inline-block;
+  align-self: flex-start;
+  background-color: rgba(244, 166, 78, 0.2);
+  color: #f4a64e;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.pt-bias-title {
+  font-family: var(--font-serif);
+  font-size: 24px;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.pt-bias-desc {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  color: var(--text-light);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.pt-bias-desc b {
+  color: var(--text-dark);
+}
+
+/* Interactive correct button */
+.pt-correct-btn {
+  margin-top: 1rem;
+  background: #1a3a5f;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(26, 58, 95, 0.3);
+}
+
+.pt-correct-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(26, 58, 95, 0.4);
+}
+
+.pt-correct-btn.corrected {
+  background: var(--bg-color);
+  color: var(--text-dark);
+  box-shadow: 0 4px 12px rgba(251, 249, 245, 0.5);
+}
+
+.pt-correct-btn.corrected:hover {
+  box-shadow: 0 6px 16px rgba(251, 249, 245, 0.7);
+}
+
 
 /* ==========================================================================
    6. About Modal
@@ -817,7 +990,7 @@ button {
 }
 
 .team-name {
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 0.2rem;
@@ -918,6 +1091,22 @@ button {
   fill: var(--sea-color);
 }
 
+.sea-transition-bottom {
+  position: absolute;
+  bottom: -2px;
+  /* slight overlap to prevent gap */
+  left: 0;
+  width: 100%;
+  height: 120px;
+  z-index: 10;
+}
+
+.sea-wave-svg-bottom {
+  width: 100%;
+  height: 100%;
+  fill: var(--sea-color);
+}
+
 .conclusion-wrapper {
   width: 100%;
   display: flex;
@@ -1004,22 +1193,63 @@ button {
 }
 
 .stat-number {
+  font-family: var(--font-serif);
   font-size: 48px;
   font-weight: 900;
   color: var(--primary-color);
+}
+
+.back-to-top-wrapper {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.back-to-top-btn {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.back-to-top-btn:hover {
+  background: var(--secondary-color, #1a3a5f); /* Fallback if secondary isn't defined */
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.back-to-top-btn .arrow-up {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.back-to-top-btn:hover .arrow-up {
+  transform: translateY(-3px);
 }
 
 /* ==========================================================================
    9. Bridging Text Section
    ========================================================================== */
 .bridge-section {
+  position: relative;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 6rem 2rem;
-  padding-left: 8rem;
-  /* Account for the scrollbar */
+  padding: 6rem 8rem;
   background: transparent;
 }
 
@@ -1138,7 +1368,6 @@ button {
 
 /* =========================================
    SCROLLBAR STYLING
-========================================= */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -1154,4 +1383,69 @@ button {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--primary-color, #23588f);
+   10. Team Meta Stats
+   ========================================================================== */
+.team-meta-container {
+  margin-top: 4rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.team-meta-title {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #7A98B8;
+  margin-bottom: 2rem;
+}
+
+.team-meta-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 1rem;
+  overflow-x: auto; /* Just in case it gets too squeezed on very small screens */
+  padding-bottom: 1rem; /* For scrollbar if needed */
+}
+
+.team-meta-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  padding: 0.5rem;
+  min-width: 100px;
+  transition: transform 0.3s ease;
+}
+
+.team-meta-item:hover {
+  transform: translateY(-5px);
+}
+
+.meta-icon {
+  color: var(--sea-color);
+  margin-bottom: 0.75rem;
+}
+
+.meta-label {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+.meta-count {
+  font-family: var(--font-serif);
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
 }

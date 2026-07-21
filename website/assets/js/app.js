@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const nextBtn = document.getElementById('next-btn');
   if (nextBtn) {
     nextBtn.addEventListener('click', () => {
-      document.getElementById('analysis').scrollIntoView({ behavior: 'smooth' });
+      document.getElementById('analysis-1a').scrollIntoView({ behavior: 'smooth' });
     });
   }
 });
@@ -73,14 +73,23 @@ const HIGHLIGHTED_COUNTRIES = ['Netherlands', 'Germany', 'Spain', 'Portugal', 'F
 const KEEP_COUNTRIES = [
   'Netherlands', 'Germany', 'Spain', 'Portugal', 'France', 'Italy',
   'Belgium', 'Luxembourg', 'Switzerland', 'Andorra', 'Monaco', 'San Marino', 'Liechtenstein',
-  'Austria', 'United Kingdom', 'Ireland', 'Denmark'
+  'Austria'
 ];
 
+const COUNTRY_COLORS = {
+  'Italy': '#90be6d',
+  'France': '#1f7f95',
+  'Germany': '#feda15',
+  'Netherlands': '#a180ad',
+  'Portugal': '#f4a64e',
+  'Spain': '#bb521f'
+};
+
 const projection = d3.geoConicConformal()
-  .center([3, 47])
+  .center([2, 45])
   .rotate([0, 0])
-  .scale(1800)
-  .translate([400, 300]);
+  .scale(1450)
+  .translate([500, 300]);
 
 const pathGenerator = d3.geoPath().projection(projection);
 const nlCoords = projection([5.29, 52.13]) || [0, 0];
@@ -115,137 +124,111 @@ function setupMapAnimations() {
       const mapBoatContainer = document.getElementById('map-boat-container');
       if (mapBoatContainer) mapBoatContainer.style.display = 'none';
 
-      // Show global progress container
-      gsap.to('#global-progress', { opacity: 1, duration: 0.5 });
-
-      // Phase 1: Boat falls to the top of the screen (as starting point for scroll)
-      gsap.fromTo('#global-boat',
-        { top: '-10%' },
-        { top: '10%', duration: 1.5, ease: "power2.out" }
-      );
-
-      // Line grows down to bottom
-      gsap.fromTo('#global-line',
-        { height: '0%' },
-        { height: '100%', duration: 1.5, delay: 0.5, ease: "power1.inOut" }
-      );
-
       // Phase 2: Highlight countries sequentially
       setTimeout(() => {
         HIGHLIGHTED_COUNTRIES.forEach((name, i) => {
           setTimeout(() => {
             const countryPath = document.querySelector(`.country[data-name="${name}"]`);
-            if (countryPath) countryPath.classList.add('highlighted');
+            if (countryPath) {
+              countryPath.classList.add('highlighted');
+              if (COUNTRY_COLORS[name]) {
+                countryPath.style.fill = COUNTRY_COLORS[name];
+              }
+            }
           }, i * 500);
         });
       }, 500);
-
-      // Phase 3: Show next button
-      setTimeout(() => {
-        const nextBtn = document.getElementById('next-btn');
-        gsap.to(nextBtn, {
-          opacity: 1,
-          y: 0,
-          duration: 1
-        });
-      }, 1000 + HIGHLIGHTED_COUNTRIES.length * 500);
     }
   });
 }
 
-// --- Analysis Chart ---
-const ctx = document.getElementById('analysisChart').getContext('2d');
-new Chart(ctx, {
-  type: 'line',
-  data: {
-    labels: ['1500', '1600', '1700', '1800', '1900', '2000'],
-    datasets: [{
-      label: 'Artifacts',
-      data: [400, 3000, 2000, 2780, 1890, 2390],
-      borderColor: '#6D213C',
-      borderWidth: 3,
-      pointBackgroundColor: '#6D213C',
-      pointRadius: 4,
-      tension: 0.4
-    }]
-  },
-  options: {
-    responsive: true,
-    maintainAspectRatio: false,
-    scales: {
-      x: {
-        grid: { display: false },
-        ticks: { color: '#1A3A5F', font: { size: 12, family: 'Inter' } },
-        border: { display: false }
-      },
-      y: {
-        grid: { color: 'rgba(26, 58, 95, 0.2)', borderDash: [3, 3] },
-        ticks: { color: '#1A3A5F', font: { size: 12, family: 'Inter' } },
-        border: { display: false }
-      }
-    },
-    plugins: {
-      legend: { display: false },
-      tooltip: {
-        backgroundColor: '#FBF9F5',
-        titleColor: '#1A1A1A',
-        bodyColor: '#6D213C',
-        borderColor: 'rgba(26, 58, 95, 0.1)',
-        borderWidth: 1,
-        padding: 10
-      }
-    }
-  }
-});
+
 
 // --- Analysis Scroll Animations ---
-const sections = document.querySelectorAll('.analysis-section');
-const totalSections = sections.length;
+const progressSections = Array.from(document.querySelectorAll('.analysis-section, #conclusion'));
+const totalSections = progressSections.length;
 const globalProgress = document.getElementById('global-progress');
 
-// Create stops dynamically based on number of sections
-if (sections.length > 0) {
-  sections.forEach((sec, index) => {
+if (totalSections > 0) {
+  // Progress bar visibility toggle
+  ScrollTrigger.create({
+    trigger: progressSections[0],
+    start: "top 60%", 
+    endTrigger: progressSections[totalSections - 1],
+    end: "bottom center",
+    onEnter: () => gsap.to(globalProgress, { opacity: 1, duration: 0.5 }),
+    onLeave: () => gsap.to(globalProgress, { opacity: 0, duration: 0.5 }),
+    onEnterBack: () => gsap.to(globalProgress, { opacity: 1, duration: 0.5 }),
+    onLeaveBack: () => gsap.to(globalProgress, { opacity: 0, duration: 0.5 })
+  });
+
+  // Create stops dynamically based on number of sections
+  progressSections.forEach((sec, index) => {
     const topPos = 10 + (80 / (totalSections - 1)) * index;
 
     // Create the visual stop (custom marker)
     const stopEl = document.createElement('div');
     stopEl.className = 'scroll-stop';
     stopEl.style.top = `${topPos}%`;
-    stopEl.innerHTML = '<img src="assets/img/custom-stop.svg" style="width:14px;height:14px;" alt="Stop" />';
+    stopEl.style.cursor = 'pointer'; // Make it clickable
+    
+    // Click to scroll
+    stopEl.addEventListener('click', () => {
+      sec.scrollIntoView({ behavior: 'smooth' });
+    });
+    
+    if (sec.id === 'conclusion') {
+      stopEl.innerHTML = '<i data-lucide="gem" width="24" height="24" stroke-width="3"></i>';
+    } else {
+      stopEl.innerHTML = '<i data-lucide="x" width="24" height="24" stroke-width="3"></i>';
+    }
+    
     globalProgress.appendChild(stopEl);
 
+    // Cross completion logic
+    ScrollTrigger.create({
+      trigger: sec,
+      start: "top 30%", // When section hits upper part of screen
+      onEnter: () => stopEl.classList.add('completed'),
+      onLeaveBack: () => stopEl.classList.remove('completed')
+    });
+
     // Animate between stops
-    if (index > 0) {
-      const prevTop = 10 + (80 / (totalSections - 1)) * (index - 1);
+    if (index < totalSections - 1) {
+      const nextSec = progressSections[index + 1];
+      const nextTop = 10 + (80 / (totalSections - 1)) * (index + 1);
 
       // Animate Boat
       gsap.fromTo('#global-boat',
-        { top: `${prevTop}%` },
+        { top: `${topPos}%` },
         {
-          top: `${topPos}%`,
+          top: `${nextTop}%`,
           scrollTrigger: {
             trigger: sec,
-            start: "top bottom", // Starts when section top hits viewport bottom
-            end: "top top",      // Ends when section top hits viewport top
+            start: "top 20%",
+            endTrigger: nextSec,
+            end: "top 20%",
             scrub: true
           },
-          ease: "none"
+          ease: "none",
+          immediateRender: false
         }
       );
 
       // Animate Active Line
       gsap.fromTo('#global-line-active',
-        { height: `${prevTop - 10}%` },
+        { height: `${Math.max(0, topPos - 10)}%` },
         {
-          height: `${topPos - 10}%`,
+          height: `${nextTop - 10}%`,
           scrollTrigger: {
             trigger: sec,
-            start: "top bottom",
-            end: "top top",
+            start: "top 20%",
+            endTrigger: nextSec,
+            end: "top 20%",
             scrub: true
           },
-          ease: "none"
+          ease: "none",
+          immediateRender: false
         }
       );
     }

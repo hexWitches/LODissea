@@ -1,0 +1,338 @@
+{
+  "italy": {
+    "apikey": "illardfon",
+    "success": true,
+    "requestNumber": 999,
+    "itemsCount": 0,
+    "totalResults": 1832376,
+    "items": [],
+    "facets": [
+      {
+        "name": "contentTier",
+        "fields": [
+          {
+            "label": "1",
+            "count": 975456
+          },
+          {
+            "label": "2",
+            "count": 495336
+          },
+          {
+            "label": "3",
+            "count": 168790
+          },
+          {
+            "label": "4",
+            "count": 146753
+          },
+          {
+            "label": "0",
+            "count": 46041
+          }
+        ]
+      },
+      {
+        "name": "metadataTier",
+        "fields": [
+          {
+            "label": "A",
+            "count": 756795
+          },
+          {
+            "label": "B",
+            "count": 595086
+          },
+          {
+            "label": "0",
+            "count": 249504
+          },
+          {
+            "label": "C",
+            "count": 230991
+          }
+        ]
+      }
+    ]
+  },
+  "france": {
+    "apikey": "illardfon",
+    "success": true,
+    "requestNumber": 999,
+    "itemsCount": 0,
+    "totalResults": 4724898,
+    "items": [],
+    "facets": [
+      {
+        "name": "contentTier",
+        "fields": [
+          {
+            "label": "1",
+            "count": 1948462
+          },
+          {
+            "label": "3",
+            "count": 1295035
+          },
+          {
+            "label": "0",
+            "count": 821618
+          },
+          {
+            "label": "4",
+            "count": 531619
+          },
+          {
+            "label": "2",
+            "count": 128164
+          }
+        ]
+      },
+      {
+        "name": "metadataTier",
+        "fields": [
+          {
+            "label": "A",
+            "count": 2269582
+          },
+          {
+            "label": "0",
+            "count": 1384353
+          },
+          {
+            "label": "B",
+            "count": 987599
+          },
+          {
+            "label": "C",
+            "count": 83364
+          }
+        ]
+      }
+    ]
+  },
+  "germany": {
+    "apikey": "illardfon",
+    "success": true,
+    "requestNumber": 999,
+    "itemsCount": 0,
+    "totalResults": 8701240,
+    "items": [],
+    "facets": [
+      {
+        "name": "contentTier",
+        "fields": [
+          {
+            "label": "2",
+            "count": 2639250
+          },
+          {
+            "label": "3",
+            "count": 2576058
+          },
+          {
+            "label": "1",
+            "count": 1806629
+          },
+          {
+            "label": "4",
+            "count": 1412044
+          },
+          {
+            "label": "0",
+            "count": 267259
+          }
+        ]
+      },
+      {
+        "name": "metadataTier",
+        "fields": [
+          {
+            "label": "A",
+            "count": 5712803
+          },
+          {
+            "label": "B",
+            "count": 2047822
+          },
+          {
+            "label": "C",
+            "count": 485157
+          },
+          {
+            "label": "0",
+            "count": 455458
+          }
+        ]
+      }
+    ]
+  },
+  "spain": {
+    "apikey": "illardfon",
+    "success": true,
+    "requestNumber": 999,
+    "itemsCount": 0,
+    "totalResults": 6581724,
+    "items": [],
+    "facets": [
+      {
+        "name": "contentTier",
+        "fields": [
+          {
+            "label": "4",
+            "count": 2367528
+          },
+          {
+            "label": "1",
+            "count": 2207163
+          },
+          {
+            "label": "3",
+            "count": 1015806
+          },
+          {
+            "label": "2",
+            "count": 915538
+          },
+          {
+            "label": "0",
+            "count": 75689
+          }
+        ]
+      },
+      {
+        "name": "metadataTier",
+        "fields": [
+          {
+            "label": "A",
+            "count": 2575221
+          },
+          {
+            "label": "0",
+            "count": 1976623
+          },
+          {
+            "label": "B",
+            "count": 1666027
+          },
+          {
+            "label": "C",
+            "count": 363853
+          }
+        ]
+      }
+    ]
+  },
+  "netherlands": {
+    "apikey": "illardfon",
+    "success": true,
+    "requestNumber": 999,
+    "itemsCount": 0,
+    "totalResults": 9204845,
+    "items": [],
+    "facets": [
+      {
+        "name": "contentTier",
+        "fields": [
+          {
+            "label": "4",
+            "count": 6335641
+          },
+          {
+            "label": "1",
+            "count": 1050101
+          },
+          {
+            "label": "2",
+            "count": 885318
+          },
+          {
+            "label": "3",
+            "count": 829912
+          },
+          {
+            "label": "0",
+            "count": 103873
+          }
+        ]
+      },
+      {
+        "name": "metadataTier",
+        "fields": [
+          {
+            "label": "A",
+            "count": 6152578
+          },
+          {
+            "label": "B",
+            "count": 1585980
+          },
+          {
+            "label": "0",
+            "count": 1326581
+          },
+          {
+            "label": "C",
+            "count": 139706
+          }
+        ]
+      }
+    ]
+  },
+  "portugal": {
+    "apikey": "illardfon",
+    "success": true,
+    "requestNumber": 999,
+    "itemsCount": 0,
+    "totalResults": 139858,
+    "items": [],
+    "facets": [
+      {
+        "name": "contentTier",
+        "fields": [
+          {
+            "label": "4",
+            "count": 56442
+          },
+          {
+            "label": "1",
+            "count": 54109
+          },
+          {
+            "label": "2",
+            "count": 26173
+          },
+          {
+            "label": "0",
+            "count": 3042
+          },
+          {
+            "label": "3",
+            "count": 92
+          }
+        ]
+      },
+      {
+        "name": "metadataTier",
+        "fields": [
+          {
+            "label": "A",
+            "count": 133622
+          },
+          {
+            "label": "0",
+            "count": 3414
+          },
+          {
+            "label": "B",
+            "count": 2355
+          },
+          {
+            "label": "C",
+            "count": 467
+          }
+        ]
+      }
+    ]
+  }
+}
