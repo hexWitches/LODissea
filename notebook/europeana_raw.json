@@ -1,0 +1,6202 @@
+{
+  "Italy": {
+    "apikey": "illardfon",
+    "success": true,
+    "requestNumber": 999,
+    "itemsCount": 0,
+    "totalResults": 1832376,
+    "items": [],
+    "facets": [
+      {
+        "name": "DATA_PROVIDER",
+        "fields": [
+          {
+            "label": "Cinecitt\u00e0 - Luce",
+            "count": 442536
+          },
+          {
+            "label": "Historical Archive of the Presidency of the Republic",
+            "count": 212160
+          },
+          {
+            "label": "National Central Library of Rome",
+            "count": 200231
+          },
+          {
+            "label": "Internet Culturale",
+            "count": 109101
+          },
+          {
+            "label": "Department of Life Sciences, University of Trieste",
+            "count": 101323
+          },
+          {
+            "label": "Epigraphic Database Roma",
+            "count": 86827
+          },
+          {
+            "label": "Cineteca di Bologna",
+            "count": 73157
+          },
+          {
+            "label": "Central Institute for the Union Catalogue of Italian Libraries",
+            "count": 66672
+          },
+          {
+            "label": "Central Museum of the Risorgimento in Rome",
+            "count": 53211
+          },
+          {
+            "label": "Luigi Micheletti Foundation",
+            "count": 51704
+          },
+          {
+            "label": "Experimental Cinematography Center",
+            "count": 40538
+          },
+          {
+            "label": "Epigraphic Dabatase Bari",
+            "count": 40283
+          },
+          {
+            "label": "European Library of Information and Culture",
+            "count": 35475
+          },
+          {
+            "label": "Marciana National Library",
+            "count": 29597
+          },
+          {
+            "label": "Turin Gallery for Modern and Contemporary Art",
+            "count": 29395
+          },
+          {
+            "label": "Braidense National Library",
+            "count": 21526
+          },
+          {
+            "label": "Library of the S. Pietro a Majella Conservatory",
+            "count": 20154
+          },
+          {
+            "label": "Rossimoda Shoe Museum",
+            "count": 13489
+          },
+          {
+            "label": "Provincial Library Magna Capitana",
+            "count": 13065
+          },
+          {
+            "label": "Estense University Library",
+            "count": 12372
+          },
+          {
+            "label": "Missoni",
+            "count": 12080
+          },
+          {
+            "label": "Photographic Archive of the Civic Museums of Turin",
+            "count": 11404
+          },
+          {
+            "label": "New Manuscript Library, Veneto Region",
+            "count": 11042
+          },
+          {
+            "label": "Pitti Immagine",
+            "count": 10694
+          },
+          {
+            "label": "Galileo Museum",
+            "count": 9219
+          },
+          {
+            "label": "The Central National Library of Florence",
+            "count": 7790
+          },
+          {
+            "label": "Digital Library Trentino",
+            "count": 7292
+          },
+          {
+            "label": "University Library of Genova",
+            "count": 7063
+          },
+          {
+            "label": "Opera Institute of the Italian Vocabulary",
+            "count": 6370
+          },
+          {
+            "label": "Museo della Carta di Pescia",
+            "count": 5288
+          },
+          {
+            "label": "Marucelliana Library",
+            "count": 5225
+          },
+          {
+            "label": "University Library Of Pisa",
+            "count": 5170
+          },
+          {
+            "label": "University of Padua",
+            "count": 4168
+          },
+          {
+            "label": "Madama Palace",
+            "count": 3825
+          },
+          {
+            "label": "University of Pisa",
+            "count": 3821
+          },
+          {
+            "label": "University of Padua - Botanical Garden Library",
+            "count": 3612
+          },
+          {
+            "label": "Modern and Contemporary History Library",
+            "count": 3543
+          },
+          {
+            "label": "Prato Textile Museum",
+            "count": 3535
+          },
+          {
+            "label": "Casanatense Library",
+            "count": 3448
+          },
+          {
+            "label": "Querini Stampalia Foundation",
+            "count": 3266
+          },
+          {
+            "label": "Palatine Library",
+            "count": 3216
+          },
+          {
+            "label": "State Archives of Campobasso",
+            "count": 2930
+          },
+          {
+            "label": "Promoter Digital Gallery",
+            "count": 2553
+          },
+          {
+            "label": "Pitti Palace - Museum of Costume and Fashion",
+            "count": 2499
+          },
+          {
+            "label": "Alessandrina University Library",
+            "count": 2129
+          },
+          {
+            "label": "Museum of Oriental Art",
+            "count": 2041
+          },
+          {
+            "label": "Brixiana",
+            "count": 1886
+          },
+          {
+            "label": "Superintendence for Cultural Heritage of the Autonomous Province of Trento",
+            "count": 1863
+          },
+          {
+            "label": "The Institute of Heritage Sciences",
+            "count": 1811
+          },
+          {
+            "label": "Biblioteca Sportiva Nazionale",
+            "count": 1487
+          },
+          {
+            "label": "State Library of the National Monument of Montecassino",
+            "count": 1363
+          },
+          {
+            "label": "Library of the Cherubini Conservatory of Music",
+            "count": 1328
+          },
+          {
+            "label": "Library De Gemmis",
+            "count": 1238
+          },
+          {
+            "label": "University of Bologna",
+            "count": 1190
+          },
+          {
+            "label": "GoTellGo Cultural Association",
+            "count": 1180
+          },
+          {
+            "label": "Turin National University Library",
+            "count": 1127
+          },
+          {
+            "label": "Polytecnic University of Milan - Computer Vision & Reverse Engineering Lab",
+            "count": 1041
+          },
+          {
+            "label": "Byterfly",
+            "count": 1017
+          },
+          {
+            "label": "Library of Archeology and History Of Art",
+            "count": 966
+          },
+          {
+            "label": "Library of Archeology and History of Art",
+            "count": 924
+          },
+          {
+            "label": "National Library of Potenza",
+            "count": 860
+          },
+          {
+            "label": "Salvatore Ferragamo Museum",
+            "count": 858
+          },
+          {
+            "label": "Luigi Sturzo Institute",
+            "count": 829
+          },
+          {
+            "label": "Veneto Region, The Music Fund of St. Mary of Consolation in Venice",
+            "count": 759
+          },
+          {
+            "label": "National Library of the Girolamini Oratory",
+            "count": 754
+          },
+          {
+            "label": "Pasquale Albino Library",
+            "count": 723
+          },
+          {
+            "label": "Institute of Musical Studies Luigi Boccherini",
+            "count": 703
+          },
+          {
+            "label": "Municipality of Macerata",
+            "count": 678
+          },
+          {
+            "label": "Provincial Library of Brindisi",
+            "count": 655
+          },
+          {
+            "label": "National Library of Cosenza",
+            "count": 587
+          },
+          {
+            "label": "Provincial Library Nicola Bernardini",
+            "count": 570
+          },
+          {
+            "label": "State Library of Lucca",
+            "count": 536
+          },
+          {
+            "label": "Alinari Foundation for Photography",
+            "count": 498
+          },
+          {
+            "label": "Rossini Foundation",
+            "count": 469
+          },
+          {
+            "label": "Augusta Municipal Library",
+            "count": 449
+          },
+          {
+            "label": "Public Library Pietro Acclavio",
+            "count": 436
+          },
+          {
+            "label": "Cultural Hub of the Museums, Libraries and Archives - Bassano del Grappa",
+            "count": 402
+          },
+          {
+            "label": "Angelo Mai Civic Library and Municipal Historical Archives",
+            "count": 401
+          },
+          {
+            "label": "National Library of Attilio Hortis",
+            "count": 359
+          },
+          {
+            "label": "University Library of Pavia",
+            "count": 359
+          },
+          {
+            "label": "Library Charitas of San Francesco di Paola",
+            "count": 328
+          },
+          {
+            "label": "AMS Historica Bologna",
+            "count": 302
+          },
+          {
+            "label": "Franca Rame - Dario Fo Archive",
+            "count": 278
+          },
+          {
+            "label": "Municipal Library Giovanni Bovio",
+            "count": 251
+          },
+          {
+            "label": "Luigi Einaudi Foundation Library",
+            "count": 240
+          },
+          {
+            "label": "The Regional Archives Koper",
+            "count": 227
+          },
+          {
+            "label": "National Museum of Cinema",
+            "count": 210
+          },
+          {
+            "label": "Museum of Agricultural Sciences",
+            "count": 208
+          },
+          {
+            "label": "Roman Philharmonic Academy",
+            "count": 204
+          },
+          {
+            "label": "Vatican Library",
+            "count": 199
+          },
+          {
+            "label": "Institute of Information Science and Technologies 'Alessandro Faedo'",
+            "count": 198
+          },
+          {
+            "label": "Luigi Chiarini Library",
+            "count": 188
+          },
+          {
+            "label": "Archive of the Donizetti Museum",
+            "count": 186
+          },
+          {
+            "label": "Library of the Institute for the History of Resistance and Contemporary Society",
+            "count": 182
+          },
+          {
+            "label": "National Library of Bari",
+            "count": 173
+          },
+          {
+            "label": "International Museum and Library of Music",
+            "count": 162
+          },
+          {
+            "label": "Library of Astronomical Observatory of Capodimonte",
+            "count": 157
+          },
+          {
+            "label": "CISA -Interdipartimental Center for Archaeology",
+            "count": 148
+          },
+          {
+            "label": "Alfonso Rendano Municipal Theater Library",
+            "count": 139
+          },
+          {
+            "label": "State Library of Cremona",
+            "count": 131
+          },
+          {
+            "label": "Angelica Library",
+            "count": 128
+          },
+          {
+            "label": "Provincial Library of Potenza",
+            "count": 128
+          },
+          {
+            "label": "Padua University Library",
+            "count": 104
+          },
+          {
+            "label": "Lazzerini Library",
+            "count": 99
+          },
+          {
+            "label": "Vast-Lab",
+            "count": 99
+          },
+          {
+            "label": "Cerratelli Foundation",
+            "count": 98
+          },
+          {
+            "label": "Torino Astrophysical Observatory Library",
+            "count": 88
+          },
+          {
+            "label": "Library of the Giuseppe Tartini Conservatory of Music",
+            "count": 86
+          },
+          {
+            "label": "Catania Astrophysical Observatory Library",
+            "count": 79
+          },
+          {
+            "label": "Vallicelliana Library",
+            "count": 72
+          },
+          {
+            "label": "University Library of Naples",
+            "count": 70
+          },
+          {
+            "label": "State Library of the National Monument of the Badia di Cava",
+            "count": 66
+          },
+          {
+            "label": "Library of the Astronomical Observatory of Rome",
+            "count": 62
+          },
+          {
+            "label": "Planettiana Library",
+            "count": 61
+          },
+          {
+            "label": "UNICH - Universit\u00e0 G.D'Annunzio Chieti Pescara",
+            "count": 51
+          },
+          {
+            "label": "Armani/Silos",
+            "count": 46
+          },
+          {
+            "label": "Franco Serantini Library",
+            "count": 44
+          },
+          {
+            "label": "Isontina State Library of Gorizia",
+            "count": 44
+          },
+          {
+            "label": "International Museum of Ceramics",
+            "count": 41
+          },
+          {
+            "label": "Riccardiana Library",
+            "count": 34
+          },
+          {
+            "label": "National Film Archive for Industrial Film",
+            "count": 32
+          },
+          {
+            "label": "The Film Library of Friuli",
+            "count": 32
+          },
+          {
+            "label": "Municipal Library at the Archiginnasio Palace",
+            "count": 27
+          },
+          {
+            "label": "Library of the Brera Astronomical Observatory",
+            "count": 24
+          },
+          {
+            "label": "St. Thomas Aquinas Library",
+            "count": 23
+          },
+          {
+            "label": "National Archaeology Museum of Abruzzo",
+            "count": 22
+          },
+          {
+            "label": "Municipal Library of the Archiginnasio",
+            "count": 21
+          },
+          {
+            "label": "Museum Centre of Campania",
+            "count": 21
+          },
+          {
+            "label": "Lelio and Lisli Basso Issoco Foundation",
+            "count": 20
+          },
+          {
+            "label": "Padova Astronomical Observatory Library",
+            "count": 20
+          },
+          {
+            "label": "Library of the S. Antonio Convent",
+            "count": 16
+          },
+          {
+            "label": "Public Library Anton Giulio Barrili",
+            "count": 13
+          },
+          {
+            "label": "State Archives of Ancona",
+            "count": 13
+          },
+          {
+            "label": "Pasquale Stanislao Mancini Public Library",
+            "count": 12
+          },
+          {
+            "label": "State Archives of Mantua",
+            "count": 12
+          },
+          {
+            "label": "State Archives of Bologna",
+            "count": 11
+          },
+          {
+            "label": "Tenimento San Luigi Cultural Association",
+            "count": 11
+          },
+          {
+            "label": "Genoa University",
+            "count": 10
+          },
+          {
+            "label": "Michael Culture Association",
+            "count": 10
+          },
+          {
+            "label": "INAF Library - astronomic observatory of Palermo",
+            "count": 9
+          },
+          {
+            "label": "Library of the Convent of Santa Maria Occorrevole - Piedimonte Matese",
+            "count": 8
+          },
+          {
+            "label": "Parish of Santa Mar\u00eda del Pi and Sant Just",
+            "count": 8
+          },
+          {
+            "label": "University of Parma Communication Archive",
+            "count": 8
+          },
+          {
+            "label": "National Library of Italian alpine club - Turin",
+            "count": 6
+          },
+          {
+            "label": "Amalfi Cultural and Historical Center",
+            "count": 5
+          },
+          {
+            "label": "Brera Art Gallery",
+            "count": 5
+          },
+          {
+            "label": "Cagliari State Archives",
+            "count": 4
+          },
+          {
+            "label": "Digibess",
+            "count": 3
+          },
+          {
+            "label": "Innocenzo XII Library - Lecce",
+            "count": 3
+          },
+          {
+            "label": "Brindisi State Archive",
+            "count": 2
+          },
+          {
+            "label": "Library of Benedetto Croce Foundation - Naples",
+            "count": 2
+          },
+          {
+            "label": "Avellino State Archive",
+            "count": 1
+          },
+          {
+            "label": "Bari State Archive",
+            "count": 1
+          },
+          {
+            "label": "Biblioteca Estense",
+            "count": 1
+          },
+          {
+            "label": "IUAV University of Venice",
+            "count": 1
+          },
+          {
+            "label": "MANN - Museo Archeologico Nazionale di Napoli",
+            "count": 1
+          },
+          {
+            "label": "Sardinia Region",
+            "count": 1
+          },
+          {
+            "label": "Superintendence for the Historical, Artistic and Ethno-anthropological Heritage of Liguria",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "proxy_dc_subject",
+        "fields": [
+          {
+            "label": "http://culturaitalia.it/pico/thesaurus/4.2#fotografie",
+            "count": 248227
+          },
+          {
+            "label": "http://culturaitalia.it/pico/thesaurus/4.1#secondo_novecento",
+            "count": 168515
+          },
+          {
+            "label": "http://culturaitalia.it/pico/thesaurus/4.2#beni_librari",
+            "count": 149499
+          },
+          {
+            "label": "epigraphy",
+            "count": 112109
+          },
+          {
+            "label": "Presidente della Repubblica Oscar Luigi Scalfaro",
+            "count": 87943
+          },
+          {
+            "label": "http://www.wikidata.org/wiki/Q1228",
+            "count": 87943
+          },
+          {
+            "label": "http://culturaitalia.it/pico/thesaurus/4.2#quotidiani",
+            "count": 70612
+          },
+          {
+            "label": "Commissione di Revisione Cinematografica",
+            "count": 67350
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300055949",
+            "count": 67350
+          },
+          {
+            "label": "http://data.europeana.eu/concept/83",
+            "count": 65182
+          },
+          {
+            "label": "World War I",
+            "count": 64538
+          },
+          {
+            "label": "http://data.europeana.eu/concept/soundgenres/Music",
+            "count": 63124
+          },
+          {
+            "label": "http://culturaitalia.it/pico/thesaurus/4.2#manoscritti",
+            "count": 61025
+          },
+          {
+            "label": "http://data.europeana.eu/concept/loc/sh85148236",
+            "count": 55936
+          },
+          {
+            "label": "http://data.europeana.eu/concept/79",
+            "count": 53321
+          },
+          {
+            "label": "Storia",
+            "count": 52704
+          },
+          {
+            "label": "History",
+            "count": 51981
+          },
+          {
+            "label": "Divieto: 0, Condizione: 0, Negazione: 0, Tagli: 0",
+            "count": 51553
+          },
+          {
+            "label": "Seconda Guerra Mondiale",
+            "count": 50982
+          },
+          {
+            "label": "http://data.europeana.eu/concept/3286",
+            "count": 50967
+          },
+          {
+            "label": "Guardia Nazionale Repubblicana",
+            "count": 50608
+          },
+          {
+            "label": "World War II",
+            "count": 50513
+          },
+          {
+            "label": "Republican National Guard",
+            "count": 50027
+          },
+          {
+            "label": "http://culturaitalia.it/pico/thesaurus/4.1#sec_xxi",
+            "count": 43649
+          },
+          {
+            "label": "http://culturaitalia.it/pico/thesaurus/4.2#carte_geografiche_mappe",
+            "count": 39045
+          },
+          {
+            "label": "http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva",
+            "count": 38875
+          },
+          {
+            "label": "Pop music",
+            "count": 34593
+          },
+          {
+            "label": "http://data.europeana.eu/concept/3462",
+            "count": 34593
+          },
+          {
+            "label": "http://dbpedia.org/resource/Pop_music",
+            "count": 34593
+          },
+          {
+            "label": "Presidente della Repubblica Francesco Cossiga",
+            "count": 32051
+          },
+          {
+            "label": "http://www.wikidata.org/wiki/Q1230",
+            "count": 32051
+          },
+          {
+            "label": "Presidente della Repubblica Carlo Azeglio Ciampi",
+            "count": 29735
+          },
+          {
+            "label": "http://www.wikidata.org/wiki/Q1224",
+            "count": 29735
+          },
+          {
+            "label": "http://culturaitalia.it/pico/thesaurus/4.2#spartiti_musicali",
+            "count": 28354
+          },
+          {
+            "label": "Ritratti fotografici",
+            "count": 27060
+          },
+          {
+            "label": "Book fotografici",
+            "count": 26307
+          },
+          {
+            "label": "Photographic portraits",
+            "count": 25068
+          },
+          {
+            "label": "Photographic books",
+            "count": 23701
+          },
+          {
+            "label": "Presidente della Repubblica Giuseppe Saragat",
+            "count": 21839
+          },
+          {
+            "label": "http://www.wikidata.org/wiki/Q1238",
+            "count": 21839
+          },
+          {
+            "label": "Attivit\u00e0 dei banditi e dei ribelli",
+            "count": 19951
+          },
+          {
+            "label": "Activities of bandits and rebels",
+            "count": 19789
+          },
+          {
+            "label": "http://data.europeana.eu/place/92",
+            "count": 18520
+          },
+          {
+            "label": "Roma",
+            "count": 17075
+          },
+          {
+            "label": "Fondo Paolo Monti",
+            "count": 16849
+          },
+          {
+            "label": "Opere d'arte",
+            "count": 16849
+          },
+          {
+            "label": "http://culturaitalia.it/pico/thesaurus/4.2#stampe_incisioni_matrici",
+            "count": 16627
+          },
+          {
+            "label": "http://data.europeana.eu/concept/26",
+            "count": 16336
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300234110",
+            "count": 16336
+          },
+          {
+            "label": "http://data.europeana.eu/concept/190",
+            "count": 15305
+          }
+        ]
+      },
+      {
+        "name": "RIGHTS",
+        "fields": [
+          {
+            "label": "http://rightsstatements.org/vocab/InC/1.0/",
+            "count": 1043363
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+            "count": 291199
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/NoC-OKLR/1.0/",
+            "count": 224979
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "count": 101323
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by/4.0/",
+            "count": 56972
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-sa/4.0/",
+            "count": 34775
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+            "count": 34545
+          },
+          {
+            "label": "http://creativecommons.org/publicdomain/mark/1.0/",
+            "count": 21401
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+            "count": 14676
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc/4.0/",
+            "count": 4090
+          },
+          {
+            "label": "http://creativecommons.org/publicdomain/zero/1.0/",
+            "count": 2611
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
+            "count": 1492
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+            "count": 759
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/InC-OW-EU/1.0/",
+            "count": 175
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nd/4.0/",
+            "count": 16
+          }
+        ]
+      },
+      {
+        "name": "contentTier",
+        "fields": [
+          {
+            "label": "1",
+            "count": 975456
+          },
+          {
+            "label": "2",
+            "count": 495336
+          },
+          {
+            "label": "3",
+            "count": 168790
+          },
+          {
+            "label": "4",
+            "count": 146753
+          },
+          {
+            "label": "0",
+            "count": 46041
+          }
+        ]
+      },
+      {
+        "name": "TYPE",
+        "fields": [
+          {
+            "label": "IMAGE",
+            "count": 1136654
+          },
+          {
+            "label": "TEXT",
+            "count": 562679
+          },
+          {
+            "label": "SOUND",
+            "count": 92272
+          },
+          {
+            "label": "VIDEO",
+            "count": 39846
+          },
+          {
+            "label": "3D",
+            "count": 925
+          }
+        ]
+      },
+      {
+        "name": "metadataTier",
+        "fields": [
+          {
+            "label": "A",
+            "count": 756795
+          },
+          {
+            "label": "B",
+            "count": 595086
+          },
+          {
+            "label": "0",
+            "count": 249504
+          },
+          {
+            "label": "C",
+            "count": 230991
+          }
+        ]
+      }
+    ]
+  },
+  "Germany": {
+    "apikey": "illardfon",
+    "success": true,
+    "requestNumber": 999,
+    "itemsCount": 0,
+    "totalResults": 8701240,
+    "items": [],
+    "facets": [
+      {
+        "name": "DATA_PROVIDER",
+        "fields": [
+          {
+            "label": "Bavarian State Library",
+            "count": 2176001
+          },
+          {
+            "label": "Deutsche Fotothek",
+            "count": 1314229
+          },
+          {
+            "label": "State Archives of Baden-W\u00fcrttemberg",
+            "count": 827603
+          },
+          {
+            "label": "German Documentation Center for Art History - Marburg Picture Index",
+            "count": 320532
+          },
+          {
+            "label": "German National Library",
+            "count": 304053
+          },
+          {
+            "label": "Berlin-Dahlem Botanical Garden and Botanical Museum",
+            "count": 252957
+          },
+          {
+            "label": "Library of the Friedrich Ebert Foundation",
+            "count": 201518
+          },
+          {
+            "label": "Museum of City History Leipzig",
+            "count": 182494
+          },
+          {
+            "label": "Berlin State Library",
+            "count": 169601
+          },
+          {
+            "label": "Museum of Architecture at Berlin Institute of Technology",
+            "count": 161890
+          },
+          {
+            "label": "Archives of Social Democracy",
+            "count": 133032
+          },
+          {
+            "label": "State and University Library Hamburg Carl von Ossietzky",
+            "count": 131101
+          },
+          {
+            "label": "Heidelberg University Library",
+            "count": 130773
+          },
+          {
+            "label": "Te\u00dfmann Library",
+            "count": 115179
+          },
+          {
+            "label": "German Archaeological Institute",
+            "count": 104659
+          },
+          {
+            "label": "Ethnological Museum, Staatliche Museen zu Berlin",
+            "count": 104638
+          },
+          {
+            "label": "Toy Museum of the City of Nuremberg",
+            "count": 80306
+          },
+          {
+            "label": "Berlin-Brandenburg Economic Archive",
+            "count": 72335
+          },
+          {
+            "label": "DFF \u2013 German Film Institute & Film Museum",
+            "count": 71678
+          },
+          {
+            "label": "Karlsruhe Municipal Archives",
+            "count": 71356
+          },
+          {
+            "label": "Herzog Anton Ulrich Museum",
+            "count": 70499
+          },
+          {
+            "label": "Epigraphic Database Heidelberg",
+            "count": 69053
+          },
+          {
+            "label": "University & State Library Fulda",
+            "count": 69052
+          },
+          {
+            "label": "Herzog August Library",
+            "count": 65635
+          },
+          {
+            "label": "Brandenburg Main State Archive",
+            "count": 63700
+          },
+          {
+            "label": "International Maritime Museum",
+            "count": 61862
+          },
+          {
+            "label": "Deutsche Welle",
+            "count": 55861
+          },
+          {
+            "label": "GESIS - Leibniz Institute for the Social Sciences. Library Cologne",
+            "count": 54945
+          },
+          {
+            "label": "Architecture Museum at Technical University of Munich",
+            "count": 50914
+          },
+          {
+            "label": "Herbarium G\u00f6ttingen (GOET)",
+            "count": 40425
+          },
+          {
+            "label": "The Photographic Archive of the Zentralinstitut f\u00fcr Kunstgeschichte",
+            "count": 38240
+          },
+          {
+            "label": "Frankfurt University Library",
+            "count": 36544
+          },
+          {
+            "label": "Dresden State Art Collections. Museum of Prints, Drawings and Photographs",
+            "count": 33959
+          },
+          {
+            "label": "Kunstbibliothek, Staatliche Museen zu Berlin",
+            "count": 33713
+          },
+          {
+            "label": "Leibniz Institute for Regional Geography",
+            "count": 27945
+          },
+          {
+            "label": "Bibliotheca Hertziana, Max Planck Institute for Art History Rome. Photographic Collection",
+            "count": 26187
+          },
+          {
+            "label": "University Library Freiburg",
+            "count": 26072
+          },
+          {
+            "label": "Media library of Art and Visual History of Humboldt University of Berlin",
+            "count": 25661
+          },
+          {
+            "label": "Germanisches National Museum",
+            "count": 24800
+          },
+          {
+            "label": "Badisches Landesmuseum Karlsruhe",
+            "count": 23093
+          },
+          {
+            "label": "Sorbian Cultural Archive",
+            "count": 22995
+          },
+          {
+            "label": "State Association of Fine Arts Saxony eV",
+            "count": 22822
+          },
+          {
+            "label": "Bauhaus University Weimar. University Library",
+            "count": 21294
+          },
+          {
+            "label": "Dresden State Art Collections. Numismatic Collection",
+            "count": 20413
+          },
+          {
+            "label": "Bildarchiv\u00a0Volkskundliche Kommision f\u00fcr Westfalen",
+            "count": 19792
+          },
+          {
+            "label": "State Office for Heritage Management and Archaeology Saxony-Anhalt - State Museum for Prehistory",
+            "count": 19055
+          },
+          {
+            "label": "Museum for Pre- and Early History, Staatliche Museen zu Berlin",
+            "count": 18830
+          },
+          {
+            "label": "LWL - Museum for Art and Culture - Westphalian State Museum of Art & Cultural History",
+            "count": 18499
+          },
+          {
+            "label": "Kupferstichkabinett, Staatliche Museen zu Berlin",
+            "count": 17959
+          },
+          {
+            "label": "Prussian Palaces and Gardens Foundation Berlin-Brandenburg",
+            "count": 17895
+          },
+          {
+            "label": "Federal Waterways Engineering and Research Institute",
+            "count": 17892
+          },
+          {
+            "label": "Natural History Museum, Berlin",
+            "count": 16336
+          },
+          {
+            "label": "Field Museum of Natural History",
+            "count": 15902
+          },
+          {
+            "label": "Heinrich-Barth-Institut e.V.",
+            "count": 15320
+          },
+          {
+            "label": "Kassel University Library",
+            "count": 14409
+          },
+          {
+            "label": "Leipzig University Library",
+            "count": 14351
+          },
+          {
+            "label": "Kalliope",
+            "count": 14295
+          },
+          {
+            "label": "Saxon State and University Library Dresden",
+            "count": 14079
+          },
+          {
+            "label": "Museum of European Cultures, Staatliche Museen zu Berlin",
+            "count": 13647
+          },
+          {
+            "label": "Art collections of the Veste Coburg",
+            "count": 13470
+          },
+          {
+            "label": "Institute of Art History and Archaeology of Europe, Martin Luther University Halle Wittenberg",
+            "count": 12862
+          },
+          {
+            "label": "Berlin-Brandenburg Academy of Sciences and Humanities",
+            "count": 12231
+          },
+          {
+            "label": "Kunstpalast",
+            "count": 12226
+          },
+          {
+            "label": "Montanhistorisches Dokumentationszentrum",
+            "count": 11804
+          },
+          {
+            "label": "Dresden State Art Collections. Porcelain collection",
+            "count": 11325
+          },
+          {
+            "label": "University of Graz, Institute of Plant Sciences - Herbarium GZU",
+            "count": 11219
+          },
+          {
+            "label": "Hirschfelde Power Station Foundation",
+            "count": 11139
+          },
+          {
+            "label": "Museum of Islamic Art",
+            "count": 11090
+          },
+          {
+            "label": "Goethe University Frankfurt",
+            "count": 10298
+          },
+          {
+            "label": "Dresden State Art Collections. Sculpture collection",
+            "count": 10109
+          },
+          {
+            "label": "German National Library of Medicine",
+            "count": 9829
+          },
+          {
+            "label": "Gotha Research Library",
+            "count": 9721
+          },
+          {
+            "label": "BBAW, Corpus Nummorum",
+            "count": 9691
+          },
+          {
+            "label": "Collection of Classical Antiquities, Berlin State Museums",
+            "count": 9598
+          },
+          {
+            "label": "Technoseum",
+            "count": 9361
+          },
+          {
+            "label": "Museum of Things",
+            "count": 9340
+          },
+          {
+            "label": "German Exile Archive",
+            "count": 9246
+          },
+          {
+            "label": "Baden State Library",
+            "count": 9134
+          },
+          {
+            "label": "Leibniz Institute for the German Language - Library",
+            "count": 8504
+          },
+          {
+            "label": "Sch\u00f6neweide Industrial Museum",
+            "count": 8390
+          },
+          {
+            "label": "Art Collection of the University G\u00f6ttingen",
+            "count": 8292
+          },
+          {
+            "label": "FHXB Friedrichshain-Kreuzberg Museum",
+            "count": 8289
+          },
+          {
+            "label": "Deutsche Kinemathek - Museum f\u00fcr Film und Fernsehen",
+            "count": 8078
+          },
+          {
+            "label": "Eberhard Karls Universit\u00e4t T\u00fcbingen, UB - Universit\u00e4tsarchiv",
+            "count": 7550
+          },
+          {
+            "label": "Stiftung Dom\u00e4ne Dahlem - Estate and Museum",
+            "count": 7008
+          },
+          {
+            "label": "Museum of Arts and Crafts, Hamburg",
+            "count": 6692
+          },
+          {
+            "label": "Kiel University Library",
+            "count": 6589
+          },
+          {
+            "label": "University and State Library Darmstadt",
+            "count": 6522
+          },
+          {
+            "label": "TIB - Leibniz Information Centre for Science and Technology and University Library",
+            "count": 6405
+          },
+          {
+            "label": "Deutsches Museum, Archiv",
+            "count": 6070
+          },
+          {
+            "label": "Bielefeld University Library",
+            "count": 6023
+          },
+          {
+            "label": "Westphalian Folk Song and Sound Archive",
+            "count": 5734
+          },
+          {
+            "label": "Zoological Research Museum Koenig",
+            "count": 5602
+          },
+          {
+            "label": "M\u00fcnchner Stadtmuseum",
+            "count": 5259
+          },
+          {
+            "label": "Theatermuseum der Landeshauptstadt D\u00fcsseldorf",
+            "count": 5210
+          },
+          {
+            "label": "Mecklenburg-Vorpommern state library",
+            "count": 5063
+          },
+          {
+            "label": "Allied Museum",
+            "count": 5045
+          },
+          {
+            "label": "Gleimhaus - Museum of the German Enlightenment",
+            "count": 5019
+          },
+          {
+            "label": "Central Archive, Berlin State Museums",
+            "count": 5013
+          },
+          {
+            "label": "Dresden State Art Collections. Museum of Decorative Arts",
+            "count": 4968
+          },
+          {
+            "label": "Saarland School Museum",
+            "count": 4852
+          },
+          {
+            "label": "LVR-Institut f\u00fcr Landeskunde und Regionalgeschichte",
+            "count": 4813
+          },
+          {
+            "label": "Kalliope Union Catalog",
+            "count": 4662
+          },
+          {
+            "label": "Geological and Mineralogical Museum of the University of Kiel",
+            "count": 4336
+          },
+          {
+            "label": "Zopf\u00b4s Hairdressing Museum",
+            "count": 4269
+          },
+          {
+            "label": "Alfred Ehrhardt Foundation",
+            "count": 4218
+          },
+          {
+            "label": "Palatinate Library",
+            "count": 4019
+          },
+          {
+            "label": "Schwules Museum Berlin",
+            "count": 3975
+          },
+          {
+            "label": "Archive of the German Women\u2019s Movement",
+            "count": 3792
+          },
+          {
+            "label": "Archive of the Lutheran-Protestant Church of Hanover",
+            "count": 3625
+          },
+          {
+            "label": "University Library W\u00fcrzburg",
+            "count": 3611
+          },
+          {
+            "label": "LVR-open air museum Kommern",
+            "count": 3421
+          },
+          {
+            "label": "Roscheider Hof Open Air Museum",
+            "count": 3173
+          },
+          {
+            "label": "State Gallery Stuttgart",
+            "count": 3171
+          },
+          {
+            "label": "Historical Archive of BGH Edelstahlwerke GmbH",
+            "count": 3145
+          },
+          {
+            "label": "City Archives of Frankfurt (Oder)",
+            "count": 3068
+          },
+          {
+            "label": "Stuttgart State Museum of Natural History",
+            "count": 2921
+          },
+          {
+            "label": "German Blade Museum",
+            "count": 2675
+          },
+          {
+            "label": "LVR-Freilichtmuseum Lindlar \u2013 Bergisches Freilichtmuseum f\u00fcr \u00d6kologie und b\u00e4uerlich-handwerkliche Kultur",
+            "count": 2658
+          },
+          {
+            "label": "The project \"Corpus Inscriptionum Latinarum\"",
+            "count": 2657
+          },
+          {
+            "label": "Bayerische K\u00fcnstlernachl\u00e4sse e.V.",
+            "count": 2417
+          },
+          {
+            "label": "Filmmuseum der Landeshauptstadt D\u00fcsseldorf",
+            "count": 2403
+          },
+          {
+            "label": "Bamberg State Library",
+            "count": 2296
+          },
+          {
+            "label": "Museum im Schloss Bad Pyrmont",
+            "count": 2286
+          },
+          {
+            "label": "Museum of Asian Art, Staatliche Museen zu Berlin",
+            "count": 2286
+          },
+          {
+            "label": "City Museum Berlin",
+            "count": 2252
+          },
+          {
+            "label": "Dresden State Art Collections. GRASSI Museum of Ethnology in Leipzig",
+            "count": 2241
+          },
+          {
+            "label": "Freies Deutsches Hochstift / Frankfurter Goethe-Museum",
+            "count": 2181
+          },
+          {
+            "label": "Old National Gallery, Berlin State Museums",
+            "count": 2108
+          },
+          {
+            "label": "Neanderthal Museum",
+            "count": 2103
+          },
+          {
+            "label": "Max Planck Institute for the History of Science",
+            "count": 2035
+          },
+          {
+            "label": "City Museum of D\u00fcsseldorf",
+            "count": 2017
+          },
+          {
+            "label": "Maya Image Archive - Image database of the project \"Text Database and Dictionary of Classic Maya\" at the University of Bonn - Department of Anthropology of the Americas",
+            "count": 1908
+          },
+          {
+            "label": "Mill Association Berlin-Brandenburg eV, historic mill of Sanssouci",
+            "count": 1845
+          },
+          {
+            "label": "Handel House",
+            "count": 1791
+          },
+          {
+            "label": "Sculpture Collection and Museum of Byzantine Art, Staatliche Museen zu Berlin",
+            "count": 1791
+          },
+          {
+            "label": "Einbeck City Museum",
+            "count": 1788
+          },
+          {
+            "label": "Museum of Decorative Arts, Staatliche Museen zu Berlin",
+            "count": 1751
+          },
+          {
+            "label": "Mathildenh\u00f6he Institute",
+            "count": 1739
+          },
+          {
+            "label": "Dresden State Art Collections. Old Masters Picture Gallery",
+            "count": 1637
+          },
+          {
+            "label": "Museum village Cloppenburg - Lower Saxony",
+            "count": 1625
+          },
+          {
+            "label": "Dresden State Art Collections. Green Vault",
+            "count": 1623
+          },
+          {
+            "label": "Leibniz Institute DSMZ-German Collection of Microorganisms and Cell Cultures",
+            "count": 1601
+          },
+          {
+            "label": "Schleswig-Holstein State Library",
+            "count": 1595
+          },
+          {
+            "label": "Dresden State Art Collections. Armoury",
+            "count": 1586
+          },
+          {
+            "label": "German Museum of Technology",
+            "count": 1573
+          },
+          {
+            "label": "Hetjens \u2013 German Museum of Ceramics",
+            "count": 1560
+          },
+          {
+            "label": "German Text Archive",
+            "count": 1547
+          },
+          {
+            "label": "Museumsberg Flensburg",
+            "count": 1483
+          },
+          {
+            "label": "Picture Gallery, Berlin State Museums",
+            "count": 1368
+          },
+          {
+            "label": "Museum for Sepulchral Culture",
+            "count": 1362
+          },
+          {
+            "label": "City Museum Bad D\u00fcrkheim in the cultural center Haus Catoir",
+            "count": 1313
+          },
+          {
+            "label": "Museum of the Ancient Near East, Berlin State Museums",
+            "count": 1265
+          },
+          {
+            "label": "Berlin Wall Foundation",
+            "count": 1242
+          },
+          {
+            "label": "Egyptian Museum and Papyrus Collection, Berlin State Museums",
+            "count": 1236
+          },
+          {
+            "label": "German Clock Museum",
+            "count": 1234
+          },
+          {
+            "label": "Rheinisches Sch\u00fctzenmuseum Neuss with Joseph-Lange-Sch\u00fctzenarchiv",
+            "count": 1203
+          },
+          {
+            "label": "Br\u00f6han-Museum, Berlin",
+            "count": 1102
+          },
+          {
+            "label": "Home and Craft Museum Wahlstedt",
+            "count": 1058
+          },
+          {
+            "label": "Theater history collection and Hebbel collection",
+            "count": 1037
+          },
+          {
+            "label": "Historical Museum of the Palatinate",
+            "count": 1021
+          },
+          {
+            "label": "The Inter Media Art Institute",
+            "count": 1017
+          },
+          {
+            "label": "Museums in the Cultural Center",
+            "count": 1010
+          },
+          {
+            "label": "Museum Schloss Moritzburg Zeitz",
+            "count": 994
+          },
+          {
+            "label": "Sylter Heimatmuseum",
+            "count": 991
+          },
+          {
+            "label": "Saarland Museum",
+            "count": 957
+          },
+          {
+            "label": "Jever Castle Museum",
+            "count": 913
+          },
+          {
+            "label": "Kurpf\u00e4lzisches Museum",
+            "count": 907
+          },
+          {
+            "label": "Elmshorn Industrial Museum",
+            "count": 901
+          },
+          {
+            "label": "Local History Museum Quierschied",
+            "count": 896
+          },
+          {
+            "label": "August Kestner Museum",
+            "count": 891
+          },
+          {
+            "label": "Dr. Carl-Haeberlin Friesen-Museum",
+            "count": 869
+          },
+          {
+            "label": "Centre for Transdisciplinary Gender Studies Humboldt University of Berlin",
+            "count": 851
+          },
+          {
+            "label": "Dithmarscher Landesmuseum",
+            "count": 845
+          },
+          {
+            "label": "Dresden State Art Collections. Albertinum",
+            "count": 843
+          },
+          {
+            "label": "Michael L\u00fcth Office for Environmental Planning",
+            "count": 818
+          },
+          {
+            "label": "BINE Information Service",
+            "count": 813
+          },
+          {
+            "label": "Prince-P\u00fcckler-Museum Park and Palace Branitz Foundation",
+            "count": 813
+          },
+          {
+            "label": "Local history museum and archive Bad Bodendorf",
+            "count": 755
+          },
+          {
+            "label": "Berlin Central and Regional Library",
+            "count": 754
+          },
+          {
+            "label": "Museum Charlottenburg-Wilmerdorf",
+            "count": 751
+          },
+          {
+            "label": "Museum of Musical Instruments, Staatliches Institut f\u00fcr Musikforschung",
+            "count": 739
+          },
+          {
+            "label": "Kunsthalle zu Kiel",
+            "count": 720
+          },
+          {
+            "label": "Theater History Collections at the Freie Universit\u00e4t Berlin",
+            "count": 637
+          },
+          {
+            "label": "Stormarn Village Museum",
+            "count": 633
+          },
+          {
+            "label": "Harz Museum Wernigerode",
+            "count": 630
+          },
+          {
+            "label": "Saarland Clock Museum",
+            "count": 626
+          },
+          {
+            "label": "Sch\u00f6nwalde Village Museum",
+            "count": 625
+          },
+          {
+            "label": "Gerda Schimpf Photo Archive",
+            "count": 614
+          },
+          {
+            "label": "LVR-LandesMuseum Bonn",
+            "count": 612
+          },
+          {
+            "label": "State and University Library Bremen",
+            "count": 603
+          },
+          {
+            "label": "Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research",
+            "count": 568
+          },
+          {
+            "label": "Museum Ludwig, Cologne",
+            "count": 567
+          },
+          {
+            "label": "Lette Verein Berlin",
+            "count": 563
+          },
+          {
+            "label": "Dresden State Art Collections. Royal Cabinet of Mathematical and Physical Instruments",
+            "count": 558
+          },
+          {
+            "label": "Allmers-Haus",
+            "count": 557
+          },
+          {
+            "label": "German Maritime Museum. Collection",
+            "count": 536
+          },
+          {
+            "label": "Kunsthalle St. Annen",
+            "count": 527
+          },
+          {
+            "label": "Magnus-Hirschfeld-Gesellschaft",
+            "count": 519
+          },
+          {
+            "label": "Forum Internationale Wissenschaft Bonn",
+            "count": 517
+          },
+          {
+            "label": "Digital Art and Culture Archive D\u00fcsseldorf",
+            "count": 510
+          },
+          {
+            "label": "Berlin Sports Museum",
+            "count": 503
+          },
+          {
+            "label": "Pankow Art Collection",
+            "count": 494
+          },
+          {
+            "label": "Museum of Medical & Pharmaceutical History",
+            "count": 479
+          },
+          {
+            "label": "Museum Farm Lensahn",
+            "count": 476
+          },
+          {
+            "label": "Institute for Saxon History and Folklore",
+            "count": 474
+          },
+          {
+            "label": "City Museum - Warleberger Hof",
+            "count": 467
+          },
+          {
+            "label": "Di\u00f6zesanarchiv Limburg",
+            "count": 457
+          },
+          {
+            "label": "City Museum Wadern",
+            "count": 450
+          },
+          {
+            "label": "Bavarian Army Museum",
+            "count": 439
+          },
+          {
+            "label": "Langes Tannen Museum",
+            "count": 433
+          },
+          {
+            "label": "St. Annen Museum",
+            "count": 430
+          },
+          {
+            "label": "Saarland Mining Museum",
+            "count": 419
+          },
+          {
+            "label": "Gorleben Archiv e.V.",
+            "count": 413
+          },
+          {
+            "label": "Pinneberg Museum",
+            "count": 408
+          },
+          {
+            "label": "HausBoden Art and History \u2013 Society and Memory",
+            "count": 390
+          },
+          {
+            "label": "City Archive W\u00fcrzburg",
+            "count": 384
+          },
+          {
+            "label": "Sparkassenstiftung Schleswig-Holstein",
+            "count": 375
+          },
+          {
+            "label": "Old Frisian House",
+            "count": 361
+          },
+          {
+            "label": "Oderberg Inland Navigation Museum",
+            "count": 356
+          },
+          {
+            "label": "State Palaces , Castles and Gardens of Saxony",
+            "count": 356
+          },
+          {
+            "label": "LLL eV - Lesbian Archive Frankfurt am Main",
+            "count": 347
+          },
+          {
+            "label": "Bernhard-Heiliger-Stiftung",
+            "count": 328
+          },
+          {
+            "label": "Stiftung Schloss und Park Benrath",
+            "count": 328
+          },
+          {
+            "label": "Archiv Flughafen Tempelhof",
+            "count": 323
+          },
+          {
+            "label": "Mitte Museum",
+            "count": 322
+          },
+          {
+            "label": "Cultural Office of the State Capital D\u00fcsseldorf",
+            "count": 309
+          },
+          {
+            "label": "Friedrich Wilhelm Murnau Foundation",
+            "count": 302
+          },
+          {
+            "label": "Kunsthalle Bielefeld",
+            "count": 299
+          },
+          {
+            "label": "European Roma Institute for Arts and Culture",
+            "count": 298
+          },
+          {
+            "label": "City Museums Freiburg",
+            "count": 292
+          },
+          {
+            "label": "University Library 'Georgius Agricola' TU Bergakademie Freiberg",
+            "count": 285
+          },
+          {
+            "label": "Christian Art Foundation Wittenberg",
+            "count": 282
+          },
+          {
+            "label": "Museum of Cultural History Prenzlau",
+            "count": 275
+          },
+          {
+            "label": "Terre des Femmes Documentation Center",
+            "count": 271
+          },
+          {
+            "label": "Kranichhaus. Museum des Landes Hadeln",
+            "count": 270
+          },
+          {
+            "label": "K\u00e4seglocke Worpswede",
+            "count": 267
+          },
+          {
+            "label": "Museum-digital",
+            "count": 263
+          },
+          {
+            "label": "Museum in Pritzwalk",
+            "count": 253
+          },
+          {
+            "label": "Nordfriesland Museum Nissenhaus",
+            "count": 248
+          },
+          {
+            "label": "Institute of Low German language e. V.",
+            "count": 247
+          },
+          {
+            "label": "Museum of the landscape Eiderstedt",
+            "count": 237
+          },
+          {
+            "label": "Kurt Tucholsky Literature Museum",
+            "count": 234
+          },
+          {
+            "label": "Museum HAUS HANSESTADT DANZIG",
+            "count": 228
+          },
+          {
+            "label": "Institut des Hautes \u00c9tudes Scientifiques",
+            "count": 227
+          },
+          {
+            "label": "F\u00f6rderverein Sammlung Heinz Kirchhoff e.V.",
+            "count": 224
+          },
+          {
+            "label": "Kiln and Ceramics Museum Velten",
+            "count": 224
+          },
+          {
+            "label": "Schleswig Folklore Museum",
+            "count": 223
+          },
+          {
+            "label": "Ernst Busch University of Theatre Arts Berlin",
+            "count": 219
+          },
+          {
+            "label": "Geomuseum of WWU",
+            "count": 216
+          },
+          {
+            "label": "Numismatic Collection, Berlin State Museums",
+            "count": 208
+          },
+          {
+            "label": "Institute of Geometry of the Technical University of Dresden",
+            "count": 201
+          },
+          {
+            "label": "Lindau Nobel Laureate Meetings",
+            "count": 201
+          },
+          {
+            "label": "Ruhr University Bochum",
+            "count": 194
+          },
+          {
+            "label": "District Archeology Rotenburg (W\u00fcmme)",
+            "count": 193
+          },
+          {
+            "label": "Museum of Cloth and Technology",
+            "count": 185
+          },
+          {
+            "label": "Museum Schloss Herzberg",
+            "count": 184
+          },
+          {
+            "label": "MONAliesA Feminist Library",
+            "count": 181
+          },
+          {
+            "label": "Federal Archives of Germany",
+            "count": 177
+          },
+          {
+            "label": "Schiffahrtsmuseum der oldenburgischen Unterweser e. V.",
+            "count": 176
+          },
+          {
+            "label": "Women's City Archive Hamburg",
+            "count": 176
+          },
+          {
+            "label": "M\u00fcllrose Local History Museum in the guest house",
+            "count": 174
+          },
+          {
+            "label": "Artothek Eckernf\u00f6rde",
+            "count": 171
+          },
+          {
+            "label": "Female gender library Saar",
+            "count": 164
+          },
+          {
+            "label": "Institut f\u00fcr den Wissenschaftlichen Film",
+            "count": 160
+          },
+          {
+            "label": "Village Museum Schacht-Audorf",
+            "count": 159
+          },
+          {
+            "label": "Dat ole Hus",
+            "count": 156
+          },
+          {
+            "label": "Terra Sigillata Museum",
+            "count": 150
+          },
+          {
+            "label": "City Museum Schleswig",
+            "count": 146
+          },
+          {
+            "label": "Heinrich-Heine-Institut und Schumann-Haus",
+            "count": 137
+          },
+          {
+            "label": "Archaeological Museum of the University of M\u00fcnster",
+            "count": 132
+          },
+          {
+            "label": "Obernfeld Local History Museum",
+            "count": 129
+          },
+          {
+            "label": "Umbruch image archive",
+            "count": 126
+          },
+          {
+            "label": "Archive DENKtR\u00c4UME/Hamburg women's library",
+            "count": 125
+          },
+          {
+            "label": "District museums Alte Bischofsburg with Museum of the Thirty Years' War",
+            "count": 121
+          },
+          {
+            "label": "School of Art and Design Kassel",
+            "count": 108
+          },
+          {
+            "label": "Museums J\u00fcterbog",
+            "count": 103
+          },
+          {
+            "label": "HfG-Archive Ulm",
+            "count": 102
+          },
+          {
+            "label": "Brandenburg Main and State Stud Foundation",
+            "count": 100
+          },
+          {
+            "label": "Paul Jerabek, Julian Hegemann, Andreas Authmann",
+            "count": 99
+          },
+          {
+            "label": "House of the Wannsee Conference",
+            "count": 98
+          },
+          {
+            "label": "German Shoe Museum",
+            "count": 96
+          },
+          {
+            "label": "Offenbach University of Art and Design",
+            "count": 96
+          },
+          {
+            "label": "Forum for Artists' Estates",
+            "count": 93
+          },
+          {
+            "label": "Natural History Museum, Bielefeld",
+            "count": 92
+          },
+          {
+            "label": "Transmediale festival",
+            "count": 92
+          },
+          {
+            "label": "Darmstadt University of Applied Sciences",
+            "count": 91
+          },
+          {
+            "label": "Detlefsen Museum in Brockdorff-Palais",
+            "count": 91
+          },
+          {
+            "label": "Europeana 1989",
+            "count": 91
+          },
+          {
+            "label": "Heinz Nixdorf MuseumsForum",
+            "count": 91
+          },
+          {
+            "label": "German Chair Making Museum",
+            "count": 86
+          },
+          {
+            "label": "Sylter Heimatmuseum S\u00f6l'ring Foriining Sylter Verein e.V.",
+            "count": 83
+          },
+          {
+            "label": "Portal zur Geschichte - Sammlung Frauenstift Gandersheim",
+            "count": 82
+          },
+          {
+            "label": "Stiftung Deutsches Technikmuseum Berlin. Historisches Archiv",
+            "count": 76
+          },
+          {
+            "label": "Cologne Women's History Association",
+            "count": 74
+          },
+          {
+            "label": "Urban and regional museum in the castle to Lubben",
+            "count": 74
+          },
+          {
+            "label": "RheinMain University of Applied Sciences",
+            "count": 70
+          },
+          {
+            "label": "Rendsburg Municipal Archive",
+            "count": 68
+          },
+          {
+            "label": "Museum Eckernf\u00f6rde",
+            "count": 61
+          },
+          {
+            "label": "Brandenburg Textile Museum",
+            "count": 60
+          },
+          {
+            "label": "German Informatics Society",
+            "count": 60
+          },
+          {
+            "label": "Lippmann-Rau Music Archive",
+            "count": 60
+          },
+          {
+            "label": "Museum Abtei Liesborn",
+            "count": 59
+          },
+          {
+            "label": "Academy of Sciences and Literature Mainz",
+            "count": 54
+          },
+          {
+            "label": "Heikendorf Art Museum - Kiel Fjord",
+            "count": 54
+          },
+          {
+            "label": "Local History Museum an der M\u00fchle",
+            "count": 53
+          },
+          {
+            "label": "Landesfilmsammlung Baden-W\u00fcrttemberg",
+            "count": 52
+          },
+          {
+            "label": "KERAMIK.UM Ausstellungs- und Aktionshaus Fredelsloh",
+            "count": 51
+          },
+          {
+            "label": "Posterstein Castle Museum",
+            "count": 51
+          },
+          {
+            "label": "ASSETS",
+            "count": 49
+          },
+          {
+            "label": "The German Sport and Olympic Museum",
+            "count": 49
+          },
+          {
+            "label": "Alfred Wegener Museum",
+            "count": 47
+          },
+          {
+            "label": "SciFox",
+            "count": 46
+          },
+          {
+            "label": "Ethnographic Sound Recordings Archive",
+            "count": 44
+          },
+          {
+            "label": "Gustaf Dalman Institute, University of Greifswald",
+            "count": 44
+          },
+          {
+            "label": "Verden District Archives",
+            "count": 43
+          },
+          {
+            "label": "Aquazoo L\u00f6bbecke Museum",
+            "count": 42
+          },
+          {
+            "label": "Cottbus City Museum",
+            "count": 39
+          },
+          {
+            "label": "Museum in the Stone Gate, Anklam",
+            "count": 38
+          },
+          {
+            "label": "Leibniz University Hannover",
+            "count": 37
+          },
+          {
+            "label": "Madonna \u2013 Archive and Documentation Center for SEX WORK",
+            "count": 35
+          },
+          {
+            "label": "Museum Schloss F\u00fcrstenberg",
+            "count": 32
+          },
+          {
+            "label": "Nikolausberg Museum Local History",
+            "count": 32
+          },
+          {
+            "label": "Fire Museum Schleswig-Holstein",
+            "count": 30
+          },
+          {
+            "label": "Museum Schwedenspeicher",
+            "count": 27
+          },
+          {
+            "label": "University of Potsdam",
+            "count": 27
+          },
+          {
+            "label": "IMAGINARY gGmbH",
+            "count": 26
+          },
+          {
+            "label": "Math.space",
+            "count": 25
+          },
+          {
+            "label": "Larger Than Life",
+            "count": 23
+          },
+          {
+            "label": "International Union of Crystallography",
+            "count": 22
+          },
+          {
+            "label": "Institute of Computer Science - Foundation for Research and Technology Hellas",
+            "count": 20
+          },
+          {
+            "label": "World Heritage Rammelsberg",
+            "count": 20
+          },
+          {
+            "label": "City Gallery Kiel",
+            "count": 19
+          },
+          {
+            "label": "Coastal Research Centre",
+            "count": 18
+          },
+          {
+            "label": "ROM Technik",
+            "count": 18
+          },
+          {
+            "label": "Carl von Ossietzky University of Oldenburg",
+            "count": 17
+          },
+          {
+            "label": "Helene Lange Archive",
+            "count": 17
+          },
+          {
+            "label": "Weierstrass Institute",
+            "count": 17
+          },
+          {
+            "label": "Laserinstitut Hochschule Mittweida",
+            "count": 16
+          },
+          {
+            "label": "Short Film Agency Hamburg",
+            "count": 16
+          },
+          {
+            "label": "University of Applied Sciences Ravensburg-Weingarten",
+            "count": 15
+          },
+          {
+            "label": "Institute for Social-Ecological Research",
+            "count": 13
+          },
+          {
+            "label": "G\u00f6ttingen City Archive",
+            "count": 12
+          },
+          {
+            "label": "University of Hildesheim Foundation",
+            "count": 12
+          },
+          {
+            "label": "Herbert Gerisch Foundation",
+            "count": 11
+          },
+          {
+            "label": "Schleswig-Holstein State Museums Foundation Schloss Gottorf",
+            "count": 11
+          },
+          {
+            "label": "Berlin-Brandenburg Broadcasting",
+            "count": 10
+          },
+          {
+            "label": "Brandenburg States Museum of Modern Art",
+            "count": 10
+          },
+          {
+            "label": "Buchstabenmuseum",
+            "count": 10
+          },
+          {
+            "label": "City and Industry Museum Guben",
+            "count": 10
+          },
+          {
+            "label": "Helmholtz Centre Potsdam German Research Centre for Geosciences GFZ",
+            "count": 10
+          },
+          {
+            "label": "Natural History Museum Leipzig",
+            "count": 10
+          },
+          {
+            "label": "New National Gallery",
+            "count": 10
+          },
+          {
+            "label": "Italian National Film Library",
+            "count": 9
+          },
+          {
+            "label": "Center for Interdisciplinary Research",
+            "count": 7
+          },
+          {
+            "label": "Nordfriisk Instituut",
+            "count": 3
+          },
+          {
+            "label": "Archiv der Berlin-Brandenburgischen Akademie der\n         Wissenschaften",
+            "count": 2
+          },
+          {
+            "label": "Prussian Cultural Heritage Foundation",
+            "count": 2
+          },
+          {
+            "label": "The Film Museum Potsdam",
+            "count": 2
+          },
+          {
+            "label": "Alte Pinakothek, Munich",
+            "count": 1
+          },
+          {
+            "label": "Berlin Gallery, Museum of Modern Art",
+            "count": 1
+          },
+          {
+            "label": "Eidgen\u00f6ssische Technische Hochschule Z\u00fcrich",
+            "count": 1
+          },
+          {
+            "label": "Elektrocouture",
+            "count": 1
+          },
+          {
+            "label": "House of the History of the Federal Republic of Germany",
+            "count": 1
+          },
+          {
+            "label": "Institut f\u00fcr Film und Bild in Wissenschaft und Unterricht, Abteilung Hochschule und Forschung",
+            "count": 1
+          },
+          {
+            "label": "Jewish Community Wiesbaden",
+            "count": 1
+          },
+          {
+            "label": "Kunstsammlung Nordrhein-Westfalen, D\u00fcsseldorf",
+            "count": 1
+          },
+          {
+            "label": "Mainz University of Applied Sciences",
+            "count": 1
+          },
+          {
+            "label": "Museum for Hamburg History",
+            "count": 1
+          },
+          {
+            "label": "Museums B\u00f6ttcherstrasse, Paula Modersohn-Becker Museum, Bremen",
+            "count": 1
+          },
+          {
+            "label": "Polygon Planet",
+            "count": 1
+          },
+          {
+            "label": "Sprengel Museum Hannover",
+            "count": 1
+          },
+          {
+            "label": "Thuringian University and State Library Jena",
+            "count": 1
+          },
+          {
+            "label": "University of Bremen",
+            "count": 1
+          },
+          {
+            "label": "Zentrum f\u00fcr Netzkunst",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "proxy_dc_subject",
+        "fields": [
+          {
+            "label": "http://data.europeana.eu/concept/48",
+            "count": 640812
+          },
+          {
+            "label": "Fotografie",
+            "count": 639865
+          },
+          {
+            "label": "Photograph",
+            "count": 620287
+          },
+          {
+            "label": "http://data.europeana.eu/concept/94",
+            "count": 300365
+          },
+          {
+            "label": "Architektur",
+            "count": 300132
+          },
+          {
+            "label": "Dresden",
+            "count": 260435
+          },
+          {
+            "label": "Portrait",
+            "count": 141391
+          },
+          {
+            "label": "Druckgraphik",
+            "count": 140707
+          },
+          {
+            "label": "Berlin",
+            "count": 138754
+          },
+          {
+            "label": "Bildnis",
+            "count": 126501
+          },
+          {
+            "label": "Graphik",
+            "count": 109827
+          },
+          {
+            "label": "print graphic",
+            "count": 106306
+          },
+          {
+            "label": "http://data.europeana.eu/concept/26",
+            "count": 106215
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300234110",
+            "count": 106103
+          },
+          {
+            "label": "Politik",
+            "count": 103273
+          },
+          {
+            "label": "Zeichenkunst",
+            "count": 93368
+          },
+          {
+            "label": "Drawing art",
+            "count": 91969
+          },
+          {
+            "label": "Zeitschrift",
+            "count": 83522
+          },
+          {
+            "label": "http://data.europeana.eu/concept/21",
+            "count": 83436
+          },
+          {
+            "label": "http://data.europeana.eu/place/80",
+            "count": 82856
+          },
+          {
+            "label": "Journal",
+            "count": 82232
+          },
+          {
+            "label": "Medizin, Gesundheit",
+            "count": 81669
+          },
+          {
+            "label": "Medicine, Health",
+            "count": 81644
+          },
+          {
+            "label": "https://d-nb.info/gnd/4029670-2",
+            "count": 80015
+          },
+          {
+            "label": "Kunst und Kultur",
+            "count": 78857
+          },
+          {
+            "label": "Art and culture",
+            "count": 78856
+          },
+          {
+            "label": "https://d-nb.info/gnd/4135144-7",
+            "count": 78156
+          },
+          {
+            "label": "Skulptur",
+            "count": 74087
+          },
+          {
+            "label": "http://data.europeana.eu/concept/3488",
+            "count": 71392
+          },
+          {
+            "label": "Gesellschaft",
+            "count": 71269
+          },
+          {
+            "label": "graphic",
+            "count": 70189
+          },
+          {
+            "label": "sculpture",
+            "count": 69087
+          },
+          {
+            "label": "epigraphy",
+            "count": 69053
+          },
+          {
+            "label": "Society",
+            "count": 67558
+          },
+          {
+            "label": "Landschaft",
+            "count": 63419
+          },
+          {
+            "label": "http://data.europeana.eu/concept/151",
+            "count": 61455
+          },
+          {
+            "label": "Mann",
+            "count": 59720
+          },
+          {
+            "label": "Ansichtskarte",
+            "count": 57525
+          },
+          {
+            "label": "Bildpostkarte",
+            "count": 57293
+          },
+          {
+            "label": "Druckgrafik",
+            "count": 55738
+          },
+          {
+            "label": "http://data.europeana.eu/concept/47",
+            "count": 55317
+          },
+          {
+            "label": "View Map",
+            "count": 55294
+          },
+          {
+            "label": "Picture postcard",
+            "count": 55101
+          },
+          {
+            "label": "Leipzig",
+            "count": 54658
+          },
+          {
+            "label": "Malerei",
+            "count": 53830
+          },
+          {
+            "label": "Printing graphic",
+            "count": 50483
+          },
+          {
+            "label": "Man",
+            "count": 49090
+          },
+          {
+            "label": "Deutschland",
+            "count": 46589
+          },
+          {
+            "label": "Building",
+            "count": 43984
+          },
+          {
+            "label": "Painting",
+            "count": 41388
+          }
+        ]
+      },
+      {
+        "name": "RIGHTS",
+        "fields": [
+          {
+            "label": "http://rightsstatements.org/vocab/NoC-NC/1.0/",
+            "count": 1996908
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/InC/1.0/",
+            "count": 1848859
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
+            "count": 1207267
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by/3.0/",
+            "count": 828038
+          },
+          {
+            "label": "http://creativecommons.org/publicdomain/mark/1.0/",
+            "count": 728332
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+            "count": 714562
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "count": 363105
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+            "count": 243300
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-sa/4.0/",
+            "count": 226703
+          },
+          {
+            "label": "http://creativecommons.org/publicdomain/zero/1.0/",
+            "count": 226529
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc/4.0/",
+            "count": 96576
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+            "count": 71658
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by/4.0/",
+            "count": 58080
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-sa/3.0/de/",
+            "count": 34200
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+            "count": 21607
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/CNE/1.0/",
+            "count": 18705
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "count": 14339
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nd/4.0/",
+            "count": 655
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nd/3.0/",
+            "count": 517
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by/3.0/de/",
+            "count": 477
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-nd/3.0/de/",
+            "count": 287
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nd/3.0/de/",
+            "count": 226
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/InC-OW-EU/1.0/",
+            "count": 121
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-sa/3.0/de/",
+            "count": 100
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc/3.0/de/",
+            "count": 75
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/NoC-OKLR/1.0/",
+            "count": 12
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-nd/2.5/ch/",
+            "count": 1
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nd/4.0",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "contentTier",
+        "fields": [
+          {
+            "label": "2",
+            "count": 2639250
+          },
+          {
+            "label": "3",
+            "count": 2576058
+          },
+          {
+            "label": "1",
+            "count": 1806629
+          },
+          {
+            "label": "4",
+            "count": 1412044
+          },
+          {
+            "label": "0",
+            "count": 267259
+          }
+        ]
+      },
+      {
+        "name": "TYPE",
+        "fields": [
+          {
+            "label": "IMAGE",
+            "count": 4522446
+          },
+          {
+            "label": "TEXT",
+            "count": 4073757
+          },
+          {
+            "label": "SOUND",
+            "count": 54082
+          },
+          {
+            "label": "VIDEO",
+            "count": 50875
+          },
+          {
+            "label": "3D",
+            "count": 80
+          }
+        ]
+      },
+      {
+        "name": "metadataTier",
+        "fields": [
+          {
+            "label": "A",
+            "count": 5712803
+          },
+          {
+            "label": "B",
+            "count": 2047822
+          },
+          {
+            "label": "C",
+            "count": 485157
+          },
+          {
+            "label": "0",
+            "count": 455458
+          }
+        ]
+      }
+    ]
+  },
+  "France": {
+    "apikey": "illardfon",
+    "success": true,
+    "requestNumber": 999,
+    "itemsCount": 0,
+    "totalResults": 4724898,
+    "items": [],
+    "facets": [
+      {
+        "name": "DATA_PROVIDER",
+        "fields": [
+          {
+            "label": "National Library of France",
+            "count": 2999310
+          },
+          {
+            "label": "Media Library of Architecture and Heritage",
+            "count": 510877
+          },
+          {
+            "label": "Natural History Museum in Paris",
+            "count": 502160
+          },
+          {
+            "label": "Ministry of Culture",
+            "count": 173279
+          },
+          {
+            "label": "Historical Monuments: Regional Conservation",
+            "count": 128192
+          },
+          {
+            "label": "Ministry of Culture and Communication, Regional Archaeology Service",
+            "count": 110142
+          },
+          {
+            "label": "National Audiovisual Institute France",
+            "count": 54491
+          },
+          {
+            "label": "Interuniversity Health Library",
+            "count": 47992
+          },
+          {
+            "label": "Palais Galliera - Mus\u00e9e de la Mode de la Ville de Paris",
+            "count": 44495
+          },
+          {
+            "label": "Mobilier National Collections",
+            "count": 24284
+          },
+          {
+            "label": "Center for Research in Ethnomusicology",
+            "count": 21446
+          },
+          {
+            "label": "National and University Library of Strasbourg",
+            "count": 21320
+          },
+          {
+            "label": "House Culture Yiddish",
+            "count": 14330
+          },
+          {
+            "label": "Museum of Decorative Arts",
+            "count": 12967
+          },
+          {
+            "label": "Philharmonie de Paris",
+            "count": 12091
+          },
+          {
+            "label": "National Archives of France",
+            "count": 11709
+          },
+          {
+            "label": "Rh\u00f4ne-Alpes Laboratory for Historical Research",
+            "count": 10046
+          },
+          {
+            "label": "Library of the Alliance Isra\u00e9lite Universelle",
+            "count": 6229
+          },
+          {
+            "label": "The Paris Observatory Library",
+            "count": 3085
+          },
+          {
+            "label": "Departmental Units of Architecture and Heritage",
+            "count": 2587
+          },
+          {
+            "label": "PETRAE - AUSONIUS",
+            "count": 2571
+          },
+          {
+            "label": "House for the Social Sciences and Humanities of Dijon",
+            "count": 2116
+          },
+          {
+            "label": "Occitan Media Library",
+            "count": 1962
+          },
+          {
+            "label": "National Archeology Museum",
+            "count": 1333
+          },
+          {
+            "label": "National Conservatory of Arts and Crafts",
+            "count": 1274
+          },
+          {
+            "label": "Centre for Research on Sound Space and urban environment",
+            "count": 910
+          },
+          {
+            "label": "Models and Simulations for Architecture and Heritage",
+            "count": 880
+          },
+          {
+            "label": "Bibracte EPCC",
+            "count": 539
+          },
+          {
+            "label": "Babord-Num",
+            "count": 487
+          },
+          {
+            "label": "Virtual Humanist Libraries, Tours University",
+            "count": 384
+          },
+          {
+            "label": "Media library at Centre National de la Danse",
+            "count": 266
+          },
+          {
+            "label": "Archaeological Society of Bordeaux",
+            "count": 260
+          },
+          {
+            "label": "Clermont Library",
+            "count": 231
+          },
+          {
+            "label": "Virtual library on the first socialisms",
+            "count": 177
+          },
+          {
+            "label": "Conservatory of the Gironde Estuary",
+            "count": 159
+          },
+          {
+            "label": "P\u00f4le de la M\u00e9moire Locale",
+            "count": 119
+          },
+          {
+            "label": "TheFactStories",
+            "count": 85
+          },
+          {
+            "label": "Institute of Computer Science - Foundation for Research and Technology Hellas",
+            "count": 30
+          },
+          {
+            "label": "Cin\u00e9m\u00e9moire - Amateur Film Library of Marseille",
+            "count": 26
+          },
+          {
+            "label": "Ministry of Reconstruction and Urban Planning",
+            "count": 21
+          },
+          {
+            "label": "National Customs Museum",
+            "count": 16
+          },
+          {
+            "label": "In Video Veritas",
+            "count": 7
+          },
+          {
+            "label": "Louvre",
+            "count": 4
+          },
+          {
+            "label": "Orsay Museum",
+            "count": 3
+          },
+          {
+            "label": "Centre Pompidou - National museum for modern art - Industrial Design Centre",
+            "count": 1
+          },
+          {
+            "label": "Heritage Malta",
+            "count": 1
+          },
+          {
+            "label": "Museum of Fine Arts in Lyon",
+            "count": 1
+          },
+          {
+            "label": "National Centre for Prehistory",
+            "count": 1
+          },
+          {
+            "label": "National Monuments Center",
+            "count": 1
+          },
+          {
+            "label": "Palace of Versailles and Trianon",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "proxy_dc_subject",
+        "fields": [
+          {
+            "label": "http://www.wikidata.org/entity/Q4406616",
+            "count": 255336
+          },
+          {
+            "label": "http://test113.ait.co.at/tematres/LinBi_Simple_Voc/?ID=Plant",
+            "count": 142586
+          },
+          {
+            "label": "http://data.europeana.eu/concept/35",
+            "count": 129967
+          },
+          {
+            "label": "dessin",
+            "count": 127851
+          },
+          {
+            "label": "drawing",
+            "count": 127851
+          },
+          {
+            "label": "http://www.wikidata.org/entity/Q87167",
+            "count": 102364
+          },
+          {
+            "label": "http://data.europeana.eu/concept/17",
+            "count": 101308
+          },
+          {
+            "label": "http://data.europeana.eu/concept/43",
+            "count": 70359
+          },
+          {
+            "label": "http://www.wikidata.org/entity/Q4006",
+            "count": 69538
+          },
+          {
+            "label": "http://data.europeana.eu/concept/83",
+            "count": 67589
+          },
+          {
+            "label": "World War I",
+            "count": 62450
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300020756",
+            "count": 47144
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300411614",
+            "count": 47144
+          },
+          {
+            "label": "http://www.wikidata.org/entity/Q107274053",
+            "count": 47144
+          },
+          {
+            "label": "http://www.wikidata.org/entity/Q107274057",
+            "count": 47144
+          },
+          {
+            "label": "http://www.wikidata.org/entity/Q12554",
+            "count": 47144
+          },
+          {
+            "label": "http://test113.ait.co.at/tematres/LinBi_Simple_Voc/?ID=Tree",
+            "count": 46271
+          },
+          {
+            "label": "http://data.europeana.eu/concept/81",
+            "count": 46142
+          },
+          {
+            "label": "http://data.europeana.eu/concept/2967",
+            "count": 46120
+          },
+          {
+            "label": "http://test113.ait.co.at/tematres/LinBi_Simple_Voc/?ID=Flower",
+            "count": 42437
+          },
+          {
+            "label": "http://test113.ait.co.at/tematres/LinBi_Simple_Voc/?ID=Medical%20plant",
+            "count": 31413
+          },
+          {
+            "label": "Artisanat",
+            "count": 24470
+          },
+          {
+            "label": "Photographie de presse -- 1900-1945",
+            "count": 23876
+          },
+          {
+            "label": "http://data.europeana.eu/concept/soundgenres/Music/Traditional_and_folk_music",
+            "count": 22782
+          },
+          {
+            "label": "Ethnomusicologie",
+            "count": 21422
+          },
+          {
+            "label": "Ethnomusicology",
+            "count": 18178
+          },
+          {
+            "label": "Traditional and folkloric music",
+            "count": 18117
+          },
+          {
+            "label": "architecture religieuse",
+            "count": 14913
+          },
+          {
+            "label": "religious architecture",
+            "count": 14913
+          },
+          {
+            "label": "underwater view",
+            "count": 14817
+          },
+          {
+            "label": "vue sous-marine",
+            "count": 14817
+          },
+          {
+            "label": "painting",
+            "count": 14516
+          },
+          {
+            "label": "peinture",
+            "count": 14513
+          },
+          {
+            "label": "http://data.europeana.eu/concept/2538",
+            "count": 14417
+          },
+          {
+            "label": "ethnologie",
+            "count": 13220
+          },
+          {
+            "label": "http://data.europeana.eu/concept/121",
+            "count": 13160
+          },
+          {
+            "label": "http://thesaurus.europeanafashion.eu/thesaurus/10401",
+            "count": 12357
+          },
+          {
+            "label": "stamp",
+            "count": 12297
+          },
+          {
+            "label": "Portraits",
+            "count": 12074
+          },
+          {
+            "label": "Medieval Numismatics",
+            "count": 11695
+          },
+          {
+            "label": "Numismatique m\u00e9di\u00e9vale",
+            "count": 11695
+          },
+          {
+            "label": "furniture",
+            "count": 11611
+          },
+          {
+            "label": "mobilier",
+            "count": 11611
+          },
+          {
+            "label": "amphore",
+            "count": 11207
+          },
+          {
+            "label": "http://data.europeana.eu/concept/2317",
+            "count": 11174
+          },
+          {
+            "label": "http://thesaurus.europeanafashion.eu/thesaurus/10005",
+            "count": 11059
+          },
+          {
+            "label": "Portraits du th\u00e9\u00e2tre -- 19e si\u00e8cle",
+            "count": 10907
+          },
+          {
+            "label": "estampe",
+            "count": 10348
+          },
+          {
+            "label": "http://data.europeana.eu/concept/soundgenres/Music",
+            "count": 10183
+          },
+          {
+            "label": "http://data.europeana.eu/concept/2326",
+            "count": 10157
+          }
+        ]
+      },
+      {
+        "name": "RIGHTS",
+        "fields": [
+          {
+            "label": "http://rightsstatements.org/vocab/NoC-OKLR/1.0/",
+            "count": 2927247
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/InC/1.0/",
+            "count": 1200455
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by/3.0/",
+            "count": 481945
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+            "count": 27959
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by/4.0/",
+            "count": 21424
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+            "count": 20945
+          },
+          {
+            "label": "http://creativecommons.org/publicdomain/mark/1.0/",
+            "count": 18765
+          },
+          {
+            "label": "http://creativecommons.org/publicdomain/zero/1.0/",
+            "count": 12407
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+            "count": 8606
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc/4.0/",
+            "count": 4379
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-sa/4.0/",
+            "count": 588
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "count": 145
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+            "count": 33
+          }
+        ]
+      },
+      {
+        "name": "contentTier",
+        "fields": [
+          {
+            "label": "1",
+            "count": 1948462
+          },
+          {
+            "label": "3",
+            "count": 1295035
+          },
+          {
+            "label": "0",
+            "count": 821618
+          },
+          {
+            "label": "4",
+            "count": 531619
+          },
+          {
+            "label": "2",
+            "count": 128164
+          }
+        ]
+      },
+      {
+        "name": "TYPE",
+        "fields": [
+          {
+            "label": "TEXT",
+            "count": 2443572
+          },
+          {
+            "label": "IMAGE",
+            "count": 2136120
+          },
+          {
+            "label": "SOUND",
+            "count": 97407
+          },
+          {
+            "label": "VIDEO",
+            "count": 47137
+          },
+          {
+            "label": "3D",
+            "count": 662
+          }
+        ]
+      },
+      {
+        "name": "metadataTier",
+        "fields": [
+          {
+            "label": "A",
+            "count": 2269582
+          },
+          {
+            "label": "0",
+            "count": 1384353
+          },
+          {
+            "label": "B",
+            "count": 987599
+          },
+          {
+            "label": "C",
+            "count": 83364
+          }
+        ]
+      }
+    ]
+  },
+  "Spain": {
+    "apikey": "illardfon",
+    "success": true,
+    "requestNumber": 999,
+    "itemsCount": 0,
+    "totalResults": 6581724,
+    "items": [],
+    "facets": [
+      {
+        "name": "DATA_PROVIDER",
+        "fields": [
+          {
+            "label": "Virtual Library of Historical Press",
+            "count": 1735320
+          },
+          {
+            "label": "National Library of Spain",
+            "count": 664410
+          },
+          {
+            "label": "Galiciana: Digital Library of Galicia",
+            "count": 336061
+          },
+          {
+            "label": "Digital Memory of Catalonia",
+            "count": 286512
+          },
+          {
+            "label": "Galiciana. Arquivo Dixital de Galicia",
+            "count": 234326
+          },
+          {
+            "label": "Archive of Old Catalan Magazines",
+            "count": 229974
+          },
+          {
+            "label": "Ajuntament de Girona",
+            "count": 208078
+          },
+          {
+            "label": "Digital Library of Andalusia",
+            "count": 145620
+          },
+          {
+            "label": "Mares\u00eda: Prensa digitalizada y Patrimonio documental",
+            "count": 141919
+          },
+          {
+            "label": "Canary Islands Historical Photography Archive",
+            "count": 121890
+          },
+          {
+            "label": "Complutense University of Madrid",
+            "count": 121238
+          },
+          {
+            "label": "Digital Library of Castilla y Le\u00f3n",
+            "count": 119704
+          },
+          {
+            "label": "Library of the University of Las Palmas",
+            "count": 115458
+          },
+          {
+            "label": "Cityhall of Murcia. Municipal Archive",
+            "count": 104650
+          },
+          {
+            "label": "Centro de Estudios de Castilla - La Mancha",
+            "count": 94223
+          },
+          {
+            "label": "TV3 Catalan Television",
+            "count": 89148
+          },
+          {
+            "label": "Documentary Repository of the University of Salamanca",
+            "count": 86467
+          },
+          {
+            "label": "Royal Botanic Garden of Madrid",
+            "count": 74638
+          },
+          {
+            "label": "Foundation Virtual Library Miguel de Cervantes",
+            "count": 70971
+          },
+          {
+            "label": "Digital Library of Madrid",
+            "count": 69472
+          },
+          {
+            "label": "The Government of Catalonia",
+            "count": 66231
+          },
+          {
+            "label": "National Archaeological Museum",
+            "count": 62006
+          },
+          {
+            "label": "Cartographic and Geological Institute of Catalonia",
+            "count": 60774
+          },
+          {
+            "label": "Polytechnic University of Valencia",
+            "count": 55663
+          },
+          {
+            "label": "Spanish National Research Council",
+            "count": 54947
+          },
+          {
+            "label": "Image and Sound Archive of Menorca",
+            "count": 52640
+          },
+          {
+            "label": "Regira. Cooperative Repository of Diputaci\u00f3 de Girona",
+            "count": 51534
+          },
+          {
+            "label": "Postal Cabinet Museum of Barcelona (Marull\u2019s Collection)",
+            "count": 49300
+          },
+          {
+            "label": "Biblioteca Diputaci\u00f3n de Almer\u00eda",
+            "count": 47192
+          },
+          {
+            "label": "Tom\u00e1s Navarro Tom\u00e1s Library",
+            "count": 38509
+          },
+          {
+            "label": "Museum of Costume. Ethnological Heritage Research Centre",
+            "count": 35754
+          },
+          {
+            "label": "Patrimonio Digital de Castilla-La Mancha",
+            "count": 32589
+          },
+          {
+            "label": "Toledo Municipal Archives",
+            "count": 32360
+          },
+          {
+            "label": "Virtual Library of Bibliographical Heritage",
+            "count": 31208
+          },
+          {
+            "label": "Autonomous University of Barcelona",
+            "count": 29038
+          },
+          {
+            "label": "Andalusian Performing Arts Research and Resource Center",
+            "count": 28062
+          },
+          {
+            "label": "Library of the Bar Association of Madrid",
+            "count": 27660
+          },
+          {
+            "label": "Library of Asturias",
+            "count": 25427
+          },
+          {
+            "label": "Repositorio Institucional del Banco de Espa\u00f1a",
+            "count": 23655
+          },
+          {
+            "label": "Digital Library Real Academia de la Historia",
+            "count": 23616
+          },
+          {
+            "label": "Virtual Library of La Rioja",
+            "count": 22978
+          },
+          {
+            "label": "Image Archive of Castilla La Mancha",
+            "count": 21534
+          },
+          {
+            "label": "Sorolla Museum",
+            "count": 20263
+          },
+          {
+            "label": "Polytechnic University of Catalonia",
+            "count": 19927
+          },
+          {
+            "label": "Valencian Digital Library",
+            "count": 19090
+          },
+          {
+            "label": "UdG Digital Repository",
+            "count": 18684
+          },
+          {
+            "label": "Natural Science Museum of Barcelona",
+            "count": 18502
+          },
+          {
+            "label": "National Museum of Decorative Arts",
+            "count": 18154
+          },
+          {
+            "label": "Research deposit of the University of Seville",
+            "count": 18068
+          },
+          {
+            "label": "Jaume I University Repository",
+            "count": 17455
+          },
+          {
+            "label": "Museum of America",
+            "count": 17003
+          },
+          {
+            "label": "Ignacio Larramendi Foundation",
+            "count": 16095
+          },
+          {
+            "label": "Institutional Climatological and Meteorological Archive",
+            "count": 15742
+          },
+          {
+            "label": "Virtual Library of Aragon",
+            "count": 15675
+          },
+          {
+            "label": "Museo del Prado digital library",
+            "count": 15377
+          },
+          {
+            "label": "Biblioteca Virtual de la Real Academia Nacional de Farmacia",
+            "count": 14747
+          },
+          {
+            "label": "The Digital Network of Museum Collections in Spain",
+            "count": 14716
+          },
+          {
+            "label": "University of Lleida",
+            "count": 14556
+          },
+          {
+            "label": "Archive of the Crown of Aragon",
+            "count": 13893
+          },
+          {
+            "label": "Navarra Digital Library",
+            "count": 13479
+          },
+          {
+            "label": "City Archive of Arganda del Rey",
+            "count": 13459
+          },
+          {
+            "label": "National Museum of Roman Art",
+            "count": 13278
+          },
+          {
+            "label": "Museum of Popular Arts and Customs of Seville",
+            "count": 11553
+          },
+          {
+            "label": "L\u00e1zaro Galdiano Museum",
+            "count": 10848
+          },
+          {
+            "label": "Library Ciconia",
+            "count": 10822
+          },
+          {
+            "label": "National Museum of Romanticism",
+            "count": 10091
+          },
+          {
+            "label": "Virtual Law Library of Aragon",
+            "count": 9967
+          },
+          {
+            "label": "Eusko Jaurlaritza - Gobierno Vasco",
+            "count": 8389
+          },
+          {
+            "label": "Collective Catalog of the Library Network of the State Archives",
+            "count": 8156
+          },
+          {
+            "label": "Ja\u00e9n Museum",
+            "count": 8028
+          },
+          {
+            "label": "National Museum of Anthropology",
+            "count": 7962
+          },
+          {
+            "label": "Archivo de la Diputaci\u00f3n Provincial de C\u00e1ceres",
+            "count": 7784
+          },
+          {
+            "label": "Cerralbo Museum",
+            "count": 7434
+          },
+          {
+            "label": "National Museum of Underwater Archaeology",
+            "count": 7087
+          },
+          {
+            "label": "Dadun: Digital Academic Repository of the University of Navarra",
+            "count": 6942
+          },
+          {
+            "label": "Trencad\u00eds. The Municipal Library Network of the Diputaci\u00f3 de Barcelona",
+            "count": 6441
+          },
+          {
+            "label": "Sancho el Sabio Foundation",
+            "count": 6426
+          },
+          {
+            "label": "Frederic Mar\u00e8s Museum",
+            "count": 6159
+          },
+          {
+            "label": "University Institute for Research in Iberian Archeology",
+            "count": 5692
+          },
+          {
+            "label": "Repository of the Catholic University of Valencia San Vicente M\u00e1rtir",
+            "count": 5578
+          },
+          {
+            "label": "National Theatre Museum",
+            "count": 5463
+          },
+          {
+            "label": "University of Barcelona. Digital Heritage Library",
+            "count": 5356
+          },
+          {
+            "label": "Minerva, Institutional Repository of the University of Santiago de Compostela",
+            "count": 5144
+          },
+          {
+            "label": "Archivo de la Diputaci\u00f3n de Castell\u00f3n",
+            "count": 4892
+          },
+          {
+            "label": "Bitoteko, Hispanic Esperanto Federation Library",
+            "count": 4482
+          },
+          {
+            "label": "Museo Etnol\u00f3gico de Ribadavia",
+            "count": 4344
+          },
+          {
+            "label": "Diocesan Seminary of Vitoria-Gasteiz",
+            "count": 4221
+          },
+          {
+            "label": "Dialnet",
+            "count": 4086
+          },
+          {
+            "label": "Museum of the Asturian People",
+            "count": 3813
+          },
+          {
+            "label": "Gonz\u00e1lez Mart\u00ed National Museum of Ceramics and Sumptuary Arts",
+            "count": 3748
+          },
+          {
+            "label": "National Museum and Research Center of Altamira",
+            "count": 3662
+          },
+          {
+            "label": "Museum of Teruel",
+            "count": 3656
+          },
+          {
+            "label": "Museum of Navarra",
+            "count": 3378
+          },
+          {
+            "label": "University of Oviedo",
+            "count": 3268
+          },
+          {
+            "label": "Document Repository of the University of Valladolid",
+            "count": 3199
+          },
+          {
+            "label": "Casa de los Tiros Museum",
+            "count": 3185
+          },
+          {
+            "label": "Archivo de la Diputaci\u00f3n Provincial de Badajoz",
+            "count": 3171
+          },
+          {
+            "label": "Repository of Teaching and Research Objects of the University of C\u00e1diz",
+            "count": 3127
+          },
+          {
+            "label": "Capuchin Central Library of Spain",
+            "count": 3124
+          },
+          {
+            "label": "Institutional Repository of the University of Malaga",
+            "count": 3079
+          },
+          {
+            "label": "\u00c1ngel Orensanz and Serrablo Arts Museum",
+            "count": 3060
+          },
+          {
+            "label": "Museum of Almer\u00eda",
+            "count": 3050
+          },
+          {
+            "label": "Fine Arts Museum of Cordoba",
+            "count": 3028
+          },
+          {
+            "label": "Museum of Mallorca",
+            "count": 3006
+          },
+          {
+            "label": "Cathedra M\u00e0rius Torres",
+            "count": 2454
+          },
+          {
+            "label": "Archaeological Museum of Linares. Monographic of C\u00e1stulo",
+            "count": 2363
+          },
+          {
+            "label": "Government of Catalonia. Alt Pened\u00e8s County Archives",
+            "count": 2170
+          },
+          {
+            "label": "Provincial Council of Bizkaia Library",
+            "count": 2147
+          },
+          {
+            "label": "Museum of Albacete",
+            "count": 2141
+          },
+          {
+            "label": "Provincial Archaeological Museum of Ourense",
+            "count": 2111
+          },
+          {
+            "label": "National Museum of Art of Catalonia",
+            "count": 2056
+          },
+          {
+            "label": "Carlos Blanco Aguinaga Cultural Centre of Irun",
+            "count": 1947
+          },
+          {
+            "label": "E_Buah Biblioteca Digital de la Universidad de Alcal\u00e1",
+            "count": 1945
+          },
+          {
+            "label": "Museum of Zaragoza",
+            "count": 1919
+          },
+          {
+            "label": "Archaeological and Ethnological Museum of Granada",
+            "count": 1867
+          },
+          {
+            "label": "Madrid History Museum",
+            "count": 1829
+          },
+          {
+            "label": "Ignacio Aldecoa Cultural Centre",
+            "count": 1728
+          },
+          {
+            "label": "Alhambra Museum",
+            "count": 1725
+          },
+          {
+            "label": "SAMLM - Servei D'Arxiu Municipal de Lloret de Mar",
+            "count": 1715
+          },
+          {
+            "label": "Computer Museum",
+            "count": 1704
+          },
+          {
+            "label": "Municipal Printing-Arts of the Book",
+            "count": 1584
+          },
+          {
+            "label": "Portal of the Archives of the Province of Albacete",
+            "count": 1581
+          },
+          {
+            "label": "Historical Documentary Fund of the Cortes de Arag\u00f3n",
+            "count": 1554
+          },
+          {
+            "label": "Museo Virtual del Seguro",
+            "count": 1537
+          },
+          {
+            "label": "National Sculpture Museum",
+            "count": 1494
+          },
+          {
+            "label": "IURIS Digital",
+            "count": 1489
+          },
+          {
+            "label": "INSPAI, Centre de la Imatge de la Diputaci\u00f3 de Girona",
+            "count": 1469
+          },
+          {
+            "label": "Aragonese Institute of Contemporary Art and Culture Pablo Serrano",
+            "count": 1464
+          },
+          {
+            "label": "Archaeological and Ethnological Museum of C\u00f3rdoba",
+            "count": 1457
+          },
+          {
+            "label": "Universidad P\u00fablica de Navarra",
+            "count": 1436
+          },
+          {
+            "label": "Museum of Malaga",
+            "count": 1372
+          },
+          {
+            "label": "Repositorio Institucional de la Universidad de Huelva",
+            "count": 1267
+          },
+          {
+            "label": "Granada Fine Arts Museum",
+            "count": 1249
+          },
+          {
+            "label": "Library of the Basque Parliament",
+            "count": 1232
+          },
+          {
+            "label": "Huelva Museum",
+            "count": 1214
+          },
+          {
+            "label": "Pilgrimages and Santiago Museum",
+            "count": 1212
+          },
+          {
+            "label": "Museum of Fine Arts of Seville",
+            "count": 1190
+          },
+          {
+            "label": "Archaeological Museum of Seville",
+            "count": 1177
+          },
+          {
+            "label": "Museum of the Royal Academy of Fine Arts of San Fernando",
+            "count": 1166
+          },
+          {
+            "label": "Archaeological Museum of Ibiza and Formentera",
+            "count": 1143
+          },
+          {
+            "label": "Helga de Alvear Museum of Contemporary Art",
+            "count": 1111
+          },
+          {
+            "label": "Museum of Huesca",
+            "count": 1107
+          },
+          {
+            "label": "Pedagogical Museum of Aragon",
+            "count": 1107
+          },
+          {
+            "label": "Sanctuary of Arantzazu",
+            "count": 1027
+          },
+          {
+            "label": "Museum of Cadiz",
+            "count": 1007
+          },
+          {
+            "label": "Museum of Menorca",
+            "count": 995
+          },
+          {
+            "label": "Ram\u00f3n y Cajal Secondary School of Huesca",
+            "count": 976
+          },
+          {
+            "label": "Zaragoza City Council Collection of Artistic Works",
+            "count": 935
+          },
+          {
+            "label": "Art and Nature Centre",
+            "count": 911
+          },
+          {
+            "label": "Museum of Design of Barcelona",
+            "count": 834
+          },
+          {
+            "label": "Bilbao Municipal Library Network",
+            "count": 787
+          },
+          {
+            "label": "Andalusian Centre of Contemporary Art",
+            "count": 700
+          },
+          {
+            "label": "Santa Cruz Museum",
+            "count": 644
+          },
+          {
+            "label": "Municipal Archive of Huelva",
+            "count": 638
+          },
+          {
+            "label": "Educational Digital Library of Murcia",
+            "count": 633
+          },
+          {
+            "label": "Museum of \u00c1vila",
+            "count": 625
+          },
+          {
+            "label": "Mass\u00f3 Museum",
+            "count": 616
+          },
+          {
+            "label": "Archaeological and Palaeontological Museum of the Community of Madrid",
+            "count": 597
+          },
+          {
+            "label": "University of the Basque Country",
+            "count": 566
+          },
+          {
+            "label": "Cantabrian Maritime Museum",
+            "count": 565
+          },
+          {
+            "label": "Juan Cabr\u00e9 Museum",
+            "count": 559
+          },
+          {
+            "label": "Museum of Cultures of the World",
+            "count": 550
+          },
+          {
+            "label": "Thyssen-Bornemisza Museum",
+            "count": 535
+          },
+          {
+            "label": "Getxo Municipal Libraries",
+            "count": 525
+          },
+          {
+            "label": "Julio Gav\u00edn Drawing Museum. Larr\u00e9s Castle",
+            "count": 508
+          },
+          {
+            "label": "Museum of Fine Arts of La Coru\u00f1a",
+            "count": 494
+          },
+          {
+            "label": "San Isidro Museum. The origins of Madrid",
+            "count": 482
+          },
+          {
+            "label": "ICO Museum",
+            "count": 468
+          },
+          {
+            "label": "Fundaci\u00f3n Felipe Gonz\u00e1lez",
+            "count": 436
+          },
+          {
+            "label": "Calatayud Museum",
+            "count": 431
+          },
+          {
+            "label": "Paleontological Ensemble of Teruel Foundation Museum",
+            "count": 426
+          },
+          {
+            "label": "ERESBIL. Musikaren Euskal Artxiboa - Archivo Vasco de la M\u00fasica",
+            "count": 416
+          },
+          {
+            "label": "Museum of Carlism",
+            "count": 395
+          },
+          {
+            "label": "Historical Archive of the Nobility",
+            "count": 391
+          },
+          {
+            "label": "Museum of Valladolid",
+            "count": 368
+          },
+          {
+            "label": "Museum of Contemporary Art of Madrid",
+            "count": 366
+          },
+          {
+            "label": "Museum of Albarrac\u00edn",
+            "count": 357
+          },
+          {
+            "label": "\"Pilar Ar\u00f3stegui\" Municipal Archive",
+            "count": 352
+          },
+          {
+            "label": "Museum of Palencia",
+            "count": 333
+          },
+          {
+            "label": "Ethnographic Museum of Cantabria",
+            "count": 322
+          },
+          {
+            "label": "Ric House. Barons of Valdeolivos Palace",
+            "count": 316
+          },
+          {
+            "label": "Llodio Municipal Library",
+            "count": 294
+          },
+          {
+            "label": "Spanish Public Television and Radio (RTVE)",
+            "count": 290
+          },
+          {
+            "label": "Museum of Prehistory and Archaeology of Cantabria",
+            "count": 289
+          },
+          {
+            "label": "Royal Basque Society of the Friends of the Country",
+            "count": 282
+          },
+          {
+            "label": "Museum of Popular Beliefs and Religiosity of the Aragonese Pyrenees",
+            "count": 278
+          },
+          {
+            "label": "Cervantes Birthplace Museum",
+            "count": 276
+          },
+          {
+            "label": "Archaeological Museum of \u00dabeda",
+            "count": 275
+          },
+          {
+            "label": "Museum of the Cultural Park of Molinos",
+            "count": 274
+          },
+          {
+            "label": "Word Archive of Castilla La Mancha",
+            "count": 274
+          },
+          {
+            "label": "El Greco Museum",
+            "count": 263
+          },
+          {
+            "label": "Museum of the Theatre of Caesaraugusta",
+            "count": 261
+          },
+          {
+            "label": "Daroca Regional Museum",
+            "count": 260
+          },
+          {
+            "label": "CA2M Dos de Mayo Art Centre",
+            "count": 240
+          },
+          {
+            "label": "Museum of Popular Arts and Customs of Alto Guadalquivir",
+            "count": 222
+          },
+          {
+            "label": "Br\u00fajula. Repositorio Institucional en acceso abierto de la Universidad Loyola",
+            "count": 217
+          },
+          {
+            "label": "Museum of Goya's Engravings",
+            "count": 213
+          },
+          {
+            "label": "Catalunya Film Archive",
+            "count": 208
+          },
+          {
+            "label": "Government of Catalonia. Vall\u00e8s Occidental County Archives",
+            "count": 207
+          },
+          {
+            "label": "Museum of Cuenca",
+            "count": 207
+          },
+          {
+            "label": "Museum of Salamanca",
+            "count": 200
+          },
+          {
+            "label": "Museum of Segovia",
+            "count": 197
+          },
+          {
+            "label": "Museum of Le\u00f3n",
+            "count": 195
+          },
+          {
+            "label": "Pablo Gargallo Museum",
+            "count": 190
+          },
+          {
+            "label": "Government of Catalonia. Anoia County Archives",
+            "count": 180
+          },
+          {
+            "label": "Lope de Vega House Museum",
+            "count": 179
+          },
+          {
+            "label": "Museo de Guadalajara",
+            "count": 179
+          },
+          {
+            "label": "Cervantes House Museum",
+            "count": 178
+          },
+          {
+            "label": "e-archivo Universidad Carlos III de Madrid",
+            "count": 175
+          },
+          {
+            "label": "Dispersed Municipal Collection and Hermitage of San Antonio de la Florida (Madrid)",
+            "count": 172
+          },
+          {
+            "label": "Fire and Firefighters Museum",
+            "count": 172
+          },
+          {
+            "label": "Monographic Museum of the Viladonga Hillfort",
+            "count": 165
+          },
+          {
+            "label": "Diocesan Museum of Jaca",
+            "count": 156
+          },
+          {
+            "label": "Ciudad Real Museum",
+            "count": 151
+          },
+          {
+            "label": "Mozaika",
+            "count": 150
+          },
+          {
+            "label": "Museum of Zamora",
+            "count": 146
+          },
+          {
+            "label": "Francisco Giner de los R\u00edos Foundation",
+            "count": 136
+          },
+          {
+            "label": "The Prado Museum",
+            "count": 124
+          },
+          {
+            "label": "Digital Historical Map Library of Extremadura",
+            "count": 120
+          },
+          {
+            "label": "Goya Secondary School of Zaragoza",
+            "count": 112
+          },
+          {
+            "label": "Jovellanos Birthplace Museum",
+            "count": 108
+          },
+          {
+            "label": "Government of Catalonia. Alt Empord\u00e0 County Archives",
+            "count": 105
+          },
+          {
+            "label": "Vega del Turia Secondary School of Teruel",
+            "count": 101
+          },
+          {
+            "label": "Salvador Victoria Foundation-Museum",
+            "count": 99
+          },
+          {
+            "label": "AD&D 4D Association for 4D Documentation and Dissemination",
+            "count": 97
+          },
+          {
+            "label": "Archive of Sound and Image of Mallorca",
+            "count": 97
+          },
+          {
+            "label": "Nicanor Pi\u00f1ole Museum",
+            "count": 96
+          },
+          {
+            "label": "University of Valencia",
+            "count": 92
+          },
+          {
+            "label": "Zaragoza School of Arts",
+            "count": 91
+          },
+          {
+            "label": "Manuel Lekuona Municipal Library of Oiartzun",
+            "count": 90
+          },
+          {
+            "label": "Asturias Railway Museum",
+            "count": 83
+          },
+          {
+            "label": "Juan San Mart\u00edn Municipal Library of Eibar",
+            "count": 83
+          },
+          {
+            "label": "Government of Catalonia. Historical Archive of Tarragona",
+            "count": 80
+          },
+          {
+            "label": "Natural Archaeological Park of the Campa Torres",
+            "count": 77
+          },
+          {
+            "label": "Museum of the Forum of Caesaraugusta",
+            "count": 69
+          },
+          {
+            "label": "Picasso Museum. Eugenio Arias Collection",
+            "count": 66
+          },
+          {
+            "label": "Museum of Health and Public Hygiene",
+            "count": 65
+          },
+          {
+            "label": "National Library of Spain. Historical-Artistic Collection",
+            "count": 64
+          },
+          {
+            "label": "Museum of Burgos",
+            "count": 62
+          },
+          {
+            "label": "National Museum of Science and Technology",
+            "count": 55
+          },
+          {
+            "label": "Numantine Museum of Soria",
+            "count": 55
+          },
+          {
+            "label": "Spanish Cinemath\u00e8que",
+            "count": 54
+          },
+          {
+            "label": "Museum of the Public Baths of Caesaraugusta",
+            "count": 36
+          },
+          {
+            "label": "Catalan Cultural Heritage Agency",
+            "count": 33
+          },
+          {
+            "label": "Museum of the Roman Villa of Veranes",
+            "count": 29
+          },
+          {
+            "label": "Madrazo Collection. Community of Madrid",
+            "count": 28
+          },
+          {
+            "label": "Pallars Sobir\u00e0 County Archives",
+            "count": 28
+          },
+          {
+            "label": "Railway Museum of Madrid",
+            "count": 28
+          },
+          {
+            "label": "Digitalizacio",
+            "count": 27
+          },
+          {
+            "label": "Ermua Municipal Library",
+            "count": 27
+          },
+          {
+            "label": "Arte Ederren Bilboko Museoa",
+            "count": 24
+          },
+          {
+            "label": "Interpretation Centre of Nuevo Bazt\u00e1n",
+            "count": 24
+          },
+          {
+            "label": "Museum of the River Port of Caesaraugusta",
+            "count": 23
+          },
+          {
+            "label": "Museum of the Roman Baths of Campo Vald\u00e9s",
+            "count": 21
+          },
+          {
+            "label": "Joan Capdevila Nogu\u00e9s Fund",
+            "count": 20
+          },
+          {
+            "label": "Integra Tecnolog\u00eda",
+            "count": 17
+          },
+          {
+            "label": "General Archive of the Administration",
+            "count": 15
+          },
+          {
+            "label": "Government of Catalonia. Conca de Barber\u00e0 County Archives",
+            "count": 14
+          },
+          {
+            "label": "Muskizko Udal-Liburutegia",
+            "count": 13
+          },
+          {
+            "label": "National Historical Central Archives, Bucharest",
+            "count": 13
+          },
+          {
+            "label": "Artium Museoa. Euskal Herriko Arte Garaikidearen Museoa",
+            "count": 12
+          },
+          {
+            "label": "Temple of Debod",
+            "count": 12
+          },
+          {
+            "label": "Valencian Institute of Cinematography",
+            "count": 9
+          },
+          {
+            "label": "Sanctuary of Loyola",
+            "count": 7
+          },
+          {
+            "label": "Euskariana",
+            "count": 6
+          },
+          {
+            "label": "Government of Catalonia. Segarra County Archives",
+            "count": 6
+          },
+          {
+            "label": "Government of Catalonia. Ripoll\u00e8s County Archives",
+            "count": 4
+          },
+          {
+            "label": "Parish of Santa Mar\u00eda del Pi and Sant Just",
+            "count": 4
+          },
+          {
+            "label": "Bilboko Euskal Museoa",
+            "count": 2
+          },
+          {
+            "label": "Digital Library Memory of Madrid",
+            "count": 2
+          },
+          {
+            "label": "Armagintzaren Museoa",
+            "count": 1
+          },
+          {
+            "label": "Asociacion Zamora Protohistorica",
+            "count": 1
+          },
+          {
+            "label": "Documentation Center of Historical Memory",
+            "count": 1
+          },
+          {
+            "label": "Historical Library of Santa Cruz",
+            "count": 1
+          },
+          {
+            "label": "Instituto de Turismo de Espa\u00f1a  (Turespa\u00f1a)",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "proxy_dc_subject",
+        "fields": [
+          {
+            "label": "Cat\u00e1logos - Publicaciones peri\u00f3dicas - Prensa",
+            "count": 102164
+          },
+          {
+            "label": "Secciones - Hemeroteca - Prensa",
+            "count": 101995
+          },
+          {
+            "label": "http://data.europeana.eu/concept/114",
+            "count": 90610
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300222725",
+            "count": 84669
+          },
+          {
+            "label": "Publicaciones peri\u00f3dicas-Murcia",
+            "count": 71172
+          },
+          {
+            "label": "http://data.europeana.eu/concept/2090",
+            "count": 69506
+          },
+          {
+            "label": "Papel",
+            "count": 67681
+          },
+          {
+            "label": "http://data.europeana.eu/concept/119",
+            "count": 58123
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300054359",
+            "count": 57086
+          },
+          {
+            "label": "http://data.europeana.eu/concept/3440",
+            "count": 57034
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300055812",
+            "count": 57024
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300311832",
+            "count": 57000
+          },
+          {
+            "label": "Premsa local",
+            "count": 56994
+          },
+          {
+            "label": "http://www.wikidata.org/entity/Q778258",
+            "count": 56994
+          },
+          {
+            "label": "http://data.europeana.eu/concept/48",
+            "count": 55294
+          },
+          {
+            "label": "Fotograf\u00eda",
+            "count": 54880
+          },
+          {
+            "label": "Edad Contempor\u00e1nea",
+            "count": 40038
+          },
+          {
+            "label": "http://data.europeana.eu/concept/62",
+            "count": 38725
+          },
+          {
+            "label": "http://data.europeana.eu/concept/35",
+            "count": 38044
+          },
+          {
+            "label": "http://data.europeana.eu/concept/190",
+            "count": 36926
+          },
+          {
+            "label": "Music",
+            "count": 36363
+          },
+          {
+            "label": "Dibujo",
+            "count": 36058
+          },
+          {
+            "label": "Art",
+            "count": 34868
+          },
+          {
+            "label": "Angiospermae",
+            "count": 33074
+          },
+          {
+            "label": "Flora",
+            "count": 32199
+          },
+          {
+            "label": "http://data.europeana.eu/concept/2270",
+            "count": 32178
+          },
+          {
+            "label": "http://data.europeana.eu/concept/1908",
+            "count": 32172
+          },
+          {
+            "label": "http://data.europeana.eu/concept/1945",
+            "count": 31918
+          },
+          {
+            "label": "Numism\u00e1tica",
+            "count": 31219
+          },
+          {
+            "label": "Moneda",
+            "count": 30965
+          },
+          {
+            "label": "http://data.europeana.eu/place/83",
+            "count": 28252
+          },
+          {
+            "label": "Esports",
+            "count": 28067
+          },
+          {
+            "label": "http://data.europeana.eu/concept/1769",
+            "count": 25980
+          },
+          {
+            "label": "http://data.europeana.eu/place/204488",
+            "count": 25949
+          },
+          {
+            "label": "Arte/Cultura",
+            "count": 25672
+          },
+          {
+            "label": "Bronce",
+            "count": 25495
+          },
+          {
+            "label": "http://data.europeana.eu/concept/31",
+            "count": 25168
+          },
+          {
+            "label": "Cer\u00e1mica",
+            "count": 24641
+          },
+          {
+            "label": "Fotografies a\u00e8ries",
+            "count": 23970
+          },
+          {
+            "label": "http://data.europeana.eu/concept/2714",
+            "count": 23558
+          },
+          {
+            "label": "Indumentaria femenina",
+            "count": 23557
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300223022",
+            "count": 22265
+          },
+          {
+            "label": "Retrats d'estudi",
+            "count": 22229
+          },
+          {
+            "label": "http://id.sgcb.mcu.es/Autoridades/LEM201000816/concept",
+            "count": 20115
+          },
+          {
+            "label": "Europe",
+            "count": 19825
+          },
+          {
+            "label": "Plata",
+            "count": 19455
+          },
+          {
+            "label": "http://data.europeana.eu/concept/106",
+            "count": 19423
+          },
+          {
+            "label": "Figur\u00edn",
+            "count": 17348
+          },
+          {
+            "label": "http://data.europeana.eu/concept/1764",
+            "count": 17253
+          },
+          {
+            "label": "Competicions esportives",
+            "count": 17095
+          }
+        ]
+      },
+      {
+        "name": "RIGHTS",
+        "fields": [
+          {
+            "label": "http://creativecommons.org/licenses/by/4.0/",
+            "count": 1877640
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+            "count": 1169150
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/InC/1.0/",
+            "count": 1137172
+          },
+          {
+            "label": "http://creativecommons.org/publicdomain/mark/1.0/",
+            "count": 855692
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+            "count": 815734
+          },
+          {
+            "label": "http://creativecommons.org/publicdomain/zero/1.0/",
+            "count": 182034
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
+            "count": 158099
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+            "count": 136206
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc/4.0/",
+            "count": 91864
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-nd/3.0/es/",
+            "count": 78212
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/CNE/1.0/",
+            "count": 35220
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-sa/4.0/",
+            "count": 15074
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-sa/3.0/es/",
+            "count": 13933
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nd/4.0/",
+            "count": 13865
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc/3.0/es/",
+            "count": 570
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-nd/4.0",
+            "count": 535
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc/3.0/",
+            "count": 529
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc/2.0/",
+            "count": 92
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by/3.0/es/",
+            "count": 74
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/InC-OW-EU/1.0/",
+            "count": 17
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nd/3.0/",
+            "count": 5
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by/3.0/",
+            "count": 5
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+            "count": 1
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/NoC-NC/1.0/",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "contentTier",
+        "fields": [
+          {
+            "label": "4",
+            "count": 2367528
+          },
+          {
+            "label": "1",
+            "count": 2207163
+          },
+          {
+            "label": "3",
+            "count": 1015806
+          },
+          {
+            "label": "2",
+            "count": 915538
+          },
+          {
+            "label": "0",
+            "count": 75689
+          }
+        ]
+      },
+      {
+        "name": "TYPE",
+        "fields": [
+          {
+            "label": "TEXT",
+            "count": 5024704
+          },
+          {
+            "label": "IMAGE",
+            "count": 1439690
+          },
+          {
+            "label": "VIDEO",
+            "count": 106983
+          },
+          {
+            "label": "SOUND",
+            "count": 8515
+          },
+          {
+            "label": "3D",
+            "count": 1832
+          }
+        ]
+      },
+      {
+        "name": "metadataTier",
+        "fields": [
+          {
+            "label": "A",
+            "count": 2575221
+          },
+          {
+            "label": "0",
+            "count": 1976623
+          },
+          {
+            "label": "B",
+            "count": 1666027
+          },
+          {
+            "label": "C",
+            "count": 363853
+          }
+        ]
+      }
+    ]
+  },
+  "Portugal": {
+    "apikey": "illardfon",
+    "success": true,
+    "requestNumber": 999,
+    "itemsCount": 0,
+    "totalResults": 139858,
+    "items": [],
+    "facets": [
+      {
+        "name": "proxy_dc_subject",
+        "fields": [
+          {
+            "label": "Angola",
+            "count": 42194
+          },
+          {
+            "label": "autor n\u00e3o identificado",
+            "count": 6531
+          },
+          {
+            "label": "Mapa topogr\u00e1fico",
+            "count": 3145
+          },
+          {
+            "label": "Mozambique",
+            "count": 2895
+          },
+          {
+            "label": "PORTUGAL",
+            "count": 1367
+          },
+          {
+            "label": "Mo\u00e7ambique",
+            "count": 1339
+          },
+          {
+            "label": "Goa",
+            "count": 1256
+          },
+          {
+            "label": "Cabo Verde e Guin\u00e9 Bissau",
+            "count": 1202
+          },
+          {
+            "label": "Combretum",
+            "count": 1189
+          },
+          {
+            "label": "angolensis",
+            "count": 1040
+          },
+          {
+            "label": "Hist\u00f3ria",
+            "count": 966
+          },
+          {
+            "label": "http://data.europeana.eu/concept/79",
+            "count": 966
+          },
+          {
+            "label": "S\u00e3o Tom\u00e9",
+            "count": 963
+          },
+          {
+            "label": "M\u00fasica sacra",
+            "count": 838
+          },
+          {
+            "label": "M\u00fasica para piano",
+            "count": 804
+          },
+          {
+            "label": "Crotalaria",
+            "count": 767
+          },
+          {
+            "label": "Indigofera",
+            "count": 747
+          },
+          {
+            "label": "welwitschii",
+            "count": 744
+          },
+          {
+            "label": "Vernonia",
+            "count": 696
+          },
+          {
+            "label": "Cabo Verde",
+            "count": 693
+          },
+          {
+            "label": "Grewia",
+            "count": 682
+          },
+          {
+            "label": "Guin\u00e9 Bissau",
+            "count": 650
+          },
+          {
+            "label": "Lisboa",
+            "count": 591
+          },
+          {
+            "label": "Lisboa, Portugal",
+            "count": 525
+          },
+          {
+            "label": "Hibiscus",
+            "count": 524
+          },
+          {
+            "label": "Moxico, Angola",
+            "count": 524
+          },
+          {
+            "label": "Macau",
+            "count": 500
+          },
+          {
+            "label": "Tephrosia",
+            "count": 476
+          },
+          {
+            "label": "africana",
+            "count": 463
+          },
+          {
+            "label": "Timor",
+            "count": 453
+          },
+          {
+            "label": "Lisbon",
+            "count": 429
+          },
+          {
+            "label": "Invas\u00f5es francesas",
+            "count": 417
+          },
+          {
+            "label": "Folhetos",
+            "count": 415
+          },
+          {
+            "label": "Rio Cunene, Angola",
+            "count": 415
+          },
+          {
+            "label": "BECH",
+            "count": 414
+          },
+          {
+            "label": "Deserto de Namibe, Angola",
+            "count": 414
+          },
+          {
+            "label": "M\u00fasica para canto e piano",
+            "count": 411
+          },
+          {
+            "label": "Mo\u00e7ambique (Fronteira sul)",
+            "count": 399
+          },
+          {
+            "label": "Commiphora",
+            "count": 387
+          },
+          {
+            "label": "gossweileri",
+            "count": 362
+          },
+          {
+            "label": "http://thesaurus.euscreen.eu/EUscreenXL/v1/873",
+            "count": 360
+          },
+          {
+            "label": "Dan\u00e7as (M\u00fasica)",
+            "count": 358
+          },
+          {
+            "label": "Arts and culture",
+            "count": 357
+          },
+          {
+            "label": "Guin\u00e9",
+            "count": 356
+          },
+          {
+            "label": "Diospyros",
+            "count": 347
+          },
+          {
+            "label": "Euphorbia",
+            "count": 343
+          },
+          {
+            "label": "821.134.3-2\"17\"",
+            "count": 337
+          },
+          {
+            "label": "Azulejos, Portugal, S\u00e9c. 18",
+            "count": 333
+          },
+          {
+            "label": "738.8(469)\"17\"(084.121)",
+            "count": 330
+          },
+          {
+            "label": "http://data.europeana.eu/concept/83",
+            "count": 328
+          }
+        ]
+      },
+      {
+        "name": "DATA_PROVIDER",
+        "fields": [
+          {
+            "label": "Institute for Tropical Scientific Research",
+            "count": 65666
+          },
+          {
+            "label": "National Library of Portugal",
+            "count": 35785
+          },
+          {
+            "label": "Portuguese Army Library",
+            "count": 13120
+          },
+          {
+            "label": "Azores Regional Directorate for Culture",
+            "count": 5913
+          },
+          {
+            "label": "University of Porto",
+            "count": 5111
+          },
+          {
+            "label": "Calouste Gulbenkian Foundation",
+            "count": 3415
+          },
+          {
+            "label": "MUDE \u2013 Museu do Design",
+            "count": 1927
+          },
+          {
+            "label": "Assembly of the Republic - Library",
+            "count": 1663
+          },
+          {
+            "label": "Fernando Pessoa's House",
+            "count": 1210
+          },
+          {
+            "label": "University of Coimbra",
+            "count": 1155
+          },
+          {
+            "label": "Lisbon's Film & Theatre School",
+            "count": 774
+          },
+          {
+            "label": "Madeira Archives and Library",
+            "count": 685
+          },
+          {
+            "label": "Cinemateca Portuguesa - Museu do cinema",
+            "count": 654
+          },
+          {
+            "label": "Radio and Television of Portugal",
+            "count": 504
+          },
+          {
+            "label": "Madeira Arts Library",
+            "count": 470
+          },
+          {
+            "label": "Lisbon Newspaper Library",
+            "count": 468
+          },
+          {
+            "label": "April 25th Documentation Center of Coimbra University",
+            "count": 337
+          },
+          {
+            "label": "The Commission for Citizenship and Gender Equality",
+            "count": 311
+          },
+          {
+            "label": "Division of Archives and Library of the Ministry of Foreign Affairs",
+            "count": 158
+          },
+          {
+            "label": "Portuguese Court of Auditors",
+            "count": 119
+          },
+          {
+            "label": "P\u00c9DEXUMBO - Associa\u00e7\u00e3o para a Promo\u00e7\u00e3o da M\u00fasica e Dan\u00e7a",
+            "count": 91
+          },
+          {
+            "label": "Library of the National Republican Guard",
+            "count": 70
+          },
+          {
+            "label": "Douro Museum",
+            "count": 51
+          },
+          {
+            "label": "The Romanesque Rout",
+            "count": 50
+          },
+          {
+            "label": "Municipal Public Library of Porto",
+            "count": 47
+          },
+          {
+            "label": "Open University - Portugal",
+            "count": 35
+          },
+          {
+            "label": "Seminar on the History of Ideas",
+            "count": 34
+          },
+          {
+            "label": "Assembleia da Rep\u00fablica - Arquivo Hist\u00f3rico Parlamentar",
+            "count": 15
+          },
+          {
+            "label": "Supreme Court of Justice",
+            "count": 6
+          },
+          {
+            "label": "Montalegre Municipal Library",
+            "count": 2
+          },
+          {
+            "label": "National Archives Torre do Tombo, Lisbon",
+            "count": 2
+          },
+          {
+            "label": "National Museum of Ancient Art",
+            "count": 2
+          },
+          {
+            "label": "Ajuda Library, Lisbon",
+            "count": 1
+          },
+          {
+            "label": "Chiado Museum - National Museum of Contemporary Art",
+            "count": 1
+          },
+          {
+            "label": "Church of S. Roque, Lisbon",
+            "count": 1
+          },
+          {
+            "label": "Municipal Library Anselmo Braamcamp Freire, Santar\u00e9m",
+            "count": 1
+          },
+          {
+            "label": "Museums and Monuments of Portugal",
+            "count": 1
+          },
+          {
+            "label": "National Coach Museum",
+            "count": 1
+          },
+          {
+            "label": "National Museum of Grao Vasco, Viseu",
+            "count": 1
+          },
+          {
+            "label": "Sarmento's House",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "RIGHTS",
+        "fields": [
+          {
+            "label": "http://creativecommons.org/publicdomain/mark/1.0/",
+            "count": 133211
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by/3.0/",
+            "count": 3413
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/InC/1.0/",
+            "count": 3135
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
+            "count": 91
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/InC-OW-EU/1.0/",
+            "count": 5
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-sa/4.0/",
+            "count": 2
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-nd/2.5/pt/",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "contentTier",
+        "fields": [
+          {
+            "label": "4",
+            "count": 56442
+          },
+          {
+            "label": "1",
+            "count": 54109
+          },
+          {
+            "label": "2",
+            "count": 26173
+          },
+          {
+            "label": "0",
+            "count": 3042
+          },
+          {
+            "label": "3",
+            "count": 92
+          }
+        ]
+      },
+      {
+        "name": "TYPE",
+        "fields": [
+          {
+            "label": "IMAGE",
+            "count": 93089
+          },
+          {
+            "label": "TEXT",
+            "count": 45380
+          },
+          {
+            "label": "VIDEO",
+            "count": 1143
+          },
+          {
+            "label": "SOUND",
+            "count": 244
+          },
+          {
+            "label": "3D",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "name": "metadataTier",
+        "fields": [
+          {
+            "label": "A",
+            "count": 133622
+          },
+          {
+            "label": "0",
+            "count": 3414
+          },
+          {
+            "label": "B",
+            "count": 2355
+          },
+          {
+            "label": "C",
+            "count": 467
+          }
+        ]
+      }
+    ]
+  },
+  "Netherlands": {
+    "apikey": "illardfon",
+    "success": true,
+    "requestNumber": 999,
+    "itemsCount": 0,
+    "totalResults": 9204845,
+    "items": [],
+    "facets": [
+      {
+        "name": "DATA_PROVIDER",
+        "fields": [
+          {
+            "label": "Naturalis Biodiversity Center",
+            "count": 4601504
+          },
+          {
+            "label": "KB, National Library of the Netherlands",
+            "count": 987234
+          },
+          {
+            "label": "Cultural Heritage Agency of the Netherlands",
+            "count": 526228
+          },
+          {
+            "label": "Rijksmuseum",
+            "count": 341407
+          },
+          {
+            "label": "National Archives of the Netherlands",
+            "count": 283470
+          },
+          {
+            "label": "Internet Archive",
+            "count": 176784
+          },
+          {
+            "label": "International Institute of Social History",
+            "count": 165349
+          },
+          {
+            "label": "The Utrecht Archives",
+            "count": 159981
+          },
+          {
+            "label": "National Museum of Antiquities",
+            "count": 141529
+          },
+          {
+            "label": "Historical Information Center of Brabant",
+            "count": 118373
+          },
+          {
+            "label": "Netherlands Institute for Sound & Vision",
+            "count": 98888
+          },
+          {
+            "label": "Association De Hollandsche Molen",
+            "count": 94187
+          },
+          {
+            "label": "Museon-Omniversum",
+            "count": 93077
+          },
+          {
+            "label": "Municipal Archives of Zaanstad",
+            "count": 85508
+          },
+          {
+            "label": "Gooi en Vechtstreek Archive",
+            "count": 79443
+          },
+          {
+            "label": "Netherlands Institute for Military History",
+            "count": 68648
+          },
+          {
+            "label": "Historic Center Limburg",
+            "count": 62704
+          },
+          {
+            "label": "IMSLP/Petrucci Music Library",
+            "count": 61552
+          },
+          {
+            "label": "City Archives Breda",
+            "count": 60870
+          },
+          {
+            "label": "St. Catherine's Convent Museum",
+            "count": 60795
+          },
+          {
+            "label": "Museum Rotterdam",
+            "count": 60777
+          },
+          {
+            "label": "Paul Van Riel",
+            "count": 55165
+          },
+          {
+            "label": "Batavialand",
+            "count": 53928
+          },
+          {
+            "label": "Historic Center Leeuwarden",
+            "count": 53417
+          },
+          {
+            "label": "Municipal Archive, Schiedam",
+            "count": 52926
+          },
+          {
+            "label": "Municipal Archives of Weert",
+            "count": 52654
+          },
+          {
+            "label": "KNAW-DANS",
+            "count": 48118
+          },
+          {
+            "label": "Regional Archive Nijmegen",
+            "count": 47924
+          },
+          {
+            "label": "City Archives' s-Hertogenbosch",
+            "count": 45614
+          },
+          {
+            "label": "CODA Museum",
+            "count": 44628
+          },
+          {
+            "label": "CARARE",
+            "count": 40920
+          },
+          {
+            "label": "Municipal Archives of Ede en Scherpenzeel",
+            "count": 39824
+          },
+          {
+            "label": "Zutphen Regional Archive",
+            "count": 31206
+          },
+          {
+            "label": "Regional Archive Langstraat Heusden Altena",
+            "count": 27321
+          },
+          {
+            "label": "Rijksmuseum Boerhaave",
+            "count": 27257
+          },
+          {
+            "label": "Municipal Archives of Tholen",
+            "count": 27160
+          },
+          {
+            "label": "Municipal Archives of Barneveld",
+            "count": 27145
+          },
+          {
+            "label": "Zuiderzee Museum",
+            "count": 20552
+          },
+          {
+            "label": "The Language Archive",
+            "count": 18392
+          },
+          {
+            "label": "National Museum of World Cultures Foundation",
+            "count": 17547
+          },
+          {
+            "label": "Heritage Rijssen-Holten",
+            "count": 17221
+          },
+          {
+            "label": "Digital Library for Dutch Literature",
+            "count": 17043
+          },
+          {
+            "label": "The province of North Holland",
+            "count": 13273
+          },
+          {
+            "label": "International Military Tribunal at Nuremberg",
+            "count": 9629
+          },
+          {
+            "label": "Leiden University Libraries",
+            "count": 9087
+          },
+          {
+            "label": "Amsterdam Museum",
+            "count": 8046
+          },
+          {
+            "label": "Loevestein Castle",
+            "count": 7692
+          },
+          {
+            "label": "City Museum Zutphen",
+            "count": 6850
+          },
+          {
+            "label": "Textile Research Centre Leiden",
+            "count": 6737
+          },
+          {
+            "label": "Regional Archives Tilburg",
+            "count": 6569
+          },
+          {
+            "label": "Geldersch Landschap & Kasteelen",
+            "count": 5699
+          },
+          {
+            "label": "VU University Amsterdam Library",
+            "count": 5008
+          },
+          {
+            "label": "Fries Museum",
+            "count": 4736
+          },
+          {
+            "label": "Valkhof Museum",
+            "count": 3553
+          },
+          {
+            "label": "The Dutch Olympic Committee, Dutch Sports Federation",
+            "count": 2738
+          },
+          {
+            "label": "National Organ Museum",
+            "count": 2707
+          },
+          {
+            "label": "EYE Film Museum",
+            "count": 1595
+          },
+          {
+            "label": "IHLIA LGBTI Heritage",
+            "count": 1558
+          },
+          {
+            "label": "Castle Huis Bergh",
+            "count": 1552
+          },
+          {
+            "label": "Textile Museum",
+            "count": 1513
+          },
+          {
+            "label": "Heritage Leiden",
+            "count": 1314
+          },
+          {
+            "label": "Anne Frank House",
+            "count": 1170
+          },
+          {
+            "label": "Arnhem museum",
+            "count": 1134
+          },
+          {
+            "label": "De Looierij",
+            "count": 1004
+          },
+          {
+            "label": "Leo Smit foundation",
+            "count": 863
+          },
+          {
+            "label": "Mauritshuis",
+            "count": 832
+          },
+          {
+            "label": "Museum Krona",
+            "count": 768
+          },
+          {
+            "label": "Airborne Museum 'Hartenstein'",
+            "count": 738
+          },
+          {
+            "label": "Freedom Museum",
+            "count": 547
+          },
+          {
+            "label": "Historische Kring Huessen",
+            "count": 465
+          },
+          {
+            "label": "Deelen Airbase Museum",
+            "count": 399
+          },
+          {
+            "label": "Museum Klok & Peel",
+            "count": 369
+          },
+          {
+            "label": "Groningen Historic Churches Foundation",
+            "count": 315
+          },
+          {
+            "label": "Archive and Documentation Center for RK Friesland",
+            "count": 246
+          },
+          {
+            "label": "Museum Het Pakhuis",
+            "count": 236
+          },
+          {
+            "label": "Historische Kring Midden-Betuwe",
+            "count": 218
+          },
+          {
+            "label": "Kijk & Luistermuseum",
+            "count": 198
+          },
+          {
+            "label": "Tilburg University",
+            "count": 195
+          },
+          {
+            "label": "Streekmuseum de Roode Tooren",
+            "count": 159
+          },
+          {
+            "label": "Huis van Hilde",
+            "count": 139
+          },
+          {
+            "label": "Water board of Schieland and the Krimpenerwaard",
+            "count": 137
+          },
+          {
+            "label": "Zaans Museum",
+            "count": 119
+          },
+          {
+            "label": "Historical Image Archive for Migrants",
+            "count": 112
+          },
+          {
+            "label": "Museum Nijkerk",
+            "count": 108
+          },
+          {
+            "label": "Rauws Wicker Chair Collection",
+            "count": 44
+          },
+          {
+            "label": "Museumpark Orientalis",
+            "count": 40
+          },
+          {
+            "label": "Museum Tweestromenland",
+            "count": 31
+          },
+          {
+            "label": "Provinciaal Depot Bodemvondsten",
+            "count": 29
+          },
+          {
+            "label": "Museum De Scheper",
+            "count": 26
+          },
+          {
+            "label": "Elisabeth Weeshuis Museum",
+            "count": 24
+          },
+          {
+            "label": "European Fashion Heritage Association",
+            "count": 12
+          },
+          {
+            "label": "Centraal Museum Utrecht",
+            "count": 11
+          },
+          {
+            "label": "Stichting tot Behoud van den Doornenburg",
+            "count": 11
+          },
+          {
+            "label": "Heemkundekring Bergh",
+            "count": 6
+          },
+          {
+            "label": "Historische Vereniging Voorst",
+            "count": 4
+          },
+          {
+            "label": "Kunstmuseum Den Haag",
+            "count": 2
+          },
+          {
+            "label": "Bonnefantenmuseum Maastricht",
+            "count": 1
+          },
+          {
+            "label": "City Museum Harderwijk",
+            "count": 1
+          },
+          {
+            "label": "City Museum Prinsenhof",
+            "count": 1
+          },
+          {
+            "label": "Museum Boijmans Van Beuningen",
+            "count": 1
+          },
+          {
+            "label": "Nationaal Archief",
+            "count": 1
+          },
+          {
+            "label": "Nationaal Onderduikmuseum",
+            "count": 1
+          },
+          {
+            "label": "Singer Laren",
+            "count": 1
+          },
+          {
+            "label": "University of Utrecht",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "name": "proxy_dc_subject",
+        "fields": [
+          {
+            "label": "http://data.europeana.eu/concept/163",
+            "count": 3543293
+          },
+          {
+            "label": "Botany",
+            "count": 3543213
+          },
+          {
+            "label": "Wildlife sounds - Birds",
+            "count": 650773
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300008063",
+            "count": 476252
+          },
+          {
+            "label": "Tweede Kamer",
+            "count": 396404
+          },
+          {
+            "label": "http://data.europeana.eu/concept/48",
+            "count": 194770
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300046300",
+            "count": 194683
+          },
+          {
+            "label": "Lepidoptera",
+            "count": 144423
+          },
+          {
+            "label": "http://data.europeana.eu/concept/soundgenres/Music/Popular_music",
+            "count": 132325
+          },
+          {
+            "label": "Mollusca",
+            "count": 102576
+          },
+          {
+            "label": "Aves",
+            "count": 83281
+          },
+          {
+            "label": "http://data.europeana.eu/concept/soundgenres/Music/Western_classical_music",
+            "count": 61552
+          },
+          {
+            "label": "Eerste Kamer",
+            "count": 55456
+          },
+          {
+            "label": "kerken",
+            "count": 49165
+          },
+          {
+            "label": "http://data.europeana.eu/concept/26",
+            "count": 48351
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300234110",
+            "count": 48350
+          },
+          {
+            "label": "Weert",
+            "count": 47118
+          },
+          {
+            "label": "http://test113.ait.co.at/tematres/LinBi_Simple_Voc/?ID=Animal",
+            "count": 46968
+          },
+          {
+            "label": "http://data.europeana.eu/concept/80",
+            "count": 42471
+          },
+          {
+            "label": "http://data.europeana.eu/concept/25",
+            "count": 41014
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300000810",
+            "count": 41014
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300054328",
+            "count": 40924
+          },
+          {
+            "label": "Live concert",
+            "count": 40595
+          },
+          {
+            "label": "Maastricht",
+            "count": 37755
+          },
+          {
+            "label": "http://data.beeldengeluid.nl/gtaa/40012",
+            "count": 36681
+          },
+          {
+            "label": "http://data.beeldengeluid.nl/gtaa/31586",
+            "count": 34670
+          },
+          {
+            "label": "Romantic",
+            "count": 33733
+          },
+          {
+            "label": "http://data.europeana.eu/concept/1864",
+            "count": 30418
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300008932",
+            "count": 29558
+          },
+          {
+            "label": "http://vocab.getty.edu/aat/300008090",
+            "count": 29279
+          },
+          {
+            "label": "aanzicht",
+            "count": 26064
+          },
+          {
+            "label": "vooraanzicht (wiekenkant)",
+            "count": 25581
+          },
+          {
+            "label": "Exterieur",
+            "count": 23811
+          },
+          {
+            "label": "http://data.beeldengeluid.nl/gtaa/45285",
+            "count": 23689
+          },
+          {
+            "label": "Korenmolen",
+            "count": 21776
+          },
+          {
+            "label": "Mammalia",
+            "count": 20667
+          },
+          {
+            "label": "windmolens",
+            "count": 18735
+          },
+          {
+            "label": "Straten",
+            "count": 18690
+          },
+          {
+            "label": "http://test113.ait.co.at/tematres/LinBi_Simple_Voc/?ID=Mammal",
+            "count": 18589
+          },
+          {
+            "label": "http://data.europeana.eu/concept/soundgenres/soundgenres/Spoken_word_recordings/Language_and_dialect_recordings",
+            "count": 18392
+          },
+          {
+            "label": "Parochie Sint Martinus  (Centrum)",
+            "count": 17273
+          },
+          {
+            "label": "http://data.europeana.eu/concept/3286",
+            "count": 17248
+          },
+          {
+            "label": "Zuiderzee",
+            "count": 17111
+          },
+          {
+            "label": "boerderijen",
+            "count": 15643
+          },
+          {
+            "label": "achtkante stellingmolen",
+            "count": 14747
+          },
+          {
+            "label": "koninklijk huis",
+            "count": 14494
+          },
+          {
+            "label": "topografie afbeeldingen",
+            "count": 14274
+          },
+          {
+            "label": "buitenplaatsen",
+            "count": 13293
+          },
+          {
+            "label": "Koninklijke Marine",
+            "count": 13286
+          },
+          {
+            "label": "afbeeldingen maatschappelijk leven",
+            "count": 13162
+          }
+        ]
+      },
+      {
+        "name": "RIGHTS",
+        "fields": [
+          {
+            "label": "http://creativecommons.org/publicdomain/zero/1.0/",
+            "count": 4060049
+          },
+          {
+            "label": "http://creativecommons.org/publicdomain/mark/1.0/",
+            "count": 1667977
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/InC/1.0/",
+            "count": 1183084
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "count": 574624
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+            "count": 463986
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-sa/3.0/nl/",
+            "count": 314631
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+            "count": 270119
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by/4.0/",
+            "count": 252430
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-sa/4.0/",
+            "count": 134528
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nd/4.0/",
+            "count": 120232
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+            "count": 64365
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-nd/2.5/",
+            "count": 51333
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc/4.0/",
+            "count": 31223
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/CNE/1.0/",
+            "count": 10605
+          },
+          {
+            "label": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+            "count": 5225
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
+            "count": 244
+          },
+          {
+            "label": "http://rightsstatements.org/vocab/InC-OW-EU/1.0/",
+            "count": 190
+          }
+        ]
+      },
+      {
+        "name": "contentTier",
+        "fields": [
+          {
+            "label": "4",
+            "count": 6335641
+          },
+          {
+            "label": "1",
+            "count": 1050101
+          },
+          {
+            "label": "2",
+            "count": 885318
+          },
+          {
+            "label": "3",
+            "count": 829912
+          },
+          {
+            "label": "0",
+            "count": 103873
+          }
+        ]
+      },
+      {
+        "name": "TYPE",
+        "fields": [
+          {
+            "label": "IMAGE",
+            "count": 7240386
+          },
+          {
+            "label": "TEXT",
+            "count": 1088063
+          },
+          {
+            "label": "SOUND",
+            "count": 862084
+          },
+          {
+            "label": "VIDEO",
+            "count": 14057
+          },
+          {
+            "label": "3D",
+            "count": 255
+          }
+        ]
+      },
+      {
+        "name": "metadataTier",
+        "fields": [
+          {
+            "label": "A",
+            "count": 6152578
+          },
+          {
+            "label": "B",
+            "count": 1585980
+          },
+          {
+            "label": "0",
+            "count": 1326581
+          },
+          {
+            "label": "C",
+            "count": 139706
+          }
+        ]
+      }
+    ]
+  }
+}

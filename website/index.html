@@ -144,7 +144,7 @@
     </div>
   </section>
 
-  <!-- Analysis Section 1 -->
+  <!-- Analysis Section 1 — RsQ01 -->
   <section id="analysis" class="analysis-section">
     <div class="analysis-wrapper">
 
@@ -152,22 +152,81 @@
         <div class="analysis-grid">
           <div class="analysis-text-col">
             <h2 class="analysis-title">
-              Tracing <br /> <span>the artifacts</span>
+              We share the same sea, but not a sea of data.
             </h2>
-            <p class="analysis-subtitle">
-              QUANTO????
+            <p class="analysis-subtitle rq-label">
+              Do Europeana providers reflect<br />the number of GLAM institutions?
             </p>
             <p class="analysis-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur.
+              We began our exploratory journey wondering if the number of Europeana providers
+              reflected the many GLAM institutions of the selected countries. We used Wikidata
+              as a baseline and tried to visualize the percentage of institutions that stay
+              afloat in the sea of data.
             </p>
           </div>
 
-          <div class="analysis-chart-col">
-            <canvas id="analysisChart"></canvas>
+          <div class="analysis-chart-col rsq01-chart-col">
+            <p class="chart-title">GLAM Participation Rate on Europeana</p>
+            <div id="rsq01-chart-div"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Analysis Section 1b — RsQ03 -->
+  <section id="analysis-1b" class="analysis-section">
+    <div class="analysis-wrapper">
+
+      <div class="analysis-content-wrapper">
+        <div style="display: flex; flex-direction: column; width: 100%; max-width: 64rem;">
+          <!-- Spread wide text on top -->
+          <div class="analysis-text-col" style="margin-bottom: 3rem; max-width: 100%;">
+            <h2 class="analysis-title">
+              Does investment steer the ship?
+            </h2>
+            <p class="analysis-subtitle rq-label">
+              Does the number of active providers and the volume of cultural heritage shared on Europeana correlate positively to cultural investment?
+            </p>
+            <p class="analysis-desc" style="max-width: 100%;">
+              Turning to the next chart, we explore whether, within this tiny drop of providers in an
+              ocean of institutions, financial investment actually steers the tide: does public
+              spending in culture positively influence the percentage of mobilized providers
+              and the overall volume of shared artifacts?
+            </p>
+          </div>
+
+          <!-- 2/3 to 1/3 grid for Chart and Data Note -->
+          <div class="analysis-grid analysis-grid--wide" style="max-width: 100%;">
+            <!-- 2/3 column: chart -->
+            <div class="analysis-chart-col rsq01-chart-col rsq01b-chart-col">
+              <p class="chart-title">Investments × GLAM Participation Rate × Cultural Expenditure</p>
+              <div id="rsq03-chart-div"></div>
+            </div>
+
+            <!-- 1/3 column: Portugal bias explanation + button -->
+            <div class="analysis-side-col">
+              <div class="pt-bias-panel">
+                <h3 class="pt-bias-title">Portugal's data is biased</h3>
+                <p class="pt-bias-desc">
+                  Portugal's GLAM participation rate (<b>7.22%</b>) is inflated because Wikidata
+                  only records <b>554</b> physical institutions — far below the
+                  <b>3,395</b> counted in the official INE national census.
+                </p>
+                <p class="pt-bias-desc">
+                  When we correct the denominator using the census baseline, the rate
+                  drops to <b>≈ 1.18%</b> — repositioning Portugal's bubble significantly
+                  to the left and revealing a very different picture.
+                </p>
+                <button
+                  id="pt-correct-btn"
+                  class="pt-correct-btn"
+                  onclick="togglePTCorrection()"
+                >
+                  Correct Portugal's data
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -387,6 +446,8 @@
   </div>
 
   <script src="assets/js/app.js"></script>
+  <script src="assets/js/RsQ01.js"></script>
+  <script src="assets/js/RsQ03.js"></script>
 </body>
 
 </html>

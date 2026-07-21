@@ -1,0 +1,32 @@
+{
+  "italy": {
+    "open": 217082,
+    "restricted": 571756,
+    "permission": 1043538
+  },
+  "france": {
+    "open": 535129,
+    "restricted": 2989314,
+    "permission": 1200455
+  },
+  "germany": {
+    "open": 2465464,
+    "restricted": 4368091,
+    "permission": 1867685
+  },
+  "spain": {
+    "open": 2930519,
+    "restricted": 2478796,
+    "permission": 1172409
+  },
+  "netherlands": {
+    "open": 7004239,
+    "restricted": 1006727,
+    "permission": 1193879
+  },
+  "portugal": {
+    "open": 136626,
+    "restricted": 92,
+    "permission": 3140
+  }
+}
