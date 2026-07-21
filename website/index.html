@@ -25,6 +25,12 @@
   <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+  <!-- amCharts 5 core + xy + hierarchy -->
+  <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/hierarchy.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
 
@@ -256,41 +262,62 @@
     </div>
   </div>
 
-  <!-- Analysis Section 2 (Placeholder) -->
+  <!-- Analysis Section 2 — RSQ01: Who are the providers? -->
   <section id="analysis-2" class="analysis-section">
     <div class="analysis-wrapper">
       <div class="analysis-content-wrapper">
-        <div class="analysis-grid">
-          <div class="analysis-text-col">
-            <h2 class="analysis-title">Deeper <br /> <span>insights</span></h2>
-            <p class="analysis-subtitle">
-              CHI?????
+        <div class="analysis-grid analysis-grid-rq2">
+
+          <div class="analysis-text-col rq2-text-right">
+            <h2 class="analysis-title">The <span>Crew</span></h2>
+            <p class="analysis-subtitle">Who sends knowledge to the Europeana sea?</p>
+            <p class="analysis-desc">
+              Behind the vast archive of Europeana stand in total <strong>1002 providers</strong> from the selected six countries each loading their cultural treasures onto the digital vessel. Yet the fleet is far from evenly loaded: in several countries, a single flagship carries the volume of the cargo alone. Explore the top-10 providers by country and discover which institutions navigate Europeana's waters most heavily laden.
             </p>
-            <p class="analysis-desc">Another section to test the scroll progress functionality.</p>
+            <p class="analysis-desc">
+              Boats are not all built the same. A library and a natural history museum may carry equally vast cargo, but what fills their holds - books and manuscripts, or bones and specimens - could not be more different. 
+            </p>
           </div>
-          <div class="analysis-chart-col placeholder-chart-col">
-            <span class="placeholder-chart-text">Placeholder Chart</span>
+
+          <div class="analysis-chart-col rq2-chart-col rq2-chart-left">
+            <!-- Country filter buttons -->
+            <div class="rsq01-filters">
+              <button class="rsq01-filter-btn rsq01-active" data-country="all" onclick="filterRsq01('all')">All</button>
+              <button class="rsq01-filter-btn" data-country="france"      onclick="filterRsq01('france')">France</button>
+              <button class="rsq01-filter-btn" data-country="germany"     onclick="filterRsq01('germany')">Germany</button>
+              <button class="rsq01-filter-btn" data-country="italy"       onclick="filterRsq01('italy')">Italy</button>
+              <button class="rsq01-filter-btn" data-country="netherlands" onclick="filterRsq01('netherlands')">Netherlands</button>
+              <button class="rsq01-filter-btn" data-country="portugal"    onclick="filterRsq01('portugal')">Portugal</button>
+              <button class="rsq01-filter-btn" data-country="spain"       onclick="filterRsq01('spain')">Spain</button>
+            </div>
+            <!-- Chart container -->
+            <div id="rsq01-chart" class="rq2-amchart-container"></div>
           </div>
+
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Analysis Section 3 (Placeholder) -->
+  <!-- Analysis Section 3 — RSQ03: What kinds of institutions? -->
   <section id="analysis-3" class="analysis-section">
     <div class="analysis-wrapper">
       <div class="analysis-content-wrapper">
-        <div class="analysis-grid">
+        <div class="analysis-grid analysis-grid-rq2">
+
           <div class="analysis-text-col">
-            <h2 class="analysis-title">Deeper <br /> <span>insights</span></h2>
-            <p class="analysis-subtitle">
-              COSA?????
+            <h2 class="analysis-title">The <br /><span>Cargo Hold</span></h2>
+            <p class="analysis-subtitle">What kinds of knowledge sail these waters?</p>
+            <p class="analysis-desc">
+              Not every vessel sails with the same cargo. Across Europeana's six contributing countries, <strong>libraries and archives</strong> dominate the hold — accounting for over <strong>60% of all items</strong> globally. But beneath this surface, each national fleet has its own character: the Netherlands is steered by <strong>natural history collections</strong> (51%), Portugal mirrors it with 47% scientific heritage, while Italy's hold brims with <strong>audiovisual and film archives</strong> (31.6%) — a uniquely cinematic identity.
             </p>
-            <p class="analysis-desc">Another section to test the scroll progress functionality.</p>
           </div>
-          <div class="analysis-chart-col placeholder-chart-col">
-            <span class="placeholder-chart-text">Placeholder Chart</span>
+
+          <div class="analysis-chart-col rq2-chart-col">
+            <!-- Stacked bar chart -->
+            <div id="rsq03-bar-chart" class="rq2-amchart-container"></div>
           </div>
+
         </div>
       </div>
     </div>
@@ -474,6 +501,7 @@
   </div>
 
   <script src="assets/js/app.js"></script>
+  <script src="assets/js/rq02.js"></script>
   <script src="assets/js/RsQ01.js"></script>
   <script src="assets/js/RsQ03.js"></script>
 </body>
