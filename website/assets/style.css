@@ -1198,6 +1198,47 @@ button {
   color: var(--primary-color);
 }
 
+.back-to-top-wrapper {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.back-to-top-btn {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.back-to-top-btn:hover {
+  background: var(--secondary-color, #1a3a5f); /* Fallback if secondary isn't defined */
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.back-to-top-btn .arrow-up {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.back-to-top-btn:hover .arrow-up {
+  transform: translateY(-3px);
+}
+
 /* ==========================================================================
    9. Bridging Text Section
    ========================================================================== */
