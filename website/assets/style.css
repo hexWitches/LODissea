@@ -334,43 +334,52 @@ button {
   left: 55px;
   top: 10%;
   bottom: 10%;
-  width: 2px;
-  background-color: var(--primary-color);
-  opacity: 0.2;
+  width: 3px;
+  background-image: linear-gradient(to bottom, var(--primary-color) 50%, transparent 50%);
+  background-size: 3px 12px;
+  background-repeat: repeat-y;
+  opacity: 0.6; /* Made darker */
 }
 
 #global-line-active {
   position: absolute;
   left: 55px;
   top: 10%;
-  width: 2px;
-  background-color: var(--primary-color);
+  width: 3px;
+  background-image: linear-gradient(to bottom, var(--primary-color) 50%, transparent 50%);
+  background-size: 3px 12px;
+  background-repeat: repeat-y;
   height: 0%;
 }
 
 #global-boat {
   position: absolute;
-  left: 40px;
+  left: 66px; /* Moved to the right side of the line */
   top: 10%;
   z-index: 10;
-  margin-top: -16px;
+  margin-top: -20px; /* Center boat vertically */
 }
 
 .scroll-stop {
   position: absolute;
-  left: 56px;
+  left: 56.5px;
   transform: translate(-50%, -50%);
   width: 24px;
   height: 24px;
-  background-color: var(--bg-color);
-  border: 2px solid var(--primary-color);
-  border-radius: 50%;
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--primary-color);
   z-index: 5;
+  transition: color 0.3s ease;
+  pointer-events: auto;
 }
+
+.scroll-stop.completed {
+  color: var(--accent-color);
+}
+
 
 .scroll-stop svg {
   width: 12px;
@@ -381,7 +390,7 @@ button {
   position: absolute;
   bottom: 3rem;
   left: 50%;
-  transform: translateX(-50%) translateY(20px);
+  transform: translateX(-50%);
   color: var(--text-dark);
   display: flex;
   flex-direction: column;
@@ -389,7 +398,7 @@ button {
   gap: 0.5rem;
   transition: color 0.3s;
   z-index: 50;
-  opacity: 0;
+  opacity: 1;
 }
 
 #next-btn:hover {
@@ -980,7 +989,7 @@ button {
 }
 
 .team-name {
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 0.2rem;
@@ -1081,6 +1090,22 @@ button {
   fill: var(--sea-color);
 }
 
+.sea-transition-bottom {
+  position: absolute;
+  bottom: -2px;
+  /* slight overlap to prevent gap */
+  left: 0;
+  width: 100%;
+  height: 120px;
+  z-index: 10;
+}
+
+.sea-wave-svg-bottom {
+  width: 100%;
+  height: 100%;
+  fill: var(--sea-color);
+}
+
 .conclusion-wrapper {
   width: 100%;
   display: flex;
@@ -1167,6 +1192,7 @@ button {
 }
 
 .stat-number {
+  font-family: var(--font-serif);
   font-size: 48px;
   font-weight: 900;
   color: var(--primary-color);
@@ -1176,13 +1202,12 @@ button {
    9. Bridging Text Section
    ========================================================================== */
 .bridge-section {
+  position: relative;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 6rem 2rem;
-  padding-left: 8rem;
-  /* Account for the scrollbar */
+  padding: 6rem 8rem;
   background: transparent;
 }
 
@@ -1217,4 +1242,72 @@ button {
   .bridge-content p {
     font-size: 18px;
   }
+}
+
+/* ==========================================================================
+   10. Team Meta Stats
+   ========================================================================== */
+.team-meta-container {
+  margin-top: 4rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.team-meta-title {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #7A98B8;
+  margin-bottom: 2rem;
+}
+
+.team-meta-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 1rem;
+  overflow-x: auto; /* Just in case it gets too squeezed on very small screens */
+  padding-bottom: 1rem; /* For scrollbar if needed */
+}
+
+.team-meta-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  padding: 0.5rem;
+  min-width: 100px;
+  transition: transform 0.3s ease;
+}
+
+.team-meta-item:hover {
+  transform: translateY(-5px);
+}
+
+.meta-icon {
+  color: var(--sea-color);
+  margin-bottom: 0.75rem;
+}
+
+.meta-label {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+.meta-count {
+  font-family: var(--font-serif);
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
 }
