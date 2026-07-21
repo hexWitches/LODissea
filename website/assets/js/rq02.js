@@ -17,15 +17,14 @@ const COUNTRY_COLORS_RQ2 = {
 };
 
 const CATEGORY_COLORS_RQ2 = {
-  "audiovisual/film archive":            "#4D9E97",
-  "art/history museum":                  "#6D7EBA",
-  "natural history/science institution": "#B074BD",
-  "library/archive":                     "#64A3D1",
-  "academic/research institution":       "#D6934A",
-  "media/broadcast organization":        "#D16E6E",
-  "government/administrative body":      "#C27297",
-  "other":                               "#A19E9A",
-  "unresolved":                          "#75726F",
+  "library/archive":                     "#7C6A8F",
+  "natural history/science institution": "#6B8E4E",
+  "art/history museum":                  "#D4A24C",
+  "audiovisual/film archive":            "#2C5F6F",
+  "academic/research institution":       "#C1666B",
+  "government/administrative body":      "#D98E9B",
+  "media/broadcast organization":        "#E0703A",
+  "other":                               "#C9C2B4",
 };
 
 const PROVIDERS_DATA = {
@@ -112,7 +111,6 @@ const CATEGORY_BY_COUNTRY = [
   { country: "Spain",       "library/archive": 78.3, "natural history/science institution": 1.4,  "government/administrative body": 5.3,  "art/history museum": 5.0,  "audiovisual/film archive": 0.0,  "academic/research institution": 7.0, "media/broadcast organization": 1.4, "other": 0.0 },
 ];
 
-
 const CATEGORIES_ORDER = [
   "library/archive",
   "natural history/science institution",
@@ -190,6 +188,7 @@ function initRsq01Chart(country) {
   const root = am5.Root.new("rsq01-chart");
   rsq01Root = root;
   root.setThemes([am5themes_Animated.new(root)]);
+  root._logo.dispose();  // hide amCharts watermark
 
   const chart = root.container.children.push(
     am5xy.XYChart.new(root, {
@@ -197,6 +196,19 @@ function initRsq01Chart(country) {
       wheelX: "none", wheelY: "none",
       layout: root.verticalLayout,
       paddingRight: 55,   // room for end-of-bar bullet labels
+    })
+  );
+
+  chart.children.unshift(
+    am5.Label.new(root, {
+      text: "Top 10 Providers",
+      fontSize: 16,
+      fontWeight: "600",
+      fontFamily: "'Inter', sans-serif",
+      fill: am5.color("#1A1A1A"),
+      x: am5.p50,
+      centerX: am5.p50,
+      paddingBottom: 15,
     })
   );
 
@@ -255,6 +267,7 @@ function initRsq01Chart(country) {
 
   series.columns.template.setAll({
     height: am5.percent(65),
+    cornerRadiusTL: 4, cornerRadiusBL: 4,
     cornerRadiusBR: 4, cornerRadiusTR: 4,
     tooltipText: "[bold]{fullProvider}[/]\n{percentage} contribution ({countLabel} items)",
     tooltipY: am5.percent(50),
@@ -278,7 +291,7 @@ function initRsq01Chart(country) {
   series.columns.template.events.on("pointerover", (ev) => {
     const d = ev.target.dataItem?.dataContext;
     if (!d) return;
-    
+
     let bgColor = defaultBarColor;
     let isLightColor = false;
 
@@ -290,7 +303,6 @@ function initRsq01Chart(country) {
     seriesTip.get("background").set("fill", am5.color(bgColor));
     seriesTip.label.set("fill", am5.color(isLightColor ? "#1A1A1A" : "#FBF9F5"));
   });
-
 
   // Bullet label — populateText:true is the key flag that makes {field} bindings work
   series.bullets.push(() => {
@@ -317,12 +329,12 @@ function filterRsq01(country) {
     const btnCountry = btn.dataset.country;
     const isActive = btnCountry === country;
     btn.classList.toggle("rsq01-active", isActive);
-    
+
     // Reset inline styles
     btn.style.backgroundColor = "";
     btn.style.borderColor = "";
     btn.style.color = "";
-    
+
     // Add colored background to active country buttons
     if (btnCountry !== "all" && isActive) {
       const col = COUNTRY_COLORS_RQ2[btnCountry];
@@ -351,6 +363,7 @@ function initRsq03BarChart() {
   const root = am5.Root.new("rsq03-bar-chart");
   rsq03BarRoot = root;
   root.setThemes([am5themes_Animated.new(root)]);
+  root._logo.dispose();  // hide amCharts watermark
 
   const chart = root.container.children.push(
     am5xy.XYChart.new(root, {
@@ -369,6 +382,20 @@ function initRsq03BarChart() {
   );
   legend.labels.template.setAll({ fontSize: 10, fontFamily: "'Inter', sans-serif", fill: am5.color("#1A1A1A") });
   legend.markers.template.setAll({ width: 12, height: 12 });
+
+  // Title -- unshift AFTER the legend so it renders above it, not below
+  chart.children.unshift(
+    am5.Label.new(root, {
+      text: "Category Composition by Country",
+      fontSize: 16,
+      fontWeight: "600",
+      fontFamily: "'Inter', sans-serif",
+      fill: am5.color("#1A1A1A"),
+      x: am5.p50,
+      centerX: am5.p50,
+      paddingBottom: 10,
+    })
+  );
 
   // Y axis
   const yRenderer = am5xy.AxisRendererY.new(root, { minGridDistance: 20 });
@@ -389,8 +416,11 @@ function initRsq03BarChart() {
     am5xy.ValueAxis.new(root, { min: 0, max: 100, strictMinMax: true, renderer: xRenderer, numberFormat: "#'%'" })
   );
 
-  CATEGORIES_ORDER.forEach(cat => {
+  CATEGORIES_ORDER.forEach((cat, index) => {
     const color = CATEGORY_COLORS_RQ2[cat] || "#AACAE0";
+    const isFirst = index === 0;
+    const isLast = index === CATEGORIES_ORDER.length - 1;
+
     const series = chart.series.push(
       am5xy.ColumnSeries.new(root, {
         name: cat,
@@ -405,8 +435,10 @@ function initRsq03BarChart() {
       height: am5.percent(60),
       fill: am5.color(color),
       stroke: am5.color(color),
-      // tooltipText on the column template reads the raw valueXField value reliably
-      // (series-level tooltip object can misread stacked cumulative in amCharts 5)
+      cornerRadiusTL: isFirst ? 8 : 0,
+      cornerRadiusBL: isFirst ? 8 : 0,
+      cornerRadiusTR: isLast ? 8 : 0,
+      cornerRadiusBR: isLast ? 8 : 0,
       tooltipText: "[bold]{categoryY}[/]\n" + cat + "\n{valueX.formatNumber('#.0')}%",
       tooltipY: am5.percent(50),
     });
@@ -416,20 +448,20 @@ function initRsq03BarChart() {
     const tooltip = am5.Tooltip.new(root, {
       getFillFromSprite: false,
     });
-    
+
     tooltip.get("background").setAll({
       fill: am5.color(color),
       fillOpacity: 0.95,
       cornerRadiusTopLeft: 6, cornerRadiusTopRight: 6,
       cornerRadiusBottomRight: 6, cornerRadiusBottomLeft: 6,
     });
-    
+
     tooltip.label.setAll({
       fill: am5.color(isLightColor ? "#1A1A1A" : "#FBF9F5"),
       fontSize: 12,
       fontFamily: "'Inter', sans-serif"
     });
-    
+
     series.set("tooltip", tooltip);
 
     series.data.setAll([...CATEGORY_BY_COUNTRY].reverse());
