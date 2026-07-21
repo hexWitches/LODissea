@@ -25,6 +25,12 @@
   <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+  <!-- amCharts 5 core + xy + hierarchy -->
+  <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/hierarchy.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
 
@@ -183,41 +189,70 @@
     </div>
   </div>
 
-  <!-- Analysis Section 2 (Placeholder) -->
+  <!-- Analysis Section 2 — RSQ01: Who are the providers? -->
   <section id="analysis-2" class="analysis-section">
     <div class="analysis-wrapper">
       <div class="analysis-content-wrapper">
-        <div class="analysis-grid">
-          <div class="analysis-text-col">
-            <h2 class="analysis-title">Deeper <br /> <span>insights</span></h2>
-            <p class="analysis-subtitle">
-              CHI?????
+        <div class="analysis-grid analysis-grid-rq2">
+
+          <div class="analysis-text-col rq2-text-right">
+            <h2 class="analysis-title">The <span>Crew</span></h2>
+            <p class="analysis-subtitle">RSQ01 — Who sends knowledge to the Europeana sea?</p>
+            <p class="analysis-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros eros, laoreet non vestibulum blandit, finibus laoreet ipsum. Praesent iaculis efficitur est, id pulvinar arcu vehicula quis. Etiam imperdiet velit tempus ipsum feugiat, tempus imperdiet nunc egestas. Donec pharetra tellus non ante aliquam tincidunt. Nulla facilisi. Praesent quis mattis diam, a porta orci. Donec ut facilisis ex. Ut vitae nulla eget sapien hendrerit vulputate vitae eu felis. Praesent lectus diam, feugiat at sodales dapibus, pretium ut ligula. Etiam euismod volutpat nisi, quis feugiat augue vestibulum sed.
             </p>
-            <p class="analysis-desc">Another section to test the scroll progress functionality.</p>
           </div>
-          <div class="analysis-chart-col placeholder-chart-col">
-            <span class="placeholder-chart-text">Placeholder Chart</span>
+
+          <div class="analysis-chart-col rq2-chart-col rq2-chart-left">
+            <!-- Country filter buttons -->
+            <div class="rsq01-filters">
+              <button class="rsq01-filter-btn rsq01-active" data-country="all" onclick="filterRsq01('all')">All</button>
+              <button class="rsq01-filter-btn" data-country="france"      onclick="filterRsq01('france')">France</button>
+              <button class="rsq01-filter-btn" data-country="germany"     onclick="filterRsq01('germany')">Germany</button>
+              <button class="rsq01-filter-btn" data-country="italy"       onclick="filterRsq01('italy')">Italy</button>
+              <button class="rsq01-filter-btn" data-country="netherlands" onclick="filterRsq01('netherlands')">Netherlands</button>
+              <button class="rsq01-filter-btn" data-country="portugal"    onclick="filterRsq01('portugal')">Portugal</button>
+              <button class="rsq01-filter-btn" data-country="spain"       onclick="filterRsq01('spain')">Spain</button>
+            </div>
+            <!-- Chart container -->
+            <div id="rsq01-chart" class="rq2-amchart-container"></div>
           </div>
+
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Analysis Section 3 (Placeholder) -->
+  <!-- Analysis Section 3 — RSQ03: What kinds of institutions? -->
   <section id="analysis-3" class="analysis-section">
     <div class="analysis-wrapper">
       <div class="analysis-content-wrapper">
-        <div class="analysis-grid">
+        <div class="analysis-grid analysis-grid-rq2">
+
           <div class="analysis-text-col">
-            <h2 class="analysis-title">Deeper <br /> <span>insights</span></h2>
-            <p class="analysis-subtitle">
-              COSA?????
+            <h2 class="analysis-title">The <br /><span>Cargo Hold</span></h2>
+            <p class="analysis-subtitle">RSQ03 — What kinds of knowledge sail these waters?</p>
+            <p class="analysis-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros eros, laoreet non vestibulum blandit, finibus laoreet ipsum. Praesent iaculis efficitur est, id pulvinar arcu vehicula quis. Etiam imperdiet velit tempus ipsum feugiat, tempus imperdiet nunc egestas. Donec pharetra tellus non ante aliquam tincidunt. Nulla facilisi. Praesent quis mattis diam, a porta orci. Donec ut facilisis ex. Ut vitae nulla eget sapien hendrerit vulputate vitae eu felis. Praesent lectus diam, feugiat at sodales dapibus, pretium ut ligula. Etiam euismod volutpat nisi, quis feugiat augue vestibulum sed.
             </p>
-            <p class="analysis-desc">Another section to test the scroll progress functionality.</p>
           </div>
-          <div class="analysis-chart-col placeholder-chart-col">
-            <span class="placeholder-chart-text">Placeholder Chart</span>
+
+          <div class="analysis-chart-col rq2-chart-col">
+            <!-- Tab selector -->
+            <div class="rsq03-tabs">
+              <button id="rsq03-tab-bar" class="rsq03-tab-btn rsq03-tab-active" onclick="switchRsq03Tab('bar')">By Country</button>
+              <button id="rsq03-tab-sun" class="rsq03-tab-btn" onclick="switchRsq03Tab('sun')">Sunburst</button>
+            </div>
+            <!-- Stacked bar panel -->
+            <div id="rsq03-bar-panel">
+              <div id="rsq03-bar-chart" class="rq2-amchart-container"></div>
+            </div>
+            <!-- Sunburst panel -->
+            <div id="rsq03-sun-panel" style="display:none;">
+              <div id="rsq03-sunburst-chart" class="rq2-amchart-container rq2-sunburst-container"></div>
+            </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -350,6 +385,7 @@
   </div>
 
   <script src="assets/js/app.js"></script>
+  <script src="assets/js/rq02.js"></script>
 </body>
 
 </html>
