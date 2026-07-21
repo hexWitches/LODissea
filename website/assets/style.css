@@ -493,7 +493,7 @@ button {
   width: 100%;
   display: grid;
   gap: 4rem;
-  align-items: center;
+  align-items: flex-start;
 }
 
 @media (min-width: 768px) {
@@ -592,7 +592,7 @@ button {
   text-transform: uppercase;
   color: var(--primary-color);
   opacity: 0.75;
-  margin: 0;
+  margin: 16px 0 0 0;
   padding-left: 2px;
 }
 
@@ -601,6 +601,56 @@ button {
   line-height: 1.8;
   font-size: 12px;
   letter-spacing: 0.16em;
+}
+
+/* Narrative column for RsQ01 & RsQ03 spreading across the whole grid */
+.rsq01-narrative-column,
+.rsq03-narrative-column {
+  grid-column: 1 / -1;
+  margin-top: -2rem;
+}
+
+.rsq01-narrative-column h3,
+.rsq03-narrative-column h3 {
+  font-family: var(--font-serif);
+  font-size: 24px;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.rsq01-narrative-column p,
+.rsq03-narrative-column p {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.6;
+  opacity: 0.9;
+  text-align: justify;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.rsq01-narrative-column .takeaway-highlight,
+.rsq03-narrative-column .takeaway-highlight {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  color: var(--primary-color);
+  line-height: 1.8;
+  text-align: left;
+  opacity: 1;
+
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  box-shadow:
+    0 4px 24px rgba(10, 60, 100, 0.10),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35);
 }
 
 /* ==========================================================================
@@ -612,6 +662,7 @@ button {
   .analysis-grid--wide {
     grid-template-columns: 2fr 1fr;
     column-gap: 4rem;
+    align-items: center;
   }
 }
 
@@ -664,9 +715,12 @@ button {
 
 .pt-bias-desc {
   font-family: var(--font-sans);
-  font-size: 15px;
-  color: var(--text-light);
+  font-size: 14px;
+  font-weight: 300;
   line-height: 1.6;
+  opacity: 0.9;
+  text-align: justify;
+  color: var(--text-dark);
   margin: 0;
 }
 

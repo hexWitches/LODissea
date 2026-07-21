@@ -165,19 +165,34 @@
               We share the same sea, but not a sea of data.
             </h2>
             <p class="analysis-subtitle rq-label">
-              Do Europeana providers reflect<br />the number of GLAM institutions?
+              Do Europeana providers reflect the number of GLAM institutions?
             </p>
             <p class="analysis-desc">
-              We began our exploratory journey wondering if the number of Europeana providers
-              reflected the many GLAM institutions of the selected countries. We used Wikidata
-              as a baseline and tried to visualize the percentage of institutions that stay
-              afloat in the sea of data.
+              We began our exploratory journey by mapping the digital <b>participation 
+              of cultural institutions in Europeana</b> across the selected countries. 
+              Using Wikidata as a baseline, we tracked which institutions 
+              successfully navigate into the Europeana ecosystem, and which 
+              remain stranded on isolated shores.
             </p>
           </div>
 
           <div class="analysis-chart-col rsq01-chart-col">
-            <p class="chart-title">GLAM Participation Rate on Europeana</p>
+            <p class="chart-title">Distribution of active europeana providers over GLAM institutions</p>
             <div id="rsq01-chart-div"></div>
+          </div>
+          <div class="rsq01-narrative-column">
+            <h3>Submerged Data</h3>
+            <p>
+              By removing absolute volume differences and viewing participation as a proportion, 
+              this distribution exposes a severe digital divide. Across all six observed nations, 
+              <b>the vast majority of physical cultural institutions remain offline</b>, lost in 
+              the sea of unlinked data.
+            </p>
+            <p class="takeaway-highlight">
+              <strong>A country's physical institutional density does not naturally translate 
+                into digital participation. Without targeted digital openness policies, 
+                national cultural heritage remains isolated from the European collaborative ecosystem.
+            </p>
           </div>
         </div>
       </div>
@@ -196,13 +211,13 @@
               Does investment steer the ship?
             </h2>
             <p class="analysis-subtitle rq-label">
-              Does the number of active providers and the volume of cultural heritage shared on Europeana correlate positively to cultural investment?
-            </p>
+              Do active provider rates and total Europeana volume correlate positively with national cultural investment?            </p>
             <p class="analysis-desc" style="max-width: 100%;">
-              Turning to the next chart, we explore whether, within this tiny drop of providers in an
-              ocean of institutions, financial investment actually steers the tide: does public
-              spending in culture positively influence the percentage of mobilized providers
-              and the overall volume of shared artifacts?
+              Turning to our following chart, we explore whether financial investment actually 
+              steers the tide within this drop of providers in an ocean of institutions. 
+              By mapping public spending against both the mobilization rate and 
+              total artifact volume, we investigate who truly holds the rudder of European 
+              digital heritage.
             </p>
           </div>
 
@@ -210,23 +225,23 @@
           <div class="analysis-grid analysis-grid--wide" style="max-width: 100%;">
             <!-- 2/3 column: chart -->
             <div class="analysis-chart-col rsq01-chart-col rsq01b-chart-col">
-              <p class="chart-title">Investments × GLAM Participation Rate × Cultural Expenditure</p>
+              <p class="chart-title">Relationship between investment, GLAM participation Rate and total shared items</p>
               <div id="rsq03-chart-div"></div>
             </div>
 
             <!-- 1/3 column: Portugal bias explanation + button -->
             <div class="analysis-side-col">
               <div class="pt-bias-panel">
-                <h3 class="pt-bias-title">Portugal's data is biased</h3>
+                <h3 class="pt-bias-title">The Portugal Bias</h3>
                 <p class="pt-bias-desc">
-                  Portugal's GLAM participation rate (<b>7.22%</b>) is inflated because Wikidata
-                  only records <b>554</b> physical institutions — far below the
-                  <b>3,395</b> counted in the official INE national census.
+                  Portugal's initial partecipation rate (<b>7.22%</b>) is artificially inflated 
+                  because crowdsourced Wikidata only records <b>554</b> physical institutions, 
+                  far below the <b>3,395</b> verified in the official INE administrative census.
                 </p>
                 <p class="pt-bias-desc">
-                  When we correct the denominator using the census baseline, the rate
-                  drops to <b>≈ 1.18%</b> — repositioning Portugal's bubble significantly
-                  to the left and revealing a very different picture.
+                  When we override the denominator using the official census baseline, 
+                  the rate drops to <b>1.18%</b>. Clicking the button below visually 
+                  shifts Portugal's bubble to the left, revealing the true macroeconomic correlation.
                 </p>
                 <button
                   id="pt-correct-btn"
@@ -236,6 +251,23 @@
                   Correct Portugal's data
                 </button>
               </div>
+            </div>
+            <div class="rsq03-narrative-column">
+              <h3>Failed routing</h3>
+              <p>
+                Once the Portugal census override is applied, a clear linear trajectory 
+                emerges between public spending and institutional mobilization: nations that invest more 
+                of their GDP in culture generally bring a larger proportion of their physical GLAMs into the Europeana ecosystem. 
+                However, evaluating bubble size (artifact volume) exposes a striking divergence. 
+                <b>France is a primary outlier</b>, leading all observed countries in cultural investment (1.40% of GDP), 
+                yet its mobilization rate remains suppressed at 1.89%, contributing a modest 4.7M items.
+              </p>
+              <p class="takeaway-highlight">
+                <strong>Cultural investment drives institutional participation, 
+                  but it does not guarantee a proportionate volume of shared data. Without policies 
+                  specifically oriented toward European-level open data, high national funding 
+                  fails to maximize digital visibility.</strong>
+              </p>
             </div>
           </div>
         </div>
