@@ -13,7 +13,7 @@ const rq01Data = [
 ];
 
 function initRQ01Chart() {
-  const containerId = "rq01-chart-div";
+  const containerId = "rsq01-chart-div";
   const container   = document.getElementById(containerId);
   if (!container) return;
   if (container.dataset.am5built === "1") return;
@@ -95,6 +95,17 @@ function initRQ01Chart() {
           })
         );
 
+        xAxis.children.push(am5.Label.new(root, {
+          text: "Country",
+          x: am5.percent(50),
+          centerX: am5.percent(50),
+          fontFamily: "Inter, sans-serif",
+          fontSize: 11,
+          fill: TEXT_DARK,
+          opacity: 0.55,
+          marginTop: 6,
+        }));
+
         /* ── Y-axis (0–100%) ── */
         const yRenderer = am5xy.AxisRendererY.new(root, {});
         yRenderer.labels.template.setAll({
@@ -118,6 +129,17 @@ function initRQ01Chart() {
           })
         );
 
+        yAxis.children.unshift(am5.Label.new(root, {
+          text: "Share of Physical GLAMs (%)",
+          rotation: -90,
+          y: am5.percent(50),
+          centerX: am5.percent(50),
+          fontFamily: "Inter, sans-serif",
+          fontSize: 11,
+          fill: TEXT_DARK,
+          opacity: 0.55,
+        }));
+
         /* ── Helper: create a stacked vertical column series ── */
         function makeSeries(name, valueField, isActive) {
           const series = chart.series.push(
@@ -138,8 +160,8 @@ function initRQ01Chart() {
 
           if (isActive) {
             series.setAll({
-              fill: am5.color(0x1a8fc1),
-              stroke: am5.color(0x1a8fc1)
+              fill: am5.color(0x1a3a5f),
+              stroke: am5.color(0x1a3a5f)
             });
 
             series.columns.template.setAll({
@@ -158,16 +180,18 @@ function initRQ01Chart() {
                   fontSize: 11,
                   fontWeight: "700",
                   centerX: am5.percent(50),
-                  centerY: am5.percent(175),
+                  centerY: am5.percent(100),
+                  dy: -4,
                   populateText: true,
                 }),
               });
             });
           } else {
-            /* Offline bars — simple light solid color */
+            const bgColorHex = getComputedStyle(document.documentElement).getPropertyValue('--bg-color').trim();
+            /* Offline bars — match hero background color dynamically */
             series.setAll({
-              fill: am5.color(0xc6e8f4),
-              stroke: am5.color(0xc6e8f4)
+              fill: am5.color(bgColorHex),
+              stroke: am5.color(bgColorHex)
             });
 
             series.columns.template.setAll({
@@ -182,11 +206,12 @@ function initRQ01Chart() {
         const offlineSeries = makeSeries("Offline GLAMs",        "offline", false);
 
         /* ── Legend ── */
-        const legend = chart.children.push(
+        const legend = chart.bottomAxesContainer.children.push(
           am5.Legend.new(root, {
             centerX: am5.percent(50),
             x: am5.percent(50),
-            marginTop: 12,
+            marginTop: 15,
+            layout: root.horizontalLayout,
           })
         );
         legend.labels.template.setAll({

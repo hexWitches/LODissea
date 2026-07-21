@@ -48,15 +48,15 @@ window.togglePTCorrection = function () {
   const btn = document.getElementById("pt-correct-btn");
   if (btn) {
     btn.innerHTML = _ptCorrected
-      ? '<span class="btn-icon">↩</span> Reset to Wikidata'
-      : '<span class="btn-icon">🔎</span> Correct Portugal\'s data';
+      ? 'Reset to Wikidata'
+      : 'Correct Portugal\'s data';
     btn.classList.toggle("corrected", _ptCorrected);
   }
 };
 
 /* ── Chart initialiser ── */
 function initRQ03Chart() {
-  const containerId = "rq03-chart-div";
+  const containerId = "rsq03-chart-div";
   const container   = document.getElementById(containerId);
   if (!container) return;
   if (container.dataset.am5built === "1") return;
@@ -107,25 +107,25 @@ function initRQ03Chart() {
         );
 
         /* ── X-axis: Participation Rate (%) — locked [-0.5, 12.5] ── */
-        const xRenderer = am5xy.AxisRendererX.new(root, {});
+        const xRenderer = am5xy.AxisRendererX.new(root, { minGridDistance: 80 });
         xRenderer.labels.template.setAll({
           fontFamily: "Inter, sans-serif",
           fontSize: 11, fill: TEXT_DARK, opacity: 0.6,
         });
         xRenderer.grid.template.setAll({
-          stroke: TEXT_DARK, strokeOpacity: 0.07,
-          strokeDasharray: [3, 3],
+          stroke: am5.color(0x1a3a5f), strokeOpacity: 0.15,
         });
 
         const xAxis = chart.xAxes.push(
           am5xy.ValueAxis.new(root, {
-            min: -0.5, max: 12.5,
+            min: -0.5, max: 11.2,
             strictMinMax: true,
             renderer: xRenderer,
-            numberFormat: "#.0'%'",
+            numberFormat: "#'%'",
             tooltip: am5.Tooltip.new(root, {}),
           })
         );
+
 
         /* X-axis label */
         xAxis.children.push(am5.Label.new(root, {
@@ -146,19 +146,31 @@ function initRQ03Chart() {
           fontSize: 11, fill: TEXT_DARK, opacity: 0.6,
         });
         yRenderer.grid.template.setAll({
-          stroke: TEXT_DARK, strokeOpacity: 0.07,
-          strokeDasharray: [3, 3],
+          stroke: am5.color(0x1a3a5f), strokeOpacity: 0.15,
         });
 
         const yAxis = chart.yAxes.push(
           am5xy.ValueAxis.new(root, {
-            min: 0.7, max: 1.6,
+            min: 0.75, max: 1.52,
             strictMinMax: true,
             renderer: yRenderer,
             numberFormat: "#.0'%'",
             tooltip: am5.Tooltip.new(root, {}),
           })
         );
+
+        /* Hide 0.8% and 1.5% labels and gridlines completely */
+        yRenderer.labels.template.adapters.add("visible", (visible, target) => {
+          const val = target.dataItem?.get("value");
+          if (val !== undefined && (val <= 0.8 || val >= 1.5)) return false;
+          return visible;
+        });
+        yRenderer.grid.template.adapters.add("visible", (visible, target) => {
+          const val = target.dataItem?.get("value");
+          if (val !== undefined && (val <= 0.8 || val >= 1.5)) return false;
+          return visible;
+        });
+
 
         /* Y-axis label */
         yAxis.children.unshift(am5.Label.new(root, {
@@ -188,13 +200,7 @@ function initRQ03Chart() {
             seriesTooltipTarget: "bullet",
             tooltip: am5.Tooltip.new(root, {
               pointerOrientation: "horizontal",
-              labelHTML:
-                "<span style='font-family:Inter,sans-serif;font-size:12px'>" +
-                "<b>{country}</b><br/>" +
-                "Participation rate: {valueX.formatNumber('#.00')}%<br/>" +
-                "Culture expenditure: {valueY.formatNumber('#.0')}% GDP<br/>" +
-                "Europeana objects: {objects.formatNumber('#,###')}" +
-                "</span>",
+              labelText: "[bold]{country}[/]\nMobilisation rate: {valueX.formatNumber('#.00')}%\nCulture expenditure: {valueY.formatNumber('#.0')}% GDP\nEuropeana objects: {objects.formatNumber('#,###')}",
             }),
           })
         );
@@ -209,7 +215,7 @@ function initRQ03Chart() {
           const fill   = am5.color(ctx.color || 0x888888);
 
           /* Outer glow ring */
-          const container = am5.Container.new(root, {});
+          const container = am5.Container.new(root, { interactive: true });
 
           const ring = am5.Circle.new(root, {
             radius: radius + 4,
@@ -222,10 +228,19 @@ function initRQ03Chart() {
           const circle = am5.Circle.new(root, {
             radius,
             fill,
-            fillOpacity: 0.88,
+            fillOpacity: 0.6,
             stroke: am5.color(0xffffff),
             strokeWidth: 2,
             cursorOverStyle: "pointer",
+            tooltipText: "[bold]{country}[/]\nParticipation rate: {valueX.formatNumber('#.0')}%\nCulture expenditure: {valueY.formatNumber('#.0')}% GDP\nEuropeana objects: {objects.formatNumber('#,###')}",
+            tooltip: am5.Tooltip.new(root, {
+              pointerOrientation: "horizontal",
+            }),
+          });
+
+          circle.get("tooltip").label.setAll({
+            fontSize: 11,
+            fontFamily: "Inter, sans-serif",
           });
 
           /* ISO label above bubble */
@@ -253,7 +268,7 @@ function initRQ03Chart() {
           circle.events.on("pointerout", () => {
             ring.animate({ key: "fillOpacity", to: 0.18, duration: 200 });
             ring.animate({ key: "strokeOpacity", to: 0,   duration: 200 });
-            circle.animate({ key: "fillOpacity", to: 0.88, duration: 200 });
+            circle.animate({ key: "fillOpacity", to: 0.6, duration: 200 });
           });
 
           return am5.Bullet.new(root, { sprite: container, dynamic: true });
