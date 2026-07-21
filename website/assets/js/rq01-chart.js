@@ -137,28 +137,14 @@ function initRQ01Chart() {
           );
 
           if (isActive) {
-            series.columns.template.setAll({
-              cornerRadiusTL: 4,
-              cornerRadiusTR: 4,
-              cornerRadiusBL: 0,
-              cornerRadiusBR: 0,
-              width: am5.percent(72),
+            series.setAll({
+              fill: am5.color(0x1a8fc1),
+              stroke: am5.color(0x1a8fc1)
             });
 
-            /* Water gradient — vertical (top lighter, bottom darker, like water depth) */
-            series.columns.template.adapters.add("fill", () =>
-              am5.LinearGradient.new(root, {
-                stops: [
-                  { color: am5.color(0x3ab4db), offset: 0 },
-                  { color: am5.color(0x1a8fc1), offset: 0.45 },
-                  { color: am5.color(0x0d6b9a), offset: 1 },
-                ],
-                rotation: 90,
-              })
-            );
-            series.columns.template.adapters.add("stroke", () =>
-              am5.color(0x0d6b9a)
-            );
+            series.columns.template.setAll({
+              width: am5.percent(72)
+            });
 
             /* Percentage label above the active bar */
             series.bullets.push((_root, _series, dataItem) => {
@@ -178,17 +164,14 @@ function initRQ01Chart() {
               });
             });
           } else {
-            /* Offline bars — translucent ice-blue, straight top */
+            /* Offline bars — simple light solid color */
+            series.setAll({
+              fill: am5.color(0xc6e8f4),
+              stroke: am5.color(0xc6e8f4)
+            });
+
             series.columns.template.setAll({
-              cornerRadiusTL: 4,
-              cornerRadiusTR: 4,
-              cornerRadiusBL: 0,
-              cornerRadiusBR: 0,
-              width: am5.percent(72),
-              fill: WATER_OFFLINE,
-              fillOpacity: 0.42,
-              stroke: am5.color(0x9ac8e0),
-              strokeWidth: 0.5,
+              width: am5.percent(72)
             });
           }
 
