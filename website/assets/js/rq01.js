@@ -68,7 +68,7 @@ function initCharts() {
             return;
         }
 
-        fetch('./assets/data/rsq01.json')
+        fetch('./assets/data/rq01.json')
           .then(res => res.json())
           .then(data => {
             if (c1) buildRQ01Chart(c1.id, data, am5, am5xy, am5themes_Animated);
