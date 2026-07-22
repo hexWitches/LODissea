@@ -15,14 +15,14 @@ Contains the project title, subtitles, abstract, and explicitly defines the core
 ### Global Setup 
 A single preliminary shared code cell containing all library imports, API key configurations, and styling variables.
 
-### Modular Investigations
+### Modular Exploration
 To maintain a clean Exploratory Data Analysis (EDA) pipeline, each Research Question is treated as an independent module. Every question strictly follows this three-step workflow:
-    1. **Data Acquisition:** Fetching live data via REST APIs, SPARQL endpoints, or external datasets.
-    2. **Data Filtering, Cleaning & Merging:** Processing the raw data and merging it into tidy, analytical DataFrames.
-    3. **Visual Representation:** The code required to render the interactive chart(s) and answer the specific question.
+- **Data Acquisition:** Fetching live data via REST APIs, SPARQL endpoints, or external datasets.
+- **Data Filtering, Cleaning & Merging:** Processing the raw data and merging it into tidy, analytical DataFrames.
+- **Visual Representation:** The code required to render the interactive chart(s) and answer the specific question.
 
 ## The website 
-Embark on a digital odyssey. Follow our journey as we navigate the vast sea of Europeana data. Website live at:[].
+Embark on a digital odyssey. Follow our journey as we navigate the vast sea of Europeana data. Website live at:.
 
 
 # Team Members:
