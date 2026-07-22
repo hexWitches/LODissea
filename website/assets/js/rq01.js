@@ -82,7 +82,7 @@ function initCharts() {
 
 function buildRQ01Chart(containerId, data, am5, am5xy, am5themes_Animated) {
     const root = am5.Root.new(containerId);
-    root._logo && root._logo.dispose();
+
     root.setThemes([am5themes_Animated.new(root)]);
 
     const TEXT_DARK     = am5.color(0x1a2030);
@@ -279,7 +279,7 @@ function buildRQ01Chart(containerId, data, am5, am5xy, am5themes_Animated) {
 function buildRQ03Chart(containerId, data, am5, am5xy, am5themes_Animated) {
     _am5ref = am5;
     const root = am5.Root.new(containerId);
-    root._logo && root._logo.dispose();
+
     root.setThemes([am5themes_Animated.new(root)]);
 
     const TEXT_DARK = am5.color(0x1a2030);
