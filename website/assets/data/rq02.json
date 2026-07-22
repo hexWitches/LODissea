@@ -1,0 +1,394 @@
+{
+  "PROVIDERS_DATA": {
+    "france": [
+      {
+        "provider": "National Library of France",
+        "count": 2999310,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Media Library of Architecture and Heritage",
+        "count": 510877,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Natural History Museum in Paris",
+        "count": 502160,
+        "category": "natural history/science institution"
+      },
+      {
+        "provider": "Ministry of Culture",
+        "count": 173279,
+        "category": "government/administrative body"
+      },
+      {
+        "provider": "Historical Monuments: Regional Conservation",
+        "count": 128192,
+        "category": "government/administrative body"
+      },
+      {
+        "provider": "Ministry of Culture and Communication, Regional Archaeology Service",
+        "count": 110142,
+        "category": "government/administrative body"
+      },
+      {
+        "provider": "National Audiovisual Institute France",
+        "count": 54491,
+        "category": "audiovisual/film archive"
+      },
+      {
+        "provider": "Interuniversity Health Library",
+        "count": 47992,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Palais Galliera - Mus\u00e9e de la Mode de la Ville de Paris",
+        "count": 44495,
+        "category": "art/history museum"
+      },
+      {
+        "provider": "Mobilier National Collections",
+        "count": 24284,
+        "category": "art/history museum"
+      }
+    ],
+    "germany": [
+      {
+        "provider": "Bavarian State Library",
+        "count": 2176001,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Deutsche Fotothek",
+        "count": 1314229,
+        "category": "library/archive"
+      },
+      {
+        "provider": "State Archives of Baden-W\u00fcrttemberg",
+        "count": 827603,
+        "category": "library/archive"
+      },
+      {
+        "provider": "German Documentation Center for Art History - Marburg Picture Index",
+        "count": 320532,
+        "category": "library/archive"
+      },
+      {
+        "provider": "German National Library",
+        "count": 304053,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Berlin-Dahlem Botanical Garden and Botanical Museum",
+        "count": 252957,
+        "category": "natural history/science institution"
+      },
+      {
+        "provider": "Library of the Friedrich Ebert Foundation",
+        "count": 201518,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Museum of City History Leipzig",
+        "count": 182494,
+        "category": "art/history museum"
+      },
+      {
+        "provider": "Berlin State Library",
+        "count": 169601,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Museum of Architecture at Berlin Institute of Technology",
+        "count": 161890,
+        "category": "art/history museum"
+      }
+    ],
+    "italy": [
+      {
+        "provider": "Cinecitt\u00e0 - Luce",
+        "count": 442536,
+        "category": "audiovisual/film archive"
+      },
+      {
+        "provider": "Historical Archive of the Presidency of the Republic",
+        "count": 212160,
+        "category": "library/archive"
+      },
+      {
+        "provider": "National Central Library of Rome",
+        "count": 200231,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Internet Culturale",
+        "count": 109101,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Department of Life Sciences, University of Trieste",
+        "count": 101323,
+        "category": "academic/research institution"
+      },
+      {
+        "provider": "Epigraphic Database Roma",
+        "count": 86827,
+        "category": "academic/research institution"
+      },
+      {
+        "provider": "Cineteca di Bologna",
+        "count": 73157,
+        "category": "audiovisual/film archive"
+      },
+      {
+        "provider": "Central Institute for the Union Catalogue of Italian Libraries",
+        "count": 66672,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Central Museum of the Risorgimento in Rome",
+        "count": 53211,
+        "category": "art/history museum"
+      },
+      {
+        "provider": "Luigi Micheletti Foundation",
+        "count": 51704,
+        "category": "library/archive"
+      }
+    ],
+    "netherlands": [
+      {
+        "provider": "Naturalis Biodiversity Center",
+        "count": 4601504,
+        "category": "natural history/science institution"
+      },
+      {
+        "provider": "KB, National Library of the Netherlands",
+        "count": 987234,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Cultural Heritage Agency of the Netherlands",
+        "count": 526228,
+        "category": "government/administrative body"
+      },
+      {
+        "provider": "Rijksmuseum",
+        "count": 341407,
+        "category": "art/history museum"
+      },
+      {
+        "provider": "National Archives of the Netherlands",
+        "count": 283470,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Internet Archive",
+        "count": 176784,
+        "category": "library/archive"
+      },
+      {
+        "provider": "International Institute of Social History",
+        "count": 165349,
+        "category": "academic/research institution"
+      },
+      {
+        "provider": "The Utrecht Archives",
+        "count": 159981,
+        "category": "library/archive"
+      },
+      {
+        "provider": "National Museum of Antiquities",
+        "count": 141529,
+        "category": "art/history museum"
+      },
+      {
+        "provider": "Historical Information Center of Brabant",
+        "count": 118373,
+        "category": "library/archive"
+      }
+    ],
+    "portugal": [
+      {
+        "provider": "Institute for Tropical Scientific Research",
+        "count": 65666,
+        "category": "natural history/science institution"
+      },
+      {
+        "provider": "National Library of Portugal",
+        "count": 35785,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Portuguese Army Library",
+        "count": 13120,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Azores Regional Directorate for Culture",
+        "count": 5913,
+        "category": "government/administrative body"
+      },
+      {
+        "provider": "University of Porto",
+        "count": 5111,
+        "category": "academic/research institution"
+      },
+      {
+        "provider": "Calouste Gulbenkian Foundation",
+        "count": 3415,
+        "category": "art/history museum"
+      },
+      {
+        "provider": "MUDE \u2013 Museu do Design",
+        "count": 1927,
+        "category": "art/history museum"
+      },
+      {
+        "provider": "Assembly of the Republic - Library",
+        "count": 1663,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Fernando Pessoa's House",
+        "count": 1210,
+        "category": "art/history museum"
+      },
+      {
+        "provider": "University of Coimbra",
+        "count": 1155,
+        "category": "academic/research institution"
+      }
+    ],
+    "spain": [
+      {
+        "provider": "Virtual Library of Historical Press",
+        "count": 1735320,
+        "category": "library/archive"
+      },
+      {
+        "provider": "National Library of Spain",
+        "count": 664410,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Galiciana",
+        "count": 570387,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Digital Memory of Catalonia",
+        "count": 286512,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Archive of Old Catalan Magazines",
+        "count": 229974,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Ajuntament de Girona",
+        "count": 208078,
+        "category": "government/administrative body"
+      },
+      {
+        "provider": "Digital Library of Andalusia",
+        "count": 145620,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Mares\u00eda: Prensa digitalizada y Patrimonio documental",
+        "count": 141919,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Canary Islands Historical Photography Archive",
+        "count": 121890,
+        "category": "library/archive"
+      },
+      {
+        "provider": "Complutense University of Madrid",
+        "count": 121238,
+        "category": "academic/research institution"
+      }
+    ]
+  },
+  "CATEGORY_BY_COUNTRY": [
+    {
+      "country": "France",
+      "library/archive": 76.6,
+      "natural history/science institution": 10.6,
+      "art/history museum": 1.8,
+      "audiovisual/film archive": 1.9,
+      "academic/research institution": 0.4,
+      "government/administrative body": 8.8,
+      "media/broadcast organization": 0.0,
+      "other": 0.0
+    },
+    {
+      "country": "Germany",
+      "library/archive": 77.8,
+      "natural history/science institution": 4.1,
+      "art/history museum": 14.0,
+      "audiovisual/film archive": 0.9,
+      "academic/research institution": 2.3,
+      "government/administrative body": 0.0,
+      "media/broadcast organization": 0.7,
+      "other": 0.1
+    },
+    {
+      "country": "Italy",
+      "library/archive": 46.2,
+      "natural history/science institution": 0.1,
+      "art/history museum": 7.1,
+      "audiovisual/film archive": 31.7,
+      "academic/research institution": 13.4,
+      "government/administrative body": 0.1,
+      "media/broadcast organization": 0.0,
+      "other": 1.3
+    },
+    {
+      "country": "Portugal",
+      "library/archive": 37.5,
+      "natural history/science institution": 47.0,
+      "art/history museum": 4.7,
+      "audiovisual/film archive": 0.5,
+      "academic/research institution": 5.3,
+      "government/administrative body": 4.5,
+      "media/broadcast organization": 0.4,
+      "other": 0.1
+    },
+    {
+      "country": "Spain",
+      "library/archive": 79.6,
+      "natural history/science institution": 1.4,
+      "art/history museum": 5.1,
+      "audiovisual/film archive": 0.0,
+      "academic/research institution": 7.1,
+      "government/administrative body": 5.4,
+      "media/broadcast organization": 1.4,
+      "other": 0.0
+    },
+    {
+      "country": "Netherlands",
+      "library/archive": 26.9,
+      "natural history/science institution": 51.0,
+      "art/history museum": 9.0,
+      "audiovisual/film archive": 1.8,
+      "academic/research institution": 2.8,
+      "government/administrative body": 6.6,
+      "media/broadcast organization": 0.0,
+      "other": 1.8
+    }
+  ],
+  "CATEGORIES_ORDER": [
+    "library/archive",
+    "natural history/science institution",
+    "art/history museum",
+    "audiovisual/film archive",
+    "academic/research institution",
+    "government/administrative body",
+    "media/broadcast organization",
+    "other"
+  ]
+}

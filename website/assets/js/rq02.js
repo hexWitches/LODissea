@@ -27,100 +27,10 @@ const CATEGORY_COLORS_RQ2 = {
   "other":                               "#C9C2B4",
 };
 
-const PROVIDERS_DATA = {
-  france: [
-    { provider: "National Library of France",                     count: 2999310, category: "library/archive" },
-    { provider: "Media Library of Architecture and Heritage",      count: 510877,  category: "library/archive" },
-    { provider: "Natural History Museum in Paris",                 count: 502160,  category: "natural history/science institution" },
-    { provider: "Ministry of Culture",                             count: 173279,  category: "government/administrative body" },
-    { provider: "Historical Monuments: Regional Conservation",     count: 128192,  category: "government/administrative body" },
-    { provider: "Min. of Culture — Regional Archaeology Service",  count: 110142,  category: "government/administrative body" },
-    { provider: "National Audiovisual Institute France",           count: 54491,   category: "audiovisual/film archive" },
-    { provider: "Interuniversity Health Library",                  count: 47992,   category: "library/archive" },
-    { provider: "Palais Galliera — Musée de la Mode",              count: 44495,   category: "art/history museum" },
-    { provider: "Center for Research in Ethnomusicology",          count: 21446,   category: "audiovisual/film archive" },
-  ],
-  germany: [
-    { provider: "Bavarian State Library",                          count: 2176001, category: "library/archive" },
-    { provider: "Deutsche Fotothek",                               count: 1314229, category: "library/archive" },
-    { provider: "State Archives of Baden-Württemberg",             count: 827603,  category: "library/archive" },
-    { provider: "German Doc. Center for Art History",              count: 320532,  category: "library/archive" },
-    { provider: "German National Library",                         count: 304053,  category: "library/archive" },
-    { provider: "Library of Friedrich Ebert Foundation",           count: 201518,  category: "library/archive" },
-    { provider: "Archives of Social Democracy",                    count: 133032,  category: "library/archive" },
-    { provider: "State & University Library Hamburg",              count: 131101,  category: "library/archive" },
-    { provider: "Teßmann Library",                                 count: 115179,  category: "library/archive" },
-    { provider: "Berlin State Library",                            count: 110000,  category: "library/archive" },
-  ],
-  italy: [
-    { provider: "Cinecittà – Luce",                                count: 442536,  category: "audiovisual/film archive" },
-    { provider: "Historical Archive of the Presidency",            count: 212160,  category: "library/archive" },
-    { provider: "National Central Library of Rome",                count: 200231,  category: "library/archive" },
-    { provider: "Internet Culturale",                              count: 109101,  category: "library/archive" },
-    { provider: "Dept. of Life Sciences, Univ. of Trieste",        count: 101323,  category: "academic/research institution" },
-    { provider: "Epigraphic Database Roma",                        count: 86827,   category: "academic/research institution" },
-    { provider: "Central Inst. for Italian Libraries Catalogue",   count: 66672,   category: "library/archive" },
-    { provider: "Central Museum of the Risorgimento",              count: 53211,   category: "art/history museum" },
-    { provider: "Rossimoda Shoe Museum",                           count: 13489,   category: "art/history museum" },
-    { provider: "National Archaeological Museum of Naples",        count: 10000,   category: "art/history museum" },
-  ],
-  netherlands: [
-    { provider: "Naturalis Biodiversity Center",                   count: 4601504, category: "natural history/science institution" },
-    { provider: "KB, National Library of the Netherlands",         count: 987234,  category: "library/archive" },
-    { provider: "Cultural Heritage Agency of the Netherlands",     count: 526228,  category: "government/administrative body" },
-    { provider: "Rijksmuseum",                                     count: 341407,  category: "art/history museum" },
-    { provider: "National Archives of the Netherlands",            count: 283470,  category: "library/archive" },
-    { provider: "Meertens Institute",                              count: 120000,  category: "academic/research institution" },
-    { provider: "EYE Film Museum",                                 count: 98000,   category: "audiovisual/film archive" },
-    { provider: "Amsterdam City Archives",                         count: 85000,   category: "library/archive" },
-    { provider: "Gelderland Archives",                             count: 72000,   category: "library/archive" },
-    { provider: "IMSLP/Petrucci Music Library",                    count: 61552,   category: "audiovisual/film archive" },
-  ],
-  portugal: [
-    { provider: "Institute for Tropical Scientific Research",      count: 65666,   category: "natural history/science institution" },
-    { provider: "National Library of Portugal",                    count: 35785,   category: "library/archive" },
-    { provider: "Portuguese Army Library",                         count: 13120,   category: "library/archive" },
-    { provider: "Azores Regional Directorate for Culture",         count: 5913,    category: "government/administrative body" },
-    { provider: "University of Porto",                             count: 5111,    category: "academic/research institution" },
-    { provider: "Museu do Oriente",                                count: 4200,    category: "art/history museum" },
-    { provider: "Arquivo Distrital de Évora",                      count: 3100,    category: "library/archive" },
-    { provider: "Biblioteca Municipal de Lagos",                   count: 1800,    category: "library/archive" },
-    { provider: "Centro de Arte Moderna",                          count: 1500,    category: "art/history museum" },
-    { provider: "Arquivo Histórico Ultramarino",                   count: 1400,    category: "library/archive" },
-  ],
-  spain: [
-    { provider: "Virtual Library of Historical Press",             count: 1735320, category: "library/archive" },
-    { provider: "National Library of Spain",                       count: 664410,  category: "library/archive" },
-    { provider: "Galiciana: Digital Library of Galicia",           count: 336061,  category: "library/archive" },
-    { provider: "Digital Memory of Catalonia",                     count: 286512,  category: "library/archive" },
-    { provider: "Galiciana. Arquivo Dixital de Galicia",           count: 234326,  category: "library/archive" },
-    { provider: "Digital Library of Andalusia",                    count: 145620,  category: "library/archive" },
-    { provider: "Maresía: Prensa digitalizada",                    count: 141919,  category: "library/archive" },
-    { provider: "Canary Islands Historical Photography Archive",   count: 121890,  category: "library/archive" },
-    { provider: "Centro de Estudios de Castilla – La Mancha",      count: 94223,   category: "library/archive" },
-    { provider: "Virtual Library Miguel de Cervantes",             count: 70971,   category: "library/archive" },
-  ],
-};
-
-const CATEGORY_BY_COUNTRY = [
-  { country: "France",      "library/archive": 76.6, "natural history/science institution": 10.6, "government/administrative body": 8.8,  "art/history museum": 1.8,  "audiovisual/film archive": 1.9,  "academic/research institution": 0.4, "media/broadcast organization": 0.0, "other": 0.0 },
-  { country: "Germany",     "library/archive": 76.0, "natural history/science institution": 4.0,  "government/administrative body": 0.0,  "art/history museum": 13.7, "audiovisual/film archive": 0.9,  "academic/research institution": 2.3, "media/broadcast organization": 0.6, "other": 0.1 },
-  { country: "Italy",       "library/archive": 46.2, "natural history/science institution": 0.1,  "government/administrative body": 0.1,  "art/history museum": 7.1,  "audiovisual/film archive": 31.6, "academic/research institution": 13.4,"media/broadcast organization": 0.0, "other": 1.3 },
-  { country: "Portugal",    "library/archive": 37.5, "natural history/science institution": 47.0, "government/administrative body": 4.5,  "art/history museum": 4.7,  "audiovisual/film archive": 0.5,  "academic/research institution": 5.3, "media/broadcast organization": 0.4, "other": 0.1 },
-  { country: "Spain",       "library/archive": 78.3, "natural history/science institution": 1.4,  "government/administrative body": 5.3,  "art/history museum": 5.0,  "audiovisual/film archive": 0.0,  "academic/research institution": 7.0, "media/broadcast organization": 1.4, "other": 0.0 },
-  { country: "Netherlands", "library/archive": 26.9, "natural history/science institution": 51.0, "government/administrative body": 6.6,  "art/history museum": 9.0,  "audiovisual/film archive": 1.8,  "academic/research institution": 2.8, "media/broadcast organization": 0.0, "other": 1.8 },
-];
-
-const CATEGORIES_ORDER = [
-  "library/archive",
-  "natural history/science institution",
-  "art/history museum",
-  "audiovisual/film archive",
-  "academic/research institution",
-  "government/administrative body",
-  "media/broadcast organization",
-  "other",
-];
+let PROVIDERS_DATA = {};
+let CATEGORY_BY_COUNTRY = [];
+let CATEGORIES_ORDER = [];
+let PROVIDER_SHORT_NAMES = {};
 
 // ---------------------------------------------------------------------------
 // 1. HELPERS
@@ -166,11 +76,12 @@ function initRsq01Chart(country) {
     };
     const suffix = country === "all" ? ` (${isoCodes[d.country]})` : "";
     const maxLength = 36 - suffix.length;
-    const providerStr = d.provider.length > maxLength ? d.provider.slice(0, maxLength - 1) + "\u2026" : d.provider;
+    let providerDisplayName = PROVIDER_SHORT_NAMES[d.provider] || d.provider;
+    const providerStr = providerDisplayName.length > maxLength ? providerDisplayName.slice(0, maxLength - 1) + "\u2026" : providerDisplayName;
 
     return {
       provider:     providerStr + suffix,
-      fullProvider: d.provider + suffix,
+      fullProvider: providerDisplayName + suffix,
       count:        d.count,
       percentage:   totalCount > 0 ? (d.count / totalCount * 100).toFixed(1) + "%" : "0%",
       // Pre-format: amCharts bullet sprites don't support {field.formatNumber()} syntax
@@ -543,6 +454,18 @@ function rq2ObserveSection(sectionId, initFn) {
 // ---------------------------------------------------------------------------
 
 document.addEventListener("DOMContentLoaded", () => {
-  rq2ObserveSection("analysis-2", () => { initRsq01Chart("all"); });
-  rq2ObserveSection("analysis-3", () => { initRsq03BarChart(); });
+  Promise.all([
+    fetch("assets/data/rq02.json").then(res => res.json()),
+    fetch("assets/data/provider_short_names.json").then(res => res.json())
+  ])
+    .then(([rq02Data, shortNamesData]) => {
+      PROVIDERS_DATA = rq02Data.PROVIDERS_DATA;
+      CATEGORY_BY_COUNTRY = rq02Data.CATEGORY_BY_COUNTRY;
+      CATEGORIES_ORDER = rq02Data.CATEGORIES_ORDER;
+      PROVIDER_SHORT_NAMES = shortNamesData;
+      
+      rq2ObserveSection("analysis-2", () => { initRsq01Chart("all"); });
+      rq2ObserveSection("analysis-3", () => { initRsq03BarChart(); });
+    })
+    .catch(error => console.error("Error loading RQ02 data:", error));
 });
