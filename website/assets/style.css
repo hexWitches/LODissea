@@ -556,16 +556,35 @@ button {
 }
 
 .country-hl {
-  text-decoration: underline wavy;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
+  padding: 0 2px;
+  border-radius: 2px;
+  font-weight: 600;
+  text-decoration: none;
 }
-.hl-de { text-decoration-color: #feda15; }
-.hl-nl { text-decoration-color: #a180ad; }
-.hl-fr { text-decoration-color: #1f7f95; }
-.hl-pt { text-decoration-color: #f4a64e; }
-.hl-es { text-decoration-color: #bb521f; }
-.hl-it { text-decoration-color: #90be6d; }
+
+.hl-de {
+  background: linear-gradient(transparent 52%, #feda1566 52%);
+}
+
+.hl-nl {
+  background: linear-gradient(transparent 52%, #a180ad66 52%);
+}
+
+.hl-fr {
+  background: linear-gradient(transparent 52%, #1f7f9566 52%);
+}
+
+.hl-pt {
+  background: linear-gradient(transparent 52%, #f4a64e66 52%);
+}
+
+.hl-es {
+  background: linear-gradient(transparent 52%, #bb521f66 52%);
+}
+
+.hl-it {
+  background: linear-gradient(transparent 52%, #90be6d66 52%);
+}
 
 /* ==========================================================================
    5. Analysis Section
@@ -590,6 +609,7 @@ button {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 2rem;
@@ -601,6 +621,25 @@ button {
     padding: 6rem;
     padding-left: 8rem;
   }
+}
+
+.section-bridge {
+  width: 100%;
+  max-width: 64rem;
+  margin-top: 4rem;
+  padding-top: 2rem;
+}
+
+.section-bridge p {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--text-dark);
+  text-align: left;
+  opacity: 0.9;
+  max-width: 48rem;
+  margin: 0 auto;
 }
 
 .analysis-grid {
@@ -649,13 +688,65 @@ button {
 }
 
 .analysis-desc {
-  font-size: 14px;
+  font-size: 15px;
   font-family: var(--font-sans);
   font-weight: 300;
-  line-height: 1.6;
+  line-height: 1.7;
   opacity: 0.9;
   text-align: justify;
   color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.analysis-section-label {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--primary-color);
+  opacity: 0.65;
+  margin-top: 1.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.analysis-findings {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.analysis-findings li {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.55;
+  color: var(--text-dark);
+  padding-left: 1.1rem;
+  position: relative;
+}
+
+.analysis-findings li::before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.1em;
+  line-height: 1.4;
+  opacity: 0.8;
+}
+
+/* Marker-pen highlight on every <strong> and <b> across the whole site */
+strong,
+b {
+  background: linear-gradient(transparent 48%, rgba(29, 63, 103, 0.3) 52%);
+  padding: 0 2px;
+  border-radius: 2px;
+  font-weight: 600;
 }
 
 .analysis-chart-col {
@@ -700,15 +791,12 @@ button {
 
 /* Small chart title above the chart */
 .chart-title {
-  font-family: var(--font-sans);
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--primary-color);
-  opacity: 0.75;
-  margin: 16px 0 0 0;
-  padding-left: 2px;
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: 550;
+  color: var(--text-dark);
+  margin: 0 0 16px 0;
+  text-align: center;
 }
 
 /* Variant of .analysis-subtitle styled as a research-question badge */
@@ -746,18 +834,20 @@ button {
 }
 
 .rsq01-narrative-column .takeaway-highlight,
-.rsq03-narrative-column .takeaway-highlight {
+.rsq03-narrative-column .takeaway-highlight,
+.takeaway-highlight {
   font-family: var(--font-sans);
   font-size: 12px;
   letter-spacing: 0.16em;
   color: var(--primary-color);
   line-height: 1.8;
-  text-align: left;
+  text-align: center;
   opacity: 1;
+  font-weight: 600;
 
   padding: 1.5rem;
   margin-top: 1.5rem;
-  
+
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.18);
   backdrop-filter: blur(6px);
@@ -766,6 +856,13 @@ button {
   box-shadow:
     0 4px 24px rgba(10, 60, 100, 0.10),
     inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+/* Ensure no background highlight line appears on these bolded takeaways */
+.takeaway-highlight,
+.takeaway-highlight strong,
+.takeaway-highlight b {
+  background-image: none !important;
 }
 
 /* ==========================================================================
@@ -841,6 +938,55 @@ button {
 
 .pt-bias-desc b {
   color: var(--text-dark);
+}
+
+/* ==========================================================================
+   Category note panel (RSQ03 stacked bar — methodology note)
+   ========================================================================== */
+
+.cat-note-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  border-left: 2px solid rgba(26, 32, 48, 0.12);
+  padding-left: 1rem;
+}
+
+.cat-note-tag {
+  display: inline-block;
+  align-self: flex-start;
+  background-color: rgba(26, 58, 95, 0.12);
+  color: #1a3a5f;
+  padding: 0.2rem 0.65rem;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-family: var(--font-sans);
+}
+
+.cat-note-title {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.cat-note-desc {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.65;
+  opacity: 0.85;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.cat-note-desc b {
+  font-weight: 600;
+  color: var(--text-dark);
+  opacity: 1;
 }
 
 /* Interactive correct button */
@@ -1167,6 +1313,7 @@ button {
   line-height: 1.6;
   opacity: 0.9;
 }
+
 .team-cards-container {
   display: flex;
   gap: 2rem;
@@ -1503,11 +1650,11 @@ button {
 
 .bridge-content p {
   font-family: var(--font-serif);
-  font-style: italic;
-  font-size: 24px;
-  line-height: 1.6;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 1.8;
   color: var(--text-dark);
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 @media (max-width: 768px) {
@@ -1516,7 +1663,7 @@ button {
   }
 
   .bridge-content p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -1532,7 +1679,7 @@ button {
 
 @media (min-width: 768px) {
   .analysis-grid-rq2 {
-    grid-template-columns: 1.8fr 3.2fr;
+    grid-template-columns: 2fr 2.8fr;
     gap: 3rem;
   }
 }
@@ -1553,7 +1700,7 @@ button {
 
   /* When inverted, flip the column widths */
   .analysis-grid-rq2:has(.rq2-chart-left) {
-    grid-template-columns: 3.2fr 1.8fr;
+    grid-template-columns: 2.8fr 2fr;
   }
 }
 
@@ -1608,25 +1755,6 @@ button {
 }
 
 
-/* =========================================
-   SCROLLBAR STYLING
-   ========================================= */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: var(--primary-deep, #1A3A5F);
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: var(--primary-color, #23588f);
-}
 
 /* ==========================================================================
    10. Team Meta Stats

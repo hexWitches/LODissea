@@ -140,7 +140,7 @@
   <!-- Map Journey Section -->
   <section id="journey">
     <div class="journey-text-wrapper">
-      <h2 class="journey-title">Mapping<br /><span>the Data</span></h2>
+      <h2 class="journey-title">Mapping<br /><span>the Waters</span></h2>
       <p class="journey-desc">
         Our journey charts a course across <strong>six shores</strong> - <span class="country-hl hl-de">Germany</span>, the <span class="country-hl hl-nl">Netherlands</span>, <span class="country-hl hl-fr">France</span>, <span class="country-hl hl-pt">Portugal</span>, <span class="country-hl hl-es">Spain</span> and <span class="country-hl hl-it">Italy</span> - each different in size, coastline and culture, each hiding its own treasures.
       </p>
@@ -205,9 +205,7 @@
               the sea of unlinked data.
             </p>
             <p class="takeaway-highlight">
-              <strong>A country's physical institutional density does not naturally translate 
-                into digital participation. Without targeted digital openness policies, 
-                national cultural heritage remains isolated from the European collaborative ecosystem.
+              A country's physical institutional density does not naturally translate into digital participation. Without targeted digital openness policies, national cultural heritage remains isolated from the European collaborative ecosystem.
             </p>
           </div>
         </div>
@@ -227,7 +225,7 @@
               Does investment steer the ship?
             </h2>
             <p class="analysis-subtitle rq-label">
-              Do active provider rates and total Europeana volume correlate positively with national cultural investment?            </p>
+              Do active provider rates and total Europeana volume correlate positively with national cultural investment?</p>
             <p class="analysis-desc" style="max-width: 100%;">
               Turning to our following chart, we explore whether financial investment actually 
               steers the tide within this drop of providers in an ocean of institutions. 
@@ -275,10 +273,10 @@
                 yet its mobilization rate remains suppressed at 1.89%, contributing a modest 4.7M items.
               </p>
               <p class="takeaway-highlight">
-                <strong>Cultural investment drives institutional participation, 
+                Cultural investment drives institutional participation, 
                   but it does not guarantee a proportionate volume of shared data. Without policies 
                   specifically oriented toward European-level open data, high national funding 
-                  fails to maximize digital visibility.</strong>
+                  fails to maximize digital visibility.
               </p>
             </div>
           </div>
@@ -317,37 +315,48 @@
           <div class="analysis-text-col rq2-text-right">
             <h2 class="analysis-title">The <span>Crew</span></h2>
             <p class="analysis-subtitle">Who sends knowledge to the Europeana sea?</p>
+
             <p class="analysis-desc">
-              Behind the vast archive of Europeana stand in total <strong>1002 providers</strong> from the selected six
-              countries each loading their cultural treasures onto the digital vessel. Yet the fleet is far from evenly
-              loaded: in several countries, a single flagship carries the volume of the cargo alone. Explore the top-10
-              providers by country and discover which institutions navigate Europeana's waters most heavily laden.
+              Behind the vast archive of Europeana stand <strong>1002 providers</strong> from the six selected countries, each loading their cultural treasures onto the digital vessel. But <strong>who</strong> sails Europeana's waters, and how heavily loaded is each provider?
             </p>
-            <p class="analysis-desc">
-              Boats are not all built the same. A library and a natural history museum may carry equally vast cargo, but
-              what fills their holds - books and manuscripts, or bones and specimens - could not be more different.
-            </p>
+
+            <p class="analysis-section-label">High Tide, Low TIde</p>
+            <ul class="analysis-findings">
+              <li>In most countries a <strong>single provider dominates</strong>, contributing the majority of all national items.</li>
+              <li>The Netherlands isn't just home to the highest number of providers; it also hosts the one provider carrying the heaviest cultural heritage load of all.</li>
+              <li>Spain and Italy show the most <strong>distributed contribution</strong>, with several institutions sharing the load.</li>
+            </ul>
+
           </div>
 
+
+
           <div class="analysis-chart-col rq2-chart-col rq2-chart-left">
+            <p class="chart-title">Top Providers</p>
             <!-- Country filter buttons -->
             <div class="rsq01-filters">
               <button class="rsq01-filter-btn rsq01-active" data-country="all" onclick="filterRsq01('all')">All</button>
               <button class="rsq01-filter-btn" data-country="france" onclick="filterRsq01('france')">France</button>
               <button class="rsq01-filter-btn" data-country="germany" onclick="filterRsq01('germany')">Germany</button>
               <button class="rsq01-filter-btn" data-country="italy" onclick="filterRsq01('italy')">Italy</button>
-              <button class="rsq01-filter-btn" data-country="netherlands"
-                onclick="filterRsq01('netherlands')">Netherlands</button>
               <button class="rsq01-filter-btn" data-country="portugal"
                 onclick="filterRsq01('portugal')">Portugal</button>
               <button class="rsq01-filter-btn" data-country="spain" onclick="filterRsq01('spain')">Spain</button>
+              <button class="rsq01-filter-btn" data-country="netherlands"
+                onclick="filterRsq01('netherlands')">Netherlands</button>
             </div>
             <!-- Chart container -->
             <div id="rsq01-chart" class="rq2-amchart-container"></div>
           </div>
 
         </div>
+        
+        <div style="width: 100%; margin-top: 2rem;">
+          <p class="takeaway-highlight" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+          The type of provider seems to correlate with the volume of cargo it carries — which is exactly what the next chart sets out to explore.
+        </p>
       </div>
+    </div>
     </div>
   </section>
 
@@ -357,28 +366,58 @@
       <div class="analysis-content-wrapper">
         <div class="analysis-grid analysis-grid-rq2">
 
-          <div class="analysis-text-col">
-            <h2 class="analysis-title">The <br /><span>Cargo Hold</span></h2>
+          <div class="analysis-text-col rq2-text-right">
+            <h2 class="analysis-title">The <br /><span>Inventory</span></h2>
             <p class="analysis-subtitle">What kinds of knowledge sail these waters?</p>
+
             <p class="analysis-desc">
-              Not every vessel sails with the same cargo. Across Europeana's six contributing countries,
-              <strong>libraries and archives</strong> dominate the hold — accounting for over <strong>60% of all
-                items</strong> globally. But beneath this surface, each national fleet has its own character: the
-              Netherlands is steered by <strong>natural history collections</strong> (51%), Portugal mirrors it with 47%
-              scientific heritage, while Italy's hold brims with <strong>audiovisual and film archives</strong> (31.6%)
-              — a uniquely cinematic identity.
+              Not every vessel sails with the same inventory. We look at how items are distributed across institution categories - libraries, archives, museums, natural history collections, audiovisual archives, and more - comparing composition to reveal each nation's cultural identity through its data.
             </p>
+
+            <ul class="analysis-findings">
+              <li><strong>Libraries &amp; archives</strong> dominate globally.</li>
+              <li>The Netherlands breaks the mould: natural history collections lead, with 51% of its items.</li>
+              <li><strong>Italy</strong> stands out for its audiovisual richness, with audiovisual/film archives making up <strong>31.7%</strong>.</li>
+            </ul>
           </div>
 
-          <div class="analysis-chart-col rq2-chart-col">
+          <div class="analysis-chart-col rq2-chart-col rq2-chart-left">
+            <p class="chart-title">Category Composition by Country</p>
             <!-- Stacked bar chart -->
             <div id="rsq03-bar-chart" class="rq2-amchart-container"></div>
-          </div>
 
-        </div>
-      </div>
-    </div>
+            <!-- Supplementary note: category classification -->
+            <div class="cat-note-panel">
+              <h3 class="cat-note-title">Why these categories?</h3>
+              <p class="cat-note-desc">
+                Each provider is classified into an institution-type category derived from the data itself, rather than defined upfront. Classification draws primarily on the provider's Wikidata entity - its description, name, and structured properties - enriching Europeana's own records with an external, linked open data source.
+              </p>
+            </div>
+          </div>
+        </div> <!-- Closes .analysis-grid -->
+
+      </div> <!-- Closes .analysis-content-wrapper -->
+    </div> <!-- Closes .analysis-wrapper -->
   </section>
+
+  <!-- Bridging Text Placeholder -->
+  <div class="bridge-section">
+    <div class="sea-transition-top">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="sea-wave-svg-top">
+        <path d="M0,60 C150,110 350,10 500,60 C650,110 850,10 1000,60 C1150,110 1350,10 1500,60 L1500,120 L0,120 Z">
+        </path>
+      </svg>
+    </div>
+    <div class="bridge-content">
+      <p>Exploring Europeana data, there is a clear <strong>limitation</strong>: categories aren't perfectly aligned across providers. Given how difficult it proved to align and retrieve reliable category data, we turned next to a more fundamental question: the <strong>quality</strong> and completeness of Europeana's metadata itself.</p>
+    </div>
+    <div class="sea-transition-bottom">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="sea-wave-svg-bottom">
+        <path d="M0,60 C150,110 350,10 500,60 C650,110 850,10 1000,60 C1150,110 1350,10 1500,60 L1500,120 L0,120 Z">
+        </path>
+      </svg>
+    </div>
+  </div>
 
   <!-- Analysis Section 4 (Placeholder) -->
   <section id="analysis-4" class="analysis-section">
@@ -537,7 +576,7 @@
                 <div class="team-meta-item">
                   <i data-lucide="coffee" width="32" height="32" class="meta-icon"></i>
                   <span class="meta-label">Coffees</span>
-                  <span class="meta-count">20</span>
+                  <span class="meta-count">23</span>
                 </div>
                 <div class="team-meta-item">
                   <i data-lucide="utensils" width="32" height="32" class="meta-icon"></i>
@@ -548,11 +587,6 @@
                   <i data-lucide="moon" width="32" height="32" class="meta-icon"></i>
                   <span class="meta-label">Sleepovers</span>
                   <span class="meta-count">3</span>
-                </div>
-                <div class="team-meta-item">
-                  <i data-lucide="music" width="32" height="32" class="meta-icon"></i>
-                  <span class="meta-label">Music</span>
-                  <span class="meta-count">h</span>
                 </div>
               </div>
             </div>
