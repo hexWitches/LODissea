@@ -1,0 +1,62 @@
+[
+  {
+    "country": "Italy",
+    "iso": "IT",
+    "wikidata": 14236,
+    "providers": 158,
+    "rate": 1.11,
+    "x": 1.11,
+    "y": 0.9,
+    "objects": 1832376
+  },
+  {
+    "country": "Germany",
+    "iso": "DE",
+    "wikidata": 9370,
+    "providers": 375,
+    "rate": 4.0,
+    "x": 4.0,
+    "y": 1.0,
+    "objects": 8701240
+  },
+  {
+    "country": "Netherlands",
+    "iso": "NL",
+    "wikidata": 1539,
+    "providers": 104,
+    "rate": 6.76,
+    "x": 6.76,
+    "y": 1.1,
+    "objects": 9204845
+  },
+  {
+    "country": "Portugal",
+    "iso": "PT",
+    "wikidata": 554,
+    "providers": 40,
+    "rate": 7.22,
+    "x": 7.22,
+    "y": 0.9,
+    "objects": 139858
+  },
+  {
+    "country": "Spain",
+    "iso": "ES",
+    "wikidata": 2813,
+    "providers": 275,
+    "rate": 9.78,
+    "x": 9.78,
+    "y": 1.2,
+    "objects": 6581724
+  },
+  {
+    "country": "France",
+    "iso": "FR",
+    "wikidata": 2640,
+    "providers": 50,
+    "rate": 1.89,
+    "x": 1.89,
+    "y": 1.4,
+    "objects": 4724898
+  }
+]
