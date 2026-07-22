@@ -75,7 +75,7 @@
 
       <!-- Paper boat on the waves -->
       <div id="wave-boat">
-        
+
       </div>
 
       <button class="start-journey-btn" id="start-journey-btn">
@@ -196,7 +196,8 @@
               Does investment steer the ship?
             </h2>
             <p class="analysis-subtitle rq-label">
-              Does the number of active providers and the volume of cultural heritage shared on Europeana correlate positively to cultural investment?
+              Does the number of active providers and the volume of cultural heritage shared on Europeana correlate
+              positively to cultural investment?
             </p>
             <p class="analysis-desc" style="max-width: 100%;">
               Turning to the next chart, we explore whether, within this tiny drop of providers in an
@@ -228,11 +229,7 @@
                   drops to <b>≈ 1.18%</b> — repositioning Portugal's bubble significantly
                   to the left and revealing a very different picture.
                 </p>
-                <button
-                  id="pt-correct-btn"
-                  class="pt-correct-btn"
-                  onclick="togglePTCorrection()"
-                >
+                <button id="pt-correct-btn" class="pt-correct-btn" onclick="togglePTCorrection()">
                   Correct Portugal's data
                 </button>
               </div>
@@ -247,17 +244,18 @@
   <div class="bridge-section">
     <div class="sea-transition-top">
       <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="sea-wave-svg-top">
-        <path d="M0,60 C150,110 350,10 500,60 C650,110 850,10 1000,60 C1150,110 1350,10 1500,60 L1500,120 L0,120 Z"></path>
+        <path d="M0,60 C150,110 350,10 500,60 C650,110 850,10 1000,60 C1150,110 1350,10 1500,60 L1500,120 L0,120 Z">
+        </path>
       </svg>
     </div>
     <div class="bridge-content">
-      <img src="assets/img/custom-stop.svg" class="bridge-icon" alt="Decorative Icon" />
-      <p>This is a bridging text. It serves as a narrative transition between the different stages of our journey
-        through the data. You can copy and reuse this block between any sections.</p>
+      <div id="falling-france-bubble">France</div>
+      <div id="france-concentration-chart" style="width: 100%; height: 250px; margin-top: 0.5rem;"></div>
     </div>
     <div class="sea-transition-bottom">
       <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="sea-wave-svg-bottom">
-        <path d="M0,60 C150,110 350,10 500,60 C650,110 850,10 1000,60 C1150,110 1350,10 1500,60 L1500,120 L0,120 Z"></path>
+        <path d="M0,60 C150,110 350,10 500,60 C650,110 850,10 1000,60 C1150,110 1350,10 1500,60 L1500,120 L0,120 Z">
+        </path>
       </svg>
     </div>
   </div>
@@ -272,10 +270,14 @@
             <h2 class="analysis-title">The <span>Crew</span></h2>
             <p class="analysis-subtitle">Who sends knowledge to the Europeana sea?</p>
             <p class="analysis-desc">
-              Behind the vast archive of Europeana stand in total <strong>1002 providers</strong> from the selected six countries each loading their cultural treasures onto the digital vessel. Yet the fleet is far from evenly loaded: in several countries, a single flagship carries the volume of the cargo alone. Explore the top-10 providers by country and discover which institutions navigate Europeana's waters most heavily laden.
+              Behind the vast archive of Europeana stand in total <strong>1002 providers</strong> from the selected six
+              countries each loading their cultural treasures onto the digital vessel. Yet the fleet is far from evenly
+              loaded: in several countries, a single flagship carries the volume of the cargo alone. Explore the top-10
+              providers by country and discover which institutions navigate Europeana's waters most heavily laden.
             </p>
             <p class="analysis-desc">
-              Boats are not all built the same. A library and a natural history museum may carry equally vast cargo, but what fills their holds - books and manuscripts, or bones and specimens - could not be more different. 
+              Boats are not all built the same. A library and a natural history museum may carry equally vast cargo, but
+              what fills their holds - books and manuscripts, or bones and specimens - could not be more different.
             </p>
           </div>
 
@@ -283,12 +285,14 @@
             <!-- Country filter buttons -->
             <div class="rsq01-filters">
               <button class="rsq01-filter-btn rsq01-active" data-country="all" onclick="filterRsq01('all')">All</button>
-              <button class="rsq01-filter-btn" data-country="france"      onclick="filterRsq01('france')">France</button>
-              <button class="rsq01-filter-btn" data-country="germany"     onclick="filterRsq01('germany')">Germany</button>
-              <button class="rsq01-filter-btn" data-country="italy"       onclick="filterRsq01('italy')">Italy</button>
-              <button class="rsq01-filter-btn" data-country="netherlands" onclick="filterRsq01('netherlands')">Netherlands</button>
-              <button class="rsq01-filter-btn" data-country="portugal"    onclick="filterRsq01('portugal')">Portugal</button>
-              <button class="rsq01-filter-btn" data-country="spain"       onclick="filterRsq01('spain')">Spain</button>
+              <button class="rsq01-filter-btn" data-country="france" onclick="filterRsq01('france')">France</button>
+              <button class="rsq01-filter-btn" data-country="germany" onclick="filterRsq01('germany')">Germany</button>
+              <button class="rsq01-filter-btn" data-country="italy" onclick="filterRsq01('italy')">Italy</button>
+              <button class="rsq01-filter-btn" data-country="netherlands"
+                onclick="filterRsq01('netherlands')">Netherlands</button>
+              <button class="rsq01-filter-btn" data-country="portugal"
+                onclick="filterRsq01('portugal')">Portugal</button>
+              <button class="rsq01-filter-btn" data-country="spain" onclick="filterRsq01('spain')">Spain</button>
             </div>
             <!-- Chart container -->
             <div id="rsq01-chart" class="rq2-amchart-container"></div>
@@ -299,8 +303,57 @@
     </div>
   </section>
 
-  <!-- Analysis Section 3 — RSQ03: What kinds of institutions? -->
+  <!-- Analysis Section 3 — RSQ06: How are these providers geographically distributed across Europe? -->
   <section id="analysis-3" class="analysis-section">
+    <div class="analysis-wrapper">
+      <div class="analysis-content-wrapper">
+        <div class="analysis-grid" style="max-width: 1200px; grid-template-columns: 2fr 3fr;">
+
+          <!-- Left column: title + text -->
+          <div class="analysis-text-col">
+            <h2 class="analysis-title">Final <span>findings</span></h2>
+            <p class="analysis-subtitle">Geographic Distribution of Providers</p>
+            <p class="analysis-desc">
+              This map highlights the geographic distribution of our 1002 providers across Europe.
+              Notice how cultural heritage data is highly concentrated in a few major hubs, while other regions
+              contribute selectively.
+            </p>
+          </div>
+
+          <!-- Right column: toggle buttons + map -->
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <!-- Country zoom toggle buttons -->
+            <div id="map-country-filters" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+              <button class="rsq01-filter-btn map-country-btn" data-country="all"
+                style="background:#1a3a5f; color:#ffffff; border-color:#1a3a5f;"
+                onclick="mapZoomToCountry('all')">All</button>
+              <button class="rsq01-filter-btn map-country-btn" data-country="France"
+                onclick="mapZoomToCountry('France')">France</button>
+              <button class="rsq01-filter-btn map-country-btn" data-country="Germany"
+                onclick="mapZoomToCountry('Germany')">Germany</button>
+              <button class="rsq01-filter-btn map-country-btn" data-country="Italy"
+                onclick="mapZoomToCountry('Italy')">Italy</button>
+              <button class="rsq01-filter-btn map-country-btn" data-country="Netherlands"
+                onclick="mapZoomToCountry('Netherlands')">Netherlands</button>
+              <button class="rsq01-filter-btn map-country-btn" data-country="Portugal"
+                onclick="mapZoomToCountry('Portugal')">Portugal</button>
+              <button class="rsq01-filter-btn map-country-btn" data-country="Spain"
+                onclick="mapZoomToCountry('Spain')">Spain</button>
+            </div>
+
+            <!-- Map -->
+            <div id="provider-map"
+              style="height: 500px; background-color: #0b1a2c; border-radius: 12px; overflow: hidden;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Analysis Section 4 — RSQ03: What kinds of institutions? -->
+  <section id="analysis-4" class="analysis-section">
     <div class="analysis-wrapper">
       <div class="analysis-content-wrapper">
         <div class="analysis-grid analysis-grid-rq2">
@@ -309,7 +362,12 @@
             <h2 class="analysis-title">The <br /><span>Cargo Hold</span></h2>
             <p class="analysis-subtitle">What kinds of knowledge sail these waters?</p>
             <p class="analysis-desc">
-              Not every vessel sails with the same cargo. Across Europeana's six contributing countries, <strong>libraries and archives</strong> dominate the hold — accounting for over <strong>60% of all items</strong> globally. But beneath this surface, each national fleet has its own character: the Netherlands is steered by <strong>natural history collections</strong> (51%), Portugal mirrors it with 47% scientific heritage, while Italy's hold brims with <strong>audiovisual and film archives</strong> (31.6%) — a uniquely cinematic identity.
+              Not every vessel sails with the same cargo. Across Europeana's six contributing countries,
+              <strong>libraries and archives</strong> dominate the hold — accounting for over <strong>60% of all
+                items</strong> globally. But beneath this surface, each national fleet has its own character: the
+              Netherlands is steered by <strong>natural history collections</strong> (51%), Portugal mirrors it with 47%
+              scientific heritage, while Italy's hold brims with <strong>audiovisual and film archives</strong> (31.6%)
+              — a uniquely cinematic identity.
             </p>
           </div>
 
@@ -323,21 +381,96 @@
     </div>
   </section>
 
-  <!-- Analysis Section 4 (Placeholder) -->
-  <section id="analysis-4" class="analysis-section">
+  <!-- Analysis Section 5 — Quality Score Waffle Charts -->
+  <section id="analysis-5" class="analysis-section">
     <div class="analysis-wrapper">
       <div class="analysis-content-wrapper">
-        <div class="analysis-grid">
-          <div class="analysis-text-col">
-            <h2 class="analysis-title">Final <br /> <span>findings</span></h2>
-            <p class="analysis-subtitle">
-              COME?????
+        <div class="analysis-grid" style="max-width: 1200px; grid-template-columns: 3fr 2fr;">
+
+          <!-- Left column: question + waffle charts -->
+          <div class="waffle-left-col">
+            <!-- Interactive country question -->
+            <p class="analysis-subtitle waffle-question-text">
+              Discover how well
+              <span id="waffle-country-display" class="waffle-country-highlight">France</span>
+              does
             </p>
-            <p class="analysis-desc">Final section to conclude the scroll.</p>
+            <div class="waffle-country-selector">
+              <button class="rsq01-filter-btn map-country-btn" data-wc="france"
+                style="background:#1f7f95; color:#fff; border-color:#1f7f95;"
+                onclick="waffleSelectCountry('france')">France</button>
+              <button class="rsq01-filter-btn map-country-btn" data-wc="germany"
+                onclick="waffleSelectCountry('germany')">Germany</button>
+              <button class="rsq01-filter-btn map-country-btn" data-wc="italy"
+                onclick="waffleSelectCountry('italy')">Italy</button>
+              <button class="rsq01-filter-btn map-country-btn" data-wc="netherlands"
+                onclick="waffleSelectCountry('netherlands')">Netherlands</button>
+              <button class="rsq01-filter-btn map-country-btn" data-wc="portugal"
+                onclick="waffleSelectCountry('portugal')">Portugal</button>
+              <button class="rsq01-filter-btn map-country-btn" data-wc="spain"
+                onclick="waffleSelectCountry('spain')">Spain</button>
+            </div>
+
+            <!-- Waffle charts row -->
+            <div class="waffle-charts-row">
+              <!-- Content Tier -->
+              <div class="waffle-chart-block">
+                <h4 class="waffle-chart-title">Content Tier</h4>
+                <div id="waffle-content" class="waffle-grid"></div>
+                <div id="waffle-content-legend" class="waffle-legend"></div>
+              </div>
+              <!-- Metadata Tier -->
+              <div class="waffle-chart-block">
+                <h4 class="waffle-chart-title">Metadata Tier</h4>
+                <div id="waffle-metadata" class="waffle-grid"></div>
+                <div id="waffle-metadata-legend" class="waffle-legend"></div>
+              </div>
+            </div>
           </div>
-          <div class="analysis-chart-col placeholder-chart-col">
-            <span class="placeholder-chart-text">Placeholder Chart</span>
+
+          <!-- Right column: placeholder text -->
+          <div class="analysis-text-col">
+            <h2 class="analysis-title">Quality <br /><span>at a glance</span></h2>
+            <p class="analysis-subtitle">How rich is the cultural heritage data?</p>
+            <p class="analysis-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p class="analysis-desc">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum.
+            </p>
           </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Analysis Section 6 — Openness Rings -->
+  <section id="analysis-6" class="analysis-section">
+    <div class="analysis-wrapper">
+      <div class="analysis-content-wrapper">
+        <div style="width: 100%; max-width: 1100px; display: flex; flex-direction: column; align-items: center; gap: 2.5rem;">
+
+          <!-- Title row -->
+          <div style="text-align: center;">
+            <h2 class="analysis-title">Open <span>waters</span></h2>
+            <p class="analysis-subtitle">How open is European cultural heritage data?</p>
+          </div>
+
+          <!-- Rings row -->
+          <div id="openness-rings" class="openness-rings-row"></div>
+
+          <!-- Text below -->
+          <p class="analysis-desc" style="text-align: center; max-width: 760px;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+
         </div>
       </div>
     </div>
@@ -378,7 +511,7 @@
       <!-- Back to top button -->
       <div class="back-to-top-wrapper">
         <button class="back-to-top-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-          Back to Top 
+          Back to Top
           <span class="arrow-up">↑</span>
         </button>
       </div>
@@ -504,6 +637,10 @@
   <script src="assets/js/rq02.js"></script>
   <script src="assets/js/RsQ01.js"></script>
   <script src="assets/js/RsQ03.js"></script>
+  <script src="assets/js/france_concentration.js"></script>
+  <script src="assets/js/provider_map.js"></script>
+  <script src="assets/js/quality_waffle.js"></script>
+  <script src="assets/js/openness_rings.js"></script>
 </body>
 
 </html>
