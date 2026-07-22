@@ -437,604 +437,13 @@
   ],
   "GEO_DATA": [
     {
-      "country": "Netherlands",
-      "provider": "Naturalis Biodiversity Center",
-      "count": 4601504,
-      "city": "Leiden",
-      "latitude": 52.1647779,
-      "longitude": 4.4732128,
-      "source": "europeana_entity",
-      "rank_in_country": 1.0,
-      "is_top5": true,
-      "size_mapped": 40.0
-    },
-    {
-      "country": "France",
-      "provider": "National Library of France",
-      "count": 2999310,
-      "city": "Paris",
-      "latitude": 48.8335842,
-      "longitude": 2.3757659,
-      "source": "europeana_entity",
-      "rank_in_country": 1.0,
-      "is_top5": true,
-      "size_mapped": 33.8036251891
-    },
-    {
-      "country": "Germany",
-      "provider": "Bavarian State Library",
-      "count": 2176001,
-      "city": "Munich",
-      "latitude": 48.147493,
-      "longitude": 11.5803217,
-      "source": "europeana_entity",
-      "rank_in_country": 1.0,
-      "is_top5": true,
-      "size_mapped": 29.954331897
-    },
-    {
-      "country": "Spain",
-      "provider": "Virtual Library of Historical Press",
-      "count": 1735320,
-      "city": "Madrid",
-      "latitude": 40.4206699299,
-      "longitude": -3.6965345904,
-      "source": "manual",
-      "rank_in_country": 1.0,
-      "is_top5": true,
-      "size_mapped": 27.5881164307
-    },
-    {
-      "country": "Germany",
-      "provider": "Deutsche Fotothek",
-      "count": 1314229,
-      "city": "Dresden",
-      "latitude": 51.02781,
-      "longitude": 13.73674,
-      "source": "wikidata_name_search",
-      "rank_in_country": 2.0,
-      "is_top5": true,
-      "size_mapped": 25.0254033779
-    },
-    {
-      "country": "Netherlands",
-      "provider": "KB, National Library of the Netherlands",
-      "count": 987234,
-      "city": "The Hague",
-      "latitude": 52.081666666,
-      "longitude": 4.3275,
-      "source": "wikidata_via_europeana_link",
-      "rank_in_country": 2.0,
-      "is_top5": true,
-      "size_mapped": 22.7343106626
-    },
-    {
-      "country": "Germany",
-      "provider": "State Archives of Baden-W\u00fcrttemberg",
-      "count": 827603,
-      "city": "Stuttgart",
-      "latitude": 48.8483974837,
-      "longitude": 9.185433331,
-      "source": "manual",
-      "rank_in_country": 3.0,
-      "is_top5": true,
-      "size_mapped": 21.4767790355
-    },
-    {
-      "country": "Spain",
-      "provider": "National Library of Spain",
-      "count": 664410,
-      "city": "Madrid",
-      "latitude": 40.4237879,
-      "longitude": -3.6902452,
-      "source": "europeana_entity",
-      "rank_in_country": 2.0,
-      "is_top5": true,
-      "size_mapped": 20.0581564101
-    },
-    {
-      "country": "Netherlands",
-      "provider": "Cultural Heritage Agency of the Netherlands",
-      "count": 526228,
-      "city": "Amersfoort",
-      "latitude": 52.1580763,
-      "longitude": 5.3833285,
-      "source": "europeana_entity",
-      "rank_in_country": 3.0,
-      "is_top5": true,
-      "size_mapped": 18.713238444
-    },
-    {
-      "country": "France",
-      "provider": "Media Library of Architecture and Heritage",
-      "count": 510877,
-      "city": "Charenton-le-Pont",
-      "latitude": 48.82179,
-      "longitude": 2.40484,
-      "source": "europeana_entity",
-      "rank_in_country": 2.0,
-      "is_top5": true,
-      "size_mapped": 18.5534164779
-    },
-    {
-      "country": "France",
-      "provider": "Natural History Museum in Paris",
-      "count": 502160,
-      "city": "Paris",
-      "latitude": 48.8417009,
-      "longitude": 2.3560169,
-      "source": "europeana_entity",
-      "rank_in_country": 3.0,
-      "is_top5": true,
-      "size_mapped": 18.4615921669
-    },
-    {
-      "country": "Italy",
-      "provider": "Cinecitt\u00e0 - Luce",
-      "count": 442536,
-      "city": "Rome",
-      "latitude": 41.8498105602,
-      "longitude": 12.5745190808,
-      "source": "manual",
-      "rank_in_country": 1.0,
-      "is_top5": true,
-      "size_mapped": 17.8108770312
-    },
-    {
-      "country": "Netherlands",
-      "provider": "Rijksmuseum",
-      "count": 341407,
-      "city": "Amsterdam",
-      "latitude": 52.3599976,
-      "longitude": 4.8852188,
-      "source": "europeana_entity",
-      "rank_in_country": 4.0,
-      "is_top5": true,
-      "size_mapped": 16.5973713343
-    },
-    {
-      "country": "Spain",
-      "provider": "Galiciana: Digital Library of Galicia",
-      "count": 336061,
-      "city": "Santiago de Compostela",
-      "latitude": 42.8698709,
-      "longitude": -8.5269487,
-      "source": "europeana_entity",
-      "rank_in_country": 3.0,
-      "is_top5": true,
-      "size_mapped": 16.5285081329
-    },
-    {
-      "country": "Germany",
-      "provider": "German Documentation Center for Art History - Marburg Picture Index",
-      "count": 320532,
-      "city": "Marburg",
-      "latitude": 50.8109293,
-      "longitude": 8.7718294,
-      "source": "europeana_entity",
-      "rank_in_country": 4.0,
-      "is_top5": true,
-      "size_mapped": 16.3253075241
-    },
-    {
-      "country": "Germany",
-      "provider": "German National Library",
-      "count": 304053,
-      "city": "Frankfurt am Main",
-      "latitude": 50.13121,
-      "longitude": 8.6831877,
-      "source": "europeana_entity",
-      "rank_in_country": 5.0,
-      "is_top5": true,
-      "size_mapped": 16.1042159738
-    },
-    {
-      "country": "Spain",
-      "provider": "Digital Memory of Catalonia",
-      "count": 286512,
-      "city": "Barcelona",
-      "latitude": 41.3873518,
-      "longitude": 2.111913,
-      "source": "europeana_entity",
-      "rank_in_country": 4.0,
-      "is_top5": true,
-      "size_mapped": 15.8621868263
-    },
-    {
-      "country": "Netherlands",
-      "provider": "National Archives of the Netherlands",
-      "count": 283470,
-      "city": "The Hague",
-      "latitude": 52.0806214,
-      "longitude": 4.3268303,
-      "source": "europeana_entity",
-      "rank_in_country": 5.0,
-      "is_top5": true,
-      "size_mapped": 15.8194670025
-    },
-    {
-      "country": "Germany",
-      "provider": "Berlin-Dahlem Botanical Garden and Botanical Museum",
-      "count": 252957,
-      "city": "Steglitz-Zehlendorf",
-      "latitude": 52.455,
-      "longitude": 13.3036,
-      "source": "wikidata_name_search",
-      "rank_in_country": 6.0,
-      "is_top5": false,
-      "size_mapped": 15.3775866188
-    },
-    {
-      "country": "Spain",
-      "provider": "Galiciana. Arquivo Dixital de Galicia",
-      "count": 234326,
-      "city": "Santiago de Compostela",
-      "latitude": 42.9499140665,
-      "longitude": -8.5514903735,
-      "source": "manual",
-      "rank_in_country": 5.0,
-      "is_top5": true,
-      "size_mapped": 15.094562005
-    },
-    {
-      "country": "Spain",
-      "provider": "Archive of Old Catalan Magazines",
-      "count": 229974,
-      "city": "Barcelona",
-      "latitude": 41.3807385,
-      "longitude": 2.1699868,
-      "source": "europeana_entity",
-      "rank_in_country": 6.0,
-      "is_top5": false,
-      "size_mapped": 15.0268456488
-    },
-    {
-      "country": "Italy",
-      "provider": "Historical Archive of the Presidency of the Republic",
-      "count": 212160,
-      "city": "Rome",
-      "latitude": 41.9004650389,
-      "longitude": 12.4889216808,
-      "source": "manual",
-      "rank_in_country": 2.0,
-      "is_top5": true,
-      "size_mapped": 14.7427451876
-    },
-    {
-      "country": "Spain",
-      "provider": "Ajuntament de Girona",
-      "count": 208078,
-      "city": null,
-      "latitude": 41.983137861,
-      "longitude": 2.824799589,
-      "source": "wikidata_name_search",
-      "rank_in_country": 7.0,
-      "is_top5": false,
-      "size_mapped": 14.6759831275
-    },
-    {
-      "country": "Germany",
-      "provider": "Library of the Friedrich Ebert Foundation",
-      "count": 201518,
-      "city": "Bonn",
-      "latitude": 50.7025799535,
-      "longitude": 7.1354407409,
-      "source": "manual",
-      "rank_in_country": 7.0,
-      "is_top5": false,
-      "size_mapped": 14.5673057428
-    },
-    {
-      "country": "Italy",
-      "provider": "National Central Library of Rome",
-      "count": 200231,
-      "city": "Roma Capitale",
-      "latitude": 41.906293866,
-      "longitude": 12.505949509,
-      "source": "wikidata_via_europeana_link",
-      "rank_in_country": 3.0,
-      "is_top5": true,
-      "size_mapped": 14.5457778774
-    },
-    {
-      "country": "Germany",
-      "provider": "Museum of City History Leipzig",
-      "count": 182494,
-      "city": "Leipzig",
-      "latitude": 51.3418578,
-      "longitude": 12.3763475,
-      "source": "europeana_entity",
-      "rank_in_country": 8.0,
-      "is_top5": false,
-      "size_mapped": 14.2417224878
-    },
-    {
-      "country": "Netherlands",
-      "provider": "Internet Archive",
-      "count": 176784,
-      "city": "San Francisco, California",
-      "latitude": 37.782321,
-      "longitude": -122.471637,
-      "source": "europeana_entity",
-      "rank_in_country": 6.0,
-      "is_top5": false,
-      "size_mapped": 14.1407196034
-    },
-    {
-      "country": "France",
-      "provider": "Ministry of Culture",
-      "count": 173279,
-      "city": "Paris",
-      "latitude": 48.8625584031,
-      "longitude": 2.3388283365,
-      "source": "manual correction",
-      "rank_in_country": 4.0,
-      "is_top5": true,
-      "size_mapped": 14.0779109292
-    },
-    {
-      "country": "Germany",
-      "provider": "Berlin State Library",
-      "count": 169601,
-      "city": "Berlin",
-      "latitude": 52.5175461,
-      "longitude": 13.3917624,
-      "source": "europeana_entity",
-      "rank_in_country": 9.0,
-      "is_top5": false,
-      "size_mapped": 14.0113152333
-    },
-    {
-      "country": "Netherlands",
-      "provider": "International Institute of Social History",
-      "count": 165349,
-      "city": "Amsterdam",
-      "latitude": 52.3689397,
-      "longitude": 4.9392354,
-      "source": "europeana_entity",
-      "rank_in_country": 7.0,
-      "is_top5": false,
-      "size_mapped": 13.9334199287
-    },
-    {
-      "country": "Germany",
-      "provider": "Museum of Architecture at Berlin Institute of Technology",
-      "count": 161890,
-      "city": "Berlin",
-      "latitude": 52.513524,
-      "longitude": 13.323819,
-      "source": "europeana_entity",
-      "rank_in_country": 10.0,
-      "is_top5": false,
-      "size_mapped": 13.8693102846
-    },
-    {
-      "country": "Netherlands",
-      "provider": "The Utrecht Archives",
-      "count": 159981,
-      "city": "Utrecht",
-      "latitude": 52.0890819,
-      "longitude": 5.1228166,
-      "source": "europeana_entity",
-      "rank_in_country": 8.0,
-      "is_top5": false,
-      "size_mapped": 13.833635104
-    },
-    {
-      "country": "Spain",
-      "provider": "Digital Library of Andalusia",
-      "count": 145620,
-      "city": "Granada",
-      "latitude": 37.182827765,
-      "longitude": -3.6056596093,
-      "source": "manual",
-      "rank_in_country": 8.0,
-      "is_top5": false,
-      "size_mapped": 13.5581319692
-    },
-    {
-      "country": "Spain",
-      "provider": "Mares\u00eda: Prensa digitalizada y Patrimonio documental",
-      "count": 141919,
-      "city": "San Crist\u00f3bal de La Laguna",
-      "latitude": 28.4692609989,
-      "longitude": -16.3047087486,
-      "source": "manual",
-      "rank_in_country": 9.0,
-      "is_top5": false,
-      "size_mapped": 13.4849542335
-    },
-    {
-      "country": "Netherlands",
-      "provider": "National Museum of Antiquities",
-      "count": 141529,
-      "city": "Leiden",
-      "latitude": 52.1584696,
-      "longitude": 4.4855152,
-      "source": "europeana_entity",
-      "rank_in_country": 9.0,
-      "is_top5": false,
-      "size_mapped": 13.477187699
-    },
-    {
-      "country": "Germany",
-      "provider": "Archives of Social Democracy",
-      "count": 133032,
-      "city": "Bonn",
-      "latitude": 50.7023689445,
-      "longitude": 7.1348247679,
-      "source": "manual",
-      "rank_in_country": 11.0,
-      "is_top5": false,
-      "size_mapped": 13.3052395627
-    },
-    {
-      "country": "Germany",
-      "provider": "State and University Library Hamburg Carl von Ossietzky",
-      "count": 131101,
-      "city": "Hamburg",
-      "latitude": 53.5649074402,
-      "longitude": 9.9851542239,
-      "source": "manual",
-      "rank_in_country": 12.0,
-      "is_top5": false,
-      "size_mapped": 13.2654038025
-    },
-    {
-      "country": "Germany",
-      "provider": "Heidelberg University Library",
-      "count": 130773,
-      "city": "Heidelberg",
-      "latitude": 49.409752,
-      "longitude": 8.70564,
-      "source": "europeana_entity",
-      "rank_in_country": 13.0,
-      "is_top5": false,
-      "size_mapped": 13.258608215
-    },
-    {
-      "country": "France",
-      "provider": "Historical Monuments: Regional Conservation",
-      "count": 128192,
-      "city": "Strasbourg",
-      "latitude": 48.5876588,
-      "longitude": 7.7526608,
-      "source": "europeana_entity",
-      "rank_in_country": 5.0,
-      "is_top5": true,
-      "size_mapped": 13.2048342416
-    },
-    {
-      "country": "Spain",
-      "provider": "Canary Islands Historical Photography Archive",
-      "count": 121890,
-      "city": "Las Palmas de Gran Canaria",
-      "latitude": 28.1070963288,
-      "longitude": -15.4175046522,
-      "source": "manual",
-      "rank_in_country": 10.0,
-      "is_top5": false,
-      "size_mapped": 13.0712144069
-    },
-    {
-      "country": "Spain",
-      "provider": "Complutense University of Madrid",
-      "count": 121238,
-      "city": "Madrid",
-      "latitude": 40.4454368,
-      "longitude": -3.7299424,
-      "source": "europeana_entity",
-      "rank_in_country": 11.0,
-      "is_top5": false,
-      "size_mapped": 13.057194996
-    },
-    {
-      "country": "Spain",
-      "provider": "Digital Library of Castilla y Le\u00f3n",
-      "count": 119704,
-      "city": "Valladolid",
-      "latitude": 41.6571988,
-      "longitude": -4.7302183,
-      "source": "europeana_entity",
-      "rank_in_country": 12.0,
-      "is_top5": false,
-      "size_mapped": 13.0240612475
-    },
-    {
-      "country": "Netherlands",
-      "provider": "Historical Information Center of Brabant",
-      "count": 118373,
-      "city": "Hertogenbosch",
-      "latitude": 51.6951069,
-      "longitude": 5.3029478,
-      "source": "europeana_entity",
-      "rank_in_country": 10.0,
-      "is_top5": false,
-      "size_mapped": 12.9951397818
-    },
-    {
-      "country": "Spain",
-      "provider": "Library of the University of Las Palmas",
-      "count": 115458,
-      "city": "Las Palmas, Gran Canaria",
-      "latitude": 28.147576,
-      "longitude": -15.4302769,
-      "source": "europeana_entity",
-      "rank_in_country": 13.0,
-      "is_top5": false,
-      "size_mapped": 12.9312258965
-    },
-    {
-      "country": "Germany",
-      "provider": "Te\u00dfmann Library",
-      "count": 115179,
-      "city": "Italy",
-      "latitude": 46.5032366522,
-      "longitude": 11.3429298523,
-      "source": "manual",
-      "rank_in_country": 14.0,
-      "is_top5": false,
-      "size_mapped": 12.9250664873
-    },
-    {
-      "country": "France",
-      "provider": "Ministry of Culture and Communication, Regional Archaeology Service",
-      "count": 110142,
-      "city": "Strasbourg",
-      "latitude": 48.5876588,
-      "longitude": 7.7526608,
-      "source": "europeana_entity",
-      "rank_in_country": 6.0,
-      "is_top5": false,
-      "size_mapped": 12.8125548313
-    },
-    {
       "country": "Italy",
       "provider": "Internet Culturale",
       "count": 109101,
       "city": "Roma",
       "latitude": 41.9061747,
       "longitude": 12.5088474,
-      "source": "europeana_entity",
-      "rank_in_country": 4.0,
-      "is_top5": true,
-      "size_mapped": 12.7889832699
-    },
-    {
-      "country": "Germany",
-      "provider": "German Archaeological Institute",
-      "count": 104659,
-      "city": "Berlin",
-      "latitude": 52.4607222,
-      "longitude": 13.300707,
-      "source": "europeana_entity",
-      "rank_in_country": 15.0,
-      "is_top5": false,
-      "size_mapped": 12.6871152073
-    },
-    {
-      "country": "Spain",
-      "provider": "Cityhall of Murcia. Municipal Archive",
-      "count": 104650,
-      "city": "Murcia",
-      "latitude": 37.9835018,
-      "longitude": -1.1330047,
-      "source": "europeana_entity",
-      "rank_in_country": 14.0,
-      "is_top5": false,
-      "size_mapped": 12.6869066392
-    },
-    {
-      "country": "Germany",
-      "provider": "Ethnological Museum, Staatliche Museen zu Berlin",
-      "count": 104638,
-      "city": "Berlin",
-      "latitude": 52.5173885,
-      "longitude": 13.4007319,
-      "source": "europeana_entity",
-      "rank_in_country": 16.0,
-      "is_top5": false,
-      "size_mapped": 12.6866285345
+      "source": "europeana_entity"
     },
     {
       "country": "Italy",
@@ -1043,70 +452,7 @@
       "city": "Trieste",
       "latitude": 45.660689,
       "longitude": 13.7957081,
-      "source": "europeana_entity",
-      "rank_in_country": 5.0,
-      "is_top5": true,
-      "size_mapped": 12.6091815757
-    },
-    {
-      "country": "Netherlands",
-      "provider": "Netherlands Institute for Sound & Vision",
-      "count": 98888,
-      "city": "Hilversum",
-      "latitude": 52.235459,
-      "longitude": 5.173057,
-      "source": "europeana_entity",
-      "rank_in_country": 11.0,
-      "is_top5": false,
-      "size_mapped": 12.5514833717
-    },
-    {
-      "country": "Spain",
-      "provider": "Centro de Estudios de Castilla - La Mancha",
-      "count": 94223,
-      "city": "Ciudad Real",
-      "latitude": 38.9930310006,
-      "longitude": -3.919615677,
-      "source": "manual",
-      "rank_in_country": 15.0,
-      "is_top5": false,
-      "size_mapped": 12.4389246648
-    },
-    {
-      "country": "Netherlands",
-      "provider": "Association De Hollandsche Molen",
-      "count": 94187,
-      "city": "Amsterdam",
-      "latitude": 52.3662772,
-      "longitude": 4.9399952,
-      "source": "europeana_entity",
-      "rank_in_country": 12.0,
-      "is_top5": false,
-      "size_mapped": 12.438045339
-    },
-    {
-      "country": "Netherlands",
-      "provider": "Museon-Omniversum",
-      "count": 93077,
-      "city": "The Hague",
-      "latitude": 52.088777777,
-      "longitude": 4.281,
-      "source": "wikidata_name_search",
-      "rank_in_country": 13.0,
-      "is_top5": false,
-      "size_mapped": 12.4108498417
-    },
-    {
-      "country": "Spain",
-      "provider": "TV3 Catalan Television",
-      "count": 89148,
-      "city": "Sant Joan Desp\u00ed",
-      "latitude": 41.3744332,
-      "longitude": 2.069125,
-      "source": "europeana_entity",
-      "rank_in_country": 16.0,
-      "is_top5": false,
-      "size_mapped": 12.313260462
+      "source": "europeana_entity"
     },
     {
       "country": "Italy",
@@ -1115,430 +461,7 @@
       "city": "Rome",
       "latitude": 41.9037626,
       "longitude": 12.5144384,
-      "source": "europeana_entity",
-      "rank_in_country": 6.0,
-      "is_top5": false,
-      "size_mapped": 12.2545982595
-    },
-    {
-      "country": "Spain",
-      "provider": "Documentary Repository of the University of Salamanca",
-      "count": 86467,
-      "city": "Salamanca",
-      "latitude": 40.9614829,
-      "longitude": -5.6673456,
-      "source": "europeana_entity",
-      "rank_in_country": 17.0,
-      "is_top5": false,
-      "size_mapped": 12.2454295073
-    },
-    {
-      "country": "Netherlands",
-      "provider": "Municipal Archives of Zaanstad",
-      "count": 85508,
-      "city": "Zaandam",
-      "latitude": 52.4382591,
-      "longitude": 4.8148877,
-      "source": "europeana_entity",
-      "rank_in_country": 14.0,
-      "is_top5": false,
-      "size_mapped": 12.2209114021
-    },
-    {
-      "country": "Germany",
-      "provider": "Toy Museum of the City of Nuremberg",
-      "count": 80306,
-      "city": "N\u00fcrnberg",
-      "latitude": 49.4545935,
-      "longitude": 11.0742989,
-      "source": "europeana_entity",
-      "rank_in_country": 17.0,
-      "is_top5": false,
-      "size_mapped": 12.0854509668
-    },
-    {
-      "country": "Netherlands",
-      "provider": "Gooi en Vechtstreek Archive",
-      "count": 79443,
-      "city": "Naarden",
-      "latitude": 52.2964344,
-      "longitude": 5.1616623,
-      "source": "europeana_entity",
-      "rank_in_country": 15.0,
-      "is_top5": false,
-      "size_mapped": 12.062558501
-    },
-    {
-      "country": "Spain",
-      "provider": "Royal Botanic Garden of Madrid",
-      "count": 74638,
-      "city": "Madrid",
-      "latitude": 40.4111064,
-      "longitude": -3.6911267,
-      "source": "europeana_entity",
-      "rank_in_country": 18.0,
-      "is_top5": false,
-      "size_mapped": 11.9327596263
-    },
-    {
-      "country": "Italy",
-      "provider": "Cineteca di Bologna",
-      "count": 73157,
-      "city": "Bologna",
-      "latitude": 44.4988658,
-      "longitude": 11.3368279,
-      "source": "wikidata_name_search",
-      "rank_in_country": 7.0,
-      "is_top5": false,
-      "size_mapped": 11.8919154722
-    },
-    {
-      "country": "Germany",
-      "provider": "Berlin-Brandenburg Economic Archive",
-      "count": 72335,
-      "city": "Berlin",
-      "latitude": 52.584017166,
-      "longitude": 13.316706473,
-      "source": "wikidata_name_search",
-      "rank_in_country": 18.0,
-      "is_top5": false,
-      "size_mapped": 11.8690672055
-    },
-    {
-      "country": "Germany",
-      "provider": "DFF \u2013 German Film Institute & Film Museum",
-      "count": 71678,
-      "city": "Frankfurt am Main",
-      "latitude": 50.1050552,
-      "longitude": 8.6776335,
-      "source": "europeana_entity",
-      "rank_in_country": 19.0,
-      "is_top5": false,
-      "size_mapped": 11.8507117605
-    },
-    {
-      "country": "Germany",
-      "provider": "Karlsruhe Municipal Archives",
-      "count": 71356,
-      "city": "Karlsruhe",
-      "latitude": 49.0073032,
-      "longitude": 8.4091006,
-      "source": "europeana_entity",
-      "rank_in_country": 20.0,
-      "is_top5": false,
-      "size_mapped": 11.84168492
-    },
-    {
-      "country": "Spain",
-      "provider": "Foundation Virtual Library Miguel de Cervantes",
-      "count": 70971,
-      "city": "Alicante",
-      "latitude": 38.3850764605,
-      "longitude": -0.5139165229,
-      "source": "manual",
-      "rank_in_country": 19.0,
-      "is_top5": false,
-      "size_mapped": 11.8308651819
-    },
-    {
-      "country": "Spain",
-      "provider": "Digital Library of Madrid",
-      "count": 69472,
-      "city": "Madrid",
-      "latitude": 40.399879435,
-      "longitude": -3.6905798714,
-      "source": "manual",
-      "rank_in_country": 20.0,
-      "is_top5": false,
-      "size_mapped": 11.7884562793
-    },
-    {
-      "country": "Netherlands",
-      "provider": "Netherlands Institute for Military History",
-      "count": 68648,
-      "city": "The Hague",
-      "latitude": 52.1319244,
-      "longitude": 5.2761886,
-      "source": "europeana_entity",
-      "rank_in_country": 16.0,
-      "is_top5": false,
-      "size_mapped": 11.7649491213
-    },
-    {
-      "country": "Italy",
-      "provider": "Central Institute for the Union Catalogue of Italian Libraries",
-      "count": 66672,
-      "city": "Rome",
-      "latitude": 41.9063183979,
-      "longitude": 12.508793752,
-      "source": "manual",
-      "rank_in_country": 8.0,
-      "is_top5": false,
-      "size_mapped": 11.7079960972
-    },
-    {
-      "country": "Portugal",
-      "provider": "Institute for Tropical Scientific Research",
-      "count": 65666,
-      "city": "Oeiras",
-      "latitude": 38.7015447,
-      "longitude": -9.3127356,
-      "source": "europeana_entity",
-      "rank_in_country": 1.0,
-      "is_top5": true,
-      "size_mapped": 11.6786764932
-    },
-    {
-      "country": "Netherlands",
-      "provider": "Historic Center Limburg",
-      "count": 62704,
-      "city": "Maastricht",
-      "latitude": 50.8457819,
-      "longitude": 5.6926732,
-      "source": "europeana_entity",
-      "rank_in_country": 17.0,
-      "is_top5": false,
-      "size_mapped": 11.5910205315
-    },
-    {
-      "country": "Netherlands",
-      "provider": "IMSLP/Petrucci Music Library",
-      "count": 61552,
-      "city": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "manual",
-      "rank_in_country": 18.0,
-      "is_top5": false,
-      "size_mapped": 11.5563709713
-    },
-    {
-      "country": "Netherlands",
-      "provider": "City Archives Breda",
-      "count": 60870,
-      "city": "Breda",
-      "latitude": 51.584703,
-      "longitude": 4.780068,
-      "source": "europeana_entity",
-      "rank_in_country": 19.0,
-      "is_top5": false,
-      "size_mapped": 11.5357050109
-    },
-    {
-      "country": "Netherlands",
-      "provider": "St. Catherine's Convent Museum",
-      "count": 60795,
-      "city": "Utrecht",
-      "latitude": 52.087222,
-      "longitude": 5.124167,
-      "source": "wikidata_name_search",
-      "rank_in_country": 20.0,
-      "is_top5": false,
-      "size_mapped": 11.5334253108
-    },
-    {
-      "country": "France",
-      "provider": "National Audiovisual Institute France",
-      "count": 54491,
-      "city": "Bry-sur-Marne Cedex",
-      "latitude": 48.8363793,
-      "longitude": 2.5309062,
-      "source": "europeana_entity",
-      "rank_in_country": 7.0,
-      "is_top5": false,
-      "size_mapped": 11.3365053737
-    },
-    {
-      "country": "Italy",
-      "provider": "Central Museum of the Risorgimento",
-      "count": 53211,
-      "city": "Rome",
-      "latitude": 41.8941357526,
-      "longitude": 12.4837986673,
-      "source": "manual",
-      "rank_in_country": 9.0,
-      "is_top5": false,
-      "size_mapped": 11.2951525642
-    },
-    {
-      "country": "Italy",
-      "provider": "Luigi Micheletti Foundation",
-      "count": 51704,
-      "city": "Brescia",
-      "latitude": 45.539305555,
-      "longitude": 10.213583333,
-      "source": "wikidata_via_europeana_link",
-      "rank_in_country": 10.0,
-      "is_top5": false,
-      "size_mapped": 11.245823267
-    },
-    {
-      "country": "France",
-      "provider": "Interuniversity Health Library",
-      "count": 47992,
-      "city": "Paris",
-      "latitude": 48.8511917,
-      "longitude": 2.3408544,
-      "source": "europeana_entity",
-      "rank_in_country": 8.0,
-      "is_top5": false,
-      "size_mapped": 11.1211585186
-    },
-    {
-      "country": "France",
-      "provider": "Palais Galliera - Mus\u00e9e de la Mode de la Ville de Paris",
-      "count": 44495,
-      "city": "Paris",
-      "latitude": 48.8660803363,
-      "longitude": 2.2965618524,
-      "source": "manual",
-      "rank_in_country": 9.0,
-      "is_top5": false,
-      "size_mapped": 10.9992224453
-    },
-    {
-      "country": "Italy",
-      "provider": "Experimental Cinematography Center",
-      "count": 40538,
-      "city": "Rome",
-      "latitude": 41.8510581553,
-      "longitude": 12.569479552,
-      "source": "manual",
-      "rank_in_country": 11.0,
-      "is_top5": false,
-      "size_mapped": 10.8553130264
-    },
-    {
-      "country": "Italy",
-      "provider": "Epigraphic Dabatase Bari",
-      "count": 40283,
-      "city": "Bari",
-      "latitude": 41.1211273678,
-      "longitude": 16.8686048028,
-      "source": "manual",
-      "rank_in_country": 12.0,
-      "is_top5": false,
-      "size_mapped": 10.8458030842
-    },
-    {
-      "country": "Portugal",
-      "provider": "National Library of Portugal",
-      "count": 35785,
-      "city": "Lisbon",
-      "latitude": 38.7510738,
-      "longitude": -9.1525104,
-      "source": "europeana_entity",
-      "rank_in_country": 2.0,
-      "is_top5": true,
-      "size_mapped": 10.6728183484
-    },
-    {
-      "country": "Italy",
-      "provider": "European Library of Information and Culture",
-      "count": 35475,
-      "city": "Milan",
-      "latitude": 45.472601263,
-      "longitude": 9.188542864,
-      "source": "wikidata_name_search",
-      "rank_in_country": 13.0,
-      "is_top5": false,
-      "size_mapped": 10.6605060515
-    },
-    {
-      "country": "Italy",
-      "provider": "Marciana National Library",
-      "count": 29597,
-      "city": "Venice",
-      "latitude": 45.4335342899,
-      "longitude": 12.3394227522,
-      "source": "manual",
-      "rank_in_country": 14.0,
-      "is_top5": false,
-      "size_mapped": 10.4159513068
-    },
-    {
-      "country": "Italy",
-      "provider": "Turin Gallery for Modern and Contemporary Art",
-      "count": 29395,
-      "city": "Turin",
-      "latitude": 45.0650107715,
-      "longitude": 7.6692137964,
-      "source": "manual",
-      "rank_in_country": 15.0,
-      "is_top5": false,
-      "size_mapped": 10.4071336191
-    },
-    {
-      "country": "France",
-      "provider": "Mobilier National Collections",
-      "count": 24284,
-      "city": "Paris",
-      "latitude": 48.8333911,
-      "longitude": 2.3513344,
-      "source": "europeana_entity",
-      "rank_in_country": 10.0,
-      "is_top5": false,
-      "size_mapped": 10.1729822127
-    },
-    {
-      "country": "Italy",
-      "provider": "Braidense National Library",
-      "count": 21526,
-      "city": "Milan",
-      "latitude": 45.471947,
-      "longitude": 9.187837,
-      "source": "wikidata_name_search",
-      "rank_in_country": 16.0,
-      "is_top5": false,
-      "size_mapped": 10.0363004969
-    },
-    {
-      "country": "France",
-      "provider": "Center for Research in Ethnomusicology",
-      "count": 21446,
-      "city": "Nanterre",
-      "latitude": 48.90417,
-      "longitude": 2.2104,
-      "source": "europeana_entity",
-      "rank_in_country": 11.0,
-      "is_top5": false,
-      "size_mapped": 10.032208864
-    },
-    {
-      "country": "France",
-      "provider": "National and University Library of Strasbourg",
-      "count": 21320,
-      "city": "Strasbourg",
-      "latitude": 48.5872587063,
-      "longitude": 7.7559011831,
-      "source": "manual",
-      "rank_in_country": 12.0,
-      "is_top5": false,
-      "size_mapped": 10.0257490358
-    },
-    {
-      "country": "Italy",
-      "provider": "Library of the S. Pietro a Majella Conservatory",
-      "count": 20154,
-      "city": "Naples",
-      "latitude": 40.849630768,
-      "longitude": 14.2524466826,
-      "source": "manual",
-      "rank_in_country": 17.0,
-      "is_top5": false,
-      "size_mapped": 9.9650400782
-    },
-    {
-      "country": "France",
-      "provider": "House Culture Yiddish",
-      "count": 14330,
-      "city": "Paris",
-      "latitude": 48.8705316,
-      "longitude": 2.3588576,
-      "source": "europeana_entity",
-      "rank_in_country": 13.0,
-      "is_top5": false,
-      "size_mapped": 9.6313240149
+      "source": "europeana_entity"
     },
     {
       "country": "Italy",
@@ -1547,34 +470,106 @@
       "city": "Vigonza",
       "latitude": 45.4219458,
       "longitude": 11.9768204,
-      "source": "europeana_entity",
-      "rank_in_country": 18.0,
-      "is_top5": false,
-      "size_mapped": 9.577858453
+      "source": "europeana_entity"
     },
     {
-      "country": "Portugal",
-      "provider": "Portuguese Army Library",
-      "count": 13120,
-      "city": "Lisbon",
-      "latitude": 38.7135412,
-      "longitude": -9.1269175,
-      "source": "europeana_entity",
-      "rank_in_country": 3.0,
-      "is_top5": true,
-      "size_mapped": 9.553874443
+      "country": "France",
+      "provider": "National Library of France",
+      "count": 2999310,
+      "city": "Paris",
+      "latitude": 48.8335842,
+      "longitude": 2.3757659,
+      "source": "europeana_entity"
     },
     {
-      "country": "Italy",
-      "provider": "Provincial Library Magna Capitana",
-      "count": 13065,
-      "city": "Foggia",
-      "latitude": 41.4567186873,
-      "longitude": 15.5585239538,
-      "source": "manual",
-      "rank_in_country": 19.0,
-      "is_top5": false,
-      "size_mapped": 9.5502708485
+      "country": "France",
+      "provider": "Media Library of Architecture and Heritage",
+      "count": 510877,
+      "city": "Charenton-le-Pont",
+      "latitude": 48.82179,
+      "longitude": 2.40484,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "France",
+      "provider": "Natural History Museum in Paris",
+      "count": 502160,
+      "city": "Paris",
+      "latitude": 48.8417009,
+      "longitude": 2.3560169,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "France",
+      "provider": "Ministry of Culture",
+      "count": 173279,
+      "city": "Paris",
+      "latitude": 48.8625584031,
+      "longitude": 2.3388283365,
+      "source": "manual correction"
+    },
+    {
+      "country": "France",
+      "provider": "Historical Monuments: Regional Conservation",
+      "count": 128192,
+      "city": "Strasbourg",
+      "latitude": 48.5876588,
+      "longitude": 7.7526608,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "France",
+      "provider": "Ministry of Culture and Communication, Regional Archaeology Service",
+      "count": 110142,
+      "city": "Strasbourg",
+      "latitude": 48.5876588,
+      "longitude": 7.7526608,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "France",
+      "provider": "National Audiovisual Institute France",
+      "count": 54491,
+      "city": "Bry-sur-Marne Cedex",
+      "latitude": 48.8363793,
+      "longitude": 2.5309062,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "France",
+      "provider": "Interuniversity Health Library",
+      "count": 47992,
+      "city": "Paris",
+      "latitude": 48.8511917,
+      "longitude": 2.3408544,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "France",
+      "provider": "Mobilier National Collections",
+      "count": 24284,
+      "city": "Paris",
+      "latitude": 48.8333911,
+      "longitude": 2.3513344,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "France",
+      "provider": "Center for Research in Ethnomusicology",
+      "count": 21446,
+      "city": "Nanterre",
+      "latitude": 48.90417,
+      "longitude": 2.2104,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "France",
+      "provider": "House Culture Yiddish",
+      "count": 14330,
+      "city": "Paris",
+      "latitude": 48.8705316,
+      "longitude": 2.3588576,
+      "source": "europeana_entity"
     },
     {
       "country": "France",
@@ -1583,34 +578,7 @@
       "city": "Paris",
       "latitude": 48.8631146,
       "longitude": 2.3334945,
-      "source": "europeana_entity",
-      "rank_in_country": 14.0,
-      "is_top5": false,
-      "size_mapped": 9.5438310491
-    },
-    {
-      "country": "Italy",
-      "provider": "Estense University Library",
-      "count": 12372,
-      "city": "Modena",
-      "latitude": 44.6484257938,
-      "longitude": 10.9209923675,
-      "source": "manual",
-      "rank_in_country": 20.0,
-      "is_top5": false,
-      "size_mapped": 9.504198552
-    },
-    {
-      "country": "France",
-      "provider": "Philharmonie de Paris",
-      "count": 12091,
-      "city": "Paris",
-      "latitude": 48.891566,
-      "longitude": 2.39407,
-      "source": "wikidata_name_search",
-      "rank_in_country": 15.0,
-      "is_top5": false,
-      "size_mapped": 9.4851501788
+      "source": "europeana_entity"
     },
     {
       "country": "France",
@@ -1619,22 +587,7 @@
       "city": "Pierrefitte-sur-Seine",
       "latitude": 48.9480891,
       "longitude": 2.3643991,
-      "source": "europeana_entity",
-      "rank_in_country": 16.0,
-      "is_top5": false,
-      "size_mapped": 9.4588966227
-    },
-    {
-      "country": "France",
-      "provider": "Rh\u00f4ne-Alpes Laboratory for Historical Research",
-      "count": 10046,
-      "city": "Lyon",
-      "latitude": 45.7334134679,
-      "longitude": 4.8334175099,
-      "source": "manual",
-      "rank_in_country": 17.0,
-      "is_top5": false,
-      "size_mapped": 9.339269436
+      "source": "europeana_entity"
     },
     {
       "country": "France",
@@ -1643,46 +596,7 @@
       "city": "Paris",
       "latitude": 48.8472448,
       "longitude": 2.2633049,
-      "source": "europeana_entity",
-      "rank_in_country": 18.0,
-      "is_top5": false,
-      "size_mapped": 9.0198138248
-    },
-    {
-      "country": "Portugal",
-      "provider": "Azores Regional Directorate for Culture",
-      "count": 5913,
-      "city": "Angra do Hero\u00edsmo",
-      "latitude": 38.6558611,
-      "longitude": -27.2156682,
-      "source": "europeana_entity",
-      "rank_in_country": 4.0,
-      "is_top5": true,
-      "size_mapped": 8.989406514
-    },
-    {
-      "country": "Portugal",
-      "provider": "University of Porto",
-      "count": 5111,
-      "city": "Porto",
-      "latitude": 41.1465479,
-      "longitude": -8.6156998,
-      "source": "europeana_entity",
-      "rank_in_country": 5.0,
-      "is_top5": true,
-      "size_mapped": 8.9083679151
-    },
-    {
-      "country": "Portugal",
-      "provider": "Calouste Gulbenkian Foundation",
-      "count": 3415,
-      "city": "Lisbon",
-      "latitude": 38.73722,
-      "longitude": -9.15417,
-      "source": "wikidata_name_search",
-      "rank_in_country": 6.0,
-      "is_top5": false,
-      "size_mapped": 8.7126488426
+      "source": "europeana_entity"
     },
     {
       "country": "France",
@@ -1691,10 +605,7 @@
       "city": "Paris",
       "latitude": 48.8357663,
       "longitude": 2.3345514,
-      "source": "europeana_entity",
-      "rank_in_country": 19.0,
-      "is_top5": false,
-      "size_mapped": 8.6692381626
+      "source": "europeana_entity"
     },
     {
       "country": "France",
@@ -1703,22 +614,403 @@
       "city": "\u00c9pinal",
       "latitude": 48.187918,
       "longitude": 6.438637,
-      "source": "europeana_entity",
-      "rank_in_country": 20.0,
-      "is_top5": false,
-      "size_mapped": 8.5990635217
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Germany",
+      "provider": "Bavarian State Library",
+      "count": 2176001,
+      "city": "Munich",
+      "latitude": 48.147493,
+      "longitude": 11.5803217,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Germany",
+      "provider": "German Documentation Center for Art History - Marburg Picture Index",
+      "count": 320532,
+      "city": "Marburg",
+      "latitude": 50.8109293,
+      "longitude": 8.7718294,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Germany",
+      "provider": "German National Library",
+      "count": 304053,
+      "city": "Frankfurt am Main",
+      "latitude": 50.13121,
+      "longitude": 8.6831877,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Germany",
+      "provider": "Museum of City History Leipzig",
+      "count": 182494,
+      "city": "Leipzig",
+      "latitude": 51.3418578,
+      "longitude": 12.3763475,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Germany",
+      "provider": "Berlin State Library",
+      "count": 169601,
+      "city": "Berlin",
+      "latitude": 52.5175461,
+      "longitude": 13.3917624,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Germany",
+      "provider": "Museum of Architecture at Berlin Institute of Technology",
+      "count": 161890,
+      "city": "Berlin",
+      "latitude": 52.513524,
+      "longitude": 13.323819,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Germany",
+      "provider": "Heidelberg University Library",
+      "count": 130773,
+      "city": "Heidelberg",
+      "latitude": 49.409752,
+      "longitude": 8.70564,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Germany",
+      "provider": "German Archaeological Institute",
+      "count": 104659,
+      "city": "Berlin",
+      "latitude": 52.4607222,
+      "longitude": 13.300707,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Germany",
+      "provider": "Ethnological Museum, Staatliche Museen zu Berlin",
+      "count": 104638,
+      "city": "Berlin",
+      "latitude": 52.5173885,
+      "longitude": 13.4007319,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Germany",
+      "provider": "Toy Museum of the City of Nuremberg",
+      "count": 80306,
+      "city": "N\u00fcrnberg",
+      "latitude": 49.4545935,
+      "longitude": 11.0742989,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Germany",
+      "provider": "DFF \u2013 German Film Institute & Film Museum",
+      "count": 71678,
+      "city": "Frankfurt am Main",
+      "latitude": 50.1050552,
+      "longitude": 8.6776335,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Germany",
+      "provider": "Karlsruhe Municipal Archives",
+      "count": 71356,
+      "city": "Karlsruhe",
+      "latitude": 49.0073032,
+      "longitude": 8.4091006,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Spain",
+      "provider": "National Library of Spain",
+      "count": 664410,
+      "city": "Madrid",
+      "latitude": 40.4237879,
+      "longitude": -3.6902452,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Spain",
+      "provider": "Galiciana: Digital Library of Galicia",
+      "count": 336061,
+      "city": "Santiago de Compostela",
+      "latitude": 42.8698709,
+      "longitude": -8.5269487,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Spain",
+      "provider": "Digital Memory of Catalonia",
+      "count": 286512,
+      "city": "Barcelona",
+      "latitude": 41.3873518,
+      "longitude": 2.111913,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Spain",
+      "provider": "Archive of Old Catalan Magazines",
+      "count": 229974,
+      "city": "Barcelona",
+      "latitude": 41.3807385,
+      "longitude": 2.1699868,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Spain",
+      "provider": "Complutense University of Madrid",
+      "count": 121238,
+      "city": "Madrid",
+      "latitude": 40.4454368,
+      "longitude": -3.7299424,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Spain",
+      "provider": "Digital Library of Castilla y Le\u00f3n",
+      "count": 119704,
+      "city": "Valladolid",
+      "latitude": 41.6571988,
+      "longitude": -4.7302183,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Spain",
+      "provider": "Library of the University of Las Palmas",
+      "count": 115458,
+      "city": "Las Palmas, Gran Canaria",
+      "latitude": 28.147576,
+      "longitude": -15.4302769,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Spain",
+      "provider": "Cityhall of Murcia. Municipal Archive",
+      "count": 104650,
+      "city": "Murcia",
+      "latitude": 37.9835018,
+      "longitude": -1.1330047,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Spain",
+      "provider": "TV3 Catalan Television",
+      "count": 89148,
+      "city": "Sant Joan Desp\u00ed",
+      "latitude": 41.3744332,
+      "longitude": 2.069125,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Spain",
+      "provider": "Documentary Repository of the University of Salamanca",
+      "count": 86467,
+      "city": "Salamanca",
+      "latitude": 40.9614829,
+      "longitude": -5.6673456,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Spain",
+      "provider": "Royal Botanic Garden of Madrid",
+      "count": 74638,
+      "city": "Madrid",
+      "latitude": 40.4111064,
+      "longitude": -3.6911267,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "Naturalis Biodiversity Center",
+      "count": 4601504,
+      "city": "Leiden",
+      "latitude": 52.1647779,
+      "longitude": 4.4732128,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "Cultural Heritage Agency of the Netherlands",
+      "count": 526228,
+      "city": "Amersfoort",
+      "latitude": 52.1580763,
+      "longitude": 5.3833285,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "Rijksmuseum",
+      "count": 341407,
+      "city": "Amsterdam",
+      "latitude": 52.3599976,
+      "longitude": 4.8852188,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "National Archives of the Netherlands",
+      "count": 283470,
+      "city": "The Hague",
+      "latitude": 52.0806214,
+      "longitude": 4.3268303,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "Internet Archive",
+      "count": 176784,
+      "city": "San Francisco, California",
+      "latitude": 37.782321,
+      "longitude": -122.471637,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "International Institute of Social History",
+      "count": 165349,
+      "city": "Amsterdam",
+      "latitude": 52.3689397,
+      "longitude": 4.9392354,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "The Utrecht Archives",
+      "count": 159981,
+      "city": "Utrecht",
+      "latitude": 52.0890819,
+      "longitude": 5.1228166,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "National Museum of Antiquities",
+      "count": 141529,
+      "city": "Leiden",
+      "latitude": 52.1584696,
+      "longitude": 4.4855152,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "Historical Information Center of Brabant",
+      "count": 118373,
+      "city": "Hertogenbosch",
+      "latitude": 51.6951069,
+      "longitude": 5.3029478,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "Netherlands Institute for Sound & Vision",
+      "count": 98888,
+      "city": "Hilversum",
+      "latitude": 52.235459,
+      "longitude": 5.173057,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "Association De Hollandsche Molen",
+      "count": 94187,
+      "city": "Amsterdam",
+      "latitude": 52.3662772,
+      "longitude": 4.9399952,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "Municipal Archives of Zaanstad",
+      "count": 85508,
+      "city": "Zaandam",
+      "latitude": 52.4382591,
+      "longitude": 4.8148877,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "Gooi en Vechtstreek Archive",
+      "count": 79443,
+      "city": "Naarden",
+      "latitude": 52.2964344,
+      "longitude": 5.1616623,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "Netherlands Institute for Military History",
+      "count": 68648,
+      "city": "The Hague",
+      "latitude": 52.1319244,
+      "longitude": 5.2761886,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "Historic Center Limburg",
+      "count": 62704,
+      "city": "Maastricht",
+      "latitude": 50.8457819,
+      "longitude": 5.6926732,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "City Archives Breda",
+      "count": 60870,
+      "city": "Breda",
+      "latitude": 51.584703,
+      "longitude": 4.780068,
+      "source": "europeana_entity"
     },
     {
       "country": "Portugal",
-      "provider": "MUDE \u2013 Museu do Design",
-      "count": 1927,
+      "provider": "Institute for Tropical Scientific Research",
+      "count": 65666,
+      "city": "Oeiras",
+      "latitude": 38.7015447,
+      "longitude": -9.3127356,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Portugal",
+      "provider": "National Library of Portugal",
+      "count": 35785,
       "city": "Lisbon",
-      "latitude": 38.7092410125,
-      "longitude": -9.1369383175,
-      "source": "manual",
-      "rank_in_country": 7.0,
-      "is_top5": false,
-      "size_mapped": 8.4946318145
+      "latitude": 38.7510738,
+      "longitude": -9.1525104,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Portugal",
+      "provider": "Portuguese Army Library",
+      "count": 13120,
+      "city": "Lisbon",
+      "latitude": 38.7135412,
+      "longitude": -9.1269175,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Portugal",
+      "provider": "Azores Regional Directorate for Culture",
+      "count": 5913,
+      "city": "Angra do Hero\u00edsmo",
+      "latitude": 38.6558611,
+      "longitude": -27.2156682,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Portugal",
+      "provider": "University of Porto",
+      "count": 5111,
+      "city": "Porto",
+      "latitude": 41.1465479,
+      "longitude": -8.6156998,
+      "source": "europeana_entity"
     },
     {
       "country": "Portugal",
@@ -1727,22 +1019,7 @@
       "city": "Lisbon",
       "latitude": 38.7125529,
       "longitude": -9.1538565,
-      "source": "europeana_entity",
-      "rank_in_country": 8.0,
-      "is_top5": false,
-      "size_mapped": 8.4478852028
-    },
-    {
-      "country": "Portugal",
-      "provider": "Fernando Pessoa's House",
-      "count": 1210,
-      "city": "Lisbon",
-      "latitude": 38.7168203967,
-      "longitude": -9.1625721058,
-      "source": "manual",
-      "rank_in_country": 9.0,
-      "is_top5": false,
-      "size_mapped": 8.3579992017
+      "source": "europeana_entity"
     },
     {
       "country": "Portugal",
@@ -1751,22 +1028,7 @@
       "city": "Coimbra",
       "latitude": 40.2076394,
       "longitude": -8.4260932,
-      "source": "europeana_entity",
-      "rank_in_country": 10.0,
-      "is_top5": false,
-      "size_mapped": 8.3460076399
-    },
-    {
-      "country": "Portugal",
-      "provider": "Lisbon's Film & Theatre School",
-      "count": 774,
-      "city": "Amadora",
-      "latitude": 38.7772886795,
-      "longitude": -9.2349260495,
-      "source": "manual",
-      "rank_in_country": 11.0,
-      "is_top5": false,
-      "size_mapped": 8.2535787847
+      "source": "europeana_entity"
     },
     {
       "country": "Portugal",
@@ -1775,22 +1037,7 @@
       "city": "Funchal",
       "latitude": 32.6661989,
       "longitude": -16.933144,
-      "source": "europeana_entity",
-      "rank_in_country": 12.0,
-      "is_top5": false,
-      "size_mapped": 8.2288635969
-    },
-    {
-      "country": "Portugal",
-      "provider": "Cinemateca Portuguesa - Museu do cinema",
-      "count": 654,
-      "city": "Lisbon",
-      "latitude": 38.7212246355,
-      "longitude": -9.1486591021,
-      "source": "manual",
-      "rank_in_country": 13.0,
-      "is_top5": false,
-      "size_mapped": 8.2198810442
+      "source": "europeana_entity"
     },
     {
       "country": "Portugal",
@@ -1799,10 +1046,7 @@
       "city": "Lisbon",
       "latitude": 38.7590891,
       "longitude": -9.1179905,
-      "source": "europeana_entity",
-      "rank_in_country": 14.0,
-      "is_top5": false,
-      "size_mapped": 8.1730479439
+      "source": "europeana_entity"
     },
     {
       "country": "Portugal",
@@ -1811,10 +1055,7 @@
       "city": "Funchal",
       "latitude": 32.6440322,
       "longitude": -16.9224104,
-      "source": "europeana_entity",
-      "rank_in_country": 15.0,
-      "is_top5": false,
-      "size_mapped": 8.1614957389
+      "source": "europeana_entity"
     },
     {
       "country": "Portugal",
@@ -1823,10 +1064,7 @@
       "city": "Lisboa",
       "latitude": 38.7548267,
       "longitude": -9.1726551,
-      "source": "europeana_entity",
-      "rank_in_country": 16.0,
-      "is_top5": false,
-      "size_mapped": 8.1608033851
+      "source": "europeana_entity"
     },
     {
       "country": "Portugal",
@@ -1835,10 +1073,7 @@
       "city": "Coimbra",
       "latitude": 40.2138778,
       "longitude": -8.4312511,
-      "source": "europeana_entity",
-      "rank_in_country": 17.0,
-      "is_top5": false,
-      "size_mapped": 8.1116871877
+      "source": "europeana_entity"
     },
     {
       "country": "Portugal",
@@ -1847,10 +1082,7 @@
       "city": "Lisbon",
       "latitude": 38.7132443,
       "longitude": -9.1663617,
-      "source": "europeana_entity",
-      "rank_in_country": 18.0,
-      "is_top5": false,
-      "size_mapped": 8.1008560878
+      "source": "europeana_entity"
     },
     {
       "country": "Portugal",
@@ -1859,10 +1091,7 @@
       "city": "Lisbon",
       "latitude": 38.7073246,
       "longitude": -9.170275,
-      "source": "europeana_entity",
-      "rank_in_country": 19.0,
-      "is_top5": false,
-      "size_mapped": 8.0249062421
+      "source": "europeana_entity"
     },
     {
       "country": "Portugal",
@@ -1871,10 +1100,421 @@
       "city": "Lisboa",
       "latitude": 38.7400193,
       "longitude": -9.14675,
-      "source": "europeana_entity",
-      "rank_in_country": 20.0,
-      "is_top5": false,
-      "size_mapped": 8.0
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Italy",
+      "provider": "National Central Library of Rome",
+      "count": 200231,
+      "city": "Roma Capitale",
+      "latitude": 41.906293866,
+      "longitude": 12.505949509,
+      "source": "wikidata_via_europeana_link"
+    },
+    {
+      "country": "Italy",
+      "provider": "Luigi Micheletti Foundation",
+      "count": 51704,
+      "city": "Brescia",
+      "latitude": 45.539305555,
+      "longitude": 10.213583333,
+      "source": "wikidata_via_europeana_link"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "KB, National Library of the Netherlands",
+      "count": 987234,
+      "city": "The Hague",
+      "latitude": 52.081666666,
+      "longitude": 4.3275,
+      "source": "wikidata_via_europeana_link"
+    },
+    {
+      "country": "Italy",
+      "provider": "Cineteca di Bologna",
+      "count": 73157,
+      "city": "Bologna",
+      "latitude": 44.4988658,
+      "longitude": 11.3368279,
+      "source": "wikidata_name_search"
+    },
+    {
+      "country": "France",
+      "provider": "Philharmonie de Paris",
+      "count": 12091,
+      "city": "Paris",
+      "latitude": 48.891566,
+      "longitude": 2.39407,
+      "source": "wikidata_name_search"
+    },
+    {
+      "country": "Germany",
+      "provider": "Deutsche Fotothek",
+      "count": 1314229,
+      "city": "Dresden",
+      "latitude": 51.02781,
+      "longitude": 13.73674,
+      "source": "wikidata_name_search"
+    },
+    {
+      "country": "Germany",
+      "provider": "Berlin-Dahlem Botanical Garden and Botanical Museum",
+      "count": 252957,
+      "city": "Steglitz-Zehlendorf",
+      "latitude": 52.455,
+      "longitude": 13.3036,
+      "source": "wikidata_name_search"
+    },
+    {
+      "country": "Germany",
+      "provider": "Berlin-Brandenburg Economic Archive",
+      "count": 72335,
+      "city": "Berlin",
+      "latitude": 52.584017166,
+      "longitude": 13.316706473,
+      "source": "wikidata_name_search"
+    },
+    {
+      "country": "Spain",
+      "provider": "Ajuntament de Girona",
+      "count": 208078,
+      "city": null,
+      "latitude": 41.983137861,
+      "longitude": 2.824799589,
+      "source": "wikidata_name_search"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "Museon-Omniversum",
+      "count": 93077,
+      "city": "The Hague",
+      "latitude": 52.088777777,
+      "longitude": 4.281,
+      "source": "wikidata_name_search"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "St. Catherine's Convent Museum",
+      "count": 60795,
+      "city": "Utrecht",
+      "latitude": 52.087222,
+      "longitude": 5.124167,
+      "source": "wikidata_name_search"
+    },
+    {
+      "country": "Italy",
+      "provider": "European Library of Information and Culture",
+      "count": 35475,
+      "city": "Milan",
+      "latitude": 45.472601263,
+      "longitude": 9.188542864,
+      "source": "wikidata_name_search"
+    },
+    {
+      "country": "Italy",
+      "provider": "Braidense National Library",
+      "count": 21526,
+      "city": "Milan",
+      "latitude": 45.471947,
+      "longitude": 9.187837,
+      "source": "wikidata_name_search"
+    },
+    {
+      "country": "Portugal",
+      "provider": "Calouste Gulbenkian Foundation",
+      "count": 3415,
+      "city": "Lisbon",
+      "latitude": 38.73722,
+      "longitude": -9.15417,
+      "source": "wikidata_name_search"
+    },
+    {
+      "country": "Spain",
+      "provider": "Virtual Library of Historical Press",
+      "count": 1735320,
+      "city": "Madrid",
+      "latitude": 40.4206699299,
+      "longitude": -3.6965345904,
+      "source": "manual"
+    },
+    {
+      "country": "Germany",
+      "provider": "State Archives of Baden-W\u00fcrttemberg",
+      "count": 827603,
+      "city": "Stuttgart",
+      "latitude": 48.8483974837,
+      "longitude": 9.185433331,
+      "source": "manual"
+    },
+    {
+      "country": "Italy",
+      "provider": "Cinecitt\u00e0 - Luce",
+      "count": 442536,
+      "city": "Rome",
+      "latitude": 41.8498105602,
+      "longitude": 12.5745190808,
+      "source": "manual"
+    },
+    {
+      "country": "Spain",
+      "provider": "Galiciana. Arquivo Dixital de Galicia",
+      "count": 234326,
+      "city": "Santiago de Compostela",
+      "latitude": 42.9499140665,
+      "longitude": -8.5514903735,
+      "source": "manual"
+    },
+    {
+      "country": "Italy",
+      "provider": "Historical Archive of the Presidency of the Republic",
+      "count": 212160,
+      "city": "Rome",
+      "latitude": 41.9004650389,
+      "longitude": 12.4889216808,
+      "source": "manual"
+    },
+    {
+      "country": "Germany",
+      "provider": "Library of the Friedrich Ebert Foundation",
+      "count": 201518,
+      "city": "Bonn",
+      "latitude": 50.7025799535,
+      "longitude": 7.1354407409,
+      "source": "manual"
+    },
+    {
+      "country": "Spain",
+      "provider": "Digital Library of Andalusia",
+      "count": 145620,
+      "city": "Granada",
+      "latitude": 37.182827765,
+      "longitude": -3.6056596093,
+      "source": "manual"
+    },
+    {
+      "country": "Spain",
+      "provider": "Mares\u00eda: Prensa digitalizada y Patrimonio documental",
+      "count": 141919,
+      "city": "San Crist\u00f3bal de La Laguna",
+      "latitude": 28.4692609989,
+      "longitude": -16.3047087486,
+      "source": "manual"
+    },
+    {
+      "country": "Germany",
+      "provider": "Archives of Social Democracy",
+      "count": 133032,
+      "city": "Bonn",
+      "latitude": 50.7023689445,
+      "longitude": 7.1348247679,
+      "source": "manual"
+    },
+    {
+      "country": "Germany",
+      "provider": "State and University Library Hamburg Carl von Ossietzky",
+      "count": 131101,
+      "city": "Hamburg",
+      "latitude": 53.5649074402,
+      "longitude": 9.9851542239,
+      "source": "manual"
+    },
+    {
+      "country": "Spain",
+      "provider": "Canary Islands Historical Photography Archive",
+      "count": 121890,
+      "city": "Las Palmas de Gran Canaria",
+      "latitude": 28.1070963288,
+      "longitude": -15.4175046522,
+      "source": "manual"
+    },
+    {
+      "country": "Germany",
+      "provider": "Te\u00dfmann Library",
+      "count": 115179,
+      "city": "Italy",
+      "latitude": 46.5032366522,
+      "longitude": 11.3429298523,
+      "source": "manual"
+    },
+    {
+      "country": "Spain",
+      "provider": "Centro de Estudios de Castilla - La Mancha",
+      "count": 94223,
+      "city": "Ciudad Real",
+      "latitude": 38.9930310006,
+      "longitude": -3.919615677,
+      "source": "manual"
+    },
+    {
+      "country": "Spain",
+      "provider": "Foundation Virtual Library Miguel de Cervantes",
+      "count": 70971,
+      "city": "Alicante",
+      "latitude": 38.3850764605,
+      "longitude": -0.5139165229,
+      "source": "manual"
+    },
+    {
+      "country": "Spain",
+      "provider": "Digital Library of Madrid",
+      "count": 69472,
+      "city": "Madrid",
+      "latitude": 40.399879435,
+      "longitude": -3.6905798714,
+      "source": "manual"
+    },
+    {
+      "country": "Italy",
+      "provider": "Central Institute for the Union Catalogue of Italian Libraries",
+      "count": 66672,
+      "city": "Rome",
+      "latitude": 41.9063183979,
+      "longitude": 12.508793752,
+      "source": "manual"
+    },
+    {
+      "country": "Netherlands",
+      "provider": "IMSLP/Petrucci Music Library",
+      "count": 61552,
+      "city": null,
+      "latitude": null,
+      "longitude": null,
+      "source": "manual"
+    },
+    {
+      "country": "Italy",
+      "provider": "Central Museum of the Risorgimento",
+      "count": 53211,
+      "city": "Rome",
+      "latitude": 41.8941357526,
+      "longitude": 12.4837986673,
+      "source": "manual"
+    },
+    {
+      "country": "France",
+      "provider": "Palais Galliera - Mus\u00e9e de la Mode de la Ville de Paris",
+      "count": 44495,
+      "city": "Paris",
+      "latitude": 48.8660803363,
+      "longitude": 2.2965618524,
+      "source": "manual"
+    },
+    {
+      "country": "Italy",
+      "provider": "Experimental Cinematography Center",
+      "count": 40538,
+      "city": "Rome",
+      "latitude": 41.8510581553,
+      "longitude": 12.569479552,
+      "source": "manual"
+    },
+    {
+      "country": "Italy",
+      "provider": "Epigraphic Dabatase Bari",
+      "count": 40283,
+      "city": "Bari",
+      "latitude": 41.1211273678,
+      "longitude": 16.8686048028,
+      "source": "manual"
+    },
+    {
+      "country": "Italy",
+      "provider": "Marciana National Library",
+      "count": 29597,
+      "city": "Venice",
+      "latitude": 45.4335342899,
+      "longitude": 12.3394227522,
+      "source": "manual"
+    },
+    {
+      "country": "Italy",
+      "provider": "Turin Gallery for Modern and Contemporary Art",
+      "count": 29395,
+      "city": "Turin",
+      "latitude": 45.0650107715,
+      "longitude": 7.6692137964,
+      "source": "manual"
+    },
+    {
+      "country": "France",
+      "provider": "National and University Library of Strasbourg",
+      "count": 21320,
+      "city": "Strasbourg",
+      "latitude": 48.5872587063,
+      "longitude": 7.7559011831,
+      "source": "manual"
+    },
+    {
+      "country": "Italy",
+      "provider": "Library of the S. Pietro a Majella Conservatory",
+      "count": 20154,
+      "city": "Naples",
+      "latitude": 40.849630768,
+      "longitude": 14.2524466826,
+      "source": "manual"
+    },
+    {
+      "country": "Italy",
+      "provider": "Provincial Library Magna Capitana",
+      "count": 13065,
+      "city": "Foggia",
+      "latitude": 41.4567186873,
+      "longitude": 15.5585239538,
+      "source": "manual"
+    },
+    {
+      "country": "Italy",
+      "provider": "Estense University Library",
+      "count": 12372,
+      "city": "Modena",
+      "latitude": 44.6484257938,
+      "longitude": 10.9209923675,
+      "source": "manual"
+    },
+    {
+      "country": "France",
+      "provider": "Rh\u00f4ne-Alpes Laboratory for Historical Research",
+      "count": 10046,
+      "city": "Lyon",
+      "latitude": 45.7334134679,
+      "longitude": 4.8334175099,
+      "source": "manual"
+    },
+    {
+      "country": "Portugal",
+      "provider": "MUDE \u2013 Museu do Design",
+      "count": 1927,
+      "city": "Lisbon",
+      "latitude": 38.7092410125,
+      "longitude": -9.1369383175,
+      "source": "manual"
+    },
+    {
+      "country": "Portugal",
+      "provider": "Fernando Pessoa's House",
+      "count": 1210,
+      "city": "Lisbon",
+      "latitude": 38.7168203967,
+      "longitude": -9.1625721058,
+      "source": "manual"
+    },
+    {
+      "country": "Portugal",
+      "provider": "Lisbon's Film & Theatre School",
+      "count": 774,
+      "city": "Amadora",
+      "latitude": 38.7772886795,
+      "longitude": -9.2349260495,
+      "source": "manual"
+    },
+    {
+      "country": "Portugal",
+      "provider": "Cinemateca Portuguesa - Museu do cinema",
+      "count": 654,
+      "city": "Lisbon",
+      "latitude": 38.7212246355,
+      "longitude": -9.1486591021,
+      "source": "manual"
     }
   ]
 }
