@@ -5,13 +5,6 @@
 
 (function () {
   // ─── Color palettes ────────────────────────────────────────────────────────
-  // const CONTENT_COLORS = {
-  //   "0": { color: "#73A580", label: "Tier 0 — No content" },
-  //   "1": { color: "#BDBEA9", label: "Tier 1 — Low" },
-  //   "2": { color: "#D98E9B", label: "Tier 2 — Fair" },
-  //   "3": { color: "#C1666B", label: "Tier 3 — Good" },
-  //   "4": { color: "#7C6A8F", label: "Tier 4 — Excellent" }
-  // };
 
   const CONTENT_COLORS = {
     "0": { color: "#D6DCC5", label: "Tier 0" },
@@ -20,13 +13,6 @@
     "3": { color: "#5C7D3C", label: "Tier 3" },
     "4": { color: "#33471F", label: "Tier 4" }
   };
-
-  // const METADATA_COLORS = {
-  //   "0": { color: "#73A580", label: "Tier 0 — No metadata" },
-  //   "C": { color: "#D98E9B", label: "Tier C — Low" },
-  //   "B": { color: "#C1666B", label: "Tier B — Fair" },
-  //   "A": { color: "#7C6A8F", label: "Tier A — Excellent" }
-  // };
 
   const METADATA_COLORS = {
     "0": { color: "#D9D2E0", label: "Tier 0" },
@@ -37,16 +23,16 @@
 
   // Country display labels and button colors (matching map section)
   const COUNTRY_META = {
-    "france": { label: "France", color: "#1f7f95" },
-    "germany": { label: "Germany", color: "#feda15" },
-    "italy": { label: "Italy", color: "#90BE6D" },
-    "netherlands": { label: "Netherlands", color: "#a180ad" },
-    "portugal": { label: "Portugal", color: "#f4a64e" },
-    "spain": { label: "Spain", color: "#bb521f" }
+    "France": { label: "France", color: "#1f7f95" },
+    "Germany": { label: "Germany", color: "#feda15" },
+    "Italy": { label: "Italy", color: "#90BE6D" },
+    "Netherlands": { label: "Netherlands", color: "#a180ad" },
+    "Portugal": { label: "Portugal", color: "#f4a64e" },
+    "Spain": { label: "Spain", color: "#bb521f" }
   };
 
   let qualityData = null;
-  let currentCountry = "france";
+  let currentCountry = "France";
 
   // ─── Load data and initialise ───────────────────────────────────────────────
   fetch("../notebook/data/json/country_quality_score.json")

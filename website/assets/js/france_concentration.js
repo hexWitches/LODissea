@@ -131,19 +131,20 @@ document.addEventListener("DOMContentLoaded", function () {
         start: "top 85%",
         once: true,
         onEnter: function () {
-          var bridgeSection = document.querySelector(".bridge-section");
+          var rightCol = document.querySelector(".france-concentration-right");
           var chartContainerEl = document.getElementById("france-concentration-chart");
           var bubble = document.getElementById("falling-france-bubble");
 
-          if (bridgeSection && chartContainerEl && bubble) {
-            var bridgeRect = bridgeSection.getBoundingClientRect();
+          if (rightCol && chartContainerEl && bubble) {
+            var rightColRect = rightCol.getBoundingClientRect();
             var chartRect = chartContainerEl.getBoundingClientRect();
-            var targetTop = chartRect.top - bridgeRect.top + (chartRect.height / 2) - 60;
+            // targetTop is the offset from the top of rightCol (the positioned parent) to the chart centre
+            var targetTop = chartRect.top - rightColRect.top + (chartRect.height / 2) - 60;
 
             gsap.fromTo(bubble,
               {
                 top: -300,
-                x: -150,
+                x: 0,
                 opacity: 0,
                 rotation: -15
               },
