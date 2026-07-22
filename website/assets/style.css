@@ -1124,19 +1124,13 @@ b {
 
 .tab-text {
   font-size: 24px;
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   line-height: 1.6;
+  font-weight: 300;
   color: white;
-  opacity: 0.9;
-  max-width: 60rem;
-}
-
-.tab-text a {
-  color: var(--bg-color);
-}
-
-.tab-text a:hover {
-  color: var(--sea-color);
+  opacity: 0.7;
+  max-width: 72rem;
+  margin-bottom: 1.5rem;
 }
 
 @media (min-width: 768px) {
@@ -1145,26 +1139,85 @@ b {
   }
 }
 
-#tab-content-project strong {
-  background: linear-gradient(transparent 48%, rgba(159, 197, 223, 0.4) 52%);
-}
-
-
 .tab-text-credit {
   font-size: 20px;
   font-family: var(--font-sans);
   font-weight: 300;
   line-height: 1.6;
-  max-width: 48rem;
+  max-width: 72rem;
   color: white;
   opacity: 0.7;
-  font-style: italic;
 }
 
 @media (min-width: 768px) {
   .tab-text-credit {
     font-size: 24px;
   }
+}
+
+.credit-block {
+  margin-top: 2.5rem;
+  max-width: 72rem;
+}
+
+.credit-block-title {
+  font-size: 11px;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #7A98B8;
+  margin-bottom: 0.75rem;
+}
+
+.credit-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  color: white;
+}
+
+.credit-table th {
+  text-align: left;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: #7A98B8;
+  padding: 0.5rem 0.75rem 0.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.credit-table td {
+  padding: 0.6rem 0.75rem 0.6rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  opacity: 0.85;
+  vertical-align: top;
+}
+
+.credit-table a {
+  color: var(--sea-color);
+  text-decoration: none;
+}
+
+.credit-table a:hover {
+  text-decoration: underline;
+}
+
+.tab-text a,
+.tab-text-credit a {
+  color: var(--bg-color);
+}
+
+.tab-text a:hover,
+.tab-text-credit a:hover {
+  color: var(--sea-color);
+}
+
+.credit-license-text {
+  font-size: 16px !important;
+  opacity: 0.8;
 }
 
 /* ==========================================================================

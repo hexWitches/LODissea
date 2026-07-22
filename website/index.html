@@ -46,7 +46,7 @@
     <nav class="top-nav">
       <button onclick="openTab('project')" class="nav-link">Project</button>
       <button onclick="openTab('team')" class="nav-link">Team</button>
-      <button onclick="openTab('credit')" class="nav-link">Credit</button>
+      <button onclick="openTab('credit')" class="nav-link">Credits</button>
     </nav>
 
     <div class="hero-center-wrapper">
@@ -651,7 +651,7 @@
     <nav class="modal-nav">
       <button onclick="switchTab('project')" id="tab-btn-project" class="modal-nav-link tab-btn">Project</button>
       <button onclick="switchTab('team')" id="tab-btn-team" class="modal-nav-link tab-btn">Team</button>
-      <button onclick="switchTab('credit')" id="tab-btn-credit" class="modal-nav-link tab-btn">Credit</button>
+      <button onclick="switchTab('credit')" id="tab-btn-credit" class="modal-nav-link tab-btn">Credits</button>
       <button onclick="closeModal()" class="modal-nav-link modal-close-btn">CLOSE</button>
     </nav>
 
@@ -661,17 +661,20 @@
       <div id="tab-content-project" class="tab-content">
         <h3 class="tab-subtitle">The Project</h3>
         <p class="tab-text">
-          LODissea is an <strong>exploratory research</strong>, investigating the open and collaborative environment of
+          <strong>LODissea is an exploratory research</strong>, investigating the open and collaborative environment of
           <strong>Europeana</strong>. Specifically, we examine the scale and distribution of data providers, analyzing
           who they are and what institutional categories they represent, and the overall structural quality of their
           data. The <strong>selected countries</strong> for this study are: Italy, Germany, Spain, Portugal, France, the
           Netherlands. Data retrieved from Europeana are enriched using <strong>Wikidata</strong> and
           <strong>Eurostat</strong> databases.
-          <br>
+        <p class="tab-text">
           The project has been carried out for the final exam of <a
             href="https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2025/467047"
             target="_blank">Information Visualization</a>, within the Digital Humanities and Digital Knowledge course at
           the University of Bologna.
+        </p>
+        <p class="tab-text">
+          All additional material produced for the project can be found in the <a href="https://github.com/hexWitches/LODissea" target="_blank">Github Repository</a>.
         </p>
       </div>
 
@@ -727,7 +730,7 @@
                 <div class="team-meta-item">
                   <i data-lucide="beer" width="32" height="32" class="meta-icon"></i>
                   <span class="meta-label">Beers</span>
-                  <span class="meta-count">30</span>
+                  <span class="meta-count">33</span>
                 </div>
                 <div class="team-meta-item">
                   <i data-lucide="monitor" width="32" height="32" class="meta-icon"></i>
@@ -742,17 +745,17 @@
                 <div class="team-meta-item">
                   <i data-lucide="coffee" width="32" height="32" class="meta-icon"></i>
                   <span class="meta-label">Coffees</span>
-                  <span class="meta-count">23</span>
+                  <span class="meta-count">24</span>
                 </div>
                 <div class="team-meta-item">
                   <i data-lucide="utensils" width="32" height="32" class="meta-icon"></i>
                   <span class="meta-label">Meals Shared</span>
-                  <span class="meta-count">10</span>
+                  <span class="meta-count">12</span>
                 </div>
                 <div class="team-meta-item">
                   <i data-lucide="moon" width="32" height="32" class="meta-icon"></i>
                   <span class="meta-label">Sleepovers</span>
-                  <span class="meta-count">3</span>
+                  <span class="meta-count">4</span>
                 </div>
               </div>
             </div>
@@ -761,15 +764,50 @@
       </div>
 
       <div id="tab-content-credit" class="tab-content">
-        <h3 class="tab-subtitle">Credit</h3>
-        <p class="tab-text-credit">
-          Data sourced from Europeana. All cultural artifacts remain the property of their respective institutions.
-          This project uses Linked Open Data (LOD) principles to connect and display these resources.
-          Some icons designed by <a href="https://www.magnific.com" target="_blank"
-            rel="noopener noreferrer">Magnific</a>.
-        </p>
+        <h3 class="tab-subtitle">Credits</h3>
+        <div class="credit-block">
+          <table class="credit-table">
+            <thead>
+              <tr>
+                <th>Source</th>
+                <th>Used for</th>
+                <th>License</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="https://www.europeana.eu" target="_blank" rel="noopener noreferrer">Europeana</a></td>
+                <td>Provider metadata, item counts, institution profiles</td>
+                <td>Metadata: <a href="https://pro.europeana.eu/page/europeana-licensing-framework" target="_blank" rel="noopener noreferrer">CC0</a>; individual items retain their own rights statements</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.wikidata.org" target="_blank" rel="noopener noreferrer">Wikidata</a></td>
+                <td>Institution type, descriptions, geographic data</td>
+                <td><a href="https://www.wikidata.org/wiki/Wikidata:Licensing" target="_blank" rel="noopener noreferrer">CC0</a> (public domain)</td>
+              </tr>
+              <tr>
+                <td><a href="https://ec.europa.eu/eurostat" target="_blank" rel="noopener noreferrer">Eurostat</a></td>
+                <td>Demographic and investment context</td>
+                  <td>Reuse authorised with attribution, per <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Copyright/licence_policy" target="_blank" rel="noopener noreferrer">Decision 2011/833/EU</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="credit-block">
+          <p class="tab-text-credit credit-license-text">
+            <a href="https://www.amcharts.com/" target="_blank"><strong>amCharts 5</strong></a> has been used to build the interactive charts of the website, under its free license (attribution required).
+          </p>
+        </div>
+        
+        <div class="credit-block">
+          <h4 class="credit-block-title">Project License</h4>
+          <p class="tab-text-credit credit-license-text">
+            Original content on this site - text, design, analysis and visualizations - is licensed under
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>.
+            Underlying source datasets remain governed by their own terms</a>.
+          </p>
+        </div>
       </div>
-
     </div>
   </div>
 
