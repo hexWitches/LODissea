@@ -238,19 +238,109 @@ button {
   position: relative;
   min-height: 100vh;
   background-color: var(--sea-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem 6rem 2rem;
+  /* Reduced top padding and increased bottom padding to shift content higher */
+  text-align: center;
+}
+
+#introduction .journey-text-wrapper {
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .intro-placeholder-col {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 6rem;
-  width: 35%;
-  padding: 2rem;
-  background: rgba(26, 58, 95, 0.05);
-  border-radius: 1rem;
+  position: relative;
+  top: auto;
+  transform: none;
+  right: auto;
+  width: 100%;
+  max-width: 800px;
+  padding: 1rem 0;
+  background: transparent;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
   font-family: var(--font-sans);
   color: var(--text-dark);
+  margin-top: 1rem;
+}
+
+@keyframes floatBubble {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+#introduction .journey-title {
+  margin-bottom: 2rem;
+}
+
+#introduction .stat-box {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+  background: var(--primary-color);
+  color: white;
+  animation: floatBubble 4s ease-in-out infinite;
+}
+
+#introduction .stat-box:nth-child(1) {
+  animation-delay: 0s;
+}
+
+#introduction .stat-box:nth-child(2) {
+  animation-delay: 1.3s;
+}
+
+#introduction .stat-box:nth-child(3) {
+  animation-delay: 2.6s;
+}
+
+#introduction .stat-box h4 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+}
+
+#introduction .stat-box .stat-number {
+  color: white;
+  font-size: 36px;
+}
+
+#introduction .stat-box:hover {
+  animation-play-state: paused;
+}
+
+.intro-desc {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  color: 1A1A1A;
+  margin-bottom: 1.5rem;
+  text-align: justify;
 }
 
 .intro-placeholder-col h3 {
@@ -296,6 +386,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: translateX(10vw);
 }
 
 #map-svg {
@@ -338,7 +429,8 @@ button {
   background-image: linear-gradient(to bottom, var(--primary-color) 50%, transparent 50%);
   background-size: 3px 12px;
   background-repeat: repeat-y;
-  opacity: 0.6; /* Made darker */
+  opacity: 0.6;
+  /* Made darker */
 }
 
 #global-line-active {
@@ -354,10 +446,12 @@ button {
 
 #global-boat {
   position: absolute;
-  left: 66px; /* Moved to the right side of the line */
+  left: 66px;
+  /* Moved to the right side of the line */
   top: 10%;
   z-index: 10;
-  margin-top: -20px; /* Center boat vertically */
+  margin-top: -20px;
+  /* Center boat vertically */
 }
 
 .scroll-stop {
@@ -450,6 +544,16 @@ button {
   color: var(--primary-color);
   max-width: 28rem;
   line-height: 1.6;
+}
+
+.journey-desc {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  color: #1A1A1A;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  max-width: 28rem;
 }
 
 /* ==========================================================================
@@ -807,12 +911,20 @@ button {
   line-height: 1.6;
   color: white;
   opacity: 0.9;
-  max-width: 48rem;
+  max-width: 60rem;
+}
+
+.tab-text a {
+  color: var(--bg-color);
+}
+
+.tab-text a:hover {
+  color: var(--sea-color);
 }
 
 @media (min-width: 768px) {
   .tab-text {
-    font-size: 36px;
+    font-size: 24px;
   }
 }
 
@@ -1226,7 +1338,8 @@ button {
 }
 
 .back-to-top-btn:hover {
-  background: var(--secondary-color, #1a3a5f); /* Fallback if secondary isn't defined */
+  background: var(--secondary-color, #1a3a5f);
+  /* Fallback if secondary isn't defined */
   transform: translateY(-3px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
@@ -1306,8 +1419,16 @@ button {
 /* Inverted layout (analysis-2): chart left | text right
    Use CSS order so HTML source order doesn't need to change */
 @media (min-width: 768px) {
-  .rq2-chart-left  { order: -1; }   /* chart column moves to column 1 */
-  .rq2-text-right  { order:  1; }   /* text column stays in column 2  */
+  .rq2-chart-left {
+    order: -1;
+  }
+
+  /* chart column moves to column 1 */
+  .rq2-text-right {
+    order: 1;
+  }
+
+  /* text column stays in column 2  */
 
   /* When inverted, flip the column widths */
   .analysis-grid-rq2:has(.rq2-chart-left) {
@@ -1407,8 +1528,10 @@ button {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 1rem;
-  overflow-x: auto; /* Just in case it gets too squeezed on very small screens */
-  padding-bottom: 1rem; /* For scrollbar if needed */
+  overflow-x: auto;
+  /* Just in case it gets too squeezed on very small screens */
+  padding-bottom: 1rem;
+  /* For scrollbar if needed */
 }
 
 .team-meta-item {

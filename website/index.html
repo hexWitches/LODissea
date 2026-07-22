@@ -59,7 +59,7 @@
           LOD<span>issea</span>
         </h1>
         <p class="hero-subtitle">
-          A journey through european(a) <br class="hide-mobile" />cultural heritage database
+          A journey through european(a)
         </p>
       </div>
     </div>
@@ -75,7 +75,6 @@
 
       <!-- Paper boat on the waves -->
       <div id="wave-boat">
-        
       </div>
 
       <button class="start-journey-btn" id="start-journey-btn">
@@ -98,15 +97,29 @@
   <section id="introduction">
     <div class="journey-text-wrapper">
       <h2 class="journey-title">The Journey Begins</h2>
-      <p class="journey-subtitle">
-        Starting in the Netherlands, exploring <br class="hide-mobile" />the vast archives of cultural artifacts.
+      <p class="intro-desc">
+        Europeana is a <strong>shared digital space</strong> where millions of cultural artifacts - paintings,
+        photographs, manuscripts, films and sounds - from thousands of institutions across Europe converge into a vast
+        and open sea. It sits at the heart of the EU's common data space for cultural heritage, anchored by
+        <strong>three principles</strong>: heritage that's easy to find and reuse, a network built on shared
+        contribution rather than a single institution, and data cared for with the same precision as the objects it
+        describes.
+      </p>
+      <p class="intro-desc">
+        These are the values Europeana states about itself, but <strong>do they hold beneath the surface?</strong> Is
+        contribution genuinely mutual and spread across many institutions, or concentrated between few providers? Is the
+        underlying data as reliable as claimed, consistently and equally across countries?
+      </p>
+      <p class="intro-desc">
+        There is only one way to answer those questions: <strong>dive deep</strong> and see whether Europeana's promise
+        holds against its own data.
       </p>
     </div>
 
     <div class="intro-placeholder-col conclusion-stats-col">
       <div class="stat-box">
-        <h4>Investment</h4>
-        <span class="stat-number">€9M+</span>
+        <h4>Funding</h4>
+        <span class="stat-number">EU</span>
       </div>
       <div class="stat-box">
         <h4>Starting Year</h4>
@@ -114,7 +127,7 @@
       </div>
       <div class="stat-box">
         <h4>Total Artifacts</h4>
-        <span class="stat-number">50M+</span>
+        <span class="stat-number">60M+</span>
       </div>
     </div>
 
@@ -128,8 +141,14 @@
   <section id="journey">
     <div class="journey-text-wrapper">
       <h2 class="journey-title">Mapping<br /><span>the Data</span></h2>
-      <p class="journey-subtitle">
-        Visualizing the spread of artifacts across Europe.
+      <p class="journey-desc">
+        Data has been collected from <strong>Europeana’s APIs</strong> to build a full inventory of contributing institutions, their item counts, and the overall quality of the underlying database - mapping both its identity and its composition. This was enriched with <strong>Wikidata</strong>, to resolve each provider’s type and location, and <strong>Eurostat</strong> for demographic and investment context. 
+      </p>
+      <p class="journey-desc">
+        <strong>Manual reviews</strong> were applied throughout, correcting and refining automated classifications so that categories reflect what is actually observed in the data rather than an assumption made in advance.
+      </p>
+      <p class="journey-desc">
+        The journey covers <strong>six countries</strong>: Germany, the Netherlands, France, Portugal, Spain and Italy.
       </p>
     </div>
 
@@ -196,7 +215,8 @@
               Does investment steer the ship?
             </h2>
             <p class="analysis-subtitle rq-label">
-              Does the number of active providers and the volume of cultural heritage shared on Europeana correlate positively to cultural investment?
+              Does the number of active providers and the volume of cultural heritage shared on Europeana correlate
+              positively to cultural investment?
             </p>
             <p class="analysis-desc" style="max-width: 100%;">
               Turning to the next chart, we explore whether, within this tiny drop of providers in an
@@ -228,11 +248,7 @@
                   drops to <b>≈ 1.18%</b> — repositioning Portugal's bubble significantly
                   to the left and revealing a very different picture.
                 </p>
-                <button
-                  id="pt-correct-btn"
-                  class="pt-correct-btn"
-                  onclick="togglePTCorrection()"
-                >
+                <button id="pt-correct-btn" class="pt-correct-btn" onclick="togglePTCorrection()">
                   Correct Portugal's data
                 </button>
               </div>
@@ -247,7 +263,8 @@
   <div class="bridge-section">
     <div class="sea-transition-top">
       <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="sea-wave-svg-top">
-        <path d="M0,60 C150,110 350,10 500,60 C650,110 850,10 1000,60 C1150,110 1350,10 1500,60 L1500,120 L0,120 Z"></path>
+        <path d="M0,60 C150,110 350,10 500,60 C650,110 850,10 1000,60 C1150,110 1350,10 1500,60 L1500,120 L0,120 Z">
+        </path>
       </svg>
     </div>
     <div class="bridge-content">
@@ -257,7 +274,8 @@
     </div>
     <div class="sea-transition-bottom">
       <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="sea-wave-svg-bottom">
-        <path d="M0,60 C150,110 350,10 500,60 C650,110 850,10 1000,60 C1150,110 1350,10 1500,60 L1500,120 L0,120 Z"></path>
+        <path d="M0,60 C150,110 350,10 500,60 C650,110 850,10 1000,60 C1150,110 1350,10 1500,60 L1500,120 L0,120 Z">
+        </path>
       </svg>
     </div>
   </div>
@@ -272,10 +290,14 @@
             <h2 class="analysis-title">The <span>Crew</span></h2>
             <p class="analysis-subtitle">Who sends knowledge to the Europeana sea?</p>
             <p class="analysis-desc">
-              Behind the vast archive of Europeana stand in total <strong>1002 providers</strong> from the selected six countries each loading their cultural treasures onto the digital vessel. Yet the fleet is far from evenly loaded: in several countries, a single flagship carries the volume of the cargo alone. Explore the top-10 providers by country and discover which institutions navigate Europeana's waters most heavily laden.
+              Behind the vast archive of Europeana stand in total <strong>1002 providers</strong> from the selected six
+              countries each loading their cultural treasures onto the digital vessel. Yet the fleet is far from evenly
+              loaded: in several countries, a single flagship carries the volume of the cargo alone. Explore the top-10
+              providers by country and discover which institutions navigate Europeana's waters most heavily laden.
             </p>
             <p class="analysis-desc">
-              Boats are not all built the same. A library and a natural history museum may carry equally vast cargo, but what fills their holds - books and manuscripts, or bones and specimens - could not be more different. 
+              Boats are not all built the same. A library and a natural history museum may carry equally vast cargo, but
+              what fills their holds - books and manuscripts, or bones and specimens - could not be more different.
             </p>
           </div>
 
@@ -283,12 +305,14 @@
             <!-- Country filter buttons -->
             <div class="rsq01-filters">
               <button class="rsq01-filter-btn rsq01-active" data-country="all" onclick="filterRsq01('all')">All</button>
-              <button class="rsq01-filter-btn" data-country="france"      onclick="filterRsq01('france')">France</button>
-              <button class="rsq01-filter-btn" data-country="germany"     onclick="filterRsq01('germany')">Germany</button>
-              <button class="rsq01-filter-btn" data-country="italy"       onclick="filterRsq01('italy')">Italy</button>
-              <button class="rsq01-filter-btn" data-country="netherlands" onclick="filterRsq01('netherlands')">Netherlands</button>
-              <button class="rsq01-filter-btn" data-country="portugal"    onclick="filterRsq01('portugal')">Portugal</button>
-              <button class="rsq01-filter-btn" data-country="spain"       onclick="filterRsq01('spain')">Spain</button>
+              <button class="rsq01-filter-btn" data-country="france" onclick="filterRsq01('france')">France</button>
+              <button class="rsq01-filter-btn" data-country="germany" onclick="filterRsq01('germany')">Germany</button>
+              <button class="rsq01-filter-btn" data-country="italy" onclick="filterRsq01('italy')">Italy</button>
+              <button class="rsq01-filter-btn" data-country="netherlands"
+                onclick="filterRsq01('netherlands')">Netherlands</button>
+              <button class="rsq01-filter-btn" data-country="portugal"
+                onclick="filterRsq01('portugal')">Portugal</button>
+              <button class="rsq01-filter-btn" data-country="spain" onclick="filterRsq01('spain')">Spain</button>
             </div>
             <!-- Chart container -->
             <div id="rsq01-chart" class="rq2-amchart-container"></div>
@@ -309,7 +333,12 @@
             <h2 class="analysis-title">The <br /><span>Cargo Hold</span></h2>
             <p class="analysis-subtitle">What kinds of knowledge sail these waters?</p>
             <p class="analysis-desc">
-              Not every vessel sails with the same cargo. Across Europeana's six contributing countries, <strong>libraries and archives</strong> dominate the hold — accounting for over <strong>60% of all items</strong> globally. But beneath this surface, each national fleet has its own character: the Netherlands is steered by <strong>natural history collections</strong> (51%), Portugal mirrors it with 47% scientific heritage, while Italy's hold brims with <strong>audiovisual and film archives</strong> (31.6%) — a uniquely cinematic identity.
+              Not every vessel sails with the same cargo. Across Europeana's six contributing countries,
+              <strong>libraries and archives</strong> dominate the hold — accounting for over <strong>60% of all
+                items</strong> globally. But beneath this surface, each national fleet has its own character: the
+              Netherlands is steered by <strong>natural history collections</strong> (51%), Portugal mirrors it with 47%
+              scientific heritage, while Italy's hold brims with <strong>audiovisual and film archives</strong> (31.6%)
+              — a uniquely cinematic identity.
             </p>
           </div>
 
@@ -378,7 +407,7 @@
       <!-- Back to top button -->
       <div class="back-to-top-wrapper">
         <button class="back-to-top-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-          Back to Top 
+          Back to Top
           <span class="arrow-up">↑</span>
         </button>
       </div>
@@ -402,8 +431,16 @@
       <div id="tab-content-project" class="tab-content">
         <h3 class="tab-subtitle">The Project</h3>
         <p class="tab-text">
-          LODissea maps the cultural connections across Europe, exploring the vast archives of the Europeana database.
-          We navigate through digital artifacts, surfacing hidden narratives and shared histories.
+          LODissea is an <strong>exploratory research</strong>, investigating the open and collaborative environment of
+          <strong>Europeana</strong>. Specifically, we examine the scale and distribution of data providers, analyzing
+          who they are and what institutional categories they represent, and the overall structural quality of their
+          data. The selected country for this study are: Italy, Germany, Spain, Portugal, France, Netherlands. Data
+          retrieved from Europeana are enriched using <strong>Wikidata</strong> and <strong>Eurostat</strong> databases.
+          <br>
+          The project has been carried out for the final exam of <a
+            href="https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2025/467047"
+            target="_blank">Information Visualization</a>, within the Digital Humanities and Digital Knowledge course at
+          the University of Bologna.
         </p>
       </div>
 
@@ -451,7 +488,7 @@
             <div class="team-meta-item">
               <i data-lucide="beer" width="32" height="32" class="meta-icon"></i>
               <span class="meta-label">Beers</span>
-              <span class="meta-count">27</span>
+              <span class="meta-count">30</span>
             </div>
             <div class="team-meta-item">
               <i data-lucide="monitor" width="32" height="32" class="meta-icon"></i>
@@ -461,7 +498,7 @@
             <div class="team-meta-item">
               <i data-lucide="sparkles" width="32" height="32" class="meta-icon"></i>
               <span class="meta-label">Relaxing Sheet Mask</span>
-              <span class="meta-count">6</span>
+              <span class="meta-count">12</span>
             </div>
             <div class="team-meta-item">
               <i data-lucide="coffee" width="32" height="32" class="meta-icon"></i>
@@ -471,12 +508,12 @@
             <div class="team-meta-item">
               <i data-lucide="utensils" width="32" height="32" class="meta-icon"></i>
               <span class="meta-label">Meals Shared</span>
-              <span class="meta-count">8</span>
+              <span class="meta-count">10</span>
             </div>
             <div class="team-meta-item">
               <i data-lucide="moon" width="32" height="32" class="meta-icon"></i>
               <span class="meta-label">Sleepovers</span>
-              <span class="meta-count">2</span>
+              <span class="meta-count">3</span>
             </div>
             <div class="team-meta-item">
               <i data-lucide="music" width="32" height="32" class="meta-icon"></i>
