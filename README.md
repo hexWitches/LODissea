@@ -13,12 +13,12 @@ The analysis notebook is organized into a global setup phase followed by investi
 Contains the project title, subtitles, abstract, and explicitly defines the core Research Questions.
   
 ### Global Setup 
-A single preliminary shared code cell containing all library imports, API key configurations, and styling variables.
+Preliminary shared code cells containing all library imports, API key configurations, and styling variables.
 
 ### Modular Exploration
 To maintain a clean Exploratory Data Analysis (EDA) pipeline, each Research Question is treated as an independent module. Every question strictly follows this three-step workflow:
 - **Data Acquisition:** Fetching live data via REST APIs, SPARQL endpoints, or external datasets.
-- **Data Filtering, Cleaning & Merging:** Processing the raw data and merging it into tidy, analytical DataFrames.
+- **Data Filtering, Cleaning & Merging:** Processing the raw data and merging it into clean DataFrames.
 - **Visual Representation:** The code required to render the interactive chart(s) and answer the specific question.
 
 ## The website 
