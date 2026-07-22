@@ -13,23 +13,23 @@
 // ---------------------------------------------------------------------------
 
 const COUNTRY_COLORS_RQ2 = {
-  france:      "#1f7f95",
-  germany:     "#E8B71D",
-  italy:       "#90BE6D",
+  france: "#1f7f95",
+  germany: "#E8B71D",
+  italy: "#90BE6D",
   netherlands: "#a180ad",
-  portugal:    "#f4a64e",
-  spain:       "#bb521f",
+  portugal: "#f4a64e",
+  spain: "#bb521f",
 };
 
 const CATEGORY_COLORS_RQ2 = {
-  "library/archive":                     "#7C6A8F",
+  "library/archive": "#7C6A8F",
   "natural history/science institution": "#6B8E4E",
-  "art/history museum":                  "#D4A24C",
-  "audiovisual/film archive":            "#2C5F6F",
-  "academic/research institution":       "#C1666B",
-  "government/administrative body":      "#D98E9B",
-  "media/broadcast organization":        "#E0703A",
-  "other":                               "#C9C2B4",
+  "art/history museum": "#D4A24C",
+  "audiovisual/film archive": "#2C5F6F",
+  "academic/research institution": "#C1666B",
+  "government/administrative body": "#D98E9B",
+  "media/broadcast organization": "#E0703A",
+  "other": "#C9C2B4",
 };
 
 let PROVIDERS_DATA = {};
@@ -85,19 +85,19 @@ function initRsq01Chart(country) {
     const providerStr = providerDisplayName.length > maxLength ? providerDisplayName.slice(0, maxLength - 1) + "\u2026" : providerDisplayName;
 
     return {
-      provider:     providerStr + suffix,
+      provider: providerStr + suffix,
       fullProvider: providerDisplayName + suffix,
-      count:        d.count,
-      percentage:   totalCount > 0 ? (d.count / totalCount * 100).toFixed(1) + "%" : "0%",
+      count: d.count,
+      percentage: totalCount > 0 ? (d.count / totalCount * 100).toFixed(1) + "%" : "0%",
       // Pre-format: amCharts bullet sprites don't support {field.formatNumber()} syntax
-      countLabel:   d.count >= 1_000_000
-                      ? (d.count / 1_000_000).toFixed(1).replace(/\.0$/, "") + "M"
-                      : d.count >= 1_000
-                        ? (d.count / 1_000).toFixed(0) + "K"
-                        : d.count.toString(),
-      category:     d.category,
-      country:      d.country,
-      catColor:     CATEGORY_COLORS_RQ2[d.category] || "#AACAE0",
+      countLabel: d.count >= 1_000_000
+        ? (d.count / 1_000_000).toFixed(1).replace(/\.0$/, "") + "M"
+        : d.count >= 1_000
+          ? (d.count / 1_000).toFixed(0) + "K"
+          : d.count.toString(),
+      category: d.category,
+      country: d.country,
+      catColor: CATEGORY_COLORS_RQ2[d.category] || "#AACAE0",
     };
   }).reverse();
 
@@ -330,9 +330,9 @@ function initRsq03BarChart() {
       width: 170
     })
   );
-  legend.labels.template.setAll({ 
-    fontSize: 10, 
-    fontFamily: "'Inter', sans-serif", 
+  legend.labels.template.setAll({
+    fontSize: 10,
+    fontFamily: "'Inter', sans-serif",
     fill: am5.color("#1A1A1A"),
     oversizedBehavior: "wrap",
     maxWidth: 140
@@ -468,7 +468,7 @@ document.addEventListener("DOMContentLoaded", () => {
       CATEGORY_BY_COUNTRY = rq02Data.CATEGORY_BY_COUNTRY;
       CATEGORIES_ORDER = rq02Data.CATEGORIES_ORDER;
       PROVIDER_SHORT_NAMES = shortNamesData;
-      
+
       rq2ObserveSection("analysis-2", () => { initRsq01Chart("all"); });
       rq2ObserveSection("analysis-3", () => { initRsq03BarChart(); });
     })
@@ -518,143 +518,156 @@ document.addEventListener("DOMContentLoaded", function () {
       })
     );
 
-    var data = {
-      name: "France",
-      nodeSettings: { fill: am5.color(0x1f7f95) },
-      children: [
-        {
-          name: "BnF",
-          value: 63.5,
-          customTooltip: "National Library of France\nConcentration: 63.5%",
-          nodeSettings: { fill: am5.color(0x203464) }
-        },
-        {
-          name: "Top 5",
-          value: 27.8,
-          customTooltip: "The next 4 top providers\naccount for 27.8%",
-          nodeSettings: { fill: am5.color(0x4b74a0) }
-        },
-        {
-          name: "Others",
-          value: 8.7,
-          customTooltip: "The remaining 45 providers\nmake up only 8.7%",
-          nodeSettings: { fill: am5.color(0x679e91) }
-        }
-      ]
-    };
+    fetch("assets/data/rq02.json")
+      .then(res => res.json())
+      .then(jsonData => {
+        var frData = jsonData.CONCENTRATION_DATA.find(d => d.country === "France");
+        var top1 = frData ? frData.pct_top1_provider : 63.5;
+        var top2_5 = frData ? Math.round((frData.pct_top5_providers - top1) * 10) / 10 : 27.8;
+        var others = frData ? Math.round((100 - frData.pct_top5_providers) * 10) / 10 : 8.7;
+        var numOthers = frData ? (frData.num_providers - 5) : 45;
+        var topName = (frData && frData.top_provider !== "National Library of France") ? frData.top_provider : "BnF";
+        var topTooltip = frData ? frData.top_provider : "National Library of France";
 
-    var tooltip = series.set("tooltip", am5.Tooltip.new(root, {}));
+        var data = {
+          name: "France",
+          nodeSettings: { fill: am5.color(0x1f7f95) },
+          children: [
+            {
+              name: topName,
+              value: top1,
+              customTooltip: topTooltip + "\nConcentration: " + top1 + "%",
+              nodeSettings: { fill: am5.color(0x203464) }
+            },
+            {
+              name: "Top 5",
+              value: top2_5,
+              customTooltip: "The next 4 top providers\naccount for " + top2_5 + "%",
+              nodeSettings: { fill: am5.color(0x4b74a0) }
+            },
+            {
+              name: "Others",
+              value: others,
+              customTooltip: "The remaining " + numOthers + " providers\nmake up only " + others + "%",
+              nodeSettings: { fill: am5.color(0x679e91) }
+            }
+          ]
+        };
 
-    // Style the tooltip background
-    tooltip.get("background").setAll({
-      fill: am5.color(0x111111),
-      fillOpacity: 0.9,
-      stroke: am5.color(0xffffff),
-      strokeWidth: 2,
-      cornerRadius: 8
-    });
+        var tooltip = series.set("tooltip", am5.Tooltip.new(root, {}));
 
-    // Style the tooltip text
-    tooltip.label.setAll({
-      fill: am5.color(0xffffff),
-      fontSize: 14
-    });
+        // Style the tooltip background
+        tooltip.get("background").setAll({
+          fill: am5.color(0x111111),
+          fillOpacity: 0.9,
+          stroke: am5.color(0xffffff),
+          strokeWidth: 2,
+          cornerRadius: 8
+        });
 
-    // Format nodes
-    series.nodes.template.setAll({
-      tooltipText: "{customTooltip}",
-      cursorOverStyle: "pointer"
-    });
+        // Style the tooltip text
+        tooltip.label.setAll({
+          fill: am5.color(0xffffff),
+          fontSize: 14
+        });
 
-    // Apply color settings to the bubbles
-    series.circles.template.setAll({
-      templateField: "nodeSettings"
-    });
+        // Format nodes
+        series.nodes.template.setAll({
+          tooltipText: "{customTooltip}",
+          cursorOverStyle: "pointer"
+        });
 
-    // Format labels
-    series.labels.template.setAll({
-      text: "{name}\n[bold]{value}%[/]",
-      fill: am5.color(0xffffff),
-      fontSize: 14,
-      oversizedBehavior: "fit",
-      textAlign: "center"
-    });
+        // Apply color settings to the bubbles
+        series.circles.template.setAll({
+          templateField: "nodeSettings"
+        });
 
-    // Remove percentage specifically from the France bubble
-    series.labels.template.adapters.add("text", function (text, target) {
-      if (target.dataItem && target.dataItem.dataContext && target.dataItem.dataContext.name === "France") {
-        return "France";
-      }
-      return text;
-    });
+        // Format labels
+        series.labels.template.setAll({
+          text: "{name}\n[bold]{value}%[/]",
+          fill: am5.color(0xffffff),
+          fontSize: 14,
+          oversizedBehavior: "fit",
+          textAlign: "center"
+        });
 
-    // Hide tooltip for the center node
-    series.nodes.template.adapters.add("tooltipText", function (text, target) {
-      if (target.dataItem && target.dataItem.dataContext && target.dataItem.dataContext.name === "France") {
-        return "";
-      }
-      return text;
-    });
-
-    // Wait for the falling bubble animation to complete before drawing the chart
-    if (typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined") {
-      var dataSet = false;
-
-      function triggerChart() {
-        if (dataSet) return;
-        dataSet = true;
-        series.data.setAll([data]);
-        // Note: For ForceDirected, setting data triggers the layout animation automatically.
-      }
-
-      ScrollTrigger.create({
-        trigger: ".bridge-section",
-        start: "top 85%",
-        once: true,
-        onEnter: function () {
-          var rightCol = document.querySelector(".france-concentration-right");
-          var chartContainerEl = document.getElementById("france-concentration-chart");
-          var bubble = document.getElementById("falling-france-bubble");
-
-          if (rightCol && chartContainerEl && bubble) {
-            var rightColRect = rightCol.getBoundingClientRect();
-            var chartRect = chartContainerEl.getBoundingClientRect();
-            // targetTop is the offset from the top of rightCol (the positioned parent) to the chart centre
-            var targetTop = chartRect.top - rightColRect.top + (chartRect.height / 2) - 60;
-
-            gsap.fromTo(bubble,
-              {
-                top: -300,
-                x: 0,
-                opacity: 0,
-                rotation: -15
-              },
-              {
-                top: targetTop,
-                x: 0,
-                opacity: 1,
-                rotation: 0,
-                duration: 1.8,
-                ease: "power2.inOut",
-                onComplete: function () {
-                  gsap.to(bubble, { opacity: 0, duration: 0.3 });
-                  triggerChart();
-                }
-              }
-            );
-
-            // Failsafe: if animation gets killed or interrupted and onComplete doesn't fire,
-            // force the chart to render after 2.5s anyway so it's never left empty.
-            setTimeout(triggerChart, 2500);
-
-          } else {
-            triggerChart();
+        // Remove percentage specifically from the France bubble
+        series.labels.template.adapters.add("text", function (text, target) {
+          if (target.dataItem && target.dataItem.dataContext && target.dataItem.dataContext.name === "France") {
+            return "France";
           }
+          return text;
+        });
+
+        // Hide tooltip for the center node
+        series.nodes.template.adapters.add("tooltipText", function (text, target) {
+          if (target.dataItem && target.dataItem.dataContext && target.dataItem.dataContext.name === "France") {
+            return "";
+          }
+          return text;
+        });
+
+        // Wait for the falling bubble animation to complete before drawing the chart
+        if (typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined") {
+          var dataSet = false;
+
+          function triggerChart() {
+            if (dataSet) return;
+            dataSet = true;
+            series.data.setAll([data]);
+            // Note: For ForceDirected, setting data triggers the layout animation automatically.
+          }
+
+          ScrollTrigger.create({
+            trigger: ".bridge-section",
+            start: "top 85%",
+            once: true,
+            onEnter: function () {
+              var rightCol = document.querySelector(".france-concentration-right");
+              var chartContainerEl = document.getElementById("france-concentration-chart");
+              var bubble = document.getElementById("falling-france-bubble");
+
+              if (rightCol && chartContainerEl && bubble) {
+                var rightColRect = rightCol.getBoundingClientRect();
+                var chartRect = chartContainerEl.getBoundingClientRect();
+                // targetTop is the offset from the top of rightCol (the positioned parent) to the chart centre
+                var targetTop = chartRect.top - rightColRect.top + (chartRect.height / 2) - 60;
+
+                gsap.fromTo(bubble,
+                  {
+                    top: -300,
+                    x: 0,
+                    opacity: 0,
+                    rotation: -15
+                  },
+                  {
+                    top: targetTop,
+                    x: 0,
+                    opacity: 1,
+                    rotation: 0,
+                    duration: 1.8,
+                    ease: "power2.inOut",
+                    onComplete: function () {
+                      gsap.to(bubble, { opacity: 0, duration: 0.3 });
+                      triggerChart();
+                    }
+                  }
+                );
+
+                // Failsafe: if animation gets killed or interrupted and onComplete doesn't fire,
+                // force the chart to render after 2.5s anyway so it's never left empty.
+                setTimeout(triggerChart, 2500);
+
+              } else {
+                triggerChart();
+              }
+            }
+          });
+        } else {
+          series.data.setAll([data]);
         }
-      });
-    } else {
-      series.data.setAll([data]);
-    }
+      })
+      .catch(err => console.error("Error loading concentration data:", err));
   });
 });
 
@@ -697,11 +710,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Colors per country, reused from your earlier Plotly map for consistency
   const COUNTRY_COLORS_MAP = {
-    "Italy":       0x90BE6D,
-    "Germany":     0xfeda15,
-    "France":      0x1f7f95,
-    "Spain":       0xbb521f,
-    "Portugal":    0xf4a64e,
+    "Italy": 0x90BE6D,
+    "Germany": 0xfeda15,
+    "France": 0x1f7f95,
+    "Spain": 0xbb521f,
+    "Portugal": 0xf4a64e,
     "Netherlands": 0xa180ad
   };
 
@@ -731,13 +744,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Predefined zoom targets for each country
       var COUNTRY_VIEWS = {
-        "all":         { longitude: 7,     latitude: 46,   zoom: 6.5 },
-        "France":      { longitude: 2.5,   latitude: 46.5, zoom: 20  },
-        "Germany":     { longitude: 10,    latitude: 51,   zoom: 20  },
-        "Italy":       { longitude: 12.5,  latitude: 42,   zoom: 20  },
-        "Netherlands": { longitude: 5.3,   latitude: 52.3, zoom: 25  },
-        "Portugal":    { longitude: -12.2, latitude: 39.5, zoom: 15  },
-        "Spain":       { longitude: -3.5,  latitude: 36,   zoom: 15  }
+        "all": { longitude: 7, latitude: 46, zoom: 6.5 },
+        "France": { longitude: 2.5, latitude: 46.5, zoom: 20 },
+        "Germany": { longitude: 10, latitude: 51, zoom: 20 },
+        "Italy": { longitude: 12.5, latitude: 42, zoom: 20 },
+        "Netherlands": { longitude: 5.3, latitude: 52.3, zoom: 25 },
+        "Portugal": { longitude: -12.2, latitude: 39.5, zoom: 15 },
+        "Spain": { longitude: -3.5, latitude: 36, zoom: 15 }
       };
 
       // Global function called by the toggle buttons in the HTML
@@ -746,25 +759,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Map country names to CSS hex colors
         var BUTTON_COLORS = {
-          "all":         "#1a3a5f",
-          "France":      "#1f7f95",
-          "Germany":     "#feda15",
-          "Italy":       "#90BE6D",
+          "all": "#1a3a5f",
+          "France": "#1f7f95",
+          "Germany": "#feda15",
+          "Italy": "#90BE6D",
           "Netherlands": "#a180ad",
-          "Portugal":    "#f4a64e",
-          "Spain":       "#bb521f"
+          "Portugal": "#f4a64e",
+          "Spain": "#bb521f"
         };
 
         // Update button styles: reset all, then highlight the active one
         document.querySelectorAll(".map-country-btn").forEach(function (btn) {
           if (btn.dataset.country === country) {
             var bgColor = BUTTON_COLORS[country] || "#1a3a5f";
-            btn.style.background  = bgColor;
-            btn.style.color       = "#ffffff";
+            btn.style.background = bgColor;
+            btn.style.color = "#ffffff";
             btn.style.borderColor = bgColor;
           } else {
-            btn.style.background  = "";
-            btn.style.color       = "";
+            btn.style.background = "";
+            btn.style.color = "";
             btn.style.borderColor = "";
           }
         });
@@ -794,9 +807,10 @@ document.addEventListener("DOMContentLoaded", function () {
         am5map.MapPointSeries.new(root, {})
       );
 
-      fetch("../notebook/data/json/provider_geo.json")
+      fetch("assets/data/rq02.json")
         .then(res => res.json())
-        .then(data => {
+        .then(jsonData => {
+          let data = jsonData.GEO_DATA;
           data = data.filter(d => d.latitude && d.longitude);
 
           let maxCount = Math.max(...data.map(d => d.count));

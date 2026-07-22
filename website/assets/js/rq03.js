@@ -28,20 +28,20 @@
 
   // Country display labels and button colors (matching map section)
   const COUNTRY_META = {
-    "France":      { label: "France",      color: "#1f7f95" },
-    "Germany":     { label: "Germany",     color: "#feda15" },
-    "Italy":       { label: "Italy",       color: "#90BE6D" },
+    "France": { label: "France", color: "#1f7f95" },
+    "Germany": { label: "Germany", color: "#feda15" },
+    "Italy": { label: "Italy", color: "#90BE6D" },
     "Netherlands": { label: "Netherlands", color: "#a180ad" },
-    "Portugal":    { label: "Portugal",    color: "#f4a64e" },
-    "Spain":       { label: "Spain",       color: "#bb521f" }
+    "Portugal": { label: "Portugal", color: "#f4a64e" },
+    "Spain": { label: "Spain", color: "#bb521f" }
   };
 
   let qualityData = null;
   let currentCountry = "France";
 
   // ─── Load data and initialise ───────────────────────────────────────────────
-  fetch("../notebook/data/json/country_quality_score.json")
-    .then(r => r.json())
+  window.rq03DataPromise = fetch("assets/data/rq03.json").then(r => r.json());
+  window.rq03DataPromise
     .then(data => {
       qualityData = data;
       renderWaffles(currentCountry);
@@ -81,30 +81,23 @@
 
   // ─── Render both waffles ───────────────────────────────────────────────────
   function renderWaffles(country) {
-    const raw = qualityData[country];
-    if (!raw) return;
+    if (!qualityData || !qualityData.TIER_BREAKDOWN || !qualityData.METADATA_BREAKDOWN) return;
 
-    // Extract content tier counts (order: 0,1,2,3,4)
-    const contentFacet  = raw.facets.find(f => f.name === "contentTier");
-    const metadataFacet = raw.facets.find(f => f.name === "metadataTier");
-
-    const contentMap = {};
-    contentFacet.fields.forEach(f => contentMap[f.label] = f.count);
-
-    const metadataMap = {};
-    metadataFacet.fields.forEach(f => metadataMap[f.label] = f.count);
+    const tierRow = qualityData.TIER_BREAKDOWN.find(d => d.country === country);
+    const metaRow = qualityData.METADATA_BREAKDOWN.find(d => d.country === country);
+    if (!tierRow || !metaRow) return;
 
     // Build ordered arrays for rendering
     const contentData = ["0", "1", "2", "3", "4"].map(label => ({
-      label, count: contentMap[label] || 0, ...CONTENT_COLORS[label]
+      label, count: tierRow[`pct_tier_${label}`] || 0, ...CONTENT_COLORS[label]
     }));
 
     const metadataData = ["0", "A", "B", "C"].map(label => ({
-      label, count: metadataMap[label] || 0, ...METADATA_COLORS[label]
+      label, count: metaRow[`pct_metadataTier_${label}`] || 0, ...METADATA_COLORS[label]
     }));
 
-    drawWaffle("waffle-content",  contentData);
-    drawLegend("waffle-content-legend",  contentData);
+    drawWaffle("waffle-content", contentData);
+    drawLegend("waffle-content-legend", contentData);
     drawWaffle("waffle-metadata", metadataData);
     drawLegend("waffle-metadata-legend", metadataData);
   }
@@ -174,7 +167,7 @@
       });
       rect.addEventListener("mousemove", e => {
         tooltip.style.left = (e.clientX + 14) + "px";
-        tooltip.style.top  = (e.clientY - 28) + "px";
+        tooltip.style.top = (e.clientY - 28) + "px";
       });
       rect.addEventListener("mouseleave", () => {
         tooltip.style.opacity = "0";
@@ -204,7 +197,7 @@
 
     // Reverse so legend reads best tier (top of waffle) → worst tier (bottom)
     data.filter(d => d.count > 0).slice().reverse().forEach(d => {
-      const pct  = Math.round(d.count / total * 100);
+      const pct = Math.round(d.count / total * 100);
       const item = document.createElement("div");
       item.className = "waffle-legend-item";
 
@@ -233,7 +226,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const CDN_BASE = "https://cdn.amcharts.com/lib/5";
 
   // Single accent color — matches #6B8E4E already used in the metadata waffle chart
-  const OPEN_COLOR      = "#6B8E4E";
+  const OPEN_COLOR = "#6B8E4E";
   const REMAINDER_COLOR = "#e0dbd2"; // Warm off-white track matches site bg (#FBF9F5)
 
   function loadScript(src, cb) {
@@ -244,8 +237,8 @@ document.addEventListener("DOMContentLoaded", function () {
     document.head.appendChild(s);
   }
 
-  fetch("../notebook/data/json/openness.json")
-    .then(res => res.json())
+  (window.rq03DataPromise || fetch("assets/data/rq03.json").then(r => r.json()))
+    .then(d => d.OPENNESS)
     .then(data => {
       // Sort descending: best (most open) → worst
       data.sort((a, b) => b.pct_open - a.pct_open);
@@ -263,9 +256,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function buildRings(data) {
     data.forEach(function (d, i) {
-      const ringId     = `openness-ring-${i}`;
+      const ringId = `openness-ring-${i}`;
       const countryLabel = d.country.charAt(0).toUpperCase() + d.country.slice(1);
-      const ringColor  = OPEN_COLOR;
+      const ringColor = OPEN_COLOR;
 
       // Create wrapper card per country
       const card = document.createElement("div");
@@ -313,7 +306,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }));
 
         series.data.setAll([
-          { category: "Open",      value: d.pct_open },
+          { category: "Open", value: d.pct_open },
           { category: "Remainder", value: 100 - d.pct_open }
         ]);
 

@@ -1,0 +1,146 @@
+{
+  "TIER_BREAKDOWN": [
+    {
+      "country": "Netherlands",
+      "total_items": 9204845,
+      "pct_tier_0": 1.1,
+      "pct_tier_1": 11.4,
+      "pct_tier_2": 9.6,
+      "pct_tier_3": 9.0,
+      "pct_tier_4": 68.8
+    },
+    {
+      "country": "Portugal",
+      "total_items": 139858,
+      "pct_tier_0": 2.2,
+      "pct_tier_1": 38.7,
+      "pct_tier_2": 18.7,
+      "pct_tier_3": 0.1,
+      "pct_tier_4": 40.4
+    },
+    {
+      "country": "Spain",
+      "total_items": 6581724,
+      "pct_tier_0": 1.1,
+      "pct_tier_1": 33.5,
+      "pct_tier_2": 13.9,
+      "pct_tier_3": 15.4,
+      "pct_tier_4": 36.0
+    },
+    {
+      "country": "Germany",
+      "total_items": 8701240,
+      "pct_tier_0": 3.1,
+      "pct_tier_1": 20.8,
+      "pct_tier_2": 30.3,
+      "pct_tier_3": 29.6,
+      "pct_tier_4": 16.2
+    },
+    {
+      "country": "France",
+      "total_items": 4724898,
+      "pct_tier_0": 17.4,
+      "pct_tier_1": 41.2,
+      "pct_tier_2": 2.7,
+      "pct_tier_3": 27.4,
+      "pct_tier_4": 11.3
+    },
+    {
+      "country": "Italy",
+      "total_items": 1832376,
+      "pct_tier_0": 2.5,
+      "pct_tier_1": 53.2,
+      "pct_tier_2": 27.0,
+      "pct_tier_3": 9.2,
+      "pct_tier_4": 8.0
+    }
+  ],
+  "METADATA_BREAKDOWN": [
+    {
+      "country": "Italy",
+      "total_items": 1832376,
+      "pct_metadataTier_0": 13.6,
+      "pct_metadataTier_A": 41.3,
+      "pct_metadataTier_B": 32.5,
+      "pct_metadataTier_C": 12.6
+    },
+    {
+      "country": "Germany",
+      "total_items": 8701240,
+      "pct_metadataTier_0": 5.2,
+      "pct_metadataTier_A": 65.7,
+      "pct_metadataTier_B": 23.5,
+      "pct_metadataTier_C": 5.6
+    },
+    {
+      "country": "Spain",
+      "total_items": 6581724,
+      "pct_metadataTier_0": 30.0,
+      "pct_metadataTier_A": 39.1,
+      "pct_metadataTier_B": 25.3,
+      "pct_metadataTier_C": 5.5
+    },
+    {
+      "country": "France",
+      "total_items": 4724898,
+      "pct_metadataTier_0": 29.3,
+      "pct_metadataTier_A": 48.0,
+      "pct_metadataTier_B": 20.9,
+      "pct_metadataTier_C": 1.8
+    },
+    {
+      "country": "Netherlands",
+      "total_items": 9204845,
+      "pct_metadataTier_0": 14.4,
+      "pct_metadataTier_A": 66.8,
+      "pct_metadataTier_B": 17.2,
+      "pct_metadataTier_C": 1.5
+    },
+    {
+      "country": "Portugal",
+      "total_items": 139858,
+      "pct_metadataTier_0": 2.4,
+      "pct_metadataTier_A": 95.5,
+      "pct_metadataTier_B": 1.7,
+      "pct_metadataTier_C": 0.3
+    }
+  ],
+  "OPENNESS": [
+    {
+      "country": "Italy",
+      "pct_open": 11.8,
+      "pct_restricted": 31.2,
+      "pct_permission": 56.9
+    },
+    {
+      "country": "France",
+      "pct_open": 11.3,
+      "pct_restricted": 63.3,
+      "pct_permission": 25.4
+    },
+    {
+      "country": "Germany",
+      "pct_open": 28.3,
+      "pct_restricted": 50.2,
+      "pct_permission": 21.5
+    },
+    {
+      "country": "Spain",
+      "pct_open": 44.5,
+      "pct_restricted": 37.7,
+      "pct_permission": 17.8
+    },
+    {
+      "country": "Netherlands",
+      "pct_open": 76.1,
+      "pct_restricted": 10.9,
+      "pct_permission": 13.0
+    },
+    {
+      "country": "Portugal",
+      "pct_open": 97.7,
+      "pct_restricted": 0.1,
+      "pct_permission": 2.2
+    }
+  ]
+}
