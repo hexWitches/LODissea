@@ -165,7 +165,9 @@ function initRQ01Chart() {
             });
 
             series.columns.template.setAll({
-              width: am5.percent(72)
+              width: am5.percent(72),
+              cornerRadiusBL: 8,
+              cornerRadiusBR: 8
             });
 
             /* Percentage label above the active bar */
@@ -195,7 +197,9 @@ function initRQ01Chart() {
             });
 
             series.columns.template.setAll({
-              width: am5.percent(72)
+              width: am5.percent(72),
+              cornerRadiusTL: 8,
+              cornerRadiusTR: 8
             });
           }
 

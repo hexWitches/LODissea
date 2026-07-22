@@ -106,9 +106,9 @@ const CATEGORY_BY_COUNTRY = [
   { country: "France",      "library/archive": 76.6, "natural history/science institution": 10.6, "government/administrative body": 8.8,  "art/history museum": 1.8,  "audiovisual/film archive": 1.9,  "academic/research institution": 0.4, "media/broadcast organization": 0.0, "other": 0.0 },
   { country: "Germany",     "library/archive": 76.0, "natural history/science institution": 4.0,  "government/administrative body": 0.0,  "art/history museum": 13.7, "audiovisual/film archive": 0.9,  "academic/research institution": 2.3, "media/broadcast organization": 0.6, "other": 0.1 },
   { country: "Italy",       "library/archive": 46.2, "natural history/science institution": 0.1,  "government/administrative body": 0.1,  "art/history museum": 7.1,  "audiovisual/film archive": 31.6, "academic/research institution": 13.4,"media/broadcast organization": 0.0, "other": 1.3 },
-  { country: "Netherlands", "library/archive": 26.9, "natural history/science institution": 51.0, "government/administrative body": 6.6,  "art/history museum": 9.0,  "audiovisual/film archive": 1.8,  "academic/research institution": 2.8, "media/broadcast organization": 0.0, "other": 1.8 },
   { country: "Portugal",    "library/archive": 37.5, "natural history/science institution": 47.0, "government/administrative body": 4.5,  "art/history museum": 4.7,  "audiovisual/film archive": 0.5,  "academic/research institution": 5.3, "media/broadcast organization": 0.4, "other": 0.1 },
   { country: "Spain",       "library/archive": 78.3, "natural history/science institution": 1.4,  "government/administrative body": 5.3,  "art/history museum": 5.0,  "audiovisual/film archive": 0.0,  "academic/research institution": 7.0, "media/broadcast organization": 1.4, "other": 0.0 },
+  { country: "Netherlands", "library/archive": 26.9, "natural history/science institution": 51.0, "government/administrative body": 6.6,  "art/history museum": 9.0,  "audiovisual/film archive": 1.8,  "academic/research institution": 2.8, "media/broadcast organization": 0.0, "other": 1.8 },
 ];
 
 const CATEGORIES_ORDER = [
@@ -199,18 +199,7 @@ function initRsq01Chart(country) {
     })
   );
 
-  chart.children.unshift(
-    am5.Label.new(root, {
-      text: "Top 10 Providers",
-      fontSize: 16,
-      fontWeight: "600",
-      fontFamily: "'Inter', sans-serif",
-      fill: am5.color("#1A1A1A"),
-      x: am5.p50,
-      centerX: am5.p50,
-      paddingBottom: 15,
-    })
-  );
+
 
   // Y axis — provider names
   const yRenderer = am5xy.AxisRendererY.new(root, { minGridDistance: 8 });
@@ -243,6 +232,19 @@ function initRsq01Chart(country) {
     })
   );
 
+  // X-axis title — shown below the axis tick labels
+  chart.children.push(
+    am5.Label.new(root, {
+      text: "Number of items",
+      fontSize: 11,
+      fontFamily: "'Inter', sans-serif",
+      fill: am5.color("#5A5A5A"),
+      x: am5.p50,
+      centerX: am5.p50,
+      paddingTop: 12,
+    })
+  );
+
   // Series
   const LIGHT_BG_CATS = new Set(["media/broadcast organization", "other", "library/archive"]);
 
@@ -267,8 +269,8 @@ function initRsq01Chart(country) {
 
   series.columns.template.setAll({
     height: am5.percent(65),
-    cornerRadiusTL: 4, cornerRadiusBL: 4,
-    cornerRadiusBR: 4, cornerRadiusTR: 4,
+    cornerRadiusTL: 8, cornerRadiusBL: 8,
+    cornerRadiusBR: 8, cornerRadiusTR: 8,
     tooltipText: "[bold]{fullProvider}[/]\n{percentage} contribution ({countLabel} items)",
     tooltipY: am5.percent(50),
     fill: am5.color(defaultBarColor),
@@ -373,47 +375,85 @@ function initRsq03BarChart() {
     })
   );
 
-  // Legend at top
-  const legend = chart.children.unshift(
+
+
+  // Normalization and sorting
+  let chartData = CATEGORY_BY_COUNTRY.map(item => {
+    let total = 0;
+    CATEGORIES_ORDER.forEach(cat => total += item[cat] || 0);
+    const newItem = { country: item.country };
+    let topCat = null;
+    let bottomCat = null;
+    CATEGORIES_ORDER.forEach(cat => {
+      let val = ((item[cat] || 0) / total) * 100;
+      newItem[cat] = val;
+      if (val > 0) {
+        if (!bottomCat) bottomCat = cat;
+        topCat = cat;
+      }
+    });
+    newItem.topCategory = topCat;
+    newItem.bottomCategory = bottomCat;
+    return newItem;
+  });
+
+  // Put Netherlands last
+  const nlIndex = chartData.findIndex(d => d.country === "Netherlands");
+  if (nlIndex !== -1) {
+    const nl = chartData.splice(nlIndex, 1)[0];
+    chartData.push(nl);
+  }
+
+  // Legend on the right
+  const legend = chart.rightAxesContainer.children.push(
     am5.Legend.new(root, {
-      centerX: am5.p50, x: am5.p50,
-      marginBottom: 12,
+      layout: root.verticalLayout,
+      centerY: am5.p50,
+      y: am5.p50,
+      marginLeft: 15,
+      width: 170
     })
   );
-  legend.labels.template.setAll({ fontSize: 10, fontFamily: "'Inter', sans-serif", fill: am5.color("#1A1A1A") });
+  legend.labels.template.setAll({ 
+    fontSize: 10, 
+    fontFamily: "'Inter', sans-serif", 
+    fill: am5.color("#1A1A1A"),
+    oversizedBehavior: "wrap",
+    maxWidth: 140
+  });
   legend.markers.template.setAll({ width: 12, height: 12 });
 
-  // Title -- unshift AFTER the legend so it renders above it, not below
-  chart.children.unshift(
-    am5.Label.new(root, {
-      text: "Category Composition by Country",
-      fontSize: 16,
-      fontWeight: "600",
-      fontFamily: "'Inter', sans-serif",
-      fill: am5.color("#1A1A1A"),
-      x: am5.p50,
-      centerX: am5.p50,
-      paddingBottom: 10,
-    })
-  );
-
-  // Y axis
-  const yRenderer = am5xy.AxisRendererY.new(root, { minGridDistance: 20 });
-  yRenderer.labels.template.setAll({ fontSize: 12, fontFamily: "'Inter', sans-serif", fill: am5.color("#1A1A1A") });
-  yRenderer.grid.template.setAll({ visible: false });
-
-  const yAxis = chart.yAxes.push(
-    am5xy.CategoryAxis.new(root, { categoryField: "country", renderer: yRenderer })
-  );
-  yAxis.data.setAll([...CATEGORY_BY_COUNTRY].reverse());
-
-  // X axis
-  const xRenderer = am5xy.AxisRendererX.new(root, {});
-  xRenderer.labels.template.setAll({ fontSize: 10, fontFamily: "'Inter', sans-serif", fill: am5.color("#5A5A5A") });
-  xRenderer.grid.template.setAll({ stroke: am5.color("#1A3A5F"), strokeOpacity: 0.07 });
+  // X axis (Countries)
+  const xRenderer = am5xy.AxisRendererX.new(root, { minGridDistance: 20 });
+  xRenderer.labels.template.setAll({ fontSize: 12, fontFamily: "'Inter', sans-serif", fill: am5.color("#1A1A1A") });
+  xRenderer.grid.template.setAll({ visible: false });
 
   const xAxis = chart.xAxes.push(
-    am5xy.ValueAxis.new(root, { min: 0, max: 100, strictMinMax: true, renderer: xRenderer, numberFormat: "#'%'" })
+    am5xy.CategoryAxis.new(root, { categoryField: "country", renderer: xRenderer })
+  );
+  xAxis.data.setAll(chartData);
+
+  // Y axis (Percentages)
+  const yRenderer = am5xy.AxisRendererY.new(root, {});
+  yRenderer.labels.template.setAll({ fontSize: 10, fontFamily: "'Inter', sans-serif", fill: am5.color("#5A5A5A") });
+  yRenderer.grid.template.setAll({ stroke: am5.color("#1A3A5F"), strokeOpacity: 0.07 });
+
+  const yAxis = chart.yAxes.push(
+    am5xy.ValueAxis.new(root, { min: 0, max: 100, strictMinMax: true, renderer: yRenderer, numberFormat: "#'%'" })
+  );
+
+  // Y-axis title
+  chart.leftAxesContainer.children.unshift(
+    am5.Label.new(root, {
+      text: "Percentage of category (%)",
+      fontSize: 11,
+      fontFamily: "'Inter', sans-serif",
+      fill: am5.color("#5A5A5A"),
+      rotation: -90,
+      y: am5.p50,
+      centerX: am5.p50,
+      centerY: am5.p50,
+    })
   );
 
   CATEGORIES_ORDER.forEach((cat, index) => {
@@ -425,22 +465,31 @@ function initRsq03BarChart() {
       am5xy.ColumnSeries.new(root, {
         name: cat,
         xAxis, yAxis,
-        valueXField: cat,
-        categoryYField: "country",
+        valueYField: cat,
+        categoryXField: "country",
         stacked: true,
       })
     );
 
     series.columns.template.setAll({
-      height: am5.percent(60),
+      width: am5.percent(60),
       fill: am5.color(color),
       stroke: am5.color(color),
-      cornerRadiusTL: isFirst ? 8 : 0,
-      cornerRadiusBL: isFirst ? 8 : 0,
-      cornerRadiusTR: isLast ? 8 : 0,
-      cornerRadiusBR: isLast ? 8 : 0,
-      tooltipText: "[bold]{categoryY}[/]\n" + cat + "\n{valueX.formatNumber('#.0')}%",
+      tooltipText: "[bold]{categoryX}[/]\n" + cat + "\n{valueY.formatNumber('#.0')}%",
       tooltipY: am5.percent(50),
+    });
+
+    series.columns.template.adapters.add("cornerRadiusTL", (radius, target) => {
+      return target.dataItem?.dataContext?.topCategory === cat ? 8 : 0;
+    });
+    series.columns.template.adapters.add("cornerRadiusTR", (radius, target) => {
+      return target.dataItem?.dataContext?.topCategory === cat ? 8 : 0;
+    });
+    series.columns.template.adapters.add("cornerRadiusBL", (radius, target) => {
+      return target.dataItem?.dataContext?.bottomCategory === cat ? 8 : 0;
+    });
+    series.columns.template.adapters.add("cornerRadiusBR", (radius, target) => {
+      return target.dataItem?.dataContext?.bottomCategory === cat ? 8 : 0;
     });
 
     // Style the tooltip itself (background color matches category)
@@ -464,9 +513,9 @@ function initRsq03BarChart() {
 
     series.set("tooltip", tooltip);
 
-    series.data.setAll([...CATEGORY_BY_COUNTRY].reverse());
+    series.data.setAll(chartData);
     series.appear(1000);
-    legend.data.push(series);
+    legend.data.unshift(series);
   });
 
   chart.appear(1000, 100);

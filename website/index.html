@@ -59,7 +59,7 @@
           LOD<span>issea</span>
         </h1>
         <p class="hero-subtitle">
-          A journey through european(a) <br class="hide-mobile" />cultural heritage database
+          A journey through european(a)
         </p>
       </div>
     </div>
@@ -75,7 +75,6 @@
 
       <!-- Paper boat on the waves -->
       <div id="wave-boat">
-
       </div>
 
       <button class="start-journey-btn" id="start-journey-btn">
@@ -98,15 +97,29 @@
   <section id="introduction">
     <div class="journey-text-wrapper">
       <h2 class="journey-title">The Journey Begins</h2>
-      <p class="journey-subtitle">
-        Starting in the Netherlands, exploring <br class="hide-mobile" />the vast archives of cultural artifacts.
+      <p class="intro-desc">
+        Europeana is a <strong>shared digital space</strong> where millions of cultural artifacts - paintings,
+        photographs, manuscripts, films and sounds - from thousands of institutions across Europe converge into a vast
+        and open sea. It sits at the heart of the EU's common data space for cultural heritage, anchored by
+        <strong>three principles</strong>: heritage that's easy to find and reuse, a network built on shared
+        contribution rather than a single institution, and data cared for with the same precision as the objects it
+        describes.
+      </p>
+      <p class="intro-desc">
+        These are the values Europeana states about itself, but <strong>do they hold beneath the surface?</strong> Is
+        contribution genuinely mutual and spread across many institutions, or concentrated between few providers? Is the
+        underlying data as reliable as claimed, consistently and equally across countries?
+      </p>
+      <p class="intro-desc">
+        There is only one way to answer those questions: <strong>dive deep</strong> and see whether Europeana's promise
+        holds against its own data.
       </p>
     </div>
 
     <div class="intro-placeholder-col conclusion-stats-col">
       <div class="stat-box">
-        <h4>Investment</h4>
-        <span class="stat-number">€9M+</span>
+        <h4>Funding</h4>
+        <span class="stat-number">EU</span>
       </div>
       <div class="stat-box">
         <h4>Starting Year</h4>
@@ -114,7 +127,7 @@
       </div>
       <div class="stat-box">
         <h4>Total Artifacts</h4>
-        <span class="stat-number">50M+</span>
+        <span class="stat-number">60M+</span>
       </div>
     </div>
 
@@ -127,9 +140,12 @@
   <!-- Map Journey Section -->
   <section id="journey">
     <div class="journey-text-wrapper">
-      <h2 class="journey-title">Mapping<br /><span>the Data</span></h2>
-      <p class="journey-subtitle">
-        Visualizing the spread of artifacts across Europe.
+      <h2 class="journey-title">Mapping<br /><span>the Waters</span></h2>
+      <p class="journey-desc">
+        Our journey charts a course across <strong>six shores</strong> - <span class="country-hl hl-de">Germany</span>, the <span class="country-hl hl-nl">Netherlands</span>, <span class="country-hl hl-fr">France</span>, <span class="country-hl hl-pt">Portugal</span>, <span class="country-hl hl-es">Spain</span> and <span class="country-hl hl-it">Italy</span> - each different in size, coastline and culture, each hiding its own treasures.
+      </p>
+      <p class="journey-desc">
+        Together they form a mixed fleet, giving us the range needed to see how differently data can take shape across Europeana's sea.
       </p>
     </div>
 
@@ -165,19 +181,32 @@
               We share the same sea, but not a sea of data.
             </h2>
             <p class="analysis-subtitle rq-label">
-              Do Europeana providers reflect<br />the number of GLAM institutions?
+              Do Europeana providers reflect the number of GLAM institutions?
             </p>
             <p class="analysis-desc">
-              We began our exploratory journey wondering if the number of Europeana providers
-              reflected the many GLAM institutions of the selected countries. We used Wikidata
-              as a baseline and tried to visualize the percentage of institutions that stay
-              afloat in the sea of data.
+              We began our exploratory journey by mapping the digital <b>participation 
+              of cultural institutions in Europeana</b> across the selected countries. 
+              Using Wikidata as a baseline, we tracked which institutions 
+              successfully navigate into the Europeana ecosystem, and which 
+              remain stranded on isolated shores.
             </p>
           </div>
 
           <div class="analysis-chart-col rsq01-chart-col">
-            <p class="chart-title">GLAM Participation Rate on Europeana</p>
+            <p class="chart-title">Distribution of active europeana providers over GLAM institutions</p>
             <div id="rsq01-chart-div"></div>
+          </div>
+          <div class="rsq01-narrative-column">
+            <h3>Submerged Data</h3>
+            <p>
+              By removing absolute volume differences and viewing participation as a proportion, 
+              this distribution exposes a severe digital divide. Across all six observed nations, 
+              <b>the vast majority of physical cultural institutions remain offline</b>, lost in 
+              the sea of unlinked data.
+            </p>
+            <p class="takeaway-highlight">
+              A country's physical institutional density does not naturally translate into digital participation. Without targeted digital openness policies, national cultural heritage remains isolated from the European collaborative ecosystem.
+            </p>
           </div>
         </div>
       </div>
@@ -196,14 +225,13 @@
               Does investment steer the ship?
             </h2>
             <p class="analysis-subtitle rq-label">
-              Does the number of active providers and the volume of cultural heritage shared on Europeana correlate
-              positively to cultural investment?
-            </p>
+              Do active provider rates and total Europeana volume correlate positively with national cultural investment?</p>
             <p class="analysis-desc" style="max-width: 100%;">
-              Turning to the next chart, we explore whether, within this tiny drop of providers in an
-              ocean of institutions, financial investment actually steers the tide: does public
-              spending in culture positively influence the percentage of mobilized providers
-              and the overall volume of shared artifacts?
+              Turning to our following chart, we explore whether financial investment actually 
+              steers the tide within this drop of providers in an ocean of institutions. 
+              By mapping public spending against both the mobilization rate and 
+              total artifact volume, we investigate who truly holds the rudder of European 
+              digital heritage.
             </p>
           </div>
 
@@ -211,28 +239,45 @@
           <div class="analysis-grid analysis-grid--wide" style="max-width: 100%;">
             <!-- 2/3 column: chart -->
             <div class="analysis-chart-col rsq01-chart-col rsq01b-chart-col">
-              <p class="chart-title">Investments × GLAM Participation Rate × Cultural Expenditure</p>
+              <p class="chart-title">Relationship between investment, GLAM participation Rate and total shared items</p>
               <div id="rsq03-chart-div"></div>
             </div>
 
             <!-- 1/3 column: Portugal bias explanation + button -->
             <div class="analysis-side-col">
               <div class="pt-bias-panel">
-                <h3 class="pt-bias-title">Portugal's data is biased</h3>
+                <h3 class="pt-bias-title">The Portugal Bias</h3>
                 <p class="pt-bias-desc">
-                  Portugal's GLAM participation rate (<b>7.22%</b>) is inflated because Wikidata
-                  only records <b>554</b> physical institutions — far below the
-                  <b>3,395</b> counted in the official INE national census.
+                  Portugal's initial partecipation rate (<b>7.22%</b>) is artificially inflated 
+                  because crowdsourced Wikidata only records <b>554</b> physical institutions, 
+                  far below the <b>3,395</b> verified in the official INE administrative census.
                 </p>
                 <p class="pt-bias-desc">
-                  When we correct the denominator using the census baseline, the rate
-                  drops to <b>≈ 1.18%</b> — repositioning Portugal's bubble significantly
-                  to the left and revealing a very different picture.
+                  When we override the denominator using the official census baseline, 
+                  the rate drops to <b>1.18%</b>. Clicking the button below visually 
+                  shifts Portugal's bubble to the left, revealing the true macroeconomic correlation.
                 </p>
                 <button id="pt-correct-btn" class="pt-correct-btn" onclick="togglePTCorrection()">
                   Correct Portugal's data
                 </button>
               </div>
+            </div>
+            <div class="rsq03-narrative-column">
+              <h3>Failed routing</h3>
+              <p>
+                Once the Portugal census override is applied, a clear linear trajectory 
+                emerges between public spending and institutional mobilization: nations that invest more 
+                of their GDP in culture generally bring a larger proportion of their physical GLAMs into the Europeana ecosystem. 
+                However, evaluating bubble size (artifact volume) exposes a striking divergence. 
+                <b>France is a primary outlier</b>, leading all observed countries in cultural investment (1.40% of GDP), 
+                yet its mobilization rate remains suppressed at 1.89%, contributing a modest 4.7M items.
+              </p>
+              <p class="takeaway-highlight">
+                Cultural investment drives institutional participation, 
+                  but it does not guarantee a proportionate volume of shared data. Without policies 
+                  specifically oriented toward European-level open data, high national funding 
+                  fails to maximize digital visibility.
+              </p>
             </div>
           </div>
         </div>
@@ -269,37 +314,48 @@
           <div class="analysis-text-col rq2-text-right">
             <h2 class="analysis-title">The <span>Crew</span></h2>
             <p class="analysis-subtitle">Who sends knowledge to the Europeana sea?</p>
+
             <p class="analysis-desc">
-              Behind the vast archive of Europeana stand in total <strong>1002 providers</strong> from the selected six
-              countries each loading their cultural treasures onto the digital vessel. Yet the fleet is far from evenly
-              loaded: in several countries, a single flagship carries the volume of the cargo alone. Explore the top-10
-              providers by country and discover which institutions navigate Europeana's waters most heavily laden.
+              Behind the vast archive of Europeana stand <strong>1002 providers</strong> from the six selected countries, each loading their cultural treasures onto the digital vessel. But <strong>who</strong> sails Europeana's waters, and how heavily loaded is each provider?
             </p>
-            <p class="analysis-desc">
-              Boats are not all built the same. A library and a natural history museum may carry equally vast cargo, but
-              what fills their holds - books and manuscripts, or bones and specimens - could not be more different.
-            </p>
+
+            <p class="analysis-section-label">High Tide, Low TIde</p>
+            <ul class="analysis-findings">
+              <li>In most countries a <strong>single provider dominates</strong>, contributing the majority of all national items.</li>
+              <li>The Netherlands isn't just home to the highest number of providers; it also hosts the one provider carrying the heaviest cultural heritage load of all.</li>
+              <li>Spain and Italy show the most <strong>distributed contribution</strong>, with several institutions sharing the load.</li>
+            </ul>
+
           </div>
 
+
+
           <div class="analysis-chart-col rq2-chart-col rq2-chart-left">
+            <p class="chart-title">Top Providers</p>
             <!-- Country filter buttons -->
             <div class="rsq01-filters">
               <button class="rsq01-filter-btn rsq01-active" data-country="all" onclick="filterRsq01('all')">All</button>
               <button class="rsq01-filter-btn" data-country="france" onclick="filterRsq01('france')">France</button>
               <button class="rsq01-filter-btn" data-country="germany" onclick="filterRsq01('germany')">Germany</button>
               <button class="rsq01-filter-btn" data-country="italy" onclick="filterRsq01('italy')">Italy</button>
-              <button class="rsq01-filter-btn" data-country="netherlands"
-                onclick="filterRsq01('netherlands')">Netherlands</button>
               <button class="rsq01-filter-btn" data-country="portugal"
                 onclick="filterRsq01('portugal')">Portugal</button>
               <button class="rsq01-filter-btn" data-country="spain" onclick="filterRsq01('spain')">Spain</button>
+              <button class="rsq01-filter-btn" data-country="netherlands"
+                onclick="filterRsq01('netherlands')">Netherlands</button>
             </div>
             <!-- Chart container -->
             <div id="rsq01-chart" class="rq2-amchart-container"></div>
           </div>
 
         </div>
+        
+        <div style="width: 100%; margin-top: 2rem;">
+          <p class="takeaway-highlight" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+          The type of provider seems to correlate with the volume of cargo it carries — which is exactly what the next chart sets out to explore.
+        </p>
       </div>
+    </div>
     </div>
   </section>
 
@@ -358,31 +414,63 @@
       <div class="analysis-content-wrapper">
         <div class="analysis-grid analysis-grid-rq2">
 
-          <div class="analysis-text-col">
-            <h2 class="analysis-title">The <br /><span>Cargo Hold</span></h2>
+          <div class="analysis-text-col rq2-text-right">
+            <h2 class="analysis-title">The <br /><span>Inventory</span></h2>
             <p class="analysis-subtitle">What kinds of knowledge sail these waters?</p>
+
             <p class="analysis-desc">
-              Not every vessel sails with the same cargo. Across Europeana's six contributing countries,
-              <strong>libraries and archives</strong> dominate the hold — accounting for over <strong>60% of all
-                items</strong> globally. But beneath this surface, each national fleet has its own character: the
-              Netherlands is steered by <strong>natural history collections</strong> (51%), Portugal mirrors it with 47%
-              scientific heritage, while Italy's hold brims with <strong>audiovisual and film archives</strong> (31.6%)
-              — a uniquely cinematic identity.
+              Not every vessel sails with the same inventory. We look at how items are distributed across institution categories - libraries, archives, museums, natural history collections, audiovisual archives, and more - comparing composition to reveal each nation's cultural identity through its data.
             </p>
+
+            <ul class="analysis-findings">
+              <li><strong>Libraries &amp; archives</strong> dominate globally.</li>
+              <li>The Netherlands breaks the mould: natural history collections lead, with 51% of its items.</li>
+              <li><strong>Italy</strong> stands out for its audiovisual richness, with audiovisual/film archives making up <strong>31.7%</strong>.</li>
+            </ul>
           </div>
 
-          <div class="analysis-chart-col rq2-chart-col">
+          <div class="analysis-chart-col rq2-chart-col rq2-chart-left">
+            <p class="chart-title">Category Composition by Country</p>
             <!-- Stacked bar chart -->
             <div id="rsq03-bar-chart" class="rq2-amchart-container"></div>
-          </div>
 
-        </div>
-      </div>
-    </div>
+            <!-- Supplementary note: category classification -->
+            <div class="cat-note-panel">
+              <h3 class="cat-note-title">Why these categories?</h3>
+              <p class="cat-note-desc">
+                Each provider is classified into an institution-type category derived from the data itself, rather than defined upfront. Classification draws primarily on the provider's Wikidata entity - its description, name, and structured properties - enriching Europeana's own records with an external, linked open data source.
+              </p>
+            </div>
+          </div>
+        </div> <!-- Closes .analysis-grid -->
+
+      </div> <!-- Closes .analysis-content-wrapper -->
+    </div> <!-- Closes .analysis-wrapper -->
   </section>
 
   <!-- Analysis Section 5 — Quality Score Waffle Charts -->
   <section id="analysis-5" class="analysis-section">
+  <!-- Bridging Text Placeholder -->
+  <div class="bridge-section">
+    <div class="sea-transition-top">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="sea-wave-svg-top">
+        <path d="M0,60 C150,110 350,10 500,60 C650,110 850,10 1000,60 C1150,110 1350,10 1500,60 L1500,120 L0,120 Z">
+        </path>
+      </svg>
+    </div>
+    <div class="bridge-content">
+      <p>Exploring Europeana data, there is a clear <strong>limitation</strong>: categories aren't perfectly aligned across providers. Given how difficult it proved to align and retrieve reliable category data, we turned next to a more fundamental question: the <strong>quality</strong> and completeness of Europeana's metadata itself.</p>
+    </div>
+    <div class="sea-transition-bottom">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="sea-wave-svg-bottom">
+        <path d="M0,60 C150,110 350,10 500,60 C650,110 850,10 1000,60 C1150,110 1350,10 1500,60 L1500,120 L0,120 Z">
+        </path>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Analysis Section 4 (Placeholder) -->
+  <section id="analysis-4" class="analysis-section">
     <div class="analysis-wrapper">
       <div class="analysis-content-wrapper">
         <div class="analysis-grid" style="max-width: 1200px; grid-template-columns: 3fr 2fr;">
@@ -535,86 +623,97 @@
       <div id="tab-content-project" class="tab-content">
         <h3 class="tab-subtitle">The Project</h3>
         <p class="tab-text">
-          LODissea maps the cultural connections across Europe, exploring the vast archives of the Europeana database.
-          We navigate through digital artifacts, surfacing hidden narratives and shared histories.
+          LODissea is an <strong>exploratory research</strong>, investigating the open and collaborative environment of
+          <strong>Europeana</strong>. Specifically, we examine the scale and distribution of data providers, analyzing
+          who they are and what institutional categories they represent, and the overall structural quality of their
+          data. The selected country for this study are: Italy, Germany, Spain, Portugal, France, the Netherlands. Data
+          retrieved from Europeana are enriched using <strong>Wikidata</strong> and <strong>Eurostat</strong> databases.
+          <br>
+          The project has been carried out for the final exam of <a
+            href="https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2025/467047"
+            target="_blank">Information Visualization</a>, within the Digital Humanities and Digital Knowledge course at
+          the University of Bologna.
         </p>
       </div>
 
       <div id="tab-content-team" class="tab-content">
         <h3 class="tab-subtitle">The Team</h3>
-        <div class="team-cards-container">
-          <!-- Team Member 1 -->
-          <div class="team-card">
-            <div class="team-photo"><img src="assets/img/miri.png" alt="Miriana"></div>
-            <h4 class="team-name">Miriana Pinto</h4>
-            <p class="team-role">Role Description</p>
-            <p class="team-desc">Short description of the team member.</p>
-            <a href=https://github.com/mir-pin" class="team-github" target="_blank">
-              <i data-lucide="github" width="16" height="16"></i> GitHub
-            </a>
+        
+        <div class="team-layout-grid">
+          <!-- Left Column: Team Members -->
+          <div class="team-main-col">
+            <div class="team-cards-container">
+              <!-- Team Member 1 -->
+              <div class="team-card">
+                <div class="team-photo"><img src="assets/img/miri.png" alt="Miriana"></div>
+                <h4 class="team-name">Miriana Pinto</h4>
+                <a href="https://github.com/mir-pin" class="team-github" target="_blank">
+                  <i data-lucide="github" width="16" height="16"></i> GitHub
+                </a>
+              </div>
+
+              <!-- Team Member 2 -->
+              <div class="team-card">
+                <div class="team-photo"><img src="assets/img/sara.png" alt="Sara"></div>
+                <h4 class="team-name">Sara Roggiani</h4>
+                <a href="https://github.com/sararoggi" class="team-github" target="_blank">
+                  <i data-lucide="github" width="16" height="16"></i> GitHub
+                </a>
+              </div>
+
+              <!-- Team Member 3 -->
+              <div class="team-card">
+                <div class="team-photo"><img src="assets/img/marti.png" alt="Martina"></div>
+                <h4 class="team-name">Martina Uccheddu</h4>
+                <a href="https://github.com/martinaucch" class="team-github" target="_blank">
+                  <i data-lucide="github" width="16" height="16"></i> GitHub
+                </a>
+              </div>
+            </div>
+
+            <!-- General Role Placeholder -->
+            <div class="team-role-placeholder">
+              <h4 class="placeholder-title">Team Roles</h4>
+              <p class="placeholder-desc">All team members collaborated across every phase of the project - data collection, data cleaning, visualization, storytelling and web development - with responsibilities shared to keep the workload balanced throughout the research process.</p>
+            </div>
           </div>
 
-          <!-- Team Member 2 -->
-          <div class="team-card">
-            <div class="team-photo"><img src="assets/img/sara.png" alt="Sara"></div>
-            <h4 class="team-name">Sara Roggiani</h4>
-            <p class="team-role">Role Description</p>
-            <p class="team-desc">Short description of the team member.</p>
-            <a href="https://github.com/sararoggi" class="team-github" target="_blank">
-              <i data-lucide="github" width="16" height="16"></i> GitHub
-            </a>
-          </div>
-
-          <!-- Team Member 3 -->
-          <div class="team-card">
-            <div class="team-photo"><img src="assets/img/marti.png" alt="Martina"></div>
-            <h4 class="team-name">Martina Uccheddu</h4>
-            <p class="team-role">Role Description</p>
-            <p class="team-desc">Short description of the team member.</p>
-            <a href="https://github.com/martinaucch" class="team-github" target="_blank">
-              <i data-lucide="github" width="16" height="16"></i> GitHub
-            </a>
-          </div>
-        </div>
-
-        <!-- Fun Meta-data -->
-        <div class="team-meta-container">
-          <h4 class="team-meta-title">Sharing the Pain: A Quantitative Breakdown</h4>
-          <div class="team-meta-grid">
-            <div class="team-meta-item">
-              <i data-lucide="beer" width="32" height="32" class="meta-icon"></i>
-              <span class="meta-label">Beers</span>
-              <span class="meta-count">27</span>
-            </div>
-            <div class="team-meta-item">
-              <i data-lucide="monitor" width="32" height="32" class="meta-icon"></i>
-              <span class="meta-label">Screentime</span>
-              <span class="meta-count">h</span>
-            </div>
-            <div class="team-meta-item">
-              <i data-lucide="sparkles" width="32" height="32" class="meta-icon"></i>
-              <span class="meta-label">Relaxing Sheet Mask</span>
-              <span class="meta-count">6</span>
-            </div>
-            <div class="team-meta-item">
-              <i data-lucide="coffee" width="32" height="32" class="meta-icon"></i>
-              <span class="meta-label">Coffees</span>
-              <span class="meta-count">17</span>
-            </div>
-            <div class="team-meta-item">
-              <i data-lucide="utensils" width="32" height="32" class="meta-icon"></i>
-              <span class="meta-label">Meals Shared</span>
-              <span class="meta-count">8</span>
-            </div>
-            <div class="team-meta-item">
-              <i data-lucide="moon" width="32" height="32" class="meta-icon"></i>
-              <span class="meta-label">Sleepovers</span>
-              <span class="meta-count">2</span>
-            </div>
-            <div class="team-meta-item">
-              <i data-lucide="music" width="32" height="32" class="meta-icon"></i>
-              <span class="meta-label">Music</span>
-              <span class="meta-count">h</span>
+          <!-- Right Column: Meta Stats -->
+          <div class="team-meta-col">
+            <div class="team-meta-container">
+              <h4 class="team-meta-title">Sharing the Pain: A Quantitative Breakdown</h4>
+              <div class="team-meta-grid">
+                <div class="team-meta-item">
+                  <i data-lucide="beer" width="32" height="32" class="meta-icon"></i>
+                  <span class="meta-label">Beers</span>
+                  <span class="meta-count">30</span>
+                </div>
+                <div class="team-meta-item">
+                  <i data-lucide="monitor" width="32" height="32" class="meta-icon"></i>
+                  <span class="meta-label">Screentime</span>
+                  <span class="meta-count">h</span>
+                </div>
+                <div class="team-meta-item">
+                  <i data-lucide="sparkles" width="32" height="32" class="meta-icon"></i>
+                  <span class="meta-label">Relaxing Sheet Mask</span>
+                  <span class="meta-count">12</span>
+                </div>
+                <div class="team-meta-item">
+                  <i data-lucide="coffee" width="32" height="32" class="meta-icon"></i>
+                  <span class="meta-label">Coffees</span>
+                  <span class="meta-count">23</span>
+                </div>
+                <div class="team-meta-item">
+                  <i data-lucide="utensils" width="32" height="32" class="meta-icon"></i>
+                  <span class="meta-label">Meals Shared</span>
+                  <span class="meta-count">10</span>
+                </div>
+                <div class="team-meta-item">
+                  <i data-lucide="moon" width="32" height="32" class="meta-icon"></i>
+                  <span class="meta-label">Sleepovers</span>
+                  <span class="meta-count">3</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
