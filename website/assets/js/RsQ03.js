@@ -129,7 +129,7 @@ function initRQ03Chart() {
 
         /* X-axis label */
         xAxis.children.push(am5.Label.new(root, {
-          text: "GLAM Participation Rate (%)",
+          text: "GLAM Participation Rate",
           x: am5.percent(50),
           centerX: am5.percent(50),
           fontFamily: "Inter, sans-serif",
@@ -151,7 +151,7 @@ function initRQ03Chart() {
 
         const yAxis = chart.yAxes.push(
           am5xy.ValueAxis.new(root, {
-            min: 0.75, max: 1.52,
+            min: 0.75, max: 1.56,
             strictMinMax: true,
             renderer: yRenderer,
             numberFormat: "#.0'%'",
@@ -174,7 +174,7 @@ function initRQ03Chart() {
 
         /* Y-axis label */
         yAxis.children.unshift(am5.Label.new(root, {
-          text: "Public Cultural Expenditure (% GDP)",
+          text: "Public Funding in Culture (% GDP)",
           rotation: -90,
           y: am5.percent(50),
           centerX: am5.percent(50),
@@ -232,7 +232,7 @@ function initRQ03Chart() {
             stroke: am5.color(0xffffff),
             strokeWidth: 2,
             cursorOverStyle: "pointer",
-            tooltipText: "[bold]{country}[/]\nParticipation rate: {valueX.formatNumber('#.0')}%\nCulture expenditure: {valueY.formatNumber('#.0')}% GDP\nEuropeana objects: {objects.formatNumber('#,###')}",
+            tooltipText: "[bold]{country}[/]\nGLAM Participation Rate: {valueX.formatNumber('#.0')}%\nPublic Funding in Culture (% of GDP): {valueY.formatNumber('#.0')}%\nTotal objects in Europeana: {objects.formatNumber('#,###')}",
             tooltip: am5.Tooltip.new(root, {
               pointerOrientation: "horizontal",
             }),

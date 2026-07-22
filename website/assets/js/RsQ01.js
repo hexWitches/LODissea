@@ -130,7 +130,7 @@ function initRQ01Chart() {
         );
 
         yAxis.children.unshift(am5.Label.new(root, {
-          text: "Share of Physical GLAMs (%)",
+          text: "Share of Physical GLAMs",
           rotation: -90,
           y: am5.percent(50),
           centerX: am5.percent(50),
