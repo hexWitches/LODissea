@@ -1145,6 +1145,11 @@ b {
   }
 }
 
+#tab-content-project strong {
+  background: linear-gradient(transparent 48%, rgba(159, 197, 223, 0.4) 52%);
+}
+
+
 .tab-text-credit {
   font-size: 20px;
   font-family: var(--font-sans);
@@ -1827,6 +1832,7 @@ b {
   color: white;
   text-align: center;
 }
+
 #falling-france-bubble {
   position: absolute;
   top: -200px;
@@ -1933,7 +1939,8 @@ b {
 
 .openness-rings-row {
   display: flex;
-  flex-wrap: nowrap;        /* Force single row */
+  flex-wrap: nowrap;
+  /* Force single row */
   justify-content: center;
   align-items: flex-start;
   gap: 1rem;
@@ -1946,7 +1953,8 @@ b {
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  flex: 1 1 0;              /* Equal width, shrink to fit */
+  flex: 1 1 0;
+  /* Equal width, shrink to fit */
   min-width: 0;
   transition: transform 0.2s ease;
 }
