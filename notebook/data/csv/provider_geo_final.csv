@@ -1,92 +1,92 @@
 country,provider,count,city,latitude,longitude,source
-italy,Internet Culturale,109101,Roma,41.9061747,12.5088474,europeana_entity
-italy,"Department of Life Sciences, University of Trieste",101323,Trieste,45.660689,13.7957081,europeana_entity
-italy,Epigraphic Database Roma,86827,Rome,41.9037626,12.5144384,europeana_entity
-italy,Rossimoda Shoe Museum,13489,Vigonza,45.4219458,11.9768204,europeana_entity
-france,National Library of France,2999310,Paris,48.8335842,2.3757659,europeana_entity
-france,Media Library of Architecture and Heritage,510877,Charenton-le-Pont,48.82179,2.40484,europeana_entity
-france,Natural History Museum in Paris,502160,Paris,48.8417009,2.3560169,europeana_entity
-france,Ministry of Culture,173279,Paris,48.86255840307406,2.3388283365026106,manual correction
-france,Historical Monuments: Regional Conservation,128192,Strasbourg,48.5876588,7.7526608,europeana_entity
-france,"Ministry of Culture and Communication, Regional Archaeology Service",110142,Strasbourg,48.5876588,7.7526608,europeana_entity
-france,National Audiovisual Institute France,54491,Bry-sur-Marne Cedex,48.8363793,2.5309062,europeana_entity
-france,Interuniversity Health Library,47992,Paris,48.8511917,2.3408544,europeana_entity
-france,Mobilier National Collections,24284,Paris,48.8333911,2.3513344,europeana_entity
-france,Center for Research in Ethnomusicology,21446,Nanterre,48.90417,2.2104,europeana_entity
-france,House Culture Yiddish,14330,Paris,48.8705316,2.3588576,europeana_entity
-france,Museum of Decorative Arts,12967,Paris,48.8631146,2.3334945,europeana_entity
-france,National Archives of France,11709,Pierrefitte-sur-Seine,48.9480891,2.3643991,europeana_entity
-france,Library of the Alliance Israélite Universelle,6229,Paris,48.8472448,2.2633049,europeana_entity
-france,The Paris Observatory Library,3085,Paris,48.8357663,2.3345514,europeana_entity
-france,Departmental Units of Architecture and Heritage,2587,Épinal,48.187918,6.438637,europeana_entity
-germany,Bavarian State Library,2176001,Munich,48.147493,11.5803217,europeana_entity
-germany,German Documentation Center for Art History - Marburg Picture Index,320532,Marburg,50.8109293,8.7718294,europeana_entity
-germany,German National Library,304053,Frankfurt am Main,50.13121,8.6831877,europeana_entity
-germany,Museum of City History Leipzig,182494,Leipzig,51.3418578,12.3763475,europeana_entity
-germany,Berlin State Library,169601,Berlin,52.5175461,13.3917624,europeana_entity
-germany,Museum of Architecture at Berlin Institute of Technology,161890,Berlin,52.513524,13.323819,europeana_entity
-germany,Heidelberg University Library,130773,Heidelberg,49.409752,8.70564,europeana_entity
-germany,German Archaeological Institute,104659,Berlin,52.4607222,13.300707,europeana_entity
-germany,"Ethnological Museum, Staatliche Museen zu Berlin",104638,Berlin,52.5173885,13.4007319,europeana_entity
-germany,Toy Museum of the City of Nuremberg,80306,Nürnberg,49.4545935,11.0742989,europeana_entity
-germany,DFF – German Film Institute & Film Museum,71678,Frankfurt am Main,50.1050552,8.6776335,europeana_entity
-germany,Karlsruhe Municipal Archives,71356,Karlsruhe,49.0073032,8.4091006,europeana_entity
-spain,National Library of Spain,664410,Madrid,40.4237879,-3.6902452,europeana_entity
-spain,Galiciana: Digital Library of Galicia,336061,Santiago de Compostela,42.8698709,-8.5269487,europeana_entity
-spain,Digital Memory of Catalonia,286512,Barcelona,41.3873518,2.111913,europeana_entity
-spain,Archive of Old Catalan Magazines,229974,Barcelona,41.3807385,2.1699868,europeana_entity
-spain,Complutense University of Madrid,121238,Madrid,40.4454368,-3.7299424,europeana_entity
-spain,Digital Library of Castilla y León,119704,Valladolid,41.6571988,-4.7302183,europeana_entity
-spain,Library of the University of Las Palmas,115458,"Las Palmas, Gran Canaria",28.147576,-15.4302769,europeana_entity
-spain,Cityhall of Murcia. Municipal Archive,104650,Murcia,37.9835018,-1.1330047,europeana_entity
-spain,TV3 Catalan Television,89148,Sant Joan Despí,41.3744332,2.069125,europeana_entity
-spain,Documentary Repository of the University of Salamanca,86467,Salamanca,40.9614829,-5.6673456,europeana_entity
-spain,Royal Botanic Garden of Madrid,74638,Madrid,40.4111064,-3.6911267,europeana_entity
-netherlands,Naturalis Biodiversity Center,4601504,Leiden,52.1647779,4.4732128,europeana_entity
-netherlands,Cultural Heritage Agency of the Netherlands,526228,Amersfoort,52.1580763,5.3833285,europeana_entity
-netherlands,Rijksmuseum,341407,Amsterdam,52.3599976,4.8852188,europeana_entity
-netherlands,National Archives of the Netherlands,283470,The Hague,52.0806214,4.3268303,europeana_entity
-netherlands,Internet Archive,176784,"San Francisco, California",37.782321,-122.471637,europeana_entity
-netherlands,International Institute of Social History,165349,Amsterdam,52.3689397,4.9392354,europeana_entity
-netherlands,The Utrecht Archives,159981,Utrecht,52.0890819,5.1228166,europeana_entity
-netherlands,National Museum of Antiquities,141529,Leiden,52.1584696,4.4855152,europeana_entity
-netherlands,Historical Information Center of Brabant,118373,Hertogenbosch,51.6951069,5.3029478,europeana_entity
-netherlands,Netherlands Institute for Sound & Vision,98888,Hilversum,52.235459,5.173057,europeana_entity
-netherlands,Association De Hollandsche Molen,94187,Amsterdam,52.3662772,4.9399952,europeana_entity
-netherlands,Municipal Archives of Zaanstad,85508,Zaandam,52.4382591,4.8148877,europeana_entity
-netherlands,Gooi en Vechtstreek Archive,79443,Naarden,52.2964344,5.1616623,europeana_entity
-netherlands,Netherlands Institute for Military History,68648,The Hague,52.1319244,5.2761886,europeana_entity
-netherlands,Historic Center Limburg,62704,Maastricht,50.8457819,5.6926732,europeana_entity
-netherlands,City Archives Breda,60870,Breda,51.584703,4.780068,europeana_entity
-portugal,Institute for Tropical Scientific Research,65666,Oeiras,38.7015447,-9.3127356,europeana_entity
-portugal,National Library of Portugal,35785,Lisbon,38.7510738,-9.1525104,europeana_entity
-portugal,Portuguese Army Library,13120,Lisbon,38.7135412,-9.1269175,europeana_entity
-portugal,Azores Regional Directorate for Culture,5913,Angra do Heroísmo,38.6558611,-27.2156682,europeana_entity
-portugal,University of Porto,5111,Porto,41.1465479,-8.6156998,europeana_entity
-portugal,Assembly of the Republic - Library,1663,Lisbon,38.7125529,-9.1538565,europeana_entity
-portugal,University of Coimbra,1155,Coimbra,40.2076394,-8.4260932,europeana_entity
-portugal,Madeira Archives and Library,685,Funchal,32.6661989,-16.933144,europeana_entity
-portugal,Radio and Television of Portugal,504,Lisbon,38.7590891,-9.1179905,europeana_entity
-portugal,Madeira Arts Library,470,Funchal,32.6440322,-16.9224104,europeana_entity
-portugal,Lisbon Newspaper Library,468,Lisboa,38.7548267,-9.1726551,europeana_entity
-portugal,April 25th Documentation Center of Coimbra University,337,Coimbra,40.2138778,-8.4312511,europeana_entity
-portugal,The Commission for Citizenship and Gender Equality,311,Lisbon,38.7132443,-9.1663617,europeana_entity
-portugal,Division of Archives and Library of the Ministry of Foreign Affairs,158,Lisbon,38.7073246,-9.170275,europeana_entity
-portugal,Portuguese Court of Auditors,119,Lisboa,38.7400193,-9.14675,europeana_entity
-italy,National Central Library of Rome,200231,Roma Capitale,41.906293866,12.505949509,wikidata_via_europeana_link
-italy,Luigi Micheletti Foundation,51704,Brescia,45.539305555,10.213583333,wikidata_via_europeana_link
-netherlands,"KB, National Library of the Netherlands",987234,The Hague,52.081666666,4.3275,wikidata_via_europeana_link
-italy,Cineteca di Bologna,73157,Bologna,44.4988658,11.3368279,wikidata_name_search
-france,Philharmonie de Paris,12091,Paris,48.891566,2.39407,wikidata_name_search
-germany,Deutsche Fotothek,1314229,Dresden,51.02781,13.73674,wikidata_name_search
-germany,Berlin-Dahlem Botanical Garden and Botanical Museum,252957,Steglitz-Zehlendorf,52.455,13.3036,wikidata_name_search
-germany,Berlin-Brandenburg Economic Archive,72335,Berlin,52.584017166,13.316706473,wikidata_name_search
-spain,Ajuntament de Girona,208078,,41.983137861,2.824799589,wikidata_name_search
-netherlands,Museon-Omniversum,93077,The Hague,52.088777777,4.281,wikidata_name_search
-netherlands,St. Catherine's Convent Museum,60795,Utrecht,52.087222,5.124167,wikidata_name_search
-italy,European Library of Information and Culture,35475,Milan,45.472601263,9.188542864,wikidata_name_search
-italy,Braidense National Library,21526,Milan,45.471947,9.187837,wikidata_name_search
-portugal,Calouste Gulbenkian Foundation,3415,Lisbon,38.73722,-9.15417,wikidata_name_search
+Italy,Internet Culturale,109101,Roma,41.9061747,12.5088474,europeana_entity
+Italy,"Department of Life Sciences, University of Trieste",101323,Trieste,45.660689,13.7957081,europeana_entity
+Italy,Epigraphic Database Roma,86827,Rome,41.9037626,12.5144384,europeana_entity
+Italy,Rossimoda Shoe Museum,13489,Vigonza,45.4219458,11.9768204,europeana_entity
+France,National Library of France,2999310,Paris,48.8335842,2.3757659,europeana_entity
+France,Media Library of Architecture and Heritage,510877,Charenton-le-Pont,48.82179,2.40484,europeana_entity
+France,Natural History Museum in Paris,502160,Paris,48.8417009,2.3560169,europeana_entity
+France,Ministry of Culture,173279,Paris,48.86255840307406,2.3388283365026106,manual correction
+France,Historical Monuments: Regional Conservation,128192,Strasbourg,48.5876588,7.7526608,europeana_entity
+France,"Ministry of Culture and Communication, Regional Archaeology Service",110142,Strasbourg,48.5876588,7.7526608,europeana_entity
+France,National Audiovisual Institute France,54491,Bry-sur-Marne Cedex,48.8363793,2.5309062,europeana_entity
+France,Interuniversity Health Library,47992,Paris,48.8511917,2.3408544,europeana_entity
+France,Mobilier National Collections,24284,Paris,48.8333911,2.3513344,europeana_entity
+France,Center for Research in Ethnomusicology,21446,Nanterre,48.90417,2.2104,europeana_entity
+France,House Culture Yiddish,14330,Paris,48.8705316,2.3588576,europeana_entity
+France,Museum of Decorative Arts,12967,Paris,48.8631146,2.3334945,europeana_entity
+France,National Archives of France,11709,Pierrefitte-sur-Seine,48.9480891,2.3643991,europeana_entity
+France,Library of the Alliance Israélite Universelle,6229,Paris,48.8472448,2.2633049,europeana_entity
+France,The Paris Observatory Library,3085,Paris,48.8357663,2.3345514,europeana_entity
+France,Departmental Units of Architecture and Heritage,2587,Épinal,48.187918,6.438637,europeana_entity
+Germany,Bavarian State Library,2176001,Munich,48.147493,11.5803217,europeana_entity
+Germany,German Documentation Center for Art History - Marburg Picture Index,320532,Marburg,50.8109293,8.7718294,europeana_entity
+Germany,German National Library,304053,Frankfurt am Main,50.13121,8.6831877,europeana_entity
+Germany,Museum of City History Leipzig,182494,Leipzig,51.3418578,12.3763475,europeana_entity
+Germany,Berlin State Library,169601,Berlin,52.5175461,13.3917624,europeana_entity
+Germany,Museum of Architecture at Berlin Institute of Technology,161890,Berlin,52.513524,13.323819,europeana_entity
+Germany,Heidelberg University Library,130773,Heidelberg,49.409752,8.70564,europeana_entity
+Germany,German Archaeological Institute,104659,Berlin,52.4607222,13.300707,europeana_entity
+Germany,"Ethnological Museum, Staatliche Museen zu Berlin",104638,Berlin,52.5173885,13.4007319,europeana_entity
+Germany,Toy Museum of the City of Nuremberg,80306,Nürnberg,49.4545935,11.0742989,europeana_entity
+Germany,DFF – German Film Institute & Film Museum,71678,Frankfurt am Main,50.1050552,8.6776335,europeana_entity
+Germany,Karlsruhe Municipal Archives,71356,Karlsruhe,49.0073032,8.4091006,europeana_entity
+Spain,National Library of Spain,664410,Madrid,40.4237879,-3.6902452,europeana_entity
+Spain,Galiciana: Digital Library of Galicia,336061,Santiago de Compostela,42.8698709,-8.5269487,europeana_entity
+Spain,Digital Memory of Catalonia,286512,Barcelona,41.3873518,2.111913,europeana_entity
+Spain,Archive of Old Catalan Magazines,229974,Barcelona,41.3807385,2.1699868,europeana_entity
+Spain,Complutense University of Madrid,121238,Madrid,40.4454368,-3.7299424,europeana_entity
+Spain,Digital Library of Castilla y León,119704,Valladolid,41.6571988,-4.7302183,europeana_entity
+Spain,Library of the University of Las Palmas,115458,"Las Palmas, Gran Canaria",28.147576,-15.4302769,europeana_entity
+Spain,Cityhall of Murcia. Municipal Archive,104650,Murcia,37.9835018,-1.1330047,europeana_entity
+Spain,TV3 Catalan Television,89148,Sant Joan Despí,41.3744332,2.069125,europeana_entity
+Spain,Documentary Repository of the University of Salamanca,86467,Salamanca,40.9614829,-5.6673456,europeana_entity
+Spain,Royal Botanic Garden of Madrid,74638,Madrid,40.4111064,-3.6911267,europeana_entity
+Netherlands,Naturalis Biodiversity Center,4601504,Leiden,52.1647779,4.4732128,europeana_entity
+Netherlands,Cultural Heritage Agency of the Netherlands,526228,Amersfoort,52.1580763,5.3833285,europeana_entity
+Netherlands,Rijksmuseum,341407,Amsterdam,52.3599976,4.8852188,europeana_entity
+Netherlands,National Archives of the Netherlands,283470,The Hague,52.0806214,4.3268303,europeana_entity
+Netherlands,Internet Archive,176784,"San Francisco, California",37.782321,-122.471637,europeana_entity
+Netherlands,International Institute of Social History,165349,Amsterdam,52.3689397,4.9392354,europeana_entity
+Netherlands,The Utrecht Archives,159981,Utrecht,52.0890819,5.1228166,europeana_entity
+Netherlands,National Museum of Antiquities,141529,Leiden,52.1584696,4.4855152,europeana_entity
+Netherlands,Historical Information Center of Brabant,118373,Hertogenbosch,51.6951069,5.3029478,europeana_entity
+Netherlands,Netherlands Institute for Sound & Vision,98888,Hilversum,52.235459,5.173057,europeana_entity
+Netherlands,Association De Hollandsche Molen,94187,Amsterdam,52.3662772,4.9399952,europeana_entity
+Netherlands,Municipal Archives of Zaanstad,85508,Zaandam,52.4382591,4.8148877,europeana_entity
+Netherlands,Gooi en Vechtstreek Archive,79443,Naarden,52.2964344,5.1616623,europeana_entity
+Netherlands,Netherlands Institute for Military History,68648,The Hague,52.1319244,5.2761886,europeana_entity
+Netherlands,Historic Center Limburg,62704,Maastricht,50.8457819,5.6926732,europeana_entity
+Netherlands,City Archives Breda,60870,Breda,51.584703,4.780068,europeana_entity
+Portugal,Institute for Tropical Scientific Research,65666,Oeiras,38.7015447,-9.3127356,europeana_entity
+Portugal,National Library of Portugal,35785,Lisbon,38.7510738,-9.1525104,europeana_entity
+Portugal,Portuguese Army Library,13120,Lisbon,38.7135412,-9.1269175,europeana_entity
+Portugal,Azores Regional Directorate for Culture,5913,Angra do Heroísmo,38.6558611,-27.2156682,europeana_entity
+Portugal,University of Porto,5111,Porto,41.1465479,-8.6156998,europeana_entity
+Portugal,Assembly of the Republic - Library,1663,Lisbon,38.7125529,-9.1538565,europeana_entity
+Portugal,University of Coimbra,1155,Coimbra,40.2076394,-8.4260932,europeana_entity
+Portugal,Madeira Archives and Library,685,Funchal,32.6661989,-16.933144,europeana_entity
+Portugal,Radio and Television of Portugal,504,Lisbon,38.7590891,-9.1179905,europeana_entity
+Portugal,Madeira Arts Library,470,Funchal,32.6440322,-16.9224104,europeana_entity
+Portugal,Lisbon Newspaper Library,468,Lisboa,38.7548267,-9.1726551,europeana_entity
+Portugal,April 25th Documentation Center of Coimbra University,337,Coimbra,40.2138778,-8.4312511,europeana_entity
+Portugal,The Commission for Citizenship and Gender Equality,311,Lisbon,38.7132443,-9.1663617,europeana_entity
+Portugal,Division of Archives and Library of the Ministry of Foreign Affairs,158,Lisbon,38.7073246,-9.170275,europeana_entity
+Portugal,Portuguese Court of Auditors,119,Lisboa,38.7400193,-9.14675,europeana_entity
+Italy,National Central Library of Rome,200231,Roma Capitale,41.906293866,12.505949509,wikidata_via_europeana_link
+Italy,Luigi Micheletti Foundation,51704,Brescia,45.539305555,10.213583333,wikidata_via_europeana_link
+Netherlands,"KB, National Library of the Netherlands",987234,The Hague,52.081666666,4.3275,wikidata_via_europeana_link
+Italy,Cineteca di Bologna,73157,Bologna,44.4988658,11.3368279,wikidata_name_search
+France,Philharmonie de Paris,12091,Paris,48.891566,2.39407,wikidata_name_search
+Germany,Deutsche Fotothek,1314229,Dresden,51.02781,13.73674,wikidata_name_search
+Germany,Berlin-Dahlem Botanical Garden and Botanical Museum,252957,Steglitz-Zehlendorf,52.455,13.3036,wikidata_name_search
+Germany,Berlin-Brandenburg Economic Archive,72335,Berlin,52.584017166,13.316706473,wikidata_name_search
+Spain,Ajuntament de Girona,208078,,41.983137861,2.824799589,wikidata_name_search
+Netherlands,Museon-Omniversum,93077,The Hague,52.088777777,4.281,wikidata_name_search
+Netherlands,St. Catherine's Convent Museum,60795,Utrecht,52.087222,5.124167,wikidata_name_search
+Italy,European Library of Information and Culture,35475,Milan,45.472601263,9.188542864,wikidata_name_search
+Italy,Braidense National Library,21526,Milan,45.471947,9.187837,wikidata_name_search
+Portugal,Calouste Gulbenkian Foundation,3415,Lisbon,38.73722,-9.15417,wikidata_name_search
 Spain,Virtual Library of Historical Press,1735320,Madrid,40.4206699298513,-3.696534590397076,manual
 Germany,State Archives of Baden-Württemberg,827603,Stuttgart,48.848397483733265,9.185433331037915,manual
 Italy,Cinecittà - Luce,442536,Rome,41.849810560200865,12.574519080840693,manual

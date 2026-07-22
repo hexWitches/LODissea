@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const CDN_BASE = "https://cdn.amcharts.com/lib/5";
 
-  // Single accent color — matches #c1666b already used in the metadata waffle chart
-  const OPEN_COLOR = "#c1666b";
+  // Single accent color — matches #6B8E4E already used in the metadata waffle chart
+  const OPEN_COLOR = "#6B8E4E";
   const REMAINDER_COLOR = "#e0dbd2"; // Warm off-white track matches site bg (#FBF9F5)
 
   function loadScript(src, cb) {

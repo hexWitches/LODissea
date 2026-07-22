@@ -1,41 +1,41 @@
 [
   {
-    "country":"france",
+    "country":"France",
     "num_providers":50,
     "top_provider":"National Library of France",
     "pct_top1_provider":63.5,
     "pct_top5_providers":91.3
   },
   {
-    "country":"netherlands",
+    "country":"Netherlands",
     "num_providers":104,
     "top_provider":"Naturalis Biodiversity Center",
     "pct_top1_provider":50.0,
     "pct_top5_providers":73.2
   },
   {
-    "country":"portugal",
+    "country":"Portugal",
     "num_providers":40,
     "top_provider":"Institute for Tropical Scientific Research",
     "pct_top1_provider":47.0,
     "pct_top5_providers":89.8
   },
   {
-    "country":"spain",
+    "country":"Spain",
     "num_providers":275,
     "top_provider":"Virtual Library of Historical Press",
     "pct_top1_provider":26.4,
     "pct_top5_providers":49.5
   },
   {
-    "country":"germany",
+    "country":"Germany",
     "num_providers":375,
     "top_provider":"Bavarian State Library",
     "pct_top1_provider":25.0,
     "pct_top5_providers":56.8
   },
   {
-    "country":"italy",
+    "country":"Italy",
     "num_providers":158,
     "top_provider":"Cinecittà - Luce",
     "pct_top1_provider":24.2,

@@ -14,11 +14,11 @@
   // };
 
   const CONTENT_COLORS = {
-    "0": { color: "#D6DCC5", label: "Tier 0 — No content" },
-    "1": { color: "#AFC189", label: "Tier 1 — Low" },
-    "2": { color: "#8AA968", label: "Tier 2 — Fair" },
-    "3": { color: "#5C7D3C", label: "Tier 3 — Good" },
-    "4": { color: "#33471F", label: "Tier 4 — Excellent" }
+    "0": { color: "#D6DCC5", label: "Tier 0" },
+    "1": { color: "#AFC189", label: "Tier 1" },
+    "2": { color: "#8AA968", label: "Tier 2" },
+    "3": { color: "#5C7D3C", label: "Tier 3" },
+    "4": { color: "#33471F", label: "Tier 4" }
   };
 
   // const METADATA_COLORS = {
@@ -29,10 +29,10 @@
   // };
 
   const METADATA_COLORS = {
-    "0": { color: "#D9D2E0", label: "Tier 0 — No metadata" },
-    "A": { color: "#C4B9CE", label: "Tier A — Low" },
-    "B": { color: "#9C87AB", label: "Tier B — Fair" },
-    "C": { color: "#5A4768", label: "Tier C — Excellent" }
+    "0": { color: "#D9D2E0", label: "Tier 0" },
+    "A": { color: "#C4B9CE", label: "Tier A" },
+    "B": { color: "#9C87AB", label: "Tier B" },
+    "C": { color: "#5A4768", label: "Tier C" }
   };
 
   // Country display labels and button colors (matching map section)

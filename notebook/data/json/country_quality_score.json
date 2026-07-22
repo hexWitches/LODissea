@@ -1,5 +1,5 @@
 {
-  "italy": {
+  "Italy": {
     "apikey": "illardfon",
     "success": true,
     "requestNumber": 999,
@@ -55,7 +55,7 @@
       }
     ]
   },
-  "france": {
+  "France": {
     "apikey": "illardfon",
     "success": true,
     "requestNumber": 999,
@@ -111,7 +111,7 @@
       }
     ]
   },
-  "germany": {
+  "Germany": {
     "apikey": "illardfon",
     "success": true,
     "requestNumber": 999,
@@ -167,7 +167,7 @@
       }
     ]
   },
-  "spain": {
+  "Spain": {
     "apikey": "illardfon",
     "success": true,
     "requestNumber": 999,
@@ -223,7 +223,7 @@
       }
     ]
   },
-  "netherlands": {
+  "Netherlands": {
     "apikey": "illardfon",
     "success": true,
     "requestNumber": 999,
@@ -279,7 +279,7 @@
       }
     ]
   },
-  "portugal": {
+  "Portugal": {
     "apikey": "illardfon",
     "success": true,
     "requestNumber": 999,
