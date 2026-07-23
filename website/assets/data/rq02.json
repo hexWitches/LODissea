@@ -327,9 +327,9 @@
     },
     {
       "country": "Germany",
-      "library/archive": 77.8,
+      "library/archive": 77.9,
       "natural history/science institution": 4.1,
-      "art/history museum": 14.0,
+      "art/history museum": 13.9,
       "audiovisual/film archive": 0.9,
       "academic/research institution": 2.3,
       "government/administrative body": 0.0,
@@ -422,10 +422,10 @@
     },
     {
       "country": "Germany",
-      "num_providers": 375,
+      "num_providers": 377,
       "top_provider": "Bavarian State Library",
-      "pct_top1_provider": 25.0,
-      "pct_top5_providers": 56.8
+      "pct_top1_provider": 24.9,
+      "pct_top5_providers": 56.6
     },
     {
       "country": "Italy",
@@ -1187,10 +1187,10 @@
       "country": "Spain",
       "provider": "Ajuntament de Girona",
       "count": 208078,
-      "city": null,
-      "latitude": 41.983137861,
-      "longitude": 2.824799589,
-      "source": "wikidata_name_search"
+      "city": "Girona",
+      "latitude": 41.9794,
+      "longitude": 2.8214,
+      "source": "manual correction"
     },
     {
       "country": "Netherlands",
