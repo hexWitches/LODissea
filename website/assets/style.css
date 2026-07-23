@@ -1695,6 +1695,11 @@ b {
   opacity: 0.9;
 }
 
+.conclusion-text-col p u {
+  text-decoration: underline dotted var(--primary-color);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
 
 .conclusion-stats-col {
   display: flex;
@@ -2194,4 +2199,12 @@ b {
 .team-photo {
   width: 135px !important;
   height: 135px !important;
+}
+.stat-verb {
+  font-family: var(--font-sans);
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  letter-spacing: 0.05em;
+  font-weight: 700;
 }
