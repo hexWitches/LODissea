@@ -78,24 +78,3 @@ async function initCommitHoursChart() {
 }
 
 document.addEventListener("DOMContentLoaded", initCommitHoursChart);
-
-function updateScrollHint() {
-  const activeTab = document.querySelector(".tab-content.active"); // adjust selector to match your actual "active tab" class
-  const fade = document.getElementById("scroll-hint-fade");
-  const chevron = document.getElementById("scroll-hint-chevron");
-  if (!activeTab || !fade || !chevron) return;
-
-  const hasOverflow = activeTab.scrollHeight > activeTab.clientHeight + 4; // small tolerance
-  fade.classList.toggle("visible", hasOverflow);
-  chevron.classList.toggle("visible", hasOverflow);
-
-  // hide once the user has scrolled near the bottom
-  activeTab.onscroll = () => {
-    const nearBottom = activeTab.scrollTop + activeTab.clientHeight >= activeTab.scrollHeight - 10;
-    fade.classList.toggle("visible", hasOverflow && !nearBottom);
-    chevron.classList.toggle("visible", hasOverflow && !nearBottom);
-  };
-}
-
-window.addEventListener("resize", updateScrollHint);
-// call updateScrollHint() again inside your existing openTab()/switchTab() functions, after the tab becomes visible
