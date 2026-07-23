@@ -22,7 +22,7 @@ To maintain a clean Exploratory Data Analysis (EDA) pipeline, each Research Ques
 - **Visual Representation:** The code required to render the interactive chart(s) and answer the specific question.
 
 ## The website 
-Embark on a digital odyssey. Follow our journey as we navigate the vast sea of Europeana data. Website live at:.
+Embark on a digital odyssey. Follow our journey as we navigate the vast sea of Europeana data. Website live at: https://hexwitches.github.io/LODissea/.
 
 
 # Team Members:
