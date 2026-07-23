@@ -1682,7 +1682,7 @@ b {
   margin-bottom: 1rem;
 }
 
-.conclusion-text-col p {
+.conclusion-text-col .conclusion-subtitle {
   font-size: 18px;
   color: rgba(26, 58, 95, 0.7);
   line-height: 1.6;
