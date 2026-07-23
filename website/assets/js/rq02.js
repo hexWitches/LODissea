@@ -1,11 +1,5 @@
 /* ==========================================================================
    rq02.js — Provider & Concentration Visualizations
-   Sections:
-     2. RSQ01 — Providers horizontal bar chart      (analysis-2)
-     3. RSQ03 — Provider-type bar chart             (analysis-4)
-     8. France Concentration — Force-directed bubbles (bridge section)
-     9. Provider Map — amCharts MapChart with geo points (analysis-3)
-   Uses amCharts 5. Do NOT modify app.js.
    ========================================================================== */
 
 // ---------------------------------------------------------------------------
@@ -105,7 +99,6 @@ function initRsq01Chart(country) {
   rsq01Root = root;
   root.setThemes([am5themes_Animated.new(root)]);
 
-
   const chart = root.container.children.push(
     am5xy.XYChart.new(root, {
       panX: false, panY: false,
@@ -114,8 +107,6 @@ function initRsq01Chart(country) {
       paddingRight: 55,   // room for end-of-bar bullet labels
     })
   );
-
-
 
   // Y axis — provider names
   const yRenderer = am5xy.AxisRendererY.new(root, { minGridDistance: 8 });
@@ -282,7 +273,6 @@ function initRsq03BarChart() {
   rsq03BarRoot = root;
   root.setThemes([am5themes_Animated.new(root)]);
 
-
   const chart = root.container.children.push(
     am5xy.XYChart.new(root, {
       panX: false, panY: false,
@@ -290,8 +280,6 @@ function initRsq03BarChart() {
       layout: root.verticalLayout,
     })
   );
-
-
 
   // Normalization and sorting
   let chartData = CATEGORY_BY_COUNTRY.map(item => {
@@ -438,11 +426,7 @@ function initRsq03BarChart() {
 }
 
 // ---------------------------------------------------------------------------
-// 4. RSQ03 — SUNBURST CHART
-// ---------------------------------------------------------------------------
-
-// ---------------------------------------------------------------------------
-// 6. INTERSECTION OBSERVER — lazy init
+// 4. INTERSECTION OBSERVER — lazy init
 // ---------------------------------------------------------------------------
 
 function rq2ObserveSection(sectionId, initFn) {
@@ -455,7 +439,7 @@ function rq2ObserveSection(sectionId, initFn) {
 }
 
 // ---------------------------------------------------------------------------
-// 7. BOOT
+// 5. BOOT
 // ---------------------------------------------------------------------------
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -477,7 +461,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 // ===========================================================================
-// 8. FRANCE CONCENTRATION — Force-directed bubble chart (bridge section)
+// 6. FRANCE CONCENTRATION — Force-directed bubble chart (bridge section)
 //    Trigger: scroll into .bridge-section
 //    Requires: am5hierarchy (loaded via CDN in index.html)
 // ===========================================================================
@@ -489,8 +473,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Set themes
     root.setThemes([am5themes_Animated.new(root)]);
-
-
 
     // Create wrapper container
     var container = root.container.children.push(
@@ -673,9 +655,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 // ===========================================================================
-// 9. PROVIDER MAP — amCharts 5 MapChart with geo points (Section 3)
-//    Data: ../notebook/data/json/provider_geo.json
-//    Requires: am5map + am5geodata_worldLow (loaded dynamically below)
+// 7. PROVIDER MAP — amCharts 5 MapChart with geo points (Section 3)
 // ===========================================================================
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -722,8 +702,6 @@ document.addEventListener("DOMContentLoaded", function () {
     am5.ready(function () {
       var root = am5.Root.new(containerId);
       root.setThemes([am5themes_Animated.new(root)]);
-
-
 
       var chart = root.container.children.push(
         am5map.MapChart.new(root, {

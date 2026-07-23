@@ -1,8 +1,5 @@
 /* ==========================================================================
    RQ03 — Quality & Openness
-   Combines:
-     • Quality Waffle Chart  (Section 5) — country_quality_score.json
-     • Openness Rings        (Section 6) — openness.json
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
@@ -272,7 +269,6 @@ document.addEventListener("DOMContentLoaded", function () {
       am5.ready(function () {
         var root = am5.Root.new(ringId);
         root.setThemes([am5themes_Animated.new(root)]);
-
 
         var chart = root.container.children.push(
           am5percent.PieChart.new(root, {
