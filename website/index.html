@@ -493,7 +493,7 @@
                 instead.
               </li>
               <li><strong>Italy</strong> stands out for its audiovisual richness, with audiovisual/film archives making
-                up 31.7%.</li>
+                up 31.7%. <br> This may partly reflect the national catalogue of cultural heritage (Catalogo dei Beni Culturali), which does not include audiovisual materials - pushing institutions like Cinecittà-Luce to channel their collections directly through Europeana instead.</li>
             </ul>
           </div>
 
@@ -825,8 +825,16 @@
                 </div>
               </div>
             </div>
+
+            <!-- Commit Activity Visualization -->
+            <div class="team-commits-container">
+              <h4 class="team-meta-title">When Did LODissea Actually Happen?</h4>
+              <p class="commits-subtitle">Commits by time of day</p>
+              <canvas id="commit-hours-chart" height="60"></canvas>
+            </div>
           </div>
         </div>
+
       </div>
 
       <div id="tab-content-credit" class="tab-content">
@@ -887,6 +895,11 @@
           </p>
         </div>
       </div>
+
+      <div class="scroll-hint-fade" id="scroll-hint-fade"></div>
+      <div class="scroll-hint-chevron" id="scroll-hint-chevron">
+        <i data-lucide="chevron-down" width="24" height="24"></i>
+      </div>
     </div>
   </div>
 
@@ -894,6 +907,7 @@
   <script src="assets/js/rq01.js"></script>
   <script src="assets/js/rq02.js"></script>
   <script src="assets/js/rq03.js"></script>
+  <script src="assets/js/team_commits.js"></script>
 </body>
 
 </html>

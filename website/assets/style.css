@@ -1045,7 +1045,8 @@ b {
 
 @media (min-width: 768px) {
   #about-modal {
-    padding: 6rem;
+    padding: 4rem;
+    /* was 6rem */
   }
 }
 
@@ -1089,8 +1090,8 @@ b {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 72rem;
-  /* Increased from 56rem to allow 3 large cards on one row */
+  max-width: 84rem;
+  /* was 72rem — more room overall */
   margin: 0 auto;
   width: 100%;
   position: relative;
@@ -1110,6 +1111,9 @@ b {
   pointer-events: none;
   transition: all 0.5s;
   transform: translateY(20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .tab-subtitle {
@@ -1265,6 +1269,75 @@ b {
   fill: var(--bg-color);
 }
 
+.team-commits-container {
+  text-align: center;
+}
+
+.commits-subtitle {
+  font-size: 12px;
+  font-family: var(--font-sans);
+  color: #7A98B8;
+  margin-bottom: 0.75rem;
+  opacity: 0.8;
+}
+
+.team-commits-container canvas {
+  display: block;
+  margin: 0 auto;
+  max-height: 120px;
+}
+
+/* Slightly more compact stats grid, freeing up vertical room for the chart below it */
+.team-meta-grid {
+  gap: 1rem;
+}
+
+.scroll-hint-fade {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(to bottom, rgba(26, 58, 95, 0) 0%, rgba(26, 58, 95, 0.95) 100%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 5;
+}
+
+.scroll-hint-fade.visible {
+  opacity: 1;
+}
+
+.scroll-hint-chevron {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--sea-color);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  animation: scrollBounce 1.6s ease-in-out infinite;
+  z-index: 6;
+}
+
+.scroll-hint-chevron.visible {
+  opacity: 0.85;
+}
+
+@keyframes scrollBounce {
+
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  50% {
+    transform: translateX(-50%) translateY(6px);
+  }
+}
+
 /* ==========================================================================
    9. Animations
    ========================================================================== */
@@ -1329,29 +1402,37 @@ b {
 
 @media (min-width: 768px) {
   .team-layout-grid {
-    grid-template-columns: 1fr 280px;
-    gap: 4rem;
+    grid-template-columns: 640px 340px;
+    /* fixed widths, not 1fr -- stops the left column stretching full width */
+    gap: 3rem;
+    /* was 5rem -- pulls the two columns closer together */
+    width: auto;
+    /* was 100% -- lets the grid size to its actual content */
+    margin: 2.5rem auto 0 auto;
+    /* auto centers the compact block; top value pushes everything down */
   }
 }
 
 .team-meta-col {
   display: flex;
   flex-direction: column;
+  gap: 1.25rem;
 }
 
 .team-main-col {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .team-role-placeholder {
-  margin-top: 3rem;
+  margin-top: 4rem;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 1.5rem;
-  padding: 2rem;
-  text-align: center;
+  padding: 1.5rem;
+  text-align: left;
   color: white;
   width: 100%;
   max-width: 800px;
@@ -1361,7 +1442,7 @@ b {
   font-family: var(--font-serif);
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   color: var(--sea-color);
 }
 
@@ -1889,14 +1970,16 @@ b {
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: #7A98B8;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  /* was 1.5rem -- frees vertical space */
 }
 
 .team-meta-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem 1rem;
-  padding-bottom: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  /* was repeat(2, 1fr) -- 3 columns, 2 rows */
+  gap: 1.25rem 0.75rem;
+  padding-bottom: 0.5rem;
 }
 
 .team-meta-item {
@@ -1906,33 +1989,32 @@ b {
   justify-content: center;
   background: transparent;
   border: none;
-  padding: 0.5rem;
-  min-width: 100px;
-  transition: transform 0.3s ease;
-}
-
-.team-meta-item:hover {
-  transform: translateY(-5px);
+  padding: 0.25rem;
+  min-width: 90px;
+  /* was 100px -- needs to fit 3 per row in 340px column */
 }
 
 .meta-icon {
   color: var(--sea-color);
-  margin-bottom: 0.75rem;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 0.5rem;
 }
 
 .meta-label {
   font-family: var(--font-sans);
-  font-size: 12px;
+  font-size: 10px;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.2rem;
   text-align: center;
 }
 
 .meta-count {
   font-family: var(--font-serif);
-  font-size: 28px;
+  font-size: 24px;
+  /* was 28px */
   font-weight: 700;
   color: white;
   text-align: center;
@@ -2083,4 +2165,25 @@ b {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .team-layout-grid {
+    grid-template-columns: 740px 340px;
+    gap: 3rem;
+    width: max-content;
+    margin: 0.5rem auto 0 auto;
+    /* Centered, minimum top/bottom margin */
+  }
+}
+
+.team-card {
+  width: 220px !important;
+  height: 220px !important;
+  padding: 0.75rem !important;
+}
+
+.team-photo {
+  width: 135px !important;
+  height: 135px !important;
 }
