@@ -688,7 +688,6 @@ button {
 }
 
 .analysis-desc {
-  font-size: 15px;
   font-family: var(--font-sans);
   font-weight: 300;
   line-height: 1.7;
@@ -721,7 +720,7 @@ button {
 
 .analysis-findings li {
   font-family: var(--font-sans);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.55;
   color: var(--text-dark);
@@ -824,7 +823,7 @@ b {
 .rsq01-narrative-column p,
 .rsq03-narrative-column p {
   font-family: var(--font-sans);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
   opacity: 0.9;
@@ -927,7 +926,7 @@ b {
 
 .pt-bias-desc {
   font-family: var(--font-sans);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
   opacity: 0.9;
@@ -1178,7 +1177,7 @@ b {
   width: 100%;
   border-collapse: collapse;
   font-family: var(--font-sans);
-  font-size: 14px;
+  font-size: 16px;
   color: white;
 }
 
@@ -1528,7 +1527,7 @@ b {
 
 .team-desc {
   font-family: var(--font-serif);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.4;
   opacity: 0.8;
   margin-bottom: 1rem;
@@ -1688,6 +1687,15 @@ b {
   line-height: 1.6;
 }
 
+.conclusion-text-col p {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+
 .conclusion-stats-col {
   display: flex;
   flex-direction: column;
@@ -1706,7 +1714,7 @@ b {
   font-family: var(--font-sans);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 14px;
+  font-size: 16px;
   color: rgba(26, 58, 95, 0.5);
   margin-bottom: 0.5rem;
 }
@@ -1826,7 +1834,7 @@ b {
 .bridge-content p {
   font-family: var(--font-serif);
   font-style: normal;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 1.8;
   color: var(--text-dark);
   opacity: 0.85;
@@ -1965,7 +1973,7 @@ b {
 
 .team-meta-title {
   font-family: var(--font-sans);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.15em;
