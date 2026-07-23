@@ -1014,20 +1014,6 @@
     "status": "no_match",
     "resolution_lang": "fr"
   },
-  "Heritage Malta": {
-    "qid": "Q3785211",
-    "description": "the Maltese national agency for museums, conservation practice and cultural heritage",
-    "desc_lang": "en",
-    "status": "ok",
-    "resolution_lang": "en"
-  },
-  "Museum of Fine Arts in Lyon": {
-    "qid": null,
-    "description": null,
-    "desc_lang": null,
-    "status": "no_match",
-    "resolution_lang": "fr"
-  },
   "National Centre for Prehistory": {
     "qid": null,
     "description": null,
@@ -1035,7 +1021,21 @@
     "status": "no_match",
     "resolution_lang": "fr"
   },
+  "Heritage Malta": {
+    "qid": "Q3785211",
+    "description": "the Maltese national agency for museums, conservation practice and cultural heritage",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
   "National Monuments Center": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "fr"
+  },
+  "Museum of Fine Arts in Lyon": {
     "qid": null,
     "description": null,
     "desc_lang": null,
@@ -1754,7 +1754,7 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "National Library of Spain": {
     "qid": "Q750403",
@@ -1768,28 +1768,21 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Digital Memory of Catalonia": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
-  },
-  "Galiciana. Arquivo Dixital de Galicia": {
-    "qid": null,
-    "description": null,
-    "desc_lang": null,
-    "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Archive of Old Catalan Magazines": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Ajuntament de Girona": {
     "qid": "Q41328625",
@@ -1803,21 +1796,21 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Maresía: Prensa digitalizada y Patrimonio documental": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Canary Islands Historical Photography Archive": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Complutense University of Madrid": {
     "qid": "Q219694",
@@ -1831,56 +1824,56 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Library of the University of Las Palmas": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Cityhall of Murcia. Municipal Archive": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Centro de Estudios de Castilla - La Mancha": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "TV3 Catalan Television": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Documentary Repository of the University of Salamanca": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Royal Botanic Garden of Madrid": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Foundation Virtual Library Miguel de Cervantes": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Digital Library of Madrid": {
     "qid": "Q48983356",
@@ -1894,7 +1887,7 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "National Archaeological Museum": {
     "qid": "Q637248",
@@ -1929,63 +1922,63 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Regira. Cooperative Repository of Diputació de Girona": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Postal Cabinet Museum of Barcelona (Marull’s Collection)": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Biblioteca Diputación de Almería": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Tomás Navarro Tomás Library": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Museum of Costume. Ethnological Heritage Research Centre": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Patrimonio Digital de Castilla-La Mancha": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Toledo Municipal Archives": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Virtual Library of Bibliographical Heritage": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Autonomous University of Barcelona": {
     "qid": "Q43452",
@@ -1999,49 +1992,49 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Library of the Bar Association of Madrid": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Library of Asturias": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Repositorio Institucional del Banco de España": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Digital Library Real Academia de la Historia": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Virtual Library of La Rioja": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Image Archive of Castilla La Mancha": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Sorolla Museum": {
     "qid": "Q1592523",
@@ -2069,7 +2062,7 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Natural Science Museum of Barcelona": {
     "qid": "Q9046889",
@@ -2090,14 +2083,14 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Jaume I University Repository": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Museum of America": {
     "qid": "Q464354",
@@ -2118,39 +2111,39 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Virtual Library of Aragon": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Museo del Prado digital library": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Biblioteca Virtual de la Real Academia Nacional de Farmacia": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "The Digital Network of Museum Collections in Spain": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "University of Lleida": {
     "qid": "Q1235594",
-    "description": "public university in Lleida, Catalonia",
+    "description": "public university in Lleida, Catalonia, Spain",
     "desc_lang": "en",
     "status": "ok",
     "resolution_lang": "en"
@@ -2160,21 +2153,21 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Navarra Digital Library": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "City Archive of Arganda del Rey": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "National Museum of Roman Art": {
     "qid": "Q3330685",
@@ -2188,7 +2181,7 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Lázaro Galdiano Museum": {
     "qid": "Q386570",
@@ -2202,42 +2195,42 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "National Museum of Romanticism": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Virtual Law Library of Aragon": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Eusko Jaurlaritza - Gobierno Vasco": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Collective Catalog of the Library Network of the State Archives": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Jaén Museum": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "National Museum of Anthropology": {
     "qid": "Q524249",
@@ -2251,7 +2244,7 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Cerralbo Museum": {
     "qid": "Q976019",
@@ -2265,21 +2258,21 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Dadun: Digital Academic Repository of the University of Navarra": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Trencadís. The Municipal Library Network of the Diputació de Barcelona": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Sancho el Sabio Foundation": {
     "qid": "Q8963091",
@@ -2293,21 +2286,21 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "University Institute for Research in Iberian Archeology": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Repository of the Catholic University of Valencia San Vicente Mártir": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "National Theatre Museum": {
     "qid": "Q18542292",
@@ -2321,42 +2314,42 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Minerva, Institutional Repository of the University of Santiago de Compostela": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Archivo de la Diputación de Castellón": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Bitoteko, Hispanic Esperanto Federation Library": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Museo Etnológico de Ribadavia": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Diocesan Seminary of Vitoria-Gasteiz": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Dialnet": {
     "qid": "Q3025975",
@@ -2377,7 +2370,7 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "National Museum and Research Center of Altamira": {
     "qid": "Q6974445",
@@ -2391,14 +2384,14 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Museum of Navarra": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "University of Oviedo": {
     "qid": "Q2303432",
@@ -2412,42 +2405,49 @@
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Casa de los Tiros Museum": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Archivo de la Diputación Provincial de Badajoz": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Repository of Teaching and Research Objects of the University of Cádiz": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Capuchin Central Library of Spain": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
   },
   "Institutional Repository of the University of Malaga": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
-    "resolution_lang": "es"
+    "resolution_lang": "en"
+  },
+  "Ángel Orensanz and Serrablo Arts Museum": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "en"
   },
   "Naturalis Biodiversity Center": {
     "qid": "Q641676",
@@ -3086,17 +3086,17 @@
     "status": "ok",
     "resolution_lang": "en"
   },
-  "Stichting tot Behoud van den Doornenburg": {
-    "qid": "Q109675487",
-    "description": null,
-    "desc_lang": null,
-    "status": "ok",
-    "resolution_lang": "en"
-  },
   "Centraal Museum Utrecht": {
     "qid": "Q260913",
     "description": "museum in Utrecht, Netherlands",
     "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Stichting tot Behoud van den Doornenburg": {
+    "qid": "Q109675487",
+    "description": null,
+    "desc_lang": null,
     "status": "ok",
     "resolution_lang": "en"
   },
@@ -3121,21 +3121,7 @@
     "status": "ok",
     "resolution_lang": "en"
   },
-  "Bonnefantenmuseum Maastricht": {
-    "qid": null,
-    "description": null,
-    "desc_lang": null,
-    "status": "no_match",
-    "resolution_lang": "nl"
-  },
   "City Museum Harderwijk": {
-    "qid": null,
-    "description": null,
-    "desc_lang": null,
-    "status": "no_match",
-    "resolution_lang": "nl"
-  },
-  "City Museum Prinsenhof": {
     "qid": null,
     "description": null,
     "desc_lang": null,
@@ -3148,6 +3134,20 @@
     "desc_lang": "en",
     "status": "ok",
     "resolution_lang": "en"
+  },
+  "University of Utrecht": {
+    "qid": "Q221653",
+    "description": "university in the Netherlands",
+    "desc_lang": "en",
+    "status": "ok",
+    "resolution_lang": "en"
+  },
+  "Bonnefantenmuseum Maastricht": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "nl"
   },
   "Institute for Tropical Scientific Research": {
     "qid": null,
@@ -3373,6 +3373,13 @@
     "status": "ok",
     "resolution_lang": "en"
   },
+  "Sarmento's House": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
   "Ajuda Library, Lisbon": {
     "qid": null,
     "description": null,
@@ -3380,28 +3387,7 @@
     "status": "no_match",
     "resolution_lang": "pt"
   },
-  "Chiado Museum - National Museum of Contemporary Art": {
-    "qid": null,
-    "description": null,
-    "desc_lang": null,
-    "status": "no_match",
-    "resolution_lang": "pt"
-  },
-  "Church of S. Roque, Lisbon": {
-    "qid": null,
-    "description": null,
-    "desc_lang": null,
-    "status": "no_match",
-    "resolution_lang": "pt"
-  },
-  "Municipal Library Anselmo Braamcamp Freire, Santarém": {
-    "qid": null,
-    "description": null,
-    "desc_lang": null,
-    "status": "no_match",
-    "resolution_lang": "pt"
-  },
-  "Museums and Monuments of Portugal": {
+  "National Museum of Grao Vasco, Viseu": {
     "qid": null,
     "description": null,
     "desc_lang": null,
@@ -3415,14 +3401,28 @@
     "status": "ok",
     "resolution_lang": "en"
   },
-  "National Museum of Grao Vasco, Viseu": {
+  "Museums and Monuments of Portugal": {
     "qid": null,
     "description": null,
     "desc_lang": null,
     "status": "no_match",
     "resolution_lang": "pt"
   },
-  "Sarmento's House": {
+  "Church of S. Roque, Lisbon": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Chiado Museum - National Museum of Contemporary Art": {
+    "qid": null,
+    "description": null,
+    "desc_lang": null,
+    "status": "no_match",
+    "resolution_lang": "pt"
+  },
+  "Municipal Library Anselmo Braamcamp Freire, Santarém": {
     "qid": null,
     "description": null,
     "desc_lang": null,

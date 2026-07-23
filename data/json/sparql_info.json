@@ -1,56 +1,14 @@
 {
-  "Q7406653": {
-    "instance_of": [
-      "specialized museum",
-      "museum of modern art",
-      "didactic museum",
-      "industry museum",
-      "archives",
-      "museum",
-      "specialized museum",
-      "museum of modern art",
-      "didactic museum",
-      "industry museum",
-      "archives",
-      "museum",
-      "specialized museum",
-      "museum of modern art",
-      "didactic museum",
-      "industry museum",
-      "archives",
-      "museum"
-    ],
-    "field_of_work": [
-      "modern art",
-      "modern art",
-      "modern art",
-      "modern art",
-      "modern art",
-      "modern art",
-      "fashion",
-      "fashion",
-      "fashion",
-      "fashion",
-      "fashion",
-      "fashion",
-      "museology",
-      "museology",
-      "museology",
-      "museology",
-      "museology",
-      "museology"
-    ]
-  },
   "Q655507": {
     "instance_of": [
-      "collection",
       "photo library",
+      "collection",
       "archives",
-      "collection",
       "photo library",
+      "collection",
       "archives",
-      "collection",
       "photo library",
+      "collection",
       "archives"
     ],
     "field_of_work": [
@@ -63,6 +21,48 @@
       "long-term preservation",
       "long-term preservation",
       "long-term preservation"
+    ]
+  },
+  "Q7406653": {
+    "instance_of": [
+      "industry museum",
+      "specialized museum",
+      "museum of modern art",
+      "didactic museum",
+      "museum",
+      "archives",
+      "industry museum",
+      "specialized museum",
+      "museum of modern art",
+      "didactic museum",
+      "museum",
+      "archives",
+      "industry museum",
+      "specialized museum",
+      "museum of modern art",
+      "didactic museum",
+      "museum",
+      "archives"
+    ],
+    "field_of_work": [
+      "fashion",
+      "fashion",
+      "fashion",
+      "fashion",
+      "fashion",
+      "fashion",
+      "museology",
+      "museology",
+      "museology",
+      "museology",
+      "museology",
+      "museology",
+      "modern art",
+      "modern art",
+      "modern art",
+      "modern art",
+      "modern art",
+      "modern art"
     ]
   },
   "Q3330623": {
@@ -118,9 +118,9 @@
   },
   "Q170109": {
     "instance_of": [
-      "United Nations Depository Library",
+      "state library of Germany",
       "universal library",
-      "state library of Germany"
+      "United Nations Depository Library"
     ],
     "field_of_work": []
   },
@@ -141,8 +141,8 @@
     "instance_of": [
       "catalog",
       "publishing house",
-      "organization",
-      "national library"
+      "national library",
+      "organization"
     ],
     "field_of_work": []
   },
@@ -156,11 +156,11 @@
   },
   "Q256507": {
     "instance_of": [
-      "United Nations Depository Library",
-      "universal library",
-      "reference library",
       "research library",
-      "state library of Germany"
+      "state library of Germany",
+      "universal library",
+      "United Nations Depository Library",
+      "reference library"
     ],
     "field_of_work": []
   },
@@ -187,8 +187,8 @@
   },
   "Q880794": {
     "instance_of": [
-      "open-access publisher",
       "scientific collection",
+      "open-access publisher",
       "academic library",
       "building"
     ],
@@ -202,8 +202,8 @@
   },
   "Q1092493": {
     "instance_of": [
-      "educational institution",
       "cinematheque",
+      "educational institution",
       "movie theater"
     ],
     "field_of_work": []
@@ -264,8 +264,8 @@
       "specialized museum",
       "didactic museum",
       "private museum",
-      "archives",
-      "museum"
+      "museum",
+      "archives"
     ],
     "field_of_work": []
   },
@@ -319,10 +319,10 @@
   },
   "Q55374929": {
     "instance_of": [
-      "paper museum",
-      "history museum",
-      "technology museum",
       "industry museum",
+      "paper museum",
+      "technology museum",
+      "history museum",
       "private museum",
       "specialized museum"
     ],
@@ -336,8 +336,8 @@
   },
   "Q75266481": {
     "instance_of": [
-      "academic department",
-      "archives"
+      "archives",
+      "academic department"
     ],
     "field_of_work": []
   },
@@ -423,18 +423,6 @@
     ],
     "field_of_work": []
   },
-  "Q1813740": {
-    "instance_of": [
-      "educational institution",
-      "nonprofit organization",
-      "research institute"
-    ],
-    "field_of_work": [
-      "country studies",
-      "country studies",
-      "country studies"
-    ]
-  },
   "Q1024362": {
     "instance_of": [
       "Public Research Organization"
@@ -451,10 +439,22 @@
       "cultural heritage"
     ]
   },
+  "Q1813740": {
+    "instance_of": [
+      "educational institution",
+      "nonprofit organization",
+      "research institute"
+    ],
+    "field_of_work": [
+      "country studies",
+      "country studies",
+      "country studies"
+    ]
+  },
   "Q153770": {
     "instance_of": [
-      "public television station",
       "broadcaster",
+      "public television station",
       "mass media"
     ],
     "field_of_work": []
@@ -489,8 +489,8 @@
   },
   "Q323270": {
     "instance_of": [
-      "state library of Germany",
-      "academic library"
+      "academic library",
+      "state library of Germany"
     ],
     "field_of_work": []
   },
@@ -506,18 +506,18 @@
     "instance_of": [
       "Museum of the Italian Ministry of Culture",
       "Istituto museale ad autonomia speciale",
-      "Italian national museum",
       "archaeological museum",
+      "Italian national museum",
       "heritage site"
     ],
     "field_of_work": []
   },
   "Q663820": {
     "instance_of": [
-      "business",
       "heritage library",
-      "research library",
-      "library building"
+      "business",
+      "library building",
+      "research library"
     ],
     "field_of_work": []
   },
@@ -537,8 +537,8 @@
   "Q750403": {
     "instance_of": [
       "main library",
-      "public library",
-      "national library"
+      "national library",
+      "public library"
     ],
     "field_of_work": []
   },
@@ -696,8 +696,8 @@
   },
   "Q2560329": {
     "instance_of": [
-      "design museum",
       "archives",
+      "design museum",
       "nonprofit organization",
       "museum"
     ],
@@ -778,9 +778,9 @@
   },
   "Q50662": {
     "instance_of": [
+      "local Internet registry",
       "comprehensive university",
-      "public university",
-      "local Internet registry"
+      "public university"
     ],
     "field_of_work": []
   },
@@ -795,11 +795,11 @@
   "Q7708470": {
     "instance_of": [
       "algemeen nut beogende instelling",
-      "research institute",
       "museum",
-      "algemeen nut beogende instelling",
       "research institute",
-      "museum"
+      "algemeen nut beogende instelling",
+      "museum",
+      "research institute"
     ],
     "field_of_work": [
       "textile",
@@ -816,6 +816,44 @@
     ],
     "field_of_work": [
       "textile"
+    ]
+  },
+  "Q2051299": {
+    "instance_of": [
+      "organization",
+      "organization",
+      "organization"
+    ],
+    "field_of_work": [
+      "château",
+      "architecture preservation",
+      "architectural heritage monument"
+    ]
+  },
+  "Q461": {
+    "instance_of": [
+      "web archive",
+      "community organization",
+      "digital library",
+      "nonprofit organization",
+      "website",
+      "web archive",
+      "community organization",
+      "digital library",
+      "nonprofit organization",
+      "website"
+    ],
+    "field_of_work": [
+      "digital preservation",
+      "digital preservation",
+      "digital preservation",
+      "digital preservation",
+      "digital preservation",
+      "web archiving",
+      "web archiving",
+      "web archiving",
+      "web archiving",
+      "web archiving"
     ]
   },
   "Q1667757": {
@@ -836,44 +874,10 @@
       "history of anarchism"
     ]
   },
-  "Q461": {
-    "instance_of": [
-      "web archive",
-      "nonprofit organization",
-      "digital library",
-      "website",
-      "web archive",
-      "nonprofit organization",
-      "digital library",
-      "website"
-    ],
-    "field_of_work": [
-      "web archiving",
-      "web archiving",
-      "web archiving",
-      "web archiving",
-      "digital preservation",
-      "digital preservation",
-      "digital preservation",
-      "digital preservation"
-    ]
-  },
-  "Q2051299": {
-    "instance_of": [
-      "organization",
-      "organization",
-      "organization"
-    ],
-    "field_of_work": [
-      "architectural heritage monument",
-      "architecture preservation",
-      "château"
-    ]
-  },
   "Q165366": {
     "instance_of": [
-      "historic house museum",
-      "war memorial"
+      "war memorial",
+      "historic house museum"
     ],
     "field_of_work": []
   },
@@ -896,16 +900,16 @@
   },
   "Q464354": {
     "instance_of": [
-      "nonprofit organization",
-      "art museum"
+      "art museum",
+      "nonprofit organization"
     ],
     "field_of_work": []
   },
   "Q524249": {
     "instance_of": [
+      "national museum",
       "archaeological museum",
       "museum building",
-      "national museum",
       "museum"
     ],
     "field_of_work": []
@@ -919,10 +923,10 @@
   "Q641676": {
     "instance_of": [
       "academic publisher",
-      "natural history museum",
       "national museum",
       "government agency",
       "organization",
+      "natural history museum",
       "research institute"
     ],
     "field_of_work": []
@@ -1027,9 +1031,9 @@
   },
   "Q2303432": {
     "instance_of": [
-      "collection",
       "open-access publisher",
       "public university",
+      "collection",
       "organization",
       "museum"
     ],
@@ -1083,19 +1087,19 @@
   },
   "Q8963091": {
     "instance_of": [
-      "documentation centre",
       "open-access publisher",
+      "documentation centre",
       "special library",
-      "archives",
-      "foundation"
+      "foundation",
+      "archives"
     ],
     "field_of_work": []
   },
   "Q9046889": {
     "instance_of": [
       "open-access publisher",
-      "natural history museum",
-      "science museum"
+      "science museum",
+      "natural history museum"
     ],
     "field_of_work": []
   },
@@ -1205,16 +1209,6 @@
       "philanthropy"
     ]
   },
-  "Q55754311": {
-    "instance_of": [
-      "organization",
-      "organization"
-    ],
-    "field_of_work": [
-      "fashion",
-      "heritage"
-    ]
-  },
   "Q679527": {
     "instance_of": [
       "art museum"
@@ -1233,18 +1227,34 @@
       "Elisabeth Orphanage"
     ]
   },
+  "Q55754311": {
+    "instance_of": [
+      "organization",
+      "organization"
+    ],
+    "field_of_work": [
+      "heritage",
+      "fashion"
+    ]
+  },
   "Q212459": {
     "instance_of": [
-      "national museum",
       "cultural heritage",
+      "national museum",
       "art museum"
     ],
     "field_of_work": []
   },
   "Q221092": {
     "instance_of": [
-      "national museum",
-      "art museum"
+      "art museum",
+      "national museum"
+    ],
+    "field_of_work": []
+  },
+  "Q221653": {
+    "instance_of": [
+      "public research university"
     ],
     "field_of_work": []
   },
@@ -1263,8 +1273,8 @@
   },
   "Q368643": {
     "instance_of": [
-      "open-access publisher",
       "public university",
+      "open-access publisher",
       "institution",
       "organization"
     ],
@@ -1284,8 +1294,8 @@
   },
   "Q630086": {
     "instance_of": [
-      "municipal library",
       "cultural heritage",
+      "municipal library",
       "public library"
     ],
     "field_of_work": []
@@ -1298,9 +1308,9 @@
   },
   "Q1422903": {
     "instance_of": [
-      "public research university",
       "open-access publisher",
       "academic archive",
+      "public research university",
       "organization"
     ],
     "field_of_work": []
@@ -1358,8 +1368,8 @@
   },
   "Q18654836": {
     "instance_of": [
-      "archaeology",
-      "museum"
+      "museum",
+      "archaeology"
     ],
     "field_of_work": []
   },

@@ -169,17 +169,12 @@
       },
       {
         "provider": "Galiciana: Digital Library of Galicia",
-        "count": 336061,
+        "count": 570387,
         "category": "library/archive"
       },
       {
         "provider": "Digital Memory of Catalonia",
         "count": 286512,
-        "category": "library/archive"
-      },
-      {
-        "provider": "Galiciana. Arquivo Dixital de Galicia",
-        "count": 234326,
         "category": "library/archive"
       },
       {
@@ -206,6 +201,11 @@
         "provider": "Canary Islands Historical Photography Archive",
         "count": 121890,
         "category": "library/archive"
+      },
+      {
+        "provider": "Complutense University of Madrid",
+        "count": 121238,
+        "category": "academic/research institution"
       }
     ],
     "netherlands": [
@@ -360,9 +360,9 @@
     },
     {
       "country": "Spain",
-      "library/archive": 79.6,
+      "library/archive": 79.5,
       "natural history/science institution": 1.4,
-      "art/history museum": 5.1,
+      "art/history museum": 5.2,
       "audiovisual/film archive": 0.0,
       "academic/research institution": 7.1,
       "government/administrative body": 5.4,
@@ -415,10 +415,10 @@
     },
     {
       "country": "Spain",
-      "num_providers": 275,
+      "num_providers": 274,
       "top_provider": "Virtual Library of Historical Press",
       "pct_top1_provider": 26.4,
-      "pct_top5_providers": 49.5
+      "pct_top5_providers": 53.0
     },
     {
       "country": "Germany",
@@ -736,7 +736,7 @@
     {
       "country": "Spain",
       "provider": "Galiciana: Digital Library of Galicia",
-      "count": 336061,
+      "count": 570387,
       "city": "Santiago de Compostela",
       "latitude": 42.8698709,
       "longitude": -8.5269487,
@@ -821,6 +821,15 @@
       "city": "Madrid",
       "latitude": 40.4111064,
       "longitude": -3.6911267,
+      "source": "europeana_entity"
+    },
+    {
+      "country": "Spain",
+      "provider": "The Government of Catalonia",
+      "count": 66231,
+      "city": "Girona",
+      "latitude": 41.9807742,
+      "longitude": 2.8220705,
       "source": "europeana_entity"
     },
     {
@@ -1256,15 +1265,6 @@
       "source": "manual"
     },
     {
-      "country": "Spain",
-      "provider": "Galiciana. Arquivo Dixital de Galicia",
-      "count": 234326,
-      "city": "Santiago de Compostela",
-      "latitude": 42.9499140665,
-      "longitude": -8.5514903735,
-      "source": "manual"
-    },
-    {
       "country": "Italy",
       "provider": "Historical Archive of the Presidency of the Republic",
       "count": 212160,
@@ -1376,9 +1376,9 @@
       "country": "Netherlands",
       "provider": "IMSLP/Petrucci Music Library",
       "count": 61552,
-      "city": null,
-      "latitude": null,
-      "longitude": null,
+      "city": "Wilmington",
+      "latitude": 39.7436781641,
+      "longitude": -75.5510358768,
       "source": "manual"
     },
     {

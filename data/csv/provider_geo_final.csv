@@ -32,7 +32,7 @@ Germany,Toy Museum of the City of Nuremberg,80306,Nürnberg,49.4545935,11.074298
 Germany,DFF – German Film Institute & Film Museum,71678,Frankfurt am Main,50.1050552,8.6776335,europeana_entity
 Germany,Karlsruhe Municipal Archives,71356,Karlsruhe,49.0073032,8.4091006,europeana_entity
 Spain,National Library of Spain,664410,Madrid,40.4237879,-3.6902452,europeana_entity
-Spain,Galiciana: Digital Library of Galicia,336061,Santiago de Compostela,42.8698709,-8.5269487,europeana_entity
+Spain,Galiciana: Digital Library of Galicia,570387,Santiago de Compostela,42.8698709,-8.5269487,europeana_entity
 Spain,Digital Memory of Catalonia,286512,Barcelona,41.3873518,2.111913,europeana_entity
 Spain,Archive of Old Catalan Magazines,229974,Barcelona,41.3807385,2.1699868,europeana_entity
 Spain,Complutense University of Madrid,121238,Madrid,40.4454368,-3.7299424,europeana_entity
@@ -42,6 +42,7 @@ Spain,Cityhall of Murcia. Municipal Archive,104650,Murcia,37.9835018,-1.1330047,
 Spain,TV3 Catalan Television,89148,Sant Joan Despí,41.3744332,2.069125,europeana_entity
 Spain,Documentary Repository of the University of Salamanca,86467,Salamanca,40.9614829,-5.6673456,europeana_entity
 Spain,Royal Botanic Garden of Madrid,74638,Madrid,40.4111064,-3.6911267,europeana_entity
+Spain,The Government of Catalonia,66231,Girona,41.9807742,2.8220705,europeana_entity
 Netherlands,Naturalis Biodiversity Center,4601504,Leiden,52.1647779,4.4732128,europeana_entity
 Netherlands,Cultural Heritage Agency of the Netherlands,526228,Amersfoort,52.1580763,5.3833285,europeana_entity
 Netherlands,Rijksmuseum,341407,Amsterdam,52.3599976,4.8852188,europeana_entity
@@ -90,7 +91,6 @@ Portugal,Calouste Gulbenkian Foundation,3415,Lisbon,38.73722,-9.15417,wikidata_n
 Spain,Virtual Library of Historical Press,1735320,Madrid,40.4206699298513,-3.696534590397076,manual
 Germany,State Archives of Baden-Württemberg,827603,Stuttgart,48.848397483733265,9.185433331037915,manual
 Italy,Cinecittà - Luce,442536,Rome,41.849810560200865,12.574519080840693,manual
-Spain,Galiciana. Arquivo Dixital de Galicia,234326,Santiago de Compostela,42.94991406654687,-8.551490373538044,manual
 Italy,Historical Archive of the Presidency of the Republic,212160,Rome,41.90046503888887,12.488921680843333,manual
 Germany,Library of the Friedrich Ebert Foundation,201518,Bonn,50.70257995350261,7.135440740863708,manual
 Spain,Digital Library of Andalusia,145620,Granada,37.18282776503285,-3.6056596093053677,manual
@@ -103,7 +103,7 @@ Spain,Centro de Estudios de Castilla - La Mancha,94223,Ciudad Real,38.9930310006
 Spain,Foundation Virtual Library Miguel de Cervantes,70971,Alicante,38.38507646054709,-0.5139165229076937,manual
 Spain,Digital Library of Madrid,69472,Madrid,40.39987943495303,-3.690579871358554,manual
 Italy,Central Institute for the Union Catalogue of Italian Libraries,66672,Rome,41.90631839791796,12.50879375200811,manual
-Netherlands,IMSLP/Petrucci Music Library,61552,,,,manual
+Netherlands,IMSLP/Petrucci Music Library,61552,Wilmington,39.743678164119046,-75.55103587677509,manual
 Italy,Central Museum of the Risorgimento,53211,Rome,41.89413575264878,12.483798667349626,manual
 France,Palais Galliera - Musée de la Mode de la Ville de Paris,44495,Paris,48.86608033629242,2.2965618523973155,manual
 Italy,Experimental Cinematography Center,40538,Rome,41.851058155342265,12.569479552005237,manual

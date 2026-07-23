@@ -1,7 +1,7 @@
 SPARQLWrapper
-rdflib
-eurostat 
-plotly 
-seaborn 
-python-dotenv 
-deep-translator
+eurostat
+plotly
+python-dotenv
+pandas
+numpy
+requests

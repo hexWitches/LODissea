@@ -44,10 +44,10 @@ In Video Veritas,France,7,other,manual_override
 Louvre,France,4,art/history museum,wikidata_description
 Orsay Museum,France,3,art/history museum,provider_name
 Centre Pompidou - National museum for modern art - Industrial Design Centre,France,1,art/history museum,provider_name
-Heritage Malta,France,1,library/archive,wikidata_sparql_fallback
-Museum of Fine Arts in Lyon,France,1,art/history museum,provider_name
 National Centre for Prehistory,France,1,academic/research institution,manual_override
+Heritage Malta,France,1,library/archive,wikidata_sparql_fallback
 National Monuments Center,France,1,government/administrative body,manual_override
+Museum of Fine Arts in Lyon,France,1,art/history museum,provider_name
 Palace of Versailles and Trianon,France,1,art/history museum,provider_name
 Bavarian State Library,Germany,2176001,library/archive,provider_name
 Deutsche Fotothek,Germany,1314229,library/archive,wikidata_description
@@ -340,15 +340,15 @@ Provinciaal Depot Bodemvondsten,Netherlands,29,other,manual_override
 Museum De Scheper,Netherlands,26,art/history museum,provider_name
 Elisabeth Weeshuis Museum,Netherlands,24,art/history museum,provider_name
 European Fashion Heritage Association,Netherlands,12,other,manual_override
-Stichting tot Behoud van den Doornenburg,Netherlands,11,other,manual_override
 Centraal Museum Utrecht,Netherlands,11,art/history museum,provider_name
+Stichting tot Behoud van den Doornenburg,Netherlands,11,other,manual_override
 Heemkundekring Bergh,Netherlands,6,other,manual_override
 Historische Vereniging Voorst,Netherlands,4,government/administrative body,wikidata_description
 Kunstmuseum Den Haag,Netherlands,2,art/history museum,wikidata_description
-Bonnefantenmuseum Maastricht,Netherlands,1,art/history museum,manual_override
 City Museum Harderwijk,Netherlands,1,art/history museum,provider_name
-City Museum Prinsenhof,Netherlands,1,art/history museum,provider_name
 Museum Boijmans Van Beuningen,Netherlands,1,art/history museum,provider_name
+University of Utrecht,Netherlands,1,academic/research institution,provider_name
+Bonnefantenmuseum Maastricht,Netherlands,1,art/history museum,manual_override
 Institute for Tropical Scientific Research,Portugal,65666,natural history/science institution,provider_name
 National Library of Portugal,Portugal,35785,library/archive,provider_name
 Portuguese Army Library,Portugal,13120,library/archive,provider_name
@@ -381,19 +381,18 @@ Supreme Court of Justice,Portugal,6,government/administrative body,provider_name
 National Museum of Ancient Art,Portugal,2,art/history museum,provider_name
 "National Archives Torre do Tombo, Lisbon",Portugal,2,library/archive,provider_name
 Montalegre Municipal Library,Portugal,2,library/archive,provider_name
-"Ajuda Library, Lisbon",Portugal,1,library/archive,provider_name
-Chiado Museum - National Museum of Contemporary Art,Portugal,1,art/history museum,provider_name
-"Church of S. Roque, Lisbon",Portugal,1,other,manual_override
-"Municipal Library Anselmo Braamcamp Freire, Santarém",Portugal,1,library/archive,provider_name
-Museums and Monuments of Portugal,Portugal,1,art/history museum,manual_override
-National Coach Museum,Portugal,1,art/history museum,provider_name
-"National Museum of Grao Vasco, Viseu",Portugal,1,art/history museum,provider_name
 Sarmento's House,Portugal,1,other,manual_override
+"Ajuda Library, Lisbon",Portugal,1,library/archive,provider_name
+"National Museum of Grao Vasco, Viseu",Portugal,1,art/history museum,provider_name
+National Coach Museum,Portugal,1,art/history museum,provider_name
+Museums and Monuments of Portugal,Portugal,1,art/history museum,manual_override
+"Church of S. Roque, Lisbon",Portugal,1,other,manual_override
+Chiado Museum - National Museum of Contemporary Art,Portugal,1,art/history museum,provider_name
+"Municipal Library Anselmo Braamcamp Freire, Santarém",Portugal,1,library/archive,provider_name
 Virtual Library of Historical Press,Spain,1735320,library/archive,provider_name
 National Library of Spain,Spain,664410,library/archive,provider_name
-Galiciana: Digital Library of Galicia,Spain,336061,library/archive,provider_name
+Galiciana: Digital Library of Galicia,Spain,570387,library/archive,provider_name
 Digital Memory of Catalonia,Spain,286512,library/archive,manual_override
-Galiciana. Arquivo Dixital de Galicia,Spain,234326,library/archive,provider_name
 Archive of Old Catalan Magazines,Spain,229974,library/archive,provider_name
 Ajuntament de Girona,Spain,208078,government/administrative body,provider_name
 Digital Library of Andalusia,Spain,145620,library/archive,provider_name
@@ -489,3 +488,4 @@ Archivo de la Diputación Provincial de Badajoz,Spain,3171,library/archive,provi
 Repository of Teaching and Research Objects of the University of Cádiz,Spain,3127,library/archive,provider_name
 Capuchin Central Library of Spain,Spain,3124,library/archive,provider_name
 Institutional Repository of the University of Malaga,Spain,3079,library/archive,provider_name
+Ángel Orensanz and Serrablo Arts Museum,Spain,3060,art/history museum,provider_name
