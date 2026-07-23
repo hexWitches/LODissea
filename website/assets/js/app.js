@@ -178,7 +178,7 @@ if (totalSections > 0) {
     });
     
     if (sec.id === 'conclusion') {
-      stopEl.innerHTML = '<i data-lucide="gem" width="24" height="24" stroke-width="3"></i>';
+      stopEl.innerHTML = '<img src="assets/img/treasure.svg" width="24" height="24" alt="Treasure" />';
     } else {
       stopEl.innerHTML = '<i data-lucide="x" width="24" height="24" stroke-width="3"></i>';
     }
